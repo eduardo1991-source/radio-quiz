@@ -1,0 +1,226 @@
+[
+  {
+    "id": "9A1-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "A 1mA meter has a 30Ω internal resistance and is to be used as a 5A meter in a power supply unit. The shunt resistor should have a resistance of",
+    "options": {
+      "A": "1mΩ.",
+      "B": "5mΩ.",
+      "C": "6mΩ.",
+      "D": "30mΩ."
+    },
+    "correct": "C",
+    "explanation": "The meter movement is 1mA full scale. At that current the voltage across it will be 1mA x 30Ω = 30mV. The shunt must have 30mV across it at 5A.(strictly 4.999A) The resistance of the shunt is 30mV/5A = 6mΩ.",
+    "image": null
+  },
+  {
+    "id": "9A1-2",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "The meters in the drawing are correctly set to an appropriate range except that meter 3 has been left on 10mA DC. What will be the reading on meter 4?",
+    "options": {
+      "A": "OmA.",
+      "B": "0.67mA.",
+      "C": "1.0mA.",
+      "D": "1.5mA."
+    },
+    "correct": "A",
+    "explanation": "Meter 3 should be set to measure the voltage across the 4kΩ and 6kΩ resistors in series. However it was set to a current range so will have a very low resistance so there are only a few mV across the 4kΩ and 6kΩ resistors and only µA through them. Meter 4 will read zero.",
+    "image": "C9_Full_9A1-2.png"
+  },
+  {
+    "id": "9A3-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "A 10MHz crystal reference has an original accuracy of 5ppm and ages at 5ppm per year. A year later it is used to check a 10MHz USB transmitter. It is estimated the reference can be compared with the receiver to an accuracy of 100Hz and the transmitter can then be relied on to the nearest 100Hz within a month of calibration. The bandwidth of the transmitter is limited to 500Hz. What is the lowest frequency is it safe to",
+    "options": {
+      "A": "10,000.3kHz.",
+      "B": "10,000.8kHz.",
+      "C": "10,100.3kHz.",
+      "D": "10,100.8kHz."
+    },
+    "correct": "C",
+    "explanation": "This question relies on adding up all the errors. Since the wording is 'safe to transmit' then the only way to be safe is to assume all the errors are worst case. A methodical approach is the best way of dealing with this type  of question and the actual numbers are usually relatively easy. Item(a-Original accuracy/b-1 year drift/c-Comparison/d-Relied on) Effect (a-5ppm 10MHz 50Hz/b-5ppm 10MHz 50Hz/c-stated 100Hz/d-stated 100Hz) Total error 300Hz. The bandwidth of 500Hz has not been used because it was a USB transmission and the question is on proximity to the bottom of the band. Read the question very carefully. The other 'pothole' to fall in is the bottom of the 10MHz band is 10.100MHz. Check the schedule carefully; 18.068MHz is another tricky choice for the examiners to choose. The transmission must be 300Hz above bottom of band, that is 10.1003MHz or 10.100.3kHz",
+    "image": null
+  },
+  {
+    "id": "9A4-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "An antenna is connected by a short feeder to the input to a radio receiver. Everything is correctly matched to 50Ω and a sensitive high impedance RF voltmeter across the feeder records an input to the receiver of 10µV. The receiver is disconnected and the level of RF signal noted. The reading will be about",
+    "options": {
+      "A": "5μV.",
+      "B": "10μV.",
+      "C": "14μV.",
+      "D": "20μV."
+    },
+    "correct": "D",
+    "explanation": "If everything is correctly matched then there is a signal with a 50Ω source resistance feeding a receiver with a 50Ω load resistance. That means the source EMF is 20µV with 10µV being dropped in the source resistance and 10µV across the receiver load. If the receiver is disconnected then there is no RF current and no voltage drop in the source resistance. The high impedance RF voltmeter will 'see' the source EMF of 20µV.",
+    "image": null
+  },
+  {
+    "id": "9A4-2",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "A signal source for the HF band is designed to produce 50µV into a 50Ω load, corresponding to -73dBm and S9 on a typical S-meter. When checked on an oscilloscope the peak to peak amplitude will be about",
+    "options": {
+      "A": "283µV.",
+      "B": "141µV.",
+      "C": "100µV.",
+      "D": "71µV."
+    },
+    "correct": "A",
+    "explanation": "The key point here is to recognise that the signal source is intended to work into and match a 50Ω load. An oscilloscope typicallyhas an input impedance of 1MΩ, close to an open circuit. The signal at the oscilloscope input will be 100µV, not 50µV when loaded. The 100µV is an RMS value so a peak will be 141.4µV and a peak to peak on the oscilloscope will be 283µV.",
+    "image": null
+  },
+  {
+    "id": "9A5-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "A peak reading diode probe is used to measure the transmitter RF output into a dummy load. The probe indicates 12V. What is the output power?",
+    "options": {
+      "A": "0.8W.",
+      "B": "1.2W.",
+      "C": "1.4W.",
+      "D": "2.9W."
+    },
+    "correct": "C",
+    "explanation": "The probe shows a peak value of 12V so the RMS value will be 12/1.41 = 8.49V. Into 50Ω that is 8.49²/50 = 1.4W.",
+    "image": null
+  },
+  {
+    "id": "9A5-2",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "Peak envelope power is defined as the power",
+    "options": {
+      "A": "at the top of an RF cycle of an unmodulated carrier.",
+      "B": "at the top of an RF cycle at the crest of the modulation envelope.",
+      "C": "averaged over one RF cycle at the crest of the modulation envelope.",
+      "D": "averaged over one audio cycle at the crest of the modulation envelope."
+    },
+    "correct": "C",
+    "explanation": "This is often misunderstood but the answer is provided, see Note (b) to Schedule 1 of the licence which is provided in the exam.",
+    "image": null
+  },
+  {
+    "id": "9A6-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "A crystal calibrator is used to check the frequency accuracy of a VHF transceiver. A discrepancy of about 200Hz is noticed.",
+    "options": {
+      "A": "This is a higher error than expected and the transceiver needs adjusting.",
+      "B": "This is a credible outcome but it is worth adjusting the transceiver.",
+      "C": "This is a credible outcome but either or both items could be off frequency.",
+      "D": "This is too high a discrepancy, something is faulty or the test method is suspect."
+    },
+    "correct": "C",
+    "explanation": "The VHF receiver can reasonably be taken to be in the 2m band, say 145.0MHz. A 1ppm error would give a frequency offset of 145Hz. That would apply to both the crystal reference in the transmitter and in the crystal calibrator especially if both are more than a year out of calibration. The difficulty with such checks is that, as described, there is no certainty which device is in error and it is entirely likely they both are to some extent.",
+    "image": null
+  },
+  {
+    "id": "9A7-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "The switch in the diagram is likely to be labelled",
+    "options": {
+      "A": "hi-lo.",
+      "B": "on-off.",
+      "C": "+ -",
+      "D": "fwd-rev."
+    },
+    "correct": "D",
+    "explanation": "The device shown is an SWR meter reading forward and reverse power with the ability to switch between them.",
+    "image": "C9_Full_9A7-1.png"
+  },
+  {
+    "id": "9A8-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "An oscilloscope timebase is set to 1ms per division and the Y-axis to 10mV per division. The signal in the diagram is approximately.",
+    "options": {
+      "A": "500Hz 20mV rms.",
+      "B": "500Hz 30mV rms.",
+      "C": "2kHz 20mV rms.",
+      "D": "2kHz 30mV rms."
+    },
+    "correct": "A",
+    "explanation": "Inspection of the drawing shows the voltage to be 6 divisions peak to peak. At 10mV per division that is 60mV pk-pk or 30mVpk or 30/√2 = 21.2mV rms. Reading the screen that accurately is difficult so approximately 20mV is about as good as it gets. Similarly there are 5 complete cycles in 10 divisions of 1ms per division which is 2ms per cycle. The frequency is 1/time for one cycle, which is 1/0.002 or 500Hz.",
+    "image": "C9_Full_9A8-1.png"
+  },
+  {
+    "id": "9A9-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "The drawing shows a spectrum analyser scan of the frequency span 10-60MHz to check for the third harmonic of a 14MHz transmission. The carrier has been set to 0dB, how far below the carrier is the third harmonic?",
+    "options": {
+      "A": "20dB.",
+      "B": "23dB.",
+      "C": "32dB.",
+      "D": "35dB."
+    },
+    "correct": "C",
+    "explanation": "The off-air display shows there are many signals present. We are told the carrier is at 14MHz and normalised to OdB. 3 × 14 is 42MHz and careful inspection shows the signal at 42MHz is about 32dB below the carrier. Estimating a vertical drop from the peak is not always easy but the two sides of that 'spike' straddle the 42 scale point on the X-axis and the bottom of the spike is close enough to the axis to allow certainty.",
+    "image": "C9_Full_9A9-1.png"
+  },
+  {
+    "id": "9B1-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "A pre-amplifier, having 50Ω input and output impedances, is specified as giving 40µV out for 10µV in. Its gain, in dB, is",
+    "options": {
+      "A": "6dB.",
+      "B": "10dB.",
+      "C": "12dB.",
+      "D": "30dB."
+    },
+    "correct": "C",
+    "explanation": "We are told the impedances are the same so a doubling of voltage is a 6dB increase. Doubling again is another 6dB, 12dB in total. The reference to impedance is necessary otherwise a 4 times step-up transformer could be mistaken for having a gain. In linear (not dB) terms the calculation is: The output voltage is 4 times greater, which in the same impedance means the current is 4 times greater giving a power gain of 16 times. That is 2 × 2 × 2 × 2 which in dB is 3+3+3+3 = 12dB.",
+    "image": null
+  },
+  {
+    "id": "9B1-2",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "A radio receiver is being checked and a 0.2µV SSB signal at the RF input produces a 1V tone at the audio output together with noise averaging 100mV. The signal to noise ratio is",
+    "options": {
+      "A": "10dB.",
+      "B": "20dB.",
+      "C": "0dBV.",
+      "D": "-121dBm."
+    },
+    "correct": "B",
+    "explanation": "The signal to noise ratio is the ratio of 1V to 100mV. Both are at the same point, the audio output, so clearly they are in the same impedance. 10 times voltage is 100 times power which is 20dB. Alternatively remember that 10 times voltage is 20dB without going via the power step.",
+    "image": null
+  },
+  {
+    "id": "9C1-1",
+    "level": "full",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "The coil in the LC tuned circuit normally increases its inductance as the temperature rises. One solution to minimise frequency drift is to",
+    "options": {
+      "A": "use a capacitor with a negative temperature coefficient.",
+      "B": "use a capacitor with a positive temperature coefficient.",
+      "C": "mount the capacitor further away from any source of heat.",
+      "D": "mount the coil vertically to minimise the temperature gradient."
+    },
+    "correct": "A",
+    "explanation": "Ideally we want components with a zero temperature coefficient but this is seldom possible, so the best available solution is to select a balance of components to have an overall zero coefficient. In this case a negative coefficient capacitor to offset the positive one in the inductor.",
+    "image": null
+  }
+]

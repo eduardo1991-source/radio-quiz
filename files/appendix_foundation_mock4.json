@@ -1,0 +1,470 @@
+[
+  {
+    "id": "APP_FOUND_MOCK4_Q1",
+    "number": 1,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "The Licensee must give Ofcom immediate notice of any change of",
+    "options": {
+      "A": "maximum transmit power.",
+      "B": "planning permission.",
+      "C": "number of transmitters.",
+      "D": "their name."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q2",
+    "number": 2,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "The Station callsign must be transmitted",
+    "options": {
+      "A": "when the entry is made in the log book.",
+      "B": "at the end of each transmission.",
+      "C": "every half hour and when the Station is closing down.",
+      "D": "at the beginning of a transmission on a new frequency."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q3",
+    "number": 3,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Except in national or international emergency, the holder of an Amateur Radio Foundation Licence may NOT send messages that are",
+    "options": {
+      "A": "in secret code.",
+      "B": "unrelated to amateur radio.",
+      "C": "about his/her equipment.",
+      "D": "of a technical nature."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q4",
+    "number": 4,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "In which of the following are you normally licensed to operate using a Foundation Licence?",
+    "options": {
+      "A": "Northern Ireland.",
+      "B": "Sweden.",
+      "C": "Norway.",
+      "D": "Finland."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q5",
+    "number": 5,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "For the purposes of the EMF requirements in the amateur licence the description \"General Public\" means",
+    "options": {
+      "A": "everybody apart from the licence holder in person.",
+      "B": "everybody except those living at that amateur’s house.",
+      "C": "people outside the amateur’s circle of family and friends.",
+      "D": "people outside the amateur’s family and relatives."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q6",
+    "number": 6,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "You are at your home station talking to an airborne operator on 145.400MHz. What is the maximum permitted power you can use?",
+    "options": {
+      "A": "500mW EIRP.",
+      "B": "25W.",
+      "C": "50W.",
+      "D": "100W."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q7",
+    "number": 7,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "A cell is used to store",
+    "options": {
+      "A": "current.",
+      "B": "voltage.",
+      "C": "resistance.",
+      "D": "energy."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q8",
+    "number": 8,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Processing of audio and radio frequency signals by software requires the signal presented to the processor",
+    "options": {
+      "A": "to be an analogue signal only.",
+      "B": "to be a digital signal only.",
+      "C": "can be either analogue or digital.",
+      "D": "to be continuously variable in level."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q9",
+    "number": 9,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "In the circuit shown the resistors are all of slightly different values. The",
+    "options": {
+      "A": "current through R1 and R3 will be the same.",
+      "B": "voltage across R1 and R2 will be the same.",
+      "C": "current through R3 and R4 will be the same.",
+      "D": "voltages across R3 and R4 will be the same."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "App_Found_MOCK4_Q9.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q10",
+    "number": 10,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Demodulation is the process of",
+    "options": {
+      "A": "removing unwanted radio signals which are nearby in frequency.",
+      "B": "extracting the information sent by the transmitter.",
+      "C": "tuning in to the wanted radio signal.",
+      "D": "ensuring the transmitter and receiver are on the same frequency."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q11",
+    "number": 11,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Correct adjustment of the microphone gain control is necessary to",
+    "options": {
+      "A": "avoid the risk of over-modulation or over-deviation.",
+      "B": "ensure the tone is correct at the receiving station.",
+      "C": "avoid the risk of damage to the power amplifier stage.",
+      "D": "minimise the frequency drift of the transmitter."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q12",
+    "number": 12,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "The waveform shown represents the output of",
+    "options": {
+      "A": "an FM transmitter.",
+      "B": "a Morse transmitter.",
+      "C": "an SSB transmitter.",
+      "D": "a variable frequency oscillator."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": "App_Found_MOCK4_Q12.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q13",
+    "number": 13,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Which suffix is used to indicate that the antenna is referenced to an ideal antenna which radiates equally in all directions?",
+    "options": {
+      "A": "PEP.",
+      "B": "ERP.",
+      "C": "EIRP.",
+      "D": "dBd."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q14",
+    "number": 14,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "A balun is",
+    "options": {
+      "A": "used to prevent RF entering mains cable.",
+      "B": "used to connect between a balanced antenna and unbalanced feeder.",
+      "C": "a type of dummy load.",
+      "D": "a connector."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q15",
+    "number": 15,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "An antenna and low loss feeder show a reasonable VSWR. The antenna is then removed. The VSWR will",
+    "options": {
+      "A": "reduce.",
+      "B": "remain unchanged.",
+      "C": "increase slightly.",
+      "D": "increase considerably."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q16",
+    "number": 16,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "A difference between HF and VHF or UHF propagation is that",
+    "options": {
+      "A": "VHF and UHF waves generally travel faster than HF waves.",
+      "B": "a hill will cause a shadow with HF but not with VHF or UHF.",
+      "C": "HF radio waves can have a shorter wavelength than some VHF or UHF waves.",
+      "D": "a hill will cause a shadow with VHF or UHF but not with HF."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q17",
+    "number": 17,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Radio waves will change direction if",
+    "options": {
+      "A": "there is a high SWR in the feeder.",
+      "B": "they are diffracted or reflected.",
+      "C": "they are not modulated.",
+      "D": "the antenna is mounted vertically."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q18",
+    "number": 18,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "A neighbour's TV is suffering interference. The first action should be to",
+    "options": {
+      "A": "discuss the situation with the neighbour and offer help in tracking down the problem.",
+      "B": "close down the station and return the amateur radio licence.",
+      "C": "deny all responsibility as the station is not operated during TV hours.",
+      "D": "request the neighbour to get in touch with Ofcom."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q19",
+    "number": 19,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Which mode of transmission is the WORST for causing EMC problems?",
+    "options": {
+      "A": "FM.",
+      "B": "CW.",
+      "C": "SSB.",
+      "D": "Data modes."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q20",
+    "number": 20,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Which item below is most likely to suffer interference from an amateur transmission?",
+    "options": {
+      "A": "A battery powered digital clock.",
+      "B": "A microwave oven.",
+      "C": "A hair dryer.",
+      "D": "A radio or television."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q21",
+    "number": 21,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "A Log should record details of the",
+    "options": {
+      "A": "equipment used to transmit and receive and QSL details.",
+      "B": "date, time, frequency, or band, mode, callsign of station contacted.",
+      "C": "times of first and last contacts for that day.",
+      "D": "names, locations and equipment used by the amateurs you contact."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q22",
+    "number": 22,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Repeaters are used mainly",
+    "options": {
+      "A": "so that neighbouring countries can be in-range for fixed stations.",
+      "B": "enable mobile stations to communicate over greater distances.",
+      "C": "to give updates on weather and traffic on the motorways.",
+      "D": "so that emergency users have a priority channel."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q23",
+    "number": 23,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "The best RST report of a Morse signal is",
+    "options": {
+      "A": "559.",
+      "B": "111.",
+      "C": "555.",
+      "D": "599."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q24",
+    "number": 24,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Lithium batteries in particular can",
+    "options": {
+      "A": "leak a corrosive fluid unless stored upright and out of the sun.",
+      "B": "can be used with any available charger provided it is the correct voltage.",
+      "C": "be recharged indefinitely and do not need replacing if properly treated.",
+      "D": "catch fire or explode if they are not properly used or charged."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q25",
+    "number": 25,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "Using a tool belt when working at heights will",
+    "options": {
+      "A": "minimise the chance of dropping things.",
+      "B": "allow two hands to be used to complete the work.",
+      "C": "avoid the need to wear hard hats.",
+      "D": "ensure repeated trips up and down the ladder."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK4_Q26",
+    "number": 26,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 4,
+    "question": "A transmitting antenna should",
+    "options": {
+      "A": "not be touched.",
+      "B": "be vertically polarised.",
+      "C": "be larger than a receiving antenna for the same band.",
+      "D": "be of high resistance material."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  }
+]

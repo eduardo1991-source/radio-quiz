@@ -1,0 +1,482 @@
+[
+  {
+    "id": "8A1-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The danger associated with a low voltage but a high current is",
+    "options": {
+      "A": "electrocution.",
+      "B": "very hot metal.",
+      "C": "blown fuses.",
+      "D": "high SWR."
+    },
+    "correct": "B",
+    "explanation": "High currents, typically from a short circuited battery can heat the conductor to high temperatures, quite possibly red hot but certainly sufficient to cause a burn.",
+    "image": null
+  },
+  {
+    "id": "8A2-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Before connecting your own RF earth to the mains safety earth you must",
+    "options": {
+      "A": "check there are no existing EMC problems.",
+      "B": "ensure there is a suitable RF filter fitted to all three conductors.",
+      "C": "consult a competent electrician.",
+      "D": "reset the RCBO on the supply to your radio equipment."
+    },
+    "correct": "C",
+    "explanation": "Many alterations to your domestic mains wiring must be done by a certified person and some actions, including fitting a local earth must be notified under part P of the building regulations. The electrician who carries out or certified the work will know how to do that.",
+    "image": null
+  },
+  {
+    "id": "8A3-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "In a mains plug the correct connection for the wires is",
+    "options": {
+      "A": "Live-brown Neutral-blue Earth-green/yellow.",
+      "B": "Live-blue Neutral-brown Earth-green/yellow.",
+      "C": "Live-brown Neutral-green/yellow Earth-blue.",
+      "D": "Live-blue Neutral-green/yellow Earth-brown."
+    },
+    "correct": "A",
+    "explanation": "You do not need to wire a plug but you do need to know which coloured wire goes where.",
+    "image": null
+  },
+  {
+    "id": "8A4-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The MOST SERIOUS effect of fitting a fuse of the wrong rating in amateur equipment is that the",
+    "options": {
+      "A": "equipment might be damaged.",
+      "B": "fuse might not blow when it should.",
+      "C": "fuse might blow when it shouldn't.",
+      "D": "fuse will be damaged."
+    },
+    "correct": "B",
+    "explanation": "Several of the answers might be true, depending on the exact circumstances, but the most important point is that the fuse must blow when it should do to cut off the current. The other events might be annoying or even expensive but not blowing when it should is a safety matter and possibly a safety of life matter.",
+    "image": null
+  },
+  {
+    "id": "8A5-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Which statement about the mains supply to the shack is correct?",
+    "options": {
+      "A": "An RCBO is better than a fuse for shock protection, but a fuse is still required.",
+      "B": "If an RCBO is used then a separate fuse is not required.",
+      "C": "The best protection against electric shock is achieved by using a fuse.",
+      "D": "It is unwise to fit a fuse and an RCBO in the same electricity supply."
+    },
+    "correct": "A",
+    "explanation": "An RCBO will protect the supply circuit to the shack or part of the house but each item should have the correct fuse in its plug. The wire from the plug to the appliance may be a lot less than 13A rating so must have a lower value fuse. If the RCBO itself protects several sockets then its rating may well be up to 30A to allow for several items drawing power.",
+    "image": null
+  },
+  {
+    "id": "8A6-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When working inside a piece of amateur radio equipment you should ensure",
+    "options": {
+      "A": "that you are properly earthed.",
+      "B": "the device is switched off and disconnected.",
+      "C": "the power is applied to check the work is correct.",
+      "D": "the equipment is placed on a rubber mat."
+    },
+    "correct": "B",
+    "explanation": "At Foundation the teaching is to avoid working on mains powered devices for safety reasons. At the very least it must be switched off and unplugged.",
+    "image": null
+  },
+  {
+    "id": "8A7-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The reason for having a single switch to turn off everything in the radio shack is",
+    "options": {
+      "A": "that there are usually lots of items with separate switches and it is easy to miss one.",
+      "B": "that it is quick and safe to be sure to cut all power in the event of an accident.",
+      "C": "to save time switching lots of different items on one at a time.",
+      "D": "because it could damage the power amplifier if things are switched on in the wrong order."
+    },
+    "correct": "B",
+    "explanation": "The need on finding a casualty who may have suffered an electric shock is to cut off the power before touching anything, including the casualty. That is the primary reason for having a single master switch.",
+    "image": null
+  },
+  {
+    "id": "8A7-2",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "On finding someone lying on the floor in a tangle of wires, the FIRST action is to",
+    "options": {
+      "A": "check for breathing and a pulse.",
+      "B": "switch off all the power.",
+      "C": "phone for an ambulance.",
+      "D": "remove any wires round the neck."
+    },
+    "correct": "B",
+    "explanation": "The very first action is to switch off the power. Ideally there will be a single marked switch for that purpose. If the candidate is still in contact with a live supply then touching the candidate is very likely to result in you suffering an electric shock as well.",
+    "image": null
+  },
+  {
+    "id": "8A8-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Which type of battery most risks fire or explosion if used in the wrong type of charger?",
+    "options": {
+      "A": "Lithium.",
+      "B": "Nicad (nickel-cadmium).",
+      "C": "NiMH (nickel metal hydride).",
+      "D": "NiFe (nickel-iron)."
+    },
+    "correct": "A",
+    "explanation": "Lithium batteries have the highest power density, that is the most energy in a given physical volume, and the materials and chemistry are such that mis-treatment can start a fire or explosion that may be uncontrollable. Such batteries are safe if properly handled but the wrong charging regime can easily cause a fire or explosion. The other batteries are capable of overheating wires in a short circuit and should still use their correct charger.",
+    "image": null
+  },
+  {
+    "id": "8B1-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "What is an essential precaution if your activity is likely to produce swarf?",
+    "options": {
+      "A": "wear an anti-static wristband.",
+      "B": "wear an apron or dustcoat.",
+      "C": "wear suitable eye protection.",
+      "D": "have adequate ventilation."
+    },
+    "correct": "C",
+    "explanation": "Swarf is the name given to the particles, particularly metal, created when drilling and other cutting processes. It can fly off the tool and can be both sharp and hot. The greatest need in such activities is eye protection.",
+    "image": null
+  },
+  {
+    "id": "8B1-2",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "A risk when drilling is that",
+    "options": {
+      "A": "small particles may fly up from the rotating drill bit.",
+      "B": "goggles will prevent a clear view of the work.",
+      "C": "the work may rotate when held in the vice.",
+      "D": "the hole size cannot be checked until afterwards."
+    },
+    "correct": "A",
+    "explanation": "The cuttings, particularly when drilling metal, can fly up in the face. They are also likely to have sharp edges or points.",
+    "image": null
+  },
+  {
+    "id": "8B2-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "All tools, and particularly power tools should be",
+    "options": {
+      "A": "well oiled before storage.",
+      "B": "handled with care.",
+      "C": "kept in absorbent bags.",
+      "D": "inspected after use."
+    },
+    "correct": "B",
+    "explanation": "This is common sense, careful handling reduces the chance of an accident.",
+    "image": null
+  },
+  {
+    "id": "8B7-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When soldering it is advisable to",
+    "options": {
+      "A": "place the work on an insulated mat.",
+      "B": "wear glasses or goggles.",
+      "C": "wear insulated rubber gloves.",
+      "D": "keep the window closed to retain the heat."
+    },
+    "correct": "B",
+    "explanation": "The flux or resin in solder can cause the solder to spit, best to protect your eyes.",
+    "image": null
+  },
+  {
+    "id": "8C1-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "A responsible person, preferably an adult, should be present when",
+    "options": {
+      "A": "erecting an antenna at height.",
+      "B": "assembling a Yagi antenna.",
+      "C": "planning the layout of the shack.",
+      "D": "supervising an M3 licensee operating your equipment."
+    },
+    "correct": "A",
+    "explanation": "Two points to make. Always have somebody in view of you able to summon help if you have an accident as well as render immediate assistance and, aimed at younger amateurs, not all risks are easily foreseen especially by those inexperienced. Working at height is risky and the consequences of an accident may leave you unable to summon help for yourself.",
+    "image": null
+  },
+  {
+    "id": "8C1-2",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The main hazard using ladders when houses have an overhead mains supply is",
+    "options": {
+      "A": "the cables may snag on the ladder making movement more difficult.",
+      "B": "the risk of electric shock from coming into contact with the cables.",
+      "C": "routing the feeder away from the mains to avoid EMC problems.",
+      "D": "remembering to switch off the mains supply in the house."
+    },
+    "correct": "B",
+    "explanation": "The biggest risk is getting the ladder close to the overhead electricity supply cables which are permanently live. Neither the ladder nor you should be within reaching distance. Safety is the key priority but picking up noise from the power lines or inducing RF in them is another consideration, both to be avoided.",
+    "image": null
+  },
+  {
+    "id": "8C2-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "What is wrong in the drawing?",
+    "options": {
+      "A": "The ladder is at the wrong angle.",
+      "B": "Nobody is supporting the ladder at the bottom.",
+      "C": "The ladder should extend above the top of the wall.",
+      "D": "The person on the ladder is not wearing a hard hat."
+    },
+    "correct": "B",
+    "explanation": "A ladder should either be tied or fixed at the top or supported at the bottom, neither is present so the answer is B.",
+    "image": "C8_Found_8C2-1.png"
+  },
+  {
+    "id": "8C2-2",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "A ladder reaches 6m up a wall. How far from the wall should the foot of the ladder be?",
+    "options": {
+      "A": "1m.",
+      "B": "1.5m.",
+      "C": "2m.",
+      "D": "2.5m."
+    },
+    "correct": "B",
+    "explanation": "The rule is 4:1 so for 6m up the wall the bottom of the ladder should be 1.5m out from the wall.",
+    "image": null
+  },
+  {
+    "id": "8C2-3",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "You are most likely to fall off a ladder if",
+    "options": {
+      "A": "you are not wearing safety shoes or boots.",
+      "B": "the ladder is not securely tied at the top.",
+      "C": "people are not wearing their hard hats.",
+      "D": "you reach too far out to the side."
+    },
+    "correct": "D",
+    "explanation": "Reaching too far out to the side can make either you or the ladder slip.",
+    "image": null
+  },
+  {
+    "id": "8C3-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Something important is missing in the drawing. What is it?",
+    "options": {
+      "A": "The tie at the top of the ladder.",
+      "B": "The antenna or feeder.",
+      "C": "A safety rope.",
+      "D": "A hard hat."
+    },
+    "correct": "D",
+    "explanation": "The person at the bottom should be wearing a hard hat to protect from dropped or falling items.",
+    "image": "C8_Found_8C3-1.png"
+  },
+  {
+    "id": "8D1-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The main health effect from electromagnetic radiation is",
+    "options": {
+      "A": "loss of memory.",
+      "B": "tingling in the fingers.",
+      "C": "heating of body tissue.",
+      "D": "involuntary twitching."
+    },
+    "correct": "C",
+    "explanation": "High field strengths can cause heating of body tissue in the same way as food gets hot in a microwave oven. The effect does depend on frequency but all frequencies can cause some heating.",
+    "image": null
+  },
+  {
+    "id": "8D2-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The ICNIRP produces guidance on",
+    "options": {
+      "A": "amateur band plans.",
+      "B": "transmitting overseas.",
+      "C": "RF radiation safety limits.",
+      "D": "safe use of hand and power tools."
+    },
+    "correct": "C",
+    "explanation": "The ICNIRP stands for the International Commission on Non Ionising Radiation Protection. Public Health England follow the ICNIRP guidelines.",
+    "image": null
+  },
+  {
+    "id": "8D3-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Why is it unwise to look down waveguides?",
+    "options": {
+      "A": "The eyes are particularly susceptible to RF heating.",
+      "B": "Cooling air may blow small particles into the eyes.",
+      "C": "Most waveguides have sharp edges for accurate fitting.",
+      "D": "Waveguides contain moving parts that may poke out."
+    },
+    "correct": "A",
+    "explanation": "Waveguides on transmit contain high intensity microwave radiation which is capable of causing irreparable damage in just a few seconds. The eyes are particularly sensitive.",
+    "image": null
+  },
+  {
+    "id": "8D4-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "For safe operation a transmitting antenna should be",
+    "options": {
+      "A": "adjusted for maximum SWR.",
+      "B": "aligned in North-South position.",
+      "C": "fed from the end nearest the house.",
+      "D": "mounted where it cannot be touched."
+    },
+    "correct": "D",
+    "explanation": "An RF burn or tissue heating from RF radiation is a risk from transmitting antennae, they should be mounted out of reach.",
+    "image": null
+  },
+  {
+    "id": "8E1-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Lightning protection should be considered if the antenna is",
+    "options": {
+      "A": "supported on metal poles.",
+      "B": "unbalanced or end-fed.",
+      "C": "particularly high.",
+      "D": "vertical."
+    },
+    "correct": "C",
+    "explanation": "Particularly high masts and antennas are at a greater risk from lightning strikes. The local authority building department can advise.",
+    "image": null
+  },
+  {
+    "id": "8F1-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Elevated wires and feeders",
+    "options": {
+      "A": "are more likely to radiate.",
+      "B": "reduce the possibility of electric shock.",
+      "C": "should be suitably positioned and fixed.",
+      "D": "must be run in earthed metal conduit."
+    },
+    "correct": "C",
+    "explanation": "The key need is securely fixed and out of the way of causing obstruction, touching anything they shouldn't and being out of normal reach.",
+    "image": null
+  },
+  {
+    "id": "8F1-2",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The most severe risk posed in the diagram is that",
+    "options": {
+      "A": "noise on the power line can be induced in the antenna making receiving harder.",
+      "B": "the antenna leads over the shack risking RF pickup in the shack.",
+      "C": "there is a risk that RF could be induced into the power line.",
+      "D": "the antenna can fall on to the power line."
+    },
+    "correct": "D",
+    "explanation": "The biggest risk is the antenna falling on to the power line. The other three options may be true but are trivial by comparison.",
+    "image": "C8_Found_8F1-2.png"
+  },
+  {
+    "id": "8F2-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "One risk of having wires routed under the carpet is that",
+    "options": {
+      "A": "you might trip over it.",
+      "B": "it could be overlooked when disconnecting something.",
+      "C": "it is more likely to radiate.",
+      "D": "it may get frayed and the damage not be noticed."
+    },
+    "correct": "D",
+    "explanation": "The carpet will provide some protection when walked over but it will just take a bit longer to fray - which you won't notice until there is a fire, or perhaps live equipment as the other conductors fail.",
+    "image": null
+  },
+  {
+    "id": "8F3-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "A key danger, while using headphones, often not noticed until it is too late is",
+    "options": {
+      "A": "using a type with a metal headband.",
+      "B": "listening to CW for lengthy periods.",
+      "C": "setting the squelch at too high a level.",
+      "D": "having the volume a bit too loud."
+    },
+    "correct": "D",
+    "explanation": "It is very easy to have headphone volume a bit too loud and it can take a year before you notice any hearing loss, by which time it is too late. Turn the volume down until it is too quiet and then turn up slightly.",
+    "image": null
+  },
+  {
+    "id": "8F4-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When planning to operate in a field at a scout and guide campsite it is important to",
+    "options": {
+      "A": "use a petrol generator rather than the mains.",
+      "B": "have an operators log book specifically for that event.",
+      "C": "carry out a risk assessment of the site and activities.",
+      "D": "check the requirements for their communications badges."
+    },
+    "correct": "C",
+    "explanation": "Carrying out a proper risk assessment is essential for several reasons quite apart from a real possibility of being found legally negligent if you don't. You may also find your insurance policy is invalidated too. Actually looking for risks will allow you to spot potential problems that you might otherwise miss and will give you time to resolve them. You also owe it to everybody there as a duty of care.",
+    "image": null
+  },
+  {
+    "id": "8F5-1",
+    "level": "foundation",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "If you are helping at a club event showing amateur radio to the public and spot a loose guy rope on a mast supporting an HF antenna, you should",
+    "options": {
+      "A": "assume the club members who erected the mast are aware of it.",
+      "B": "remember not to get too close to that particular mast.",
+      "C": "waggle the guy rope to see what happens.",
+      "D": "report it immediately to the club member responsible for the masts."
+    },
+    "correct": "D",
+    "explanation": "Everybody at any event has a duty of care to themselves and everybody else. Report it so it can be put right. Two or even ten reports are better than none - not that it should reach ten, it needs checking after the first report!",
+    "image": null
+  }
+]

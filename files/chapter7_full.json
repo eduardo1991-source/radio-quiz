@@ -1,0 +1,50 @@
+[
+  {
+    "id": "7A1-1",
+    "level": "full",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "You hear a station calling CQ and clearly getting frequent replies but your replies are not getting any response. It is a strong station and propagation is good. Why might that be?",
+    "options": {
+      "A": "You are calling on the wrong sideband.",
+      "B": "They might be operating 'split' frequency.",
+      "C": "The skip distance is different for each direction.",
+      "D": "You are not a recognised DXCC member."
+    },
+    "correct": "B",
+    "explanation": "It is normal for rare stations who are likely to get a ‘pile-up’, that is lots of stations calling, to set their receiver to a different frequency to the frequency used for transmitting. Typically within 10kHz. That is so they spread out all the callers and stand some chance of receiving a complete callsign to go back to.",
+    "image": null
+  },
+  {
+    "id": "7B1-1",
+    "level": "full",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "You are listening to the 5MHz band and hear an overseas station calling on 5.3730MHz USB.",
+    "options": {
+      "A": "You may reply on the same frequency and hold a conversation.",
+      "B": "You may reply on 5.3715MHz and see if you get a reply.",
+      "C": "You may reply on the same frequency and suggest a QSY.",
+      "D": "You cannot respond at all to that station."
+    },
+    "correct": "B",
+    "explanation": "Inspection of the licence schedule shows that the relevant sub-band is 5.362 to 5.3745MHz so a signal on 5.3730MHz (carrier) will extend upwards to about 5.3760MHz which is 1.5kHz outside the sub-band. That is a breach of the licence and will interfere with the primary user. 3kHz down from the top of the band is 5.3715MHz, which is as high as you can go and remain within your allocation. It is worth a try; you will be heard and if the overseas station can tune down and remain within his allocations then a QSO is possible. It will have the side benefit of alerting that station to check the UK limits if calling for a UK contact. Note: Operating outside the band edges is a matter the Primary User (MoD) has complained about.",
+    "image": null
+  },
+  {
+    "id": "7B2-1",
+    "level": "full",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "You are holding an HF CW contact with another amateur but are constantly interrupted by other contacts on SSB. The most likely reason is that",
+    "options": {
+      "A": "the SSB users are members of a fishing fleet keeping in contact on amateur frequencies.",
+      "B": "the amateur band plan in another country is different from the UK one.",
+      "C": "skip distances are much greater than usual due to high solar activity.",
+      "D": "other UK amateurs are inclined to ignore the band plans if it happens to suit them."
+    },
+    "correct": "B",
+    "explanation": "The International Amateur Radio Union (IARU) do try to achieve common regional band plans but it is not always possible since licence allocations and patterns of usage do vary. The question does ask for a judgement call since some of the other options are possible but less likely. It does help to be aware of the syllabus, which makes specific reference to band plans.",
+    "image": null
+  }
+]

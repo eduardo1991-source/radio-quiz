@@ -1,0 +1,162 @@
+[
+  {
+    "id": "8A1-1",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "High DC voltages are likely to be found",
+    "options": {
+      "A": "in the power supply of a high power transistor RF amplifier.",
+      "B": "in equipment utilising thermionic valves.",
+      "C": "in a PME supply with a ruptured neutral.",
+      "D": "at the fed end of end-fed antennas."
+    },
+    "correct": "B",
+    "explanation": "Valve equipment typically runs at around 200-300V DC. Power amplifiers can be up to 3kV.",
+    "image": null
+  },
+  {
+    "id": "8A2-1",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "In a premises supplied using PME practice, the supply company will have connected the premises' main earth point to",
+    "options": {
+      "A": "the earthed outer sheath of the underground supply.",
+      "B": "the neutral conductor at the point of entry to the premises.",
+      "C": "an earth rod adjacent to the point of entry.",
+      "D": "the mains water supply to the premises."
+    },
+    "correct": "B",
+    "explanation": "There is no separate earth conductor in a PME electricity supply. Instead the Neutral conductor is earthed at the sub-station and at points along the road. In the house the domestic safety earth is connected, cross-bonded, to the supply Neutral.",
+    "image": null
+  },
+  {
+    "id": "8A6-1",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When unavoidably working on a live equipment you should",
+    "options": {
+      "A": "wear an anti-static wrist band with a resistance to earth of not greater than 200.",
+      "B": "keep one hand clear of the equipment and earthed objects at all times.",
+      "C": "display a notice on the shack door reading \"Live working - No Entry\".",
+      "D": "place the equipment concerned on an insulating rubber mat."
+    },
+    "correct": "B",
+    "explanation": "Normally one should work on unplugged equipment but there are occasions where adjustments need to be made while working. Under those  circumstances one hand should be kept away so that even if a shock is experienced it won't be across the chest and affect the heart rhythm.",
+    "image": null
+  },
+  {
+    "id": "8D1-1",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The ICNIRP provide guidance on",
+    "options": {
+      "A": "safe working levels for high voltage supplies.",
+      "B": "minimum signal levels for TV coverage areas.",
+      "C": "communications signal to noise ratios.",
+      "D": "safe EM field strength exposure levels."
+    },
+    "correct": "D",
+    "explanation": "The ICNIRP is the International Commission on Non Ionising Radiation Protection. Their remit is advising on the safe levels of exposure to non-ionising radiation such as electromagnetic fields. RF fields to you and me.",
+    "image": null
+  },
+  {
+    "id": "8E1-1",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Fitting a proprietary spark gap and discharge tube to the feeder to an HF dipole antenna should",
+    "options": {
+      "A": "prevent the build-up of damaging static charges.",
+      "B": "avoid damage to the transceiver in the event of being struck by lightning.",
+      "C": "permit a second receiver to be fitted to the antenna even while transmitting.",
+      "D": "avoid the need to disconnect the transceiver during a thunderstorm."
+    },
+    "correct": "A",
+    "explanation": "The spark gap is fitted between the antenna feeder and earth. It is designed to conduct at around 350V providing static protection and limited protection against nearby lightning strikes. The conduction potential is too high to protect semiconductor receiver front ends That requires a medium high value resistor which won't protect from lightning induced surges.",
+    "image": null
+  },
+  {
+    "id": "8F4-1",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When operating a special event station in tented accommodation and using an extension cable to provide mains power, it is necessary to",
+    "options": {
+      "A": "use a residual current protective device.",
+      "B": "use circuit breakers in preference to wire fuses.",
+      "C": "route the power supply cable well above head height.",
+      "D": "provide additional filtering to avoid unwanted radiation."
+    },
+    "correct": "A",
+    "explanation": "Any outside use of mains carries an increased risk. An RCBO both in the supply building and at the tent site is essential. Filtering might be helpful but is not as important as the RCBO. An overhead supply will keep it out of reach but might exacerbate RF noise or pickup.",
+    "image": null
+  },
+  {
+    "id": "8F5-1",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When fitting a transmitter in a vehicle, you should",
+    "options": {
+      "A": "use an existing circuit to obtain power for the radio.",
+      "B": "identify a circuit that is only live once the engine has started.",
+      "C": "provide a facility for hands-free operation to avoid distractions.",
+      "D": "fit a fuse in the lead from the battery negative terminal to the chassis."
+    },
+    "correct": "C",
+    "explanation": "Hands free operation is essential. Operating the radio is a distraction and distractions from driving must be minimised. The other answers might seem a good idea but all have a problem. Existing circuits and switched live circuits risk RF induction into the vehicle electronics and control systems. The only exception is a supply specifically intended for transmitters and even then it is essential to check whether it was for an FM or AM/SSB transmitter. FM transmitters have a relatively steady continuous current demand on transmit. SSB, apart from having a more intrusive RF field, has rapidly varying DC current demand which is much more likely to cause problems.",
+    "image": null
+  },
+  {
+    "id": "8F6-1",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When planning an event open to the public, which activity must be regarded as essential?",
+    "options": {
+      "A": "advertising the event beforehand.",
+      "B": "timetabling the various activities.",
+      "C": "performing a risk assessment.",
+      "D": "identifying sufficient staffing."
+    },
+    "correct": "C",
+    "explanation": "A risk assessment is an essential part of the planning. The venue owners and event organisers, if you are part of a larger event, are likely to make that a condition of taking part. Equally it will be part of the insurance policy conditions. However the key reason is the safety of the public. Conducting an assessment will identify the risks and allow opportunity to minimise the risk and have an effective strategy for dealing with any residual risk.",
+    "image": null
+  },
+  {
+    "id": "8F6-2",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The purpose of a risk assessment is to",
+    "options": {
+      "A": "avoid the possibility of being held liable for an accident.",
+      "B": "identify the likely cause, harm and mitigation of accidents.",
+      "C": "show the visiting public that you take their safety seriously.",
+      "D": "comply with the requirements of insurance cover for the event."
+    },
+    "correct": "B",
+    "explanation": "As noted above the aim of risk assessments is to identify risks, minimise their occurrence and effect and develop plans to handle the situation should an incident occur.",
+    "image": null
+  },
+  {
+    "id": "8F7-1",
+    "level": "full",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When using a petrol-electric generator at a field day event the cans of fuel to refill the generator should be stored",
+    "options": {
+      "A": "alongside the generator for ease of use.",
+      "B": "together with the fire extinguisher for safety.",
+      "C": "away from the generator and fire extinguisher.",
+      "D": "downwind of the residential and operating area."
+    },
+    "correct": "C",
+    "explanation": "Petrol is very flammable. Petrol vapour will spread and is potentially explosive. Consider that a gallon can power a car for over 30 and possibly 60 miles. Vapour near or in the air inlet of the generator could ignite, as could spills over a hot engine. Storage should be away from the generator and sufficiently away from the fire extinguisher that the extinguisher remains accessible if a fire does occur. Downwind is sensible but not the key consideration",
+    "image": null
+  }
+]

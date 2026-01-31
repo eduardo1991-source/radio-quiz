@@ -1,0 +1,162 @@
+[
+  {
+    "id": "7A3-1",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "PA3DX replies to a CQ call. For a better signal you should turn the beam towards",
+    "options": {
+      "A": "the Netherlands.",
+      "B": "Sweden.",
+      "C": "Belgium.",
+      "D": "Iceland."
+    },
+    "correct": "A",
+    "explanation": "There are nine prefixes to be remembered. PA is the Netherlands.",
+    "image": null
+  },
+  {
+    "id": "7A5-1",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "When taking part in a competition such as the VHF Field Day, you would normally give",
+    "options": {
+      "A": "your callsign and first name.",
+      "B": "the date of renewal of your licence.",
+      "C": "your callsign and the serial number of the contact.",
+      "D": "a secret password issued by the competition organisers."
+    },
+    "correct": "C",
+    "explanation": "Contest rules do vary slightly between different events and you should always check, but typically you give your callsign and a serial number.",
+    "image": null
+  },
+  {
+    "id": "7B1-1",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "To allow more stations to enter a contest it is decided to increase the number of bands used. Four suggestions are on the table, which one should be chosen?",
+    "options": {
+      "A": "80m, 40m, 30m and 20m.",
+      "B": "40m, 20m, 17m and 15m.",
+      "C": "40m, 20m, 15m and 10m.",
+      "D": "20m, 15m, 12m and 10m."
+    },
+    "correct": "C",
+    "explanation": "This is another 'remember it' question. Contest free bands are 10, 18 and 24MHz; 30m, 17m and 12m. You should also remember no SSB on 10MHz, 30m.",
+    "image": null
+  },
+  {
+    "id": "7E1-1",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "The Q code for fading is",
+    "options": {
+      "A": "QSB.",
+      "B": "QFA.",
+      "C": "QRL.",
+      "D": "QST."
+    },
+    "correct": "A",
+    "explanation": "Fading is QSB.",
+    "image": null
+  },
+  {
+    "id": "7F2-1",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "Sending several different types of data signal",
+    "options": {
+      "A": "requires a large assortment of suitable modems.",
+      "B": "normally requires modification to the modulator in the transmitter.",
+      "C": "can be readily achieved using a PC with a sound card.",
+      "D": "may require an extension such as a Notice of Variation to the licence."
+    },
+    "correct": "C",
+    "explanation": "Modems or interface boxes are available for some digital modes but the normal technique is a computer sound card and software for the mode concerned.",
+    "image": null
+  },
+  {
+    "id": "7F2-2",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "You are advised that your data transmissions sound distorted and decoding is poor. This may be due to",
+    "options": {
+      "A": "selecting the wrong sideband.",
+      "B": "excessive audio into the microphone socket.",
+      "C": "setting the wrong data rate in the software.",
+      "D": "having the RIT control away from centre."
+    },
+    "correct": "B",
+    "explanation": "Excessive audio into the microphone socket is probably the most common error in setting up digital communications from a PC.",
+    "image": null
+  },
+  {
+    "id": "7G1-1",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "You propose to demonstrate amateur radio and operation through a satellite at a local exhibition. The organiser allocates the time slot 11.30 till 12 am for this. This time",
+    "options": {
+      "A": "should get plenty of satellite contacts because it is a weekend.",
+      "B": "may or may not correspond with the time a satellite is in view.",
+      "C": "should be pre-booked with the local satellite user group.",
+      "D": "advertised well in advance to ensure a good audience."
+    },
+    "correct": "B",
+    "explanation": "Most satellites orbit the Earth a few times per day so are only visible at certain times. They have a limited footprint, visible area on the Earth's surface, so may not be visible at all on some days. There is now a geosynchronous satellite, a 24hour orbit, that appears stationary in the sky, but is advisable to check operating and maintenance times.",
+    "image": null
+  },
+  {
+    "id": "7G2-1",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "Operation through a satellite will require",
+    "options": {
+      "A": "the correct CTCSS tone to access the satellite.",
+      "B": "two receivers to cover both uplink and downlink bands.",
+      "C": "a single transceiver which can change from Tx to Rx quickly.",
+      "D": "a substantial power amplifier due to the greater range required."
+    },
+    "correct": "B",
+    "explanation": "The uplink and downlink are in different bands. If your uplink is causing interference, it is likely you will be called on that frequency. You will need receive capability on both bands.",
+    "image": null
+  },
+  {
+    "id": "7G3-1",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "While watching a demonstration of satellite operation you notice the received frequency is being frequently adjusted. This is because",
+    "options": {
+      "A": "the satellite transmit frequency depends on the changing power to its solar panels.",
+      "B": "it is not possible to correct any frequency instability in the satellite transmitter.",
+      "C": "satellite signals are being diffracted though the ionosphere.",
+      "D": "of the Doppler effect caused by the satellite motion."
+    },
+    "correct": "D",
+    "explanation": "Relative movement between the satellite and the ground station causes Doppler effect which is a frequency increase as the range reduces, and frequency decrease as the range increases.",
+    "image": null
+  },
+  {
+    "id": "7G4-1",
+    "level": "intermediate",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "Transmitting a strong signal to an amateur satellite is",
+    "options": {
+      "A": "required to overcome the greater distances to the satellite.",
+      "B": "likely to result in an unfair share of the downlink transmit power.",
+      "C": "not necessary but unlikely to have any undesirable effect.",
+      "D": "only required after closest approach and the range is increasing."
+    },
+    "correct": "B",
+    "explanation": "Most satellite transponders frequency shift the uplink by mixing to the downlink band. The share of the overall transmit power mirrors the received signal strength. A typical strategy is to adjust the uplink power so your downlink signal is similar to the satellite beacon or no stronger than any other user. Check the web page for the satellite you are using for specific guidance.",
+    "image": null
+  }
+]

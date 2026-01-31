@@ -1,0 +1,322 @@
+[
+  {
+    "id": "3A1-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The process of adding the information to the radio signal in a transmitter is known as",
+    "options": {
+      "A": "modulation.",
+      "B": "insertion.",
+      "C": "transmission.",
+      "D": "encoding."
+    },
+    "correct": "A",
+    "explanation": "A. Adding the audio, pictures or data to the carrier is called modulation.",
+    "image": null
+  },
+  {
+    "id": "3A2-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The function of the modulation stage of a transmitter is to",
+    "options": {
+      "A": "ensure the transmission is on the correct frequency.",
+      "B": "minimise the chance of interference to other radio users.",
+      "C": "limit the bandwidth of the transmission to that needed.",
+      "D": "put the audio or data signal on to the carrier signal."
+    },
+    "correct": "D",
+    "explanation": "D. The modulator adds the audio or data to the RF carrier.",
+    "image": null
+  },
+  {
+    "id": "3A2-2",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Digital data can be transmitted and received",
+    "options": {
+      "A": "by connecting a data signal, such as from the USB port on a computer, to the microphone input of a transceiver.",
+      "B": "only if your transmitter is designed for digital modulation such as digital voice operation and has a data port.",
+      "C": "by using suitable software with a computer sound card and lead to the microphone and headphone sockets on the transceiver.",
+      "D": "connecting the audio output from the computer to the CW key input and setting the transceiver to the CW mode."
+    },
+    "correct": "C",
+    "explanation": "C. A transmitter able to send voice can be used for data by, for example, using a PC with a soundcard and suitable software. It is particularly important to get the signal levels correct.",
+    "image": null
+  },
+  {
+    "id": "3A3-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A carrier at 3.5MHz and an audio signal are fed to an amplitude modulator. This results in new frequencies called",
+    "options": {
+      "A": "sidebands.",
+      "B": "harmonics.",
+      "C": "side tones.",
+      "D": "bandwidths."
+    },
+    "correct": "A",
+    "explanation": "A. Modulating the RF carrier will always result in sidebands.",
+    "image": null
+  },
+  {
+    "id": "3A3-2",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "An amplitude modulated signal consists of",
+    "options": {
+      "A": "a carrier and it harmonics.",
+      "B": "a carrier and a sideband.",
+      "C": "two sidebands but no carrier.",
+      "D": "two sidebands and a carrier."
+    },
+    "correct": "D",
+    "explanation": "D. Amplitude modulation consists of an upper and lower sideband plus the carrier.",
+    "image": null
+  },
+  {
+    "id": "3A4-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The signal marked 'X' in the drawing represents the",
+    "options": {
+      "A": "audio signal.",
+      "B": "carrier signal.",
+      "C": "amplitude modulated signal.",
+      "D": "frequency modulated signal."
+    },
+    "correct": "B",
+    "explanation": "B. The drawing shows an audio signal and a carrier. X identifies the carrier.",
+    "image": "C3_Found_3A4-1.png"
+  },
+  {
+    "id": "3B1-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which two blocks in a transmitter feed signals IN to the modulator?",
+    "options": {
+      "A": "RF amplifier and feeder.",
+      "B": "Microphone amplifier and oscillator.",
+      "C": "Oscillator and RF amplifier.",
+      "D": "Microphone amplifier and RF amplifier."
+    },
+    "correct": "B",
+    "explanation": "B. The modulator stage takes the RF carrier from the oscillator and the audio signal from the microphone amplifier.",
+    "image": null
+  },
+  {
+    "id": "3B1-2",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which is the FIRST point in a transmitter that an AM signal could be found?",
+    "options": {
+      "A": "From the RF amplifier.",
+      "B": "From the modulator.",
+      "C": "From the microphone amplifier.",
+      "D": "From the oscillator."
+    },
+    "correct": "B",
+    "explanation": "B. An amplitude modulated signal is first seen at the modulator output.",
+    "image": null
+  },
+  {
+    "id": "3B1-3",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The diagram shows the different blocks of a radio receiver disconnected and arranged in the wrong order. The input of each block is at the left hand end and the output is on the right. Which connection below is correct?",
+    "options": {
+      "A": "Point 2 to point 3.",
+      "B": "Point 3 to point 8.",
+      "C": "Point 4 to point 5.",
+      "D": "Point 6 to point 3."
+    },
+    "correct": "D",
+    "explanation": "D. The correct connections are: 2 to 5, 5 to 6, 6 to 4, 7 to the antenna connects to 1 and 8 is you!",
+    "image": "C3_Found_3B1-3.png"
+  },
+  {
+    "id": "3C1-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which stage of a transmitter will, if set wrongly, result in transmission on the wrong frequency?",
+    "options": {
+      "A": "Microphone amplifier.",
+      "B": "Modulator.",
+      "C": "RF amplifier.",
+      "D": "Oscillator."
+    },
+    "correct": "D",
+    "explanation": "D. The oscillator generates the RF carrier and sets the frequency of transmission.",
+    "image": null
+  },
+  {
+    "id": "3E1-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The microphone amplifier must perform two key functions, which are to",
+    "options": {
+      "A": "limit the frequencies passed to the modulator to those required for voice communication and set the correct audio signal amplitude.",
+      "B": "filter out frequencies above 5kHz and add in the appropriate low frequency tones for repeater access.",
+      "C": "remove audio harmonics from the speech signals and provide a microphone gain control on the front panel.",
+      "D": "amplify the higher audio frequencies in order to compensate for the limitations of the modulation process."
+    },
+    "correct": "A",
+    "explanation": "A. The normal frequency range for voice communication is 300Hz to 3kHz. The amplitude into the modulator needs to be correct so the received signal audio is loud enough, but also to avoid over-modulation which causes interference to radio users on adjacent frequencies.",
+    "image": null
+  },
+  {
+    "id": "3F1-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which stage in the radio transmitter feeds the signal to the antenna?",
+    "options": {
+      "A": "Oscillator.",
+      "B": "Microphone Amplifier.",
+      "C": "RF Amplifier.",
+      "D": "Modulator."
+    },
+    "correct": "C",
+    "explanation": "C. The RF amplifier makes the modulated RF signal strong enough to transmit.",
+    "image": null
+  },
+  {
+    "id": "3F3-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Connecting a transmitter to the wrong antenna may mean",
+    "options": {
+      "A": "poor modulation.",
+      "B": "damage to the RF power amplifier.",
+      "C": "very low SWR on the feeder.",
+      "D": "transmitting off-frequency."
+    },
+    "correct": "B",
+    "explanation": "B. The wrong antenna will present the wrong load to the RF amplifier which may result in damage to the amplifier, depending on how bad the mismatch is and how long the transmissions persist.",
+    "image": null
+  },
+  {
+    "id": "3G1-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Interference caused to other stations on frequencies above and below the one you are using might be caused by",
+    "options": {
+      "A": "setting the transmitter to the wrong frequency.",
+      "B": "over-modulation, due to setting the microphone gain too high.",
+      "C": "setting the output power too far below the licence schedule limit.",
+      "D": "speaking for far too long on a single over."
+    },
+    "correct": "B",
+    "explanation": "B. Of the options given only over-modulation is likely to result in interference to users on nearby frequencies.",
+    "image": null
+  },
+  {
+    "id": "3H1-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The basic function of a radio receiver is to",
+    "options": {
+      "A": "provide audio entertainment to the listener.",
+      "B": "recover information sent using electromagnetic radiation.",
+      "C": "tune over as wide a frequency range as possible.",
+      "D": "minimise the noise and interference on the wanted signal."
+    },
+    "correct": "B",
+    "explanation": "B. The core task of the receiver is to pick up the wanted signal and present the information modulated onto the carrier at the transmitter to the user.",
+    "image": null
+  },
+  {
+    "id": "3H2-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A function carried out in the first stage of a radio receiver is",
+    "options": {
+      "A": "demodulation.",
+      "B": "tuning.",
+      "C": "audio amplification.",
+      "D": "oscillation."
+    },
+    "correct": "B",
+    "explanation": "B. The first stage of a receiver is to select and amplify the wanted signal. Simply amplifying all RF signals is not sufficient.",
+    "image": null
+  },
+  {
+    "id": "3H2-2",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "What is the function of the box marked X in the block diagram of a radio receiver?",
+    "options": {
+      "A": "Tuning.",
+      "B": "RF amplification.",
+      "C": "Demodulation.",
+      "D": "Audio amplification."
+    },
+    "correct": "C",
+    "explanation": "C. The marked box takes the wanted modulated signal from the tuner and RF amplifier in box one and demodulates it to extract the original audio or data information.",
+    "image": "C3_Found_3H2-2.png"
+  },
+  {
+    "id": "3K1-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which stage in a radio receiver ensures the output is strong enough to be clearly heard?",
+    "options": {
+      "A": "Demodulator.",
+      "B": "Audio amplifier.",
+      "C": "Tuner and RF amplifier.",
+      "D": "Oscillator."
+    },
+    "correct": "B",
+    "explanation": "B. The output from the demodulator is at a low level and needs to be amplified so it is strong enough to drive either headphones or a loudspeaker.",
+    "image": null
+  },
+  {
+    "id": "3M1-1",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "What is the first important function carried out in a Software Defined Receiver (SDR)?",
+    "options": {
+      "A": "Demodulating the desired signal.",
+      "B": "Selecting the wanted signal.",
+      "C": "Digitising the received signals.",
+      "D": "Removing unwanted noise."
+    },
+    "correct": "C",
+    "explanation": "C. The jumble of RF signals picked up by the antenna needs to be digitised to allow mathematical processing to select the wanted signal and demodulate it.",
+    "image": null
+  },
+  {
+    "id": "3M1-2",
+    "level": "foundation",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "To enable an SDR receiver to demodulate a new data mode it is normally necessary to",
+    "options": {
+      "A": "obtain a suitable component kit to modify the receiver.",
+      "B": "return the equipment to the suppliers for modification.",
+      "C": "change one of the plug-in cards or dongles for an updated one.",
+      "D": "download a software upgrade from the appropriate website."
+    },
+    "correct": "D",
+    "explanation": "D. Most SDR receivers can cover new modulation methods by downloading and installing new or upgraded software.",
+    "image": null
+  }
+]

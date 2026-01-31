@@ -1,0 +1,146 @@
+[
+  {
+    "id": "4A3-1",
+    "level": "full",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The drawing shows two 70MHz Yagis stacked together with λ/4 tails of solid polythene coax to the splitter for impedance matching. What length are the tails?",
+    "options": {
+      "A": "71cm.",
+      "B": "107cm.",
+      "C": "143cm.",
+      "D": "214cm."
+    },
+    "correct": "A",
+    "explanation": "The coax is described as solid polythene so you should remember that it has a velocity factor of 2/3. Lengths in the coax are 2/3 of the free space calculation. At 70MHz a wavelength is λ=300/70 m = 4.29m and the λ/4 is 1.07m. 2/3 of that is 71cm. The velocity factor can be covered using λ = 200/f but care then needs to be taken to apply that only to solid polythene.",
+    "image": "C4_Full_4A3-1.png"
+  },
+  {
+    "id": "4B1-1",
+    "level": "full",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The drawing shows a",
+    "options": {
+      "A": "sleeve balun.",
+      "B": "choke balun.",
+      "C": "1:1 balun.",
+      "D": "4:1 balun."
+    },
+    "correct": "C",
+    "explanation": "Transformer baluns provide an opportunity to change the impedance; and note for RF transformers the ratio is normally quoted as the impedance ratio, not the turns ratio. Inspection of the drawing shows the same number of turns on primary and secondary making it a 1:1 balun.",
+    "image": "C4_Full_4B1-1.png"
+  },
+  {
+    "id": "4D1-1",
+    "level": "full",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The length of an HF dipole for 14MHz should be",
+    "options": {
+      "A": "7.1m.",
+      "B": "10.2m.",
+      "C": "10.7m.",
+      "D": "21.4m."
+    },
+    "correct": "B",
+    "explanation": "In free space λ = 300/14 = 21.4m so λ/2 is 10.7m. However it is not quite free space there is an antenna, a wire conductor, there. The normal correction factor is to reduce the length by 5% which is then 10.2m. For obvious reasons, cut a bit long and trim for a low SWR in your part of the band, but remaining useful over the whole band.",
+    "image": null
+  },
+  {
+    "id": "4D2-1",
+    "level": "full",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A 70m dipole is fitted with a reflector and a number of directors to achieve greater gain but it is found the SWR has risen markedly. A possible solution is to",
+    "options": {
+      "A": "shorten the length of the dipole elements.",
+      "B": "lengthen the feeder by λ/4.",
+      "C": "add a conductor to create a folded dipole.",
+      "D": "swap the positions of the director and reflectors."
+    },
+    "correct": "C",
+    "explanation": "Adding passive elements to a dipole can dramatically reduce its feed impedance, solved by using a folded dipole which, if both conductors are the same diameter, increases the feed impedance by a factor of four.",
+    "image": null
+  },
+  {
+    "id": "4E1-1",
+    "level": "full",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A poorly matched antenna results in half the incident power being reflected. Neglecting feeder losses the SWR will be about",
+    "options": {
+      "A": "1.5:1.",
+      "B": "2:1.",
+      "C": "3:1.",
+      "D": "6:1."
+    },
+    "correct": "D",
+    "explanation": "This question needs to be read carefully. It says half the power is reflected. That is the reflected voltage (and current) are reduced by a factor of 1/√2 or to 70.7% of the incident value. The SWR is given by Vmax/Vmin = Vi + Vr / (Vi - Vr) = (1 + 0.707)/(1-0.707) where Vi is the incident voltage and r is the reflected voltage. That works out at almost 6:1.",
+    "image": null
+  },
+  {
+    "id": "4E2-1",
+    "level": "full",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A well matched antenna will exhibit a",
+    "options": {
+      "A": "high return loss and low SWR.",
+      "B": "high return loss and high SWR.",
+      "C": "low return loss and low SWR.",
+      "D": "low return loss and high SWR."
+    },
+    "correct": "A",
+    "explanation": "Remembering a good match is a low SWR is easy, but what is that as a return loss? The return loss is the ratio of the incident power to the reflected power. The reflected power will be low, hopefully very low, so the ratio of incident to reflected power will be high.",
+    "image": null
+  },
+  {
+    "id": "4E3-1",
+    "level": "full",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A new antenna shows a return loss of 23dB when measured in the shack. If the feeder loss is 2dB, the return loss at the antenna connection will be",
+    "options": {
+      "A": "19dB.",
+      "B": "21dB.",
+      "C": "25dB.",
+      "D": "27dB."
+    },
+    "correct": "A",
+    "explanation": "Return loss is the ratio of incident power to reflected power at the point of measurement. Visualise a lossy feeder; much power will be lost on the way up and the same proportion lost again on the way back. In the shack the return loss will be high almost irrespective of the match at the antenna. With that in mind the return loss at the transmitter is the return loss at the antenna plus twice the feeder loss. In this question we are given the measurement in the shack, so the loss at the antenna will be 23dB - (2x2dB) = 19dB.",
+    "image": null
+  },
+  {
+    "id": "4F1-1",
+    "level": "full",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The impedance seen looking into the feeder termination in the shack is 200Ω resistive and a capacitive reactance of 30Ω. To bring this to 50Ω resistive for the transmitter it will be necessary to use an",
+    "options": {
+      "A": "AMU.",
+      "B": "AMU and a 4:1 transformer.",
+      "C": "AMU and a 1:1 balun.",
+      "D": "AMU and a 4:1 balun."
+    },
+    "correct": "A",
+    "explanation": "There is no mention of balanced or unbalanced feeders or antennas so the two balun options are red herrings. An AMU can achieve resistance value changes as well as cancelling out any reactance. Of course there are limits but a 4:1 resistance change is well inside the capability of an AMU. More extreme cases will need a transformer, and a dedicated AMU typically has a wider range than those built in to HF transceivers.",
+    "image": null
+  },
+  {
+    "id": "4F2-1",
+    "level": "full",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The antennas in the drawing each have a feed impedance of 50Ω, but this needs to be transformed to 100Ω so the two antennas can be fed in parallel. What should the characteristic impedance of the matching tails be to achieve this?",
+    "options": {
+      "A": "50Ω.",
+      "B": "70Ω.",
+      "C": "75Ω.",
+      "D": "100Ω."
+    },
+    "correct": "B",
+    "explanation": "This is a λ/4 coax transformer question. The formula, from the Reference Data booklet, is Z0² = Zin x Zout. We are given Zin as 50Ω and Zout as 100Ω so Z0² = 5000. That gives Z0 as √5000 or 70Ω. 70Ω cable is available but TV coax is 75Ω which would result in two 112Ω feeds into the splitter and 56Ω load on the main feeder. Not perfect but good enough.",
+    "image": "C4_Full_4F2-1.png"
+  }
+]

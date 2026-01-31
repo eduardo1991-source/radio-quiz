@@ -1,0 +1,338 @@
+[
+  {
+    "id": "4A1-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The drawing shows different types of cable, which one is suitable for radio frequencies?",
+    "options": {
+      "A": "Cable 1.",
+      "B": "Cable 2.",
+      "C": "Cable 3.",
+      "D": "Cable 4."
+    },
+    "correct": "A",
+    "explanation": "The coaxial cable is designed for RF. The two two-core cables can be used under very specific circumstances, best left to Full level.",
+    "image": "C4_Found_4A1-1.png"
+  },
+  {
+    "id": "4A1-2",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "In twin open wire feeder",
+    "options": {
+      "A": "the wire nearest the ground should be at Ov, earth potential, and the signal on the higher wire carrying the RF signal.",
+      "B": "the wire nearest the ground should be carrying the RF signal and the higher wire at OV, earth potential.",
+      "C": "both wires should carry the RF signal which should have equal signals, in phase, on both conductors.",
+      "D": "both wires should carry the RF signal which should have equal but opposite signals on both conductors."
+    },
+    "correct": "D",
+    "explanation": "Twin feeder must be used balanced with equal and opposite signals on both conductors. Twin feeder must be kept away from other conducting objects. they do have their uses but under specific circumstances.",
+    "image": null
+  },
+  {
+    "id": "4A2-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "Which one of the feeders below will probably have the greatest loss?",
+    "options": {
+      "A": "10m of twin feeder.",
+      "B": "20m of twin feeder.",
+      "C": "10m of coaxial feeder.",
+      "D": "20m of coaxial feeder."
+    },
+    "correct": "D",
+    "explanation": "The longer feeder will have more loss and typically coaxial feeder has a greater loss than twin feeder of the same length",
+    "image": null
+  },
+  {
+    "id": "4A2-2",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The manufacturer's specification for a coaxial feeder quotes the loss per 10m length, but also quotes the frequency at which it was measured. Why quote the frequency?",
+    "options": {
+      "A": "The loss should be measured over at least ten wavelengths in the feeder.",
+      "B": "The loss increases as the frequency increases so it must be stated.",
+      "C": "The loss decreases as the frequency increases so it must be stated.",
+      "D": "It could be relevant if there is an interference complaint."
+    },
+    "correct": "B",
+    "explanation": "Feeder loss increases as the frequency increases so it is necessary to state the frequency at which the loss is given and better to give the loss at a number of frequencies to enable better choice of which feeder to use in each case.",
+    "image": null
+  },
+  {
+    "id": "4B1-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The purpose of a Balun is to",
+    "options": {
+      "A": "reduce the SWR on the feeder if the antenna is used on the wrong frequency.",
+      "B": "allow a balanced antenna to be connected to unbalanced coaxial feeder.",
+      "C": "allow a balanced antenna to be connected to balanced feeder",
+      "D": "avoid a mis-match between the feeder and the transmitter output."
+    },
+    "correct": "B",
+    "explanation": "A Balun is a device to allow a balanced item, feeder or antenna, to be properly connected to an unbalanced item, feeder or antenna. There are a number of different types, some operating at one frequency band, some usable over a number of bands.",
+    "image": null
+  },
+  {
+    "id": "4C1-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The antenna",
+    "options": {
+      "A": "will only pick up the wanted signal.",
+      "B": "converts electrical signals into radio waves.",
+      "C": "can be tuned to pick up FM or SSB signals.",
+      "D": "always radiates equally in all directions."
+    },
+    "correct": "B",
+    "explanation": "An antenna will pick up many radio signals but is best at those on a frequency for which it is designed. It then converts the signals to electrical currents and voltages in the feeder. It is equally good at radiating transmitted signals as it is picking them up for a receiver. Its directional properties depend on its design; some are omni-directional, others are highly focussed in one direction.",
+    "image": null
+  },
+  {
+    "id": "4C2-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "Which antenna has an omni-directional radiation (equal signal to all points on the horizon)?",
+    "options": {
+      "A": "A vertical Yagi.",
+      "B": "A horizontal dipole.",
+      "C": "An end-fed long wire.",
+      "D": "A 5/8 wave ground-plane."
+    },
+    "correct": "D",
+    "explanation": "The Yagi is deliberately focussed; dipoles radiate off the side but not the ends, and long wires have preferred directions depending in part on length. A 5/8λ ground-plane mounted with the radiating element vertical radiates equally to all points on the horizon but rather less up in the air.",
+    "image": null
+  },
+  {
+    "id": "4C2-2",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "Which drawing shows the correct polar diagram of a dipole antenna?",
+    "options": {
+      "A": "Plot 1.",
+      "B": "Plot 2.",
+      "C": "Plot 3.",
+      "D": "Plot 4."
+    },
+    "correct": "B",
+    "explanation": "The correct polar diagram is shown in 2. Looking down from above will show a centre dot as the top end of the antenna with a circle showing equal radiation in all horizontal directions.",
+    "image": null
+  },
+  {
+    "id": "4C3-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The gain shown by a Yagi antenna is due to its",
+    "options": {
+      "A": "correct matching to the feeder.",
+      "B": "ability to focus signals in one direction.",
+      "C": "omni-directional coverage.",
+      "D": "ability to be horizontal or vertical."
+    },
+    "correct": "B",
+    "explanation": "The Yagi is specifically designed to focus signals into a narrow directional beam concentrating the radiation in that direction. Its gain stems from that concentration.",
+    "image": "C4_Found_4C3-1.png"
+  },
+  {
+    "id": "4C3-2",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "If 10W is fed to a Yagi which has a gain of 5 times, the effective radiated power (ERP) in the best direction is",
+    "options": {
+      "A": "2W.",
+      "B": "5W.",
+      "C": "10W.",
+      "D": "50W."
+    },
+    "correct": "D",
+    "explanation": "The ERP is actual power x gain, in this case 10 x 5 = 50W ERP.",
+    "image": null
+  },
+  {
+    "id": "4C4-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A radiated power of 10W EIRP is the same as",
+    "options": {
+      "A": "6.1W ERP",
+      "B": "5W ERP",
+      "C": "16W ERP",
+      "D": "20W ERP"
+    },
+    "correct": "A",
+    "explanation": "10W EIRP is the same as 6.1W ERP.",
+    "image": null
+  },
+  {
+    "id": "4C5-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "It is less important to use the same antenna polarisation for the sending and receiving stations on HF than VHF because",
+    "options": {
+      "A": "at HF there is usually insufficient room to erect antennas with both polarisations.",
+      "B": "the antennas are a fraction of a wavelength from the ground and have no polarisation.",
+      "C": "either the electric or magnetic field will be horizontal and both are suitable for HF reception.",
+      "D": "the polarisation after ionospheric refraction can be quite different from that transmitted."
+    },
+    "correct": "D",
+    "explanation": "Most HF communication is via the ionosphere and the polarisation can be changed in the ionospheric refraction process, so the appropriate polarisation for that contact is unknown.",
+    "image": null
+  },
+  {
+    "id": "4C6-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The feed point impedance of an antenna is dependent on the",
+    "options": {
+      "A": "nature and characteristic impedance of the feeder.",
+      "B": "proportion of power reflected back down the feeder.",
+      "C": "gain and directivity of the antenna.",
+      "D": "dimensions of the antenna in relation to the signal wavelength."
+    },
+    "correct": "D",
+    "explanation": "The design of the antenna and the frequency at which it is used determine its feed impedance. At otherfrequencies the feed impedance will change and as a consequence of that change the matching and the proportion of the power reflected will also change. The gain and directivity of the antenna are also likely to change.",
+    "image": null
+  },
+  {
+    "id": "4D1-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The antenna shown in the diagram is a",
+    "options": {
+      "A": "dipole for the 10m band.",
+      "B": "Yagi for the 10m band.",
+      "C": "dipole for the 20m band.",
+      "D": "quarter wave for the 20m band."
+    },
+    "correct": "C",
+    "explanation": "An ordinary dipole is half a wavelength long which is shown as 10m, making it a dipole for 20m.",
+    "image": "C4_Found_4D1-1.png"
+  },
+  {
+    "id": "4D1-2",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The antenna shown in the drawing is a",
+    "options": {
+      "A": "λ/4 ground plane.",
+      "B": "5/8 λ antenna.",
+      "C": "quad antenna.",
+      "D": "trapped antenna."
+    },
+    "correct": "B",
+    "explanation": "The drawing shows a 5/8λ ground plane. The key feature is the loading coil at the bottom which is needed to give a good match. A λ/4 antenna does not have a loading coil.",
+    "image": "C4_Found_4D1-2.png"
+  },
+  {
+    "id": "4E1-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A dipole antenna is intended to work on the 20m band but is used on the 24m band. One effect of doing this is that",
+    "options": {
+      "A": "the wavelength of the transmitted signal will be too long.",
+      "B": "antenna could be damaged during long transmissions.",
+      "C": "some power from the transmitter will be reflected back down the feeder.",
+      "D": "the feeder will also have to be lengthened in order to match the antenna."
+    },
+    "correct": "C",
+    "explanation": "The antenna feed impedance will be wrong if it is used on the wrong band. It won't match the feeder and some of the RF signal from the transmitter will be reflected at the feeder/antenna join.",
+    "image": null
+  },
+  {
+    "id": "4E2-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A correct match to the antenna is indicated by",
+    "options": {
+      "A": "an SWR meter showing minimum reflected power.",
+      "B": "an SWR meter showing maximum reflected power.",
+      "C": "a power meter showing minimum forward (transmitted) power.",
+      "D": "a power meter showing maximum forward (transmitted) power."
+    },
+    "correct": "A",
+    "explanation": "A correct match means that all the power arriving at the antenna is radiated and none is reflected.",
+    "image": null
+  },
+  {
+    "id": "4E2-2",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "When starting a regular contact on 2m, it is noticed that the SWR meter is reading rather higher than usual. You should suspect that",
+    "options": {
+      "A": "there is a fault in the transmitter.",
+      "B": "the fault must be in the feeder.",
+      "C": "the fault must be in the antenna.",
+      "D": "the fault is in the feeder or antenna."
+    },
+    "correct": "D",
+    "explanation": "There are a number of possible faults that could result in a higher SWR. Damage to the antenna will alter the feed point impedance of the antenna so it is likely to present a poorer match increasing the SWR. Corroded and loose/broken joints and damage to the feeder will also affect the SWR. Worth mentioning that water ingress can increases feeder losses. That means that less signal reaches the antenna and less reflected signal gets back to the SWR meter and transmitter. That will then read a lower SWR, an apparent improvement. Don't believe it! If the feeder fails some weeks later the SWR meter will then show an increase.",
+    "image": null
+  },
+  {
+    "id": "4F1-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "Due to restricted space in the garden, the only HF dipole antenna is a half wave long on 14MHz. When used on other frequencies a device is fitted between the transmitter and feeder, that device is",
+    "options": {
+      "A": "an SWR meter.",
+      "B": "an AMU.",
+      "C": "a low-pass filter.",
+      "D": "a frequency meter."
+    },
+    "correct": "B",
+    "explanation": "If an antenna is used on a band it was not designed to match then the feeder SWR will be higher due to reflected power at the antenna. That is not good for the transmitter which may shut down partially or completely as a self-protection measure (but don't rely on it). An antenna matching unit can correct the mis-match so the transmitter is happy, but that won't make the antenna itself radiate better. It is a compromise given the space available.",
+    "image": null
+  },
+  {
+    "id": "4G1-1",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "When connecting BNC plugs, the braid of the cable should be connected to the",
+    "options": {
+      "A": "centre pin of the plug at both ends of the cable.",
+      "B": "outer body of the plug at both ends of the cable.",
+      "C": "centre pin of the plug at one end of the cable.",
+      "D": "outer body of the plug at one end of the cable."
+    },
+    "correct": "B",
+    "explanation": "The braid of a coaxial cable should be connected to the body of the plug at both ends of the cable in order to maintain continuity of the screen. The inner conductor is connected to the centre pin at both ends.",
+    "image": null
+  },
+  {
+    "id": "4G1-2",
+    "level": "foundation",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "What type of plug is shown in the drawing?",
+    "options": {
+      "A": "N-type.",
+      "B": "SMA.",
+      "C": "BNC.",
+      "D": "PL259."
+    },
+    "correct": "B",
+    "explanation": "The drawing shows an SMA plug, it is the smallest of the plugs in the syllabus and can be quite fragile.",
+    "image": "C4_Found_4G1-2.png"
+  }
+]

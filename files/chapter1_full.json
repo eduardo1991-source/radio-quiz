@@ -1,0 +1,274 @@
+[
+  {
+    "id": "1C1-1",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Under normal circumstances messages may be sent",
+    "options": {
+      "A": "to any amateurs who are on the frequency or channel concerned.",
+      "B": "to anybody who happens to be listening to you at the time.",
+      "C": "only to a licenced amateur in person who has exchanged callsigns with you.",
+      "D": "to the station of an amateur with whom communication has been established."
+    },
+    "correct": "D",
+    "explanation": "Clause (6-19a). The licence wording is 'are only addressed to one or more amateur station(s).' The station may include all those people there and they may reply if under supervision. Some care in reading this question is needed to pick up the significant difference between the amateur in person and those there at the station, all  of whom may be the intended recipient of your transmission and may reply if supervised.",
+    "image": null
+  },
+  {
+    "id": "1C1-2",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Under what circumstances, if any, is it permissible to send an obscured or encrypted message?",
+    "options": {
+      "A": "The message contains personal details about other people.",
+      "B": "When the radio is being used for the purposes of licence clause 6-5.",
+      "C": "You can be overheard by uninvited members of the press.",
+      "D": "A member of the public has asked you to send a family welfare message."
+    },
+    "correct": "B",
+    "explanation": "Clause (6-19b) addresses the use of encryption or obscuring the meaning, but only if used for the purposes of clause 5. Condition (6-5b) is assisting a user service.",
+    "image": null
+  },
+  {
+    "id": "1C1-3",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The Wireless Telegraphy (Content of Transmission) Regulations 1988 sets out requirements covering",
+    "options": {
+      "A": "sending messages of a grossly offensive or obscene or menacing character.",
+      "B": "limits on the number of amateurs than can be addressed in any one transmission.",
+      "C": "pretending to be a person authorised by Ofcom in order to gain an advantage.",
+      "D": "time limits of a single transmission, especially when operating through a repeater."
+    },
+    "correct": "A",
+    "explanation": "An easier question but it does make the point that 'Ofcom' is not always the right answer.",
+    "image": null
+  },
+  {
+    "id": "1D1-1",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "If you are operating close to the edge of a band what is the most severe situation you are risking if your transmitter frequency is unstable?",
+    "options": {
+      "A": "You may cause interference to another amateur station.",
+      "B": "You may radiate outside the amateur band.",
+      "C": "The station you are in contact with will have to re-tune.",
+      "D": "Radiation of harmonics will increase noticeably."
+    },
+    "correct": "B",
+    "explanation": "Radiating outside an amateur band is a breach of your licence terms. You risk being required to fix the problem before transmitting again, having a modification to your licence or, possibly, losing your licence. Willing co-operation with the Ofcom inspector is clearly the best way forward and it is always possible they have suitable test equipment to help you diagnose the problem.",
+    "image": null
+  },
+  {
+    "id": "1D1-2",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Satellite operation involves transmitting in one band and receiving in a different band. That means you must have equipment",
+    "options": {
+      "A": "able to transmit on the up link and receive on the downlink.",
+      "B": "able to transmit and receive on both the uplink and downlink.",
+      "C": "able to transmit and receive on the up link and receive on the downlink.",
+      "D": "able to transmit on both the uplink and downlink and receive on the downlink."
+    },
+    "correct": "C",
+    "explanation": "Obviously you must be able to transmit on the uplink and receive on the downlink but (6-2) requires you not to cause undue interference. Clearly if your uplink is causing problems to another terrestrial station then they are likely to reply to you on the frequency you are transmitting on. You need to be able to hear that reply so you are aware of the problem and take suitable action.",
+    "image": null
+  },
+  {
+    "id": "1D1-3",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "If a person authorised by Ofcom is of the opinion that an urgent situation exists then your Radio Equipment may be inspected",
+    "options": {
+      "A": "at any time of the day or night.",
+      "B": "at any and all reasonable times.",
+      "C": "during office hours but 7 days a week.",
+      "D": "at any time by appointment."
+    },
+    "correct": "A",
+    "explanation": "Clause (7-1b) says 'at any time' if the matter is urgent - interference to an emergency service or air traffic control perhaps. (8-1) then says what can be done to remedy the problem, which can be modification to your equipment, a restriction on its use or close down the station. With a less or non-urgent problem an inspection during normal working hours is more likely. Normal inspections are at a reasonable time but if there is a problem that requires urgent resolution then an inspection could be at any time.",
+    "image": null
+  },
+  {
+    "id": "1E1-1",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When operating your radio by remote control you may",
+    "options": {
+      "A": "use a radio link in amateur bands below 30MHz.",
+      "B": "use an internet link to access the main station.",
+      "C": "utilise encryption on an amateur radio link.",
+      "D": "provide for general use by other amateurs."
+    },
+    "correct": "B",
+    "explanation": "(6-10) does not prescribe the link technology but does require the link to be adequately secure so that no other person can gain control. That does not include a person at your station operating under supervision. (6-10b) requires any link in an amateur band to be above 30MHz. (6-19b) prohibits encryption of amateur transmissions (except under specific circumstances), and that also applies to remote control links on amateur frequencies.",
+    "image": null
+  },
+  {
+    "id": "1E1-2",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "A radio link in an amateur band used for remote control of the main transceiver must be",
+    "options": {
+      "A": "limited in power to 500mW pep ERP.",
+      "B": "encrypted to prevent misuse by others.",
+      "C": "compliant with Schedule 1 to the licence.",
+      "D": "capable of being monitored for interference."
+    },
+    "correct": "C",
+    "explanation": "The rules for the link are the same as for the remote main transmitter, so the answer is simply compliant with Schedule 1. (6-19b) about non-encryption applies equally to links and main transmitters.",
+    "image": null
+  },
+  {
+    "id": "1E1-3",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "A radio link in an amateur band used for remote control of the main transceiver must be",
+    "options": {
+      "A": "limited in power to 500mW pep ERP.",
+      "B": "adequately secure but not encrypted.",
+      "C": "below 30MHz.",
+      "D": "above 144MHz."
+    },
+    "correct": "B",
+    "explanation": "(6-11a) requires the link to be adequately secure to prevent others gaining control. That applies irrespective of the link technology. Not specific in the licence but it should also be failsafe such that loss of the link shuts down the main transmitter.",
+    "image": null
+  },
+  {
+    "id": "1F1-1",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When operating temporarily in another country under CEPT T/R 61-01 the rules you must follow are those",
+    "options": {
+      "A": "of the host country.",
+      "B": "of the host country which are also in your UK licence.",
+      "C": "in your UK licence.",
+      "D": "in either your UK licence or the host country licence."
+    },
+    "correct": "A",
+    "explanation": "You must follow the host country rules exactly if you were a resident there with their licence. The UK licence only applies in UK, Channel Islands and Isle of Man territory, including territorial waters and in international waters or airspace provide you are on a UK etc registered ship or aircraft.",
+    "image": null
+  },
+  {
+    "id": "1F1-2",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "A UK amateur radio club plans to enter a contest from the south of France using their club callsign. This idea is",
+    "options": {
+      "A": "a good one, it might improve their score.",
+      "B": "acceptable provided the prefix their callsign with 'F/'.",
+      "C": "acceptable if they all have their HAREC certificates.",
+      "D": "not acceptable under recommendation CEPT T/R 61-01."
+    },
+    "correct": "D",
+    "explanation": "The CEPT Recommendation T/R 61-01 on temporary visits only applies to personal Full licences and does not extend to club licences.",
+    "image": null
+  },
+  {
+    "id": "1F2-1",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The American continent is in ITU Region",
+    "options": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4."
+    },
+    "correct": "B",
+    "explanation": "The American continent, that is, Canada, N & S America, are in ITU Region 2.",
+    "image": null
+  },
+  {
+    "id": "1G1-1",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When carrying out an RF field assessment the table setting out the relevant tables for public exposure are identified in the",
+    "options": {
+      "A": "Wireless Telegraphy Licence Conditions Booklet OFW611.",
+      "B": "Guidance on EMF Compliance and Enforcement.",
+      "C": "Reference levels published by the Health Security Agency.",
+      "D": "RSGB EMF technical note No2 v2 October 2022."
+    },
+    "correct": "B",
+    "explanation": "This is a look it up question. (9-1) which refers to footnote 3 which identifies the answer. In reality the average amateur is best placed looking for the RSGB EMF assessment spreadsheet which performs the relevant calculations and compares them with the correct table.",
+    "image": null
+  },
+  {
+    "id": "1G1-2",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "A household consists of several family members, some of whom are licenced amateurs. Which of them are permitted to be inside the EMF exclusion zone?",
+    "options": {
+      "A": "Only the amateur operator.",
+      "B": "Those with an amateur licence.",
+      "C": "All resident family members.",
+      "D": "Personal non-resident guests."
+    },
+    "correct": "B",
+    "explanation": "Anybody who does not have an amateur licence must be protected and is regarded as 'general public'.",
+    "image": null
+  },
+  {
+    "id": "1H1-1",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Peak Envelope Power is that power supplied to the antenna",
+    "options": {
+      "A": "at the peak of an RF cycle during normal operation.",
+      "B": "averaged over 1 RF cycle at the crest of the modulation.",
+      "C": "averaged over 1 audio cycle on an RMS power meter.",
+      "D": "by a steady carrier before it is modulated."
+    },
+    "correct": "B",
+    "explanation": "The definition is given in (10-1s) which will be available in the exam. This is often misquoted as the peak of an RF cycle; the correct answer is averaged over one RF cycle at the peak of the modulation envelope.",
+    "image": null
+  },
+  {
+    "id": "1H1-2",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When operating on 5.334MHz it is necessary to",
+    "options": {
+      "A": "limit the antenna height to 10 metres above ground.",
+      "B": "give your callsign at no more than 10minute intervals",
+      "C": "not exceed a radiated power of 400W EIRP.",
+      "D": "be contactable by a telephone in close proximity."
+    },
+    "correct": "D",
+    "explanation": "Note G IX to the Schedule requires the operator to be contactable by telephone located in close proximity to where the Radio Equipment is being operated. This is so the MoD, as Primary user of the 5MHz band can ask you to close down if there is an interference problem.",
+    "image": null
+  },
+  {
+    "id": "1H1-3",
+    "level": "full",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When operating double sideband in the band 5.276 to 5.284MHz the maximum bandwidth should not exceed",
+    "options": {
+      "A": "4kHz.",
+      "B": "6kHz.",
+      "C": "8kHz.",
+      "D": "10kHz."
+    },
+    "correct": "B",
+    "explanation": "Note G I to the Schedule says double sideband shall not exceed 6kHz",
+    "image": null
+  }
+]

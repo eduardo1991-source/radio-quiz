@@ -1,0 +1,514 @@
+[
+  {
+    "id": "1A1-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The main purpose of holding an amateur radio licence is to",
+    "options": {
+      "A": "talk to amateur and non-amateur friends.",
+      "B": "keep in contact with your pizza delivery fleet.",
+      "C": "demonstrate amateur equipment on sale in a shop.",
+      "D": "self-training in radio communications."
+    },
+    "correct": "D",
+    "explanation": "D. Clause (6-4) clearly answers this point. As with other references below you should look it up!",
+    "image": null
+  },
+  {
+    "id": "1A1-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Flying as a passenger in an Australian registered aircraft and with the Captain's permission, you can operate",
+    "options": {
+      "A": "only over the UK, Channel Islands and Isle of Man and their territorial waters.",
+      "B": "only when in international airspace at least twelve miles from any land.",
+      "C": "only when over the land and territorial waters of the countries of departure and arrival.",
+      "D": "anywhere as long as you are not in the assent and descent parts of the journey."
+    },
+    "correct": "A",
+    "explanation": "A. Condition 4 clause 1b. Note that 1a does not restrict the country of aircraft (or ship) registration but you must be in or over UK etc territory. 1b applies outside UK territory.",
+    "image": null
+  },
+  {
+    "id": "1A2-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Which one of the items below is NOT a type of amateur licence?",
+    "options": {
+      "A": "Advanced.",
+      "B": "Foundation.",
+      "C": "Intermediate.",
+      "D": "Full."
+    },
+    "correct": "A",
+    "explanation": "A. Answers B, C & D are the types of licence. Be careful of NOTquestions!",
+    "image": null
+  },
+  {
+    "id": "1A2-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Which statement about an RSL (Regional Secondary Loca- tor) is correct as a Foundation licence holder?",
+    "options": {
+      "A": "You may use the RSL 'N' when in Northern Ireland.",
+      "B": "You may use the RSL 'W' when you are in Wales.",
+      "C": "You must use the RSL 'S' when in Scotland.",
+      "D": "You must not use the RSL 'E' when in England."
+    },
+    "correct": "B",
+    "explanation": "B. (6-22) permits the use of an RSL if desired and (6-24) states what it must be if used.\n1A2-3 D You need the agreement of the captain of the aircraft (or ship) (8-3)",
+    "image": null
+  },
+  {
+    "id": "1A2-3",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When transmitting on an aircraft you must",
+    "options": {
+      "A": "be over the UK and its territorial seas.",
+      "B": "restrict transmit power to 1W EIRP.",
+      "C": "only use FM modulation.",
+      "D": "have the agreement of the Captain."
+    },
+    "correct": "",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "1A3-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "If you move house you should notify Ofcom",
+    "options": {
+      "A": "at least 7 days before moving.",
+      "B": "immediately on moving.",
+      "C": "within 14 days of moving.",
+      "D": "before operating at the new address."
+    },
+    "correct": "B",
+    "explanation": "B. Clause (2-2) answers this one. Don't try to interpret what 'immediately' means; only a Court of Law can do that. Just look for the word 'immediately'.",
+    "image": null
+  },
+  {
+    "id": "1A3-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "You must confirm your licence details",
+    "options": {
+      "A": "from time to time.",
+      "B": "annually.",
+      "C": "every five years.",
+      "D": "only when they change."
+    },
+    "correct": "C",
+    "explanation": "C. Clause (1-2g) every five years.",
+    "image": null
+  },
+  {
+    "id": "1A3-3",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Your licence is liable to revocation",
+    "options": {
+      "A": "if a complaint of interference is received.",
+      "B": "if interference is traced to your station.",
+      "C": "if you fail to confirm your details when due.",
+      "D": "if you don't transmit for over a year."
+    },
+    "correct": "C",
+    "explanation": "C. Clause (1-2g) is the clear answer. In reality you would get a written proposal to revoke giving you a month to reply; time to update your notification pronto!",
+    "image": null
+  },
+  {
+    "id": "1A4-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When identifying their station an amateur must",
+    "options": {
+      "A": "give their name and licence number at the start of each over.",
+      "B": "give their callsign at the beginning and end of each over.",
+      "C": "give their location to an accuracy of at least 5km.",
+      "D": "give their callsign as frequently as practicable."
+    },
+    "correct": "D",
+    "explanation": "D. Clause (6-21b) is the exact words and (6-21a) adds 'clearly identifiable at all times'.",
+    "image": null
+  },
+  {
+    "id": "1A4-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When changing data modes from RTTY to FT8 you must",
+    "options": {
+      "A": "give you callsign on the first transmission in the new mode.",
+      "B": "announce your intention to change modes in RTTY.",
+      "C": "announce that you have changed modes in FT8.",
+      "D": "Give your callsign in voice on the calling channel."
+    },
+    "correct": "A",
+    "explanation": "A. Clause (6-21a) again. Interpretations of the licence are a matter of opinion but it is obvious that you are not known on a new frequency or mode until you identify yourself and the syllabus note to 1A4 removes any doubt that the point is fair to examine.",
+    "image": null
+  },
+  {
+  "id": "1A4-3",
+  "level": "foundation",
+  "chapter": 1,
+  "source": "syllabus",
+  "question": "You correctly call CQ on the 2 metre calling channel and your friend answers saying 145.525MHz is clear. When moving to that frequency you must",
+  "options": {
+    "A": "call CQ again expecting your friend to answer.",
+    "B": "give your callsign again.",
+    "C": "give your friend's callsign.",
+    "D": "wait until your friend calls you."
+  },
+  "correct": "B",
+  "explanation": "1A4-3. B. Clause (6-21a) again. Interpretations of the licence are a matter of opinion but it is obvious that you are not known on a new frequency or mode until you identify yourself and the syllabus note to 1A4 removes any doubt that the point is fair to examine.",
+  "image": null
+},
+  {
+    "id": "1A4-4",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "In a long contact with the same station you must give your callsign",
+    "options": {
+      "A": "each time the PTT is pressed.",
+      "B": "at least once every five minutes.",
+      "C": "at the beginning and again at the end of the contact.",
+      "D": "as frequently as practicable."
+    },
+    "correct": "D",
+    "explanation": "D. Clause (6-21). Options A, B and C are specific interpretations that are not stated in the words of the licence, option D does fit the licence wording.",
+    "image": null
+  },
+  {
+    "id": "1B1-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "A Foundation licence holder may supervise another person using their Radio Equipment only if they",
+    "options": {
+      "A": "are a UK licensed amateur.",
+      "B": "are a resident family member.",
+      "C": "follow the same licence conditions.",
+      "D": "have an ITU amateur radio licence."
+    },
+    "correct": "",
+    "explanation": "C (6-6) says that any person - may use the Radio Equipment provided they are under the Licensee's direct supervision.",
+    "image": null
+  },
+  {
+    "id": "1B1-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When an amateur is operating under supervision the callsign to be used to identify the station is that of",
+    "options": {
+      "A": "the person who is supervising the operation.",
+      "B": "the person who is pressing the push to talk button (PTT).",
+      "C": "whichever person has the higher class of licence.",
+      "D": "whichever person has the lower class of licence."
+    },
+    "correct": "A",
+    "explanation": "A. (6-6) and (6-21) The licence meaning of supervision is that you are there and they are operating under your authority and licence terms. That equally applies if a non-amateur is operating. If they are an amateur and using their callsign then the authority to transmit is their licence. You may well be there but you are not supervising and your licence is not invoked.",
+    "image": null
+  },
+  {
+    "id": "1B1-3",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When operating at a campsite under the supervision of a Full licensee, the callsign to be used is",
+    "options": {
+      "A": "one's own callsign with the suffix /S.",
+      "B": "the callsign of the supervisor.",
+      "C": "the callsign of the supervisor with the suffix /S.",
+      "D": "the callsign of the owner of the equipment being used."
+    },
+    "correct": "B",
+    "explanation": "B. If you are under supervision you must use the callsign of the supervisor. If your operation is within the limits of your own licence then you don't need to be supervised but that does not mean you can't be. You might, for example, be taking part in a contest and everybody is using the callsign registered for the event and, consequently, under supervision.",
+    "image": null
+  },
+  {
+    "id": "1C1-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "You hear an American station transmitting on a frequency which is allowed in the USA but is just above an amateur band in the UK licence Schedule. To comply with your Foun- dation licence, you",
+    "options": {
+      "A": "must only transmit on frequencies contained in your Schedule.",
+      "B": "may briefly transmit on the American's frequency to ask him to change frequency.",
+      "C": "may hold a short contact of no more than two periods of transmission.",
+      "D": "should call CQ on the American's frequency and hope he replies."
+    },
+    "correct": "A",
+    "explanation": "A. Schedule 1 says you may only operate your radio on frequencies shown in the Table for your licence level. (10-2) says the Schedule is part of your licence.",
+    "image": null
+  },
+  {
+    "id": "1C1-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Which one of the actions below is NOT allowed by the Foundation licence?",
+    "options": {
+      "A": "Transmitting directions to a radio club event to anybody who is listening.",
+      "B": "Sending practice Morse on-air to members of the local radio club.",
+      "C": "Discussing, on-air, an item of news heard on the TV.",
+      "D": "Talking for over 10 minutes without giving a callsign."
+    },
+    "correct": "A",
+    "explanation": "A. Clause (6-19a). This is a reference to the intent of your transmission. You can intend it to be to a single person or station or a defined group or net, but not just anybody who happens to be listening. The main exception is a CQ call where you are inviting any amateur who hears you to reply.",
+    "image": null
+  },
+  {
+    "id": "1C1-3",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When joining a net of four amateurs you must establish contact with",
+    "options": {
+      "A": "any one amateur already in the net by exchanging callsigns.",
+      "B": "the controller of the net by exchanging callsigns.",
+      "C": "each member of the net on joining it.",
+      "D": "each member of the net when it is their turn to speak."
+    },
+    "correct": "A",
+    "explanation": "A. On joining a net you must identify by giving your callsign to any one member of the net and receiving theirs. Social protocol in that net might be to address the net control station but the licence requirement is any one station.",
+    "image": null
+  },
+  {
+    "id": "1C2-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The use of a secret code on the air is permitted by your licence",
+    "options": {
+      "A": "at the direct request of a user service.",
+      "B": "for personal matters you want to keep secret.",
+      "C": "only when within the UK.",
+      "D": "with prior notification to Ofcom."
+    },
+    "correct": "A",
+    "explanation": "A. (6-19b) prohibits encryption except when used under (6-5) which refers to user services and disasters. There is also reference to satellites but that is outside the Foundation syllabus. 1C2-2. B. (6-19b) prohibits encryption/ obscuring meaning.",
+    "image": null
+  },
+  {
+    "id": "1C2-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When talking to an amateur radio friend over the air you should NOT",
+    "options": {
+      "A": "use Morse code.",
+      "B": "use a secret code.",
+      "C": "transmit for over 15 minutes.",
+      "D": "transmit more than 5W of power."
+    },
+    "correct": "",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "1D1-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "A key requirement in operating your station is to",
+    "options": {
+      "A": "ensure your Log is kept up to date",
+      "B": "avoid causing Undue Interference.",
+      "C": "limit transmit power to 10W ERP.",
+      "D": "update your address annually."
+    },
+    "correct": "",
+    "explanation": "B (6-2) says you must not cause Undue Interference. A is a good idea but not a licence requirement, C and D are just wrong.",
+    "image": null
+  },
+  {
+    "id": "1D1-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Your radio equipment may be inspected by an authorised person from",
+    "options": {
+      "A": "the ICNIRP.",
+      "B": "Ofcom.",
+      "C": "British Telecom.",
+      "D": "the RSGB."
+    },
+    "correct": "B",
+    "explanation": "B. Clause (7-1). Inspections are carried out by Ofcom although TV reception complaints may also be made to the BBC.",
+    "image": null
+  },
+  {
+    "id": "1D1-3",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "You can be required to modify your equipment by a",
+    "options": {
+      "A": "Police officer.",
+      "B": "radio service dealer.",
+      "C": "person authorised by Ofcom.",
+      "D": "person suffering interference."
+    },
+    "correct": "C",
+    "explanation": "C. Clause (8-1).",
+    "image": null
+  },
+  {
+    "id": "1D2-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "You may be required to keep a Log of your transmissions by",
+    "options": {
+      "A": "a person authorised by Ofcom.",
+      "B": "the Police.",
+      "C": "a person complaining of interference.",
+      "D": "a radio and TV service dealer."
+    },
+    "correct": "A",
+    "explanation": "A. Clause (8-4). If there is an interference complaint then an authorised Ofcom officer may require you to keep a log and will say what you must record. Really helpful if you have an up to date log anyway.",
+    "image": null
+  },
+  {
+    "id": "1D2-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The time for which you may be required by an Ofcom inspec- tor to keep a Log of your transmissions is",
+    "options": {
+      "A": "not more than 30 days.",
+      "B": "two months.",
+      "C": "six months.",
+      "D": "whatever specified."
+    },
+    "correct": "D",
+    "explanation": "D. Clause (8-4) specifies what you may be asked to do.",
+    "image": null
+  },
+  {
+    "id": "1F1-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "A Foundation amateur may expect to be allowed to operate from",
+    "options": {
+      "A": "France.",
+      "B": "any country with a sea border with the UK.",
+      "C": "any European country.",
+      "D": "Channel Isles and Isle of Man."
+    },
+    "correct": "D",
+    "explanation": "D. Clause (4-1). Sometimes an individual has negotiated permission to operate as a Foundation or Intermediate licensee but that is an individual concession entirely at the discretion of the host country and cannot be expected.",
+    "image": null
+  },
+  {
+    "id": "1G1-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The EMF restrictions in the amateur licence apply at power levels above",
+    "options": {
+      "A": "10W EIRP",
+      "B": "10W ERP",
+      "C": "5W EIRP",
+      "D": "5W ERP"
+    },
+    "correct": "A",
+    "explanation": "A. (9-1) refers to Relevant Radio Equipment which is defined in (10-1z) equipment transmitting at powers over 10W EIRP, which is the same as 6.1W ERP. If the transmitter/antenna combination is below that level then all that is required is a statement to that effect. (9-6) says you must keep a record of that point. Your log perhaps.",
+    "image": null
+  },
+  {
+    "id": "1G1-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Having completed an EMF check as required in the licence you must",
+    "options": {
+      "A": "write the date in your log.",
+      "B": "post a copy of your results to Ofcom.",
+      "C": "post a copy of your results to the RSGB.",
+      "D": "keep a record of the outcome of the checks."
+    },
+    "correct": "D",
+    "explanation": "D. Clause (9-6) says that the licensee shall keep a record that shows how the radio equipment is compliant.",
+    "image": null
+  },
+  {
+    "id": "1H1-1",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The maximum transmit power permitted at a of 136.7kHz is",
+    "options": {
+      "A": "1W.",
+      "B": "1W ERP",
+      "C": "10W.",
+      "D": "10W ERP"
+    },
+    "correct": "B",
+    "explanation": "B. This is a free mark for looking it up. 1W ERP",
+    "image": null
+  },
+  {
+    "id": "1H1-2",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Communication via amateur satellite is permitted in the band",
+    "options": {
+      "A": "1.81 1.83MHz.",
+      "B": "7.00-7.10MHZ.",
+      "C": "10.10-10.15MHz.",
+      "D": "14.25-14.35MHz."
+    },
+    "correct": "B",
+    "explanation": "B. Part of 14MHz has a satellite allocation, but not the band listed.",
+    "image": null
+  },
+  {
+    "id": "1H1-3",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "At a frequency of 145MHz you are permitted to transmit using powers up to",
+    "options": {
+      "A": "1W.",
+      "B": "1W ERP",
+      "C": "10W.",
+      "D": "10W ERP"
+    },
+    "correct": "C",
+    "explanation": "C. The 430MHz band is secondary to amateurs and 431-432MHz has other uses in London.",
+    "image": null
+  },
+  {
+    "id": "1H1-4",
+    "level": "foundation",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Operation in London is NOT permitted in the band",
+    "options": {
+      "A": "50.0-50.1MHz.",
+      "B": "430-431MHz.",
+      "C": "431 432MHz.",
+      "D": "438-400MHZ."
+    },
+    "correct": "C",
+    "explanation": "C. The answer is given in the schedule to the licence, column 2. A look it up question for a free mark!",
+    "image": null
+  }
+]

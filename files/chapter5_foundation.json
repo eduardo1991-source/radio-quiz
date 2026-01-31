@@ -1,0 +1,146 @@
+[
+  {
+    "id": "5A1-1",
+    "level": "foundation",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "The drawing shows a transmitter on a hill covering the flat ground to the right. When travelling from point A to B the VHF signal is expected to",
+    "options": {
+      "A": "remain constant all the time the transmitter is in clear view.",
+      "B": "vary up and down every wavelength of the signal.",
+      "C": "slowly decrease all the way to point B.",
+      "D": "be quite weak at A but increase to a steady signal once away from the effect of the hill."
+    },
+    "correct": "C",
+    "explanation": "In clear sight the signal will get weaker as the distance to the transmitter increases, but the further from the transmitter the more gradual the change in signal strength. In real circumstances the local terrain, forest cover or urban buildings will have a greater effect.",
+    "image": "C5_Found_5A1-1.png"
+  },
+  {
+    "id": "5A1-2",
+    "level": "foundation",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "One feature of radio waves is that they",
+    "options": {
+      "A": "find it easy to go straight through buildings and hills to give a good signal on the far side.",
+      "B": "travel in straight lines unless they bounce off a surface, are bent in the ionosphere or diffract round hills.",
+      "C": "curve round obstructions such as hills so as to fill in all the space on the far side.",
+      "D": "stop as soon as they reach a building, tree or hill."
+    },
+    "correct": "B",
+    "explanation": "Radio waves travel in a straight line but can bounce off large surfaces and diffract round hills and large buildings (larger than the wavelength) so the shadow is partially filled in.",
+    "image": null
+  },
+  {
+    "id": "5A2-1",
+    "level": "foundation",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Which frequencies normally pass through the ionosphere?",
+    "options": {
+      "A": "Lower HF frequencies.",
+      "B": "HF and VHF frequencies.",
+      "C": "VHF and higher frequencies.",
+      "D": "Only UHF and microwave frequencies."
+    },
+    "correct": "C",
+    "explanation": "Most HF signals are refracted in the ionosphere depending on the time of day but VHF and above normally go through into space.",
+    "image": null
+  },
+  {
+    "id": "5B1-1",
+    "level": "foundation",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Which statement best describes the ionosphere?",
+    "options": {
+      "A": "The ionosphere is a region of refractive gasses 70 to 400km in altitude.",
+      "B": "The ionosphere is a reflective surface at the top of the atmosphere.",
+      "C": "The ionosphere appears only during the night.",
+      "D": "The ionosphere appears only during the day."
+    },
+    "correct": "A",
+    "explanation": "The ionosphere is layers of ionised gasses some 70 to 400km up which are refractive, they bend HF radio waves back to earth.",
+    "image": null
+  },
+  {
+    "id": "5B2-1",
+    "level": "foundation",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Which factor does NOT affect propagation in the ionosphere? Note the NOT in the question.",
+    "options": {
+      "A": "The radio frequency.",
+      "B": "The time of year.",
+      "C": "The time of day.",
+      "D": "The day of the week."
+    },
+    "correct": "D",
+    "explanation": "This is a 'not question. You may prefer to tick the three true answers on the question paper to identify the wrong one which is then the correct answer. The radio frequency; the position of the sun, that is the time of day; and the seasons, time of year all affect the level of ionisation and thus the propagation. The day of the week does not affect radio propagation.",
+    "image": null
+  },
+  {
+    "id": "5C1-1",
+    "level": "foundation",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "The drawing shows a transmitter with a hill between it and the receiver. When travelling from point A to B the VHF signal is expected to",
+    "options": {
+      "A": "remain constant all the time.",
+      "B": "be quite weak at A but increase once away from the hill.",
+      "C": "vary up and down every wavelength of the signal.",
+      "D": "be receivable at A but get progressively weaker."
+    },
+    "correct": "B",
+    "explanation": "Immediately behind the hill may not get a usable signal, further away the diffraction bending is less so may well receive a usable signal until the distance is simply too great.",
+    "image": "C5_Found_5C1-1.png"
+  },
+  {
+    "id": "5C1-2",
+    "level": "foundation",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "An amateur has similar equipment and antennas for VHF and UHF. Which statement below best describes his choice of band for a 25km contact?",
+    "options": {
+      "A": "There will be no difference in performance between VHF and UHF.",
+      "B": "The UHF option is most likely to give a better signal.",
+      "C": "The VHF option is most likely to give a better signal.",
+      "D": "The choice will depend on the time of day or night."
+    },
+    "correct": "C",
+    "explanation": "All other things being equal the VHF option is likely to give a stronger signal. VHF & UHF propagation is not affected by time of day but heavy rain, urban clutter and vegetation will have an effect.",
+    "image": null
+  },
+  {
+    "id": "5C2-1",
+    "level": "foundation",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Which statement about propagation is correct?",
+    "options": {
+      "A": "The HF band suffers attenuation from heavy rain, especially in the winter.",
+      "B": "Attenuation due to snow and ice affects UHF and higher frequency signals.",
+      "C": "UHF signals have shorter wavelengths and pass between individual snowflakes.",
+      "D": "The attenuation of radio signals is largely independent of frequency."
+    },
+    "correct": "B",
+    "explanation": "UHF and above can suffer increased attenuation in heavy rain, snow and ice.",
+    "image": null
+  },
+  {
+    "id": "5C3-1",
+    "level": "foundation",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Which action is likely to result in the best performance on transmit and receive?",
+    "options": {
+      "A": "Fixing the antenna on a short pole in the garden.",
+      "B": "Mounting the antenna above the chimney on the house.",
+      "C": "Hanging the antenna in the loft.",
+      "D": "Using a power amplifier to boost the transmitted signal."
+    },
+    "correct": "B",
+    "explanation": "Getting the antenna up in the clear and above roofs can make quite an improvement as well as reducing the likelihood of causing interference.",
+    "image": null
+  }
+]

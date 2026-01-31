@@ -1,0 +1,450 @@
+[
+  {
+    "id": "2A1-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A flow of current in an insulator is",
+    "options": {
+      "A": "the movement of electrons.",
+      "B": "the movement of neutrons.",
+      "C": "not possible.",
+      "D": "only possible with DC."
+    },
+    "correct": "C",
+    "explanation": "C. Insulators do not support an electric current by definition.",
+    "image": null
+  },
+  {
+    "id": "2A1-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which one of the materials is a conductor?",
+    "options": {
+      "A": "Brass.",
+      "B": "Ceramic.",
+      "C": "Plastic.",
+      "D": "Rubber."
+    },
+    "correct": "A",
+    "explanation": "A. Brass is a metal and a good conductor, the others are insulators.",
+    "image": null
+  },
+  {
+    "id": "2A1-3",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "James is in the rain clearing leaves from the gutter of his house which has an overhead mains electricity supply. He has a small rake with a long wooden handle so feels safe to work close to the overhead wires. He gets a painful electric shock when the rake touches the wires. Why?",
+    "options": {
+      "A": "Wood is a good conductor of electricity.",
+      "B": "The current can flow through the wet surface of the handle.",
+      "C": "He was holding the ladder with his other hand.",
+      "D": "He had left the power on at the main switch inside his house."
+    },
+    "correct": "B",
+    "explanation": "B. Wood is a reasonable insulator when dry but becomes a conductor when wet by absorbing water or through surface water. Holding a metal ladder with the other hand will likely make matters worse but switching on or off inside the house will have no effect on the power outside.",
+    "image": null
+  },
+  {
+    "id": "2A2-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a battery in a battery holder and a bulb. In order to make the bulb light it is necessary to make wire connections from",
+    "options": {
+      "A": "point 1 to point 2.",
+      "B": "point 1 to point 3.",
+      "C": "point 1 to point 2 and point 3 to point 4.",
+      "D": "point 1 to point 3 and point 2 to point 4."
+    },
+    "correct": "D",
+    "explanation": "D. A complete circuit which includes both the battery and the bulb is needed.",
+    "image": "C2_Found_2A2-1.png"
+  },
+  {
+    "id": "2A2-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a number of resistors in series each with a voltmeter to measure the voltage across each resistor and an ammeter to measure the current through it. Meter A1 reads 3A. What will meter A3 read?",
+    "options": {
+      "A": "zero.",
+      "B": "1A.",
+      "C": "2A.",
+      "D": "3A."
+    },
+    "correct": "D",
+    "explanation": "D. In a series circuit there is the same current, 3A, round the entire circuit.",
+    "image": "C2_Found_2A2-2.png"
+  },
+  {
+    "id": "2A2-3",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which two resistors have the same voltage across them?",
+    "options": {
+      "A": "R1 and R2.",
+      "B": "R3 and R4.",
+      "C": "R1 and R3.",
+      "D": "R2 and R4."
+    },
+    "correct": "B",
+    "explanation": "B. Items in parallel have the same voltage across them, in this case R3 and R4.",
+    "image": "C2_Found_2A2-3.png"
+  },
+  {
+    "id": "2B1-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "If the power P and supply voltage (potential difference) V of a torch bulb are known, the current I drawn may be found using the formula",
+    "options": {
+      "A": "I = P/V.",
+      "B": "I = V/P.",
+      "C": "I = P x V.",
+      "D": "I = P + V."
+    },
+    "correct": "A",
+    "explanation": "A. The normal way of remembering this is power equals voltage *current, P=VxI. Dividing both sides by V leads to I=P/V, or use the triangle but you do then need to remember it correctly.",
+    "image": null
+  },
+  {
+    "id": "2B1-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A radio transmitter runs from 12V and draws a current of 2A. What is the power supplied to the radio?",
+    "options": {
+      "A": "6W.",
+      "B": "12W.",
+      "C": "14W.",
+      "D": "24W."
+    },
+    "correct": "D",
+    "explanation": "D. Using P=VxI gives 12x2 = 24W",
+    "image": null
+  },
+  {
+    "id": "2B1-3",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A travel hair dryer is marked 120V, 720W. When operating the current drawn will be",
+    "options": {
+      "A": "6W.",
+      "B": "6A.",
+      "C": "12W.",
+      "D": "12A."
+    },
+    "correct": "B",
+    "explanation": "B. This looks like an American or Canadian device which can't be used in the UK. However with a 120V supply the current is I=P/V = 720/120 = 6A.",
+    "image": null
+  },
+  {
+    "id": "2C1-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a battery connected to a bulb via a resistor R. Increasing the value of R will",
+    "options": {
+      "A": "make the bulb glow brighter.",
+      "B": "reduce the brilliance of the bulb.",
+      "C": "have no effect on the brightness of the bulb.",
+      "D": "cause the bulb to 'blow'."
+    },
+    "correct": "B",
+    "explanation": "B. Resistors tend to resist or reduce the current so increasing the resistor value will reduce the current and the bulb will be less bright.",
+    "image": "C2_Found_2C1-1.png"
+  },
+  {
+    "id": "2C1-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A car headlamp is drawing 6A from a 12V supply. The resistance of the headlamp is",
+    "options": {
+  "A": "0.5Ω (1/2Ω)",
+  "B": "2Ω.",
+  "C": "6Ω.",
+  "D": "18Ω."
+},
+    "correct": "B",
+    "explanation": "B. R=V/I, from Ohm's Law or the VIR triangle, so R = 12V/6A = 2ohm.",
+    "image": null
+  },
+  {
+    "id": "2C1-3",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The mains supply is 230V. An electric kettle is plugged in which has a resistance of 23Ω, what current will flow?",
+    "options": {
+      "A": "10A.",
+      "B": "23A.",
+      "C": "30A.",
+      "D": "253A."
+    },
+    "correct": "A",
+    "explanation": "A. I=V/R which is 230V/230 = 10A",
+    "image": null
+  },
+  {
+    "id": "2C1-4",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An extension lead has four sockets on one end and a 13A plug at the other. It is supplying a desk lamp drawing 0.5A, a power supply drawing 2A, an electric heater drawing 7A and a coffee maker drawing 3A. What is the current in the lead?",
+    "options": {
+      "A": "7A.",
+      "B": "7.5A.",
+      "C": "12.5A.",
+      "D": "13A."
+    },
+    "correct": "C",
+    "explanation": "C. The lead is being asked to supply current to four items at the same time. The total current is the sum of the current in each item. Itotal = 0.5+2+7+3=12.5A. That is close to the maximum load. If it was a coiled lead then it must be fully unwound or it is very likely to get too hot. If the lead isn't rated for 13A then the plug MUST have a lower rated fuse.",
+    "image": null
+  },
+  {
+    "id": "2C2-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a number of resistors in series, each with a voltmeter to measure the voltage across each resistor and an ammeter to measure the current through it. V1 reads 6V, V2 reads 2V and V3 reads 8V. What is the battery voltage?",
+    "options": {
+      "A": "8V.",
+      "B": "16V.",
+      "C": "14V.",
+      "D": "5V."
+    },
+    "correct": "B",
+    "explanation": "B. The voltage across a number of resistors in series is the sum of the voltages across each one. Here VTotal 6+2+8 16V.",
+    "image": "C2_Found_2C2-1.png"
+  },
+  {
+    "id": "2C4-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The battery is inserted the wrong way round in a small torch, which has a filament bulb, but a connection is made. The torch will",
+    "options": {
+      "A": "work perfectly well.",
+      "B": "not work until the battery is replaced the right way round.",
+      "C": "not work until the battery is turned round and the bulb is replaced.",
+      "D": "get very hot and possibly catch fire."
+    },
+    "correct": "A",
+    "explanation": "A. Filament bulbs have a very thin wire made of tungsten which can stand being white hot. Energy is expended getting through the thin wire causing the heating. Polarity is not relevant and the bulb would be equally good on AC of the correct voltage.",
+    "image": null
+  },
+  {
+    "id": "2C4-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "When repairing a broken battery clip in a domestic radio the two leads were accidently reversed. The effect of this is that the radio",
+    "options": {
+      "A": "continues to work normally.",
+      "B": "works when a new battery is fitted.",
+      "C": "will work when the leads are corrected.",
+      "D": "might not work when the leads are corrected."
+    },
+    "correct": "D",
+    "explanation": "D. Electronic devices and LEDs are sensitive to polarity. Certainly they won't work with the wrong polarity and it is quite likely they will be damaged so they won't work when the polarity is corrected.",
+    "image": null
+  },
+  {
+    "id": "2E1-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "If the polarity of a power supply is continuously changing then it is known as",
+    "options": {
+      "A": "a DC supply.",
+      "B": "an AC supply.",
+      "C": "an HF supply.",
+      "D": "an audio supply."
+    },
+    "correct": "B",
+    "explanation": "B. An alternating current is one where the polarity continuously changes.",
+    "image": null
+  },
+  {
+    "id": "2E2-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing is a representation of a",
+    "options": {
+      "A": "sine wave.",
+      "B": "DC supply current.",
+      "C": "radio wave.",
+      "D": "square wave."
+    },
+    "correct": "A",
+    "explanation": "A. The drawing is three complete cycles of a sine wave.",
+    "image": "C2_Found_2E2-1.png"
+  },
+  {
+    "id": "2E2-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "For amateur radio communication purposes the range of audio frequencies required is about",
+    "options": {
+      "A": "50Hz.",
+      "B": "20Hz to 15kHz.",
+      "C": "300Hz to 3kHz.",
+      "D": "3MHz to 30MHz."
+    },
+    "correct": "C",
+    "explanation": "C. We can hear a wide range of frequencies but 300Hz to 3kHz is adequate for voice communication.",
+    "image": null
+  },
+  {
+    "id": "2E2-3",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What are the lower and upper limits of the HF (high frequency) band?",
+    "options": {
+      "A": "300kHz to 3MHz.",
+      "B": "1MHz to 10MHz.",
+      "C": "3MHz to 30MHz.",
+      "D": "10MHz to 100MHz."
+    },
+    "correct": "C",
+    "explanation": "C. A remember it question. The HF band is 3 to 30MHz.",
+    "image": null
+  },
+  {
+    "id": "2E7-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The wavelength corresponding to a frequency of 10MHz is",
+    "options": {
+      "A": "10m.",
+      "B": "30m.",
+      "C": "50m.",
+      "D": "100m."
+    },
+    "correct": "B",
+    "explanation": "B. Two ways of tackling this question. Using the graph look along the horizontal (X) axis to find 10MHz. Look straight up along the vertical line to meet the thick diagonal one. At that point look horizontally to the left, also along a line, to the vertical (Y) axis. Note that point. It is between the 20 on the line below and 40 on the line above. Your line is 30, that is 30m wavelength. Alternatively calculate the wavelength from A = 300/f when f is the frequency in MHz. That gives X = 300/10 = 30m.",
+    "image": null
+  },
+  {
+    "id": "2E7-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An old radio receiver has its tuning dial marked in wave-length. When set to a wavelength of 40m, the frequency will be about",
+    "options": {
+      "A": "3MHz.",
+      "B": "7MHz.",
+      "C": "15MHz.",
+      "D": "70MHz."
+    },
+    "correct": "B",
+    "explanation": "B. On the graph find 40m on the vertical (Y) axis. Look horizontally along the line to the thick diagonal. Now drop vertically down to the horizontal (X) axis. You should be between 7 and 8MHz. The nearest answer is 7MHz so pick that. Particularly when using graphs there is always the possibility of a small error so giving a very precise answer might not be sensible. If very good accuracy matters then calculate the answer. The calculation is f = 300/(waveLenght) = 300/40 = 7.5MHz remember this formula gives the answer in MHz.",
+    "image": null
+  },
+  {
+    "id": "2F1-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a",
+    "options": {
+      "A": "steady signal.",
+      "B": "analogue signal.",
+      "C": "DC signal.",
+      "D": "digital signal."
+    },
+    "correct": "D",
+    "explanation": "D. The signal only adopts two levels and moves (more or less) instantly between them. It is a digital signal.",
+    "image": "C2_Found_2F1-1.png"
+  },
+  {
+    "id": "2F1-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A feature of digital signals is that they",
+    "options": {
+      "A": "can adopt any level within set limits.",
+      "B": "can be either AC or DC.",
+      "C": "are limited to pre-set levels.",
+      "D": "are only able to adopt one level."
+    },
+    "correct": "C",
+    "explanation": "C. A digital signal can only adopt pre-set levels, often only two but not always.",
+    "image": null
+  },
+  {
+    "id": "2F2-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The device marked X in the block diagram of a radio receiver is",
+    "options": {
+      "A": "an analogue to digital converter.",
+      "B": "a digital to analogue converter.",
+      "C": "an analogue amplifier.",
+      "D": "a digital amplifier."
+    },
+    "correct": "A",
+    "explanation": "A. The signal from the antenna can adopt any level, it is an analogue signal. It needs to be sampled and digitised into a form suitable for the digital processor. The box is an analogue to digital converter, ADC.",
+    "image": "C2_Found_2F2-1.png"
+  },
+  {
+    "id": "2F2-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The device marked X in the block diagram of a radio transmitter is",
+    "options": {
+      "A": "an analogue to digital converter.",
+      "B": "a digital to analogue converter.",
+      "C": "an analogue processor.",
+      "D": "a digital processor."
+    },
+    "correct": "B",
+    "explanation": "B. The processor output is a digital signal. It needs to be changed to analogue for transmission. The box is a digital to analogue converter, DAC.",
+    "image": "C2_Found_2F2-2.png"
+  },
+  {
+    "id": "2J1-1",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A reversible chemical process is a feature of a",
+    "options": {
+      "A": "primary cell.",
+      "B": "secondary cell.",
+      "C": "diode.",
+      "D": "crystal."
+    },
+    "correct": "B",
+    "explanation": "B. Areversible process suggests a battery or cell can be charged, discharged and re-charged again. A secondary cell.",
+    "image": null
+  },
+  {
+    "id": "2J1-2",
+    "level": "foundation",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "When a primary cell or battery is discharged it should be",
+    "options": {
+      "A": "recharged using the recommended charger.",
+      "B": "placed in the normal household waste.",
+      "C": "disposed of according to local authority procedures.",
+      "D": "dismantled to reclaim the active components."
+    },
+    "correct": "C",
+    "explanation": "C. A primary cell is not rechargeable and should be disposed of according to the procedures used by the waste disposal company.",
+    "image": null
+  }
+]

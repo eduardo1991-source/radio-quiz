@@ -1,0 +1,274 @@
+[
+  {
+    "id": "4A1-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The reason twin feeder does not radiate is that the",
+    "options": {
+      "A": "fields round each conductor are equal and in phase.",
+      "B": "fields round each conductor are equal and opposite.",
+      "C": "two conductors both have earthed screens.",
+      "D": "two conductors have a common earthed screen."
+    },
+    "correct": "B",
+    "explanation": "The currents and voltage are equal and opposite on the two conductors of a correctly connected twin feeder. The radiation from each conductor is equal and opposite so cancels out to nothing. There is a field between the conductors and close to them where the distance to each conductor can be noticeably different.",
+    "image": null
+  },
+  {
+    "id": "4A1-2",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "In a rectangular waveguide the",
+    "options": {
+      "A": "shortest side should be greater than half a wavelength at the frequency of operation.",
+      "B": "shortest side should be greater than a wavelength at the frequency of operation.",
+      "C": "longest side should be greater than half a wavelength at the frequency of operation.",
+      "D": "longest side should be greater than a wavelength at the frequency of operation."
+    },
+    "correct": "C",
+    "explanation": "Waveguide acts as its name suggests, the signal is an RF wave constrained by the metal rectangular tube of the guide. Signals will only propagate along it if the larger dimension is greater than half a wavelength. Below that dimension the RF cannot form an electromagnetic wave.",
+    "image": null
+  },
+  {
+    "id": "4A1-3",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "Waveguide would be most appropriate to use at a frequency of",
+    "options": {
+      "A": "435MHz.",
+      "B": "1296MHz.",
+      "C": "3420MHz.",
+      "D": "10460MHz."
+    },
+    "correct": "D",
+    "explanation": "At 10GHz a half wavelength is 1.5cm; the waveguide must be a little bigger than that in its larger dimension. At 2.4GHz it would be 4.5cm which is getting a bit too big for amateur use. It is used because at the higher frequencies coaxial cable is rather lossy.",
+    "image": null
+  },
+  {
+    "id": "4A2-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A transmitter produces 60W of RF to the feeder, which has a loss of 6dB. The power at the antenna connection will be",
+    "options": {
+      "A": "10W.",
+      "B": "15W.",
+      "C": "30W.",
+      "D": "54W."
+    },
+    "correct": "B",
+    "explanation": "3dB loss is half power. Another 3dB halves it again so one quarter power. 60W is 15W at the far end.",
+    "image": null
+  },
+  {
+    "id": "4A3-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "When a feeder is correctly terminated, the ratio of the RF potential difference to the RF current at the feed point is determined by the",
+    "options": {
+      "A": "length of the feeder.",
+      "B": "output of the transmitter.",
+      "C": "relative dimensions of the conductors.",
+      "D": "wavelength of the transmitted signal."
+    },
+    "correct": "C",
+    "explanation": "The characteristic impedance of the feeder is determined by the relative dimensions of the conductors. Correctly terminated means the load resistance is equal to that value, whatever it happens to be.",
+    "image": null
+  },
+  {
+    "id": "4B1-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A choke balun is used for",
+    "options": {
+      "A": "impedance matching.",
+      "B": "connecting twin feeder to an HF dipole.",
+      "C": "minimising current on the outside of coaxial braid.",
+      "D": "connecting coaxial cable to a 5/8 ground plane antenna."
+    },
+    "correct": "C",
+    "explanation": "A choke balun is made by string several ferrite rings over the cable or coiling the cable into a number of turns. The purpose is that the inductance introduced minimises the RF current on the outside of the (coax) braid.",
+    "image": null
+  },
+  {
+    "id": "4C2-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "What is the beam width of the antenna with the polar diagram shown?",
+    "options": {
+      "A": "Angle 1.",
+      "B": "Angle 2.",
+      "C": "Angle 3.",
+      "D": "Angle 4."
+    },
+    "correct": "B",
+    "explanation": "The beam width of an antenna is the total angle over which the field strength of the RF beam is within 3dB (half power) of the peak value.",
+    "image": "C4_Inter_4C2-1.png"
+  },
+  {
+    "id": "4C4-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The gain of a particular Yagi antenna is 6dB better than a dipole. This may be expressed as",
+    "options": {
+      "A": "2.15dBi.",
+      "B": "6.0dBi.",
+      "C": "3.85dBi.",
+      "D": "8.15dBi."
+    },
+    "correct": "D",
+    "explanation": "A dipole does not radiate off the ends so its radiation off the side, at 90°, which is its maximum, must be better than an antenna which does radiate equally in all directions. Such an antenna is called an isotropic antenna. The improvement is 2.15dB. A dipole has a gain with respect to isotropic of 2.15dBi; the 'i' signifying the reference is isotropic. If the Yagi is 6dB better than a dipole (6dBd) then it is 6+2.15 = 8.15dB better than isotropic, written as 8.15dBi.",
+    "image": null
+  },
+  {
+    "id": "4C5-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "To achieve longer distances using HF the radiated signal should",
+    "options": {
+      "A": "have a high angle of radiation.",
+      "B": "have a low angle of radiation.",
+      "C": "be directed towards a great circle.",
+      "D": "be directed away from a great circle."
+    },
+    "correct": "B",
+    "explanation": "If the RF wave leaves the antenna at as low a vertical angle as possible it will travel the greatest distance before meeting the ionosphere to be refracted back to earth.",
+    "image": null
+  },
+  {
+    "id": "4C6-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A dipole antenna has a feed point impedance of 700 at its designed frequency and is fed by 500 coaxial cable with a suitable balun which does not affect the coax impedance. On transmit the RF voltage at the antenna is 50V. What is the current at the antenna input?",
+    "options": {
+      "A": "1A.",
+      "B": "0.71A.",
+      "C": "0.5A.",
+      "D": "0.36A."
+    },
+    "correct": "B",
+    "explanation": "This is a straightforward Ohm's Law question wrapped up in a feeder/antenna scenario. Simplistically there is 50V across a 70Ω resistance, what is the current? I=V/R = 50/70 = 0.71A. The impedance of the feeder is not important in this question. The voltage and reflected power might be different with a different feeder, but we are told the voltage at the antenna input is 50V which settles the matter; 50V across 70Ω.",
+    "image": null
+  },
+  {
+    "id": "4D1-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "Which is the shortest RF element on a Yagi",
+    "options": {
+      "A": "director.",
+      "B": "reflector.",
+      "C": "boom.",
+      "D": "driven element."
+    },
+    "correct": "A",
+    "explanation": "The shortest element is the director. The driven element is λ/2, the reflector is longer, directors are shorter. With multiple directors some designs taper the directors with the one furthest from the driven dipole element being the shortest.",
+    "image": null
+  },
+  {
+    "id": "4D2-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A wire dipole antenna is fitted with two parallel tuned circuits in each half of the dipole. The purpose of this is to",
+    "options": {
+      "A": "reduce the overall length of the dipole.",
+      "B": "allow the dipole to resonate on two bands.",
+      "C": "allow the dipole to resonate on three bands",
+      "D": "increase the impedance to match open wire feeder."
+    },
+    "correct": "C",
+    "explanation": "The parallel tuned circuits are called traps. At resonance they form a high impedance so the RF does not see the outer portion of the dipole and is therefore resonant on the shorter length, a higher frequency. With two traps each side it is resonant on the full length, the lowest frequency, then the next higher frequency uses the outer traps to cut of the outermost portion, and finally the highest frequency traps cut off both outer sections. It is resonant on three bands.",
+    "image": null
+  },
+  {
+    "id": "4D2-2",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "A dipole is to be used on the 20 and 40m bands and has a tuned circuit trap fitted 5m from the centre in each arm of the dipole. The theory behind this idea is that",
+    "options": {
+      "A": "the trap is resonant at the lower frequency allowing the full length of the dipole to be used.",
+      "B": "the trap is resonant at the higher frequency allowing the full length of the dipole to be used.",
+      "C": "the trap is resonant at the lower frequency cutting off the outer lengths of the dipole.",
+      "D": "the trap is resonant at the higher frequency cutting off the outer lengths of the dipole."
+    },
+    "correct": "D",
+    "explanation": "The traps are resonant on the higher of the two frequencies where the traps electrically cut off the outer section of each dipole arm.",
+    "image": null
+  },
+  {
+    "id": "4E1-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "Standing waves on a feeder are an indication that",
+    "options": {
+      "A": "the antenna feed point impedance is the same as that of the feeder.",
+      "B": "the signal from the transmitter is being radiated by the antenna.",
+      "C": "the transmitter will see a different impedance to that of the feeder.",
+      "D": "power is being reflected at the transmitter."
+    },
+    "correct": "C",
+    "explanation": "The reflected signal causes standing waves which change the current and voltage cyclically down the feeder depending on the exact location in the standing wave. The V/I value at the transmitter will depend on the precise position in the wave but it won't be the same as the feeder characteristic impedance.",
+    "image": null
+  },
+  {
+    "id": "4F1-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The purpose of an Antenna Tuning Unit is to",
+    "options": {
+      "A": "adjust the antenna to the correct length for the transmitted signal.",
+      "B": "match the wavelength of the signal to that of the antenna.",
+      "C": "change the impedance the feeder presents to the transmitter.",
+      "D": "resonate the antenna at the transmitted frequency."
+    },
+    "correct": "C",
+    "explanation": "The Antenna Tuning Unit, more accurately called an Antenna Matching Unit changes the impedance presented by the feeder to a value best suited to the transmitter, normally 50Ω resistive with no capacitive or inductive component. Placed at the transmitter end of the feeder it has no effect on the connection between the feeder and antenna.",
+    "image": null
+  },
+  {
+    "id": "4F1-2",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "The drawing shows the arrangement of a particular HF station set to 7.1MHz. When adjusting the AMU the SWR on the feeder will",
+    "options": {
+      "A": "vary as the antenna comes in and out of resonance.",
+      "B": "vary as the AMU is adjusted to reduce the SWR at the transmitter.",
+      "C": "remain constant despite the variations in setting of the AMU.",
+      "D": "remain constant as will the SWR on the transmitter side of the AMU."
+    },
+    "correct": "C",
+    "explanation": "The SWR on the feeder is determined by the feed impedance of the antenna. The AMU will not affect that. The AMU will set the SWR seen by the transmitter to 1:1 or very close to 1:1.",
+    "image": "C4_Inter_4F1-2.png"
+  },
+  {
+    "id": "4G1-1",
+    "level": "intermediate",
+    "chapter": 4,
+    "source": "chapter",
+    "question": "To ensure the RF field only exists inside a coaxial cable it is necessary to ensure that",
+    "options": {
+      "A": "the outer braid or screen is electrically continuous from the cable to the plug and to the socket.",
+      "B": "the inner conductor is properly located and soldered to the pin in the centre of the plug.",
+      "C": "the rubber gasket ring that fits round the cable inside the plug is correctly located and compressed.",
+      "D": "there are no nicks or abrasions in the plastic outer of the cable that might expose the braid."
+    },
+    "correct": "A",
+    "explanation": "It is essential to maintain a continuous screen from end to end through all plugs and sockets to keep the RF field between the inner conductor and the inside of the screening braid. Any break will allow RF currents in the braid to radiate in a similar way to an unscreened single wire.",
+    "image": null
+  }
+]

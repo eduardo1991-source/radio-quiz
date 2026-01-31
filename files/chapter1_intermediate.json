@@ -1,0 +1,322 @@
+[
+  {
+    "id": "1A2-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When operating from an aircraft your transmit power is limited to",
+    "options": {
+      "A": "500mW.",
+      "B": "500 mW ERP.",
+      "C": "500mW EIRP.",
+      "D": "1W ERP"
+    },
+    "correct": "C",
+    "explanation": "The Schedule shows that all airborne operation is limited to 500mW EIRP.",
+    "image": null
+  },
+  {
+    "id": "1B1-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "If you visit an amateur friend and operate on-air under their supervision then you must",
+    "options": {
+      "A": "give your own callsign in identification because it is you that is speaking.",
+      "B": "obey the terms and conditions of your friend's amateur radio licence.",
+      "C": "stick to the terms and conditions of your amateur radio licence.",
+      "D": "give your callsign adding 'stroke s' and then your friend's callsign."
+    },
+    "correct": "B",
+    "explanation": "(6-6) If you are being supervised then the supervisor's licence conditions apply and you give their callsign.",
+    "image": null
+  },
+  {
+    "id": "1B1-2",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "If an amateur friend visits your station and operates under your supervision then your friend must",
+    "options": {
+      "A": "only operate if you remain somewhere in the house.",
+      "B": "follow the terms and conditions of his or her own licence.",
+      "C": "follow the terms and conditions of your licence.",
+      "D": "enter his or her callsign and signature in your Log."
+    },
+    "correct": "C",
+    "explanation": "(6-6) The supervisor's licence applies.",
+    "image": null
+  },
+  {
+    "id": "1B1-3",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "According to the licence the Radio Equipment being used is the equipment of the person",
+    "options": {
+      "A": "whose callsign is given in identification of the station.",
+      "B": "whose details are recorded by Ofcom as the Main Station Address.",
+      "C": "who is the legal owner of the radio equipment concerned.",
+      "D": "who is actually speaking into the microphone of the station."
+    },
+    "correct": "A",
+    "explanation": "The applicable rules are those of the licence authorising the callsign use.",
+    "image": null
+  },
+  {
+    "id": "1C1-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "During a disaster which has occurred in another country, you may",
+    "options": {
+      "A": "communicate with any non-amateur station.",
+      "B": "hear non-amateur stations on amateur bands.",
+      "C": "communicate with amateur stations in the disaster area only if you are a member of Raynet or similar organisation.",
+      "D": "receive a compulsory instruction to close down from the International Telecommunication Union (ITU)."
+    },
+    "correct": "B",
+    "explanation": "Clause (6-5b). If you are actually involved there may be occasion where you can communicate with a nonamateur station, but only those directly involved with the disaster. Raynet is a body of amateurs who train for such situations but the amateur licence is the same for everybody.",
+    "image": null
+  },
+  {
+    "id": "1C2-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "You may use your radio to",
+    "options": {
+      "A": "pass messages for a mobile ice cream salesman.",
+      "B": "assist a news reporter get a message back to his editor.",
+      "C": "support an operation conducted by a user service.",
+      "D": "help a local market trader order fresh supplies for his stall."
+    },
+    "correct": "C",
+    "explanation": "Clause (6-5b) and (6-19) Either you or a User service member may pass a Message in an exercise or emergency.",
+    "image": null
+  },
+  {
+    "id": "1C2-2",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "A member of a user service asks to borrow your radio to pass a message to his control which also has an amateur station. What does your Intermediate licence permit you to do?",
+    "options": {
+      "A": "Allow him to use your radio equipment.",
+      "B": "Only agree if that person has an amateur radio licence.",
+      "C": "Say that you must pass the message yourself.",
+      "D": "Apologise and decline the request."
+    },
+    "correct": "A",
+    "explanation": "A user service member may borrow, that is have and operate, your equipment, albeit under your supervision. B and D are wrong. You don't have to pass the message yourself, but you may do so if that is the better option at the time, making C a wrong answer to the question asked.",
+    "image": null
+  },
+  {
+    "id": "1D1-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The licence requires you to avoid causing any undue interference to",
+    "options": {
+      "A": "any electronic equipment.",
+      "B": "any wireless telegraphy.",
+      "C": "equipment meeting the terms of IR2028.",
+      "D": "equipment compliant with the EMC directive."
+    },
+    "correct": "B",
+    "explanation": "Clause (6-2) and (8-1b). The licence requirement is to not interfere with any wireless telegraphy, a general term for any mode of transmission. Of course it is socially responsible to avoid interference to anything but the licence confines itself to equipment authorised under the Wireless Telegraphy Acts.",
+    "image": null
+  },
+  {
+    "id": "1D1-2",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "If interference occurs to a neighbour's television you may",
+    "options": {
+      "A": "whatever level prevents interference.",
+      "B": "the level specified in the EMC Directive.",
+      "C": "the degree satisfactory to Ofcom.",
+      "D": "the level in CEPT T/R 61-01."
+    },
+    "correct": "C",
+    "explanation": "(6-2) requires you to not cause Undue Interference and (8-1b) includes the words 'in the opinion of a person authorised by Ofcom'. What is Undue may depend in part on the nature of the TV and its installation.",
+    "image": null
+  },
+  {
+    "id": "1D2-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When, if at all, does your licence say can you be required to keep a log?",
+    "options": {
+      "A": "Never.",
+      "B": "When a neighbour complains of interference.",
+      "C": "When Ofcom request you to do so.",
+      "D": "When supervising another person."
+    },
+    "correct": "C",
+    "explanation": "(8-4) Ofcom can require you to keep a log, normally when investigating a problem in the locality.",
+    "image": null
+  },
+  {
+    "id": "1D2-2",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "If your equipment is causing Undue Interference you can be",
+    "options": {
+      "A": "required to modify your equipment.",
+      "B": "given a fixed penalty notice.",
+      "C": "asked to write a letter of apology.",
+      "D": "demonstrate how the problem can be fixed."
+    },
+    "correct": "A",
+    "explanation": "(8-1) Ofcom can require modification, restriction in use or close down as circumstances dictate.",
+    "image": null
+  },
+  {
+    "id": "1E1-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The link used to control a remote main transceiver must",
+    "options": {
+      "A": "not be installed in an amateur radio band.",
+      "B": "be in an amateur radio band above 70MHz.",
+      "C": "be secure from control by other amateurs.",
+      "D": "be limited to the minimum necessary power."
+    },
+    "correct": "C",
+    "explanation": "Clause (6-10a) The link can use any technology but must be secure from control by others. It must not be encrypted if in an amateur band.",
+    "image": null
+  },
+  {
+    "id": "1E1-2",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "You must display a notice on or next to a remotely controlled transceiver. What must it say?",
+    "options": {
+      "A": "The name of the owner.",
+      "B": "The callsign of the owner.",
+      "C": "The home address of the owner.",
+      "D": "The licence number of the owner."
+    },
+    "correct": "D",
+    "explanation": "(6-10d) The licence number will identify you to Ofcom but nobody else.",
+    "image": null
+  },
+  {
+    "id": "1F1-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "As an Intermediate licensee you may operate in France",
+    "options": {
+      "A": "in accordance with Schedule 1 of your UK licence.",
+      "B": "in accordance with the terms of the equivalent French licence.",
+      "C": "only with a written Notice of Variation from Ofcom.",
+      "D": "only if the French authorities give you personal permission."
+    },
+    "correct": "D",
+    "explanation": "The Intermediate licence is only valid in the UK. Note that if the French authorities do give you permission to operate, your 'licence' in France is whatever document they give you. You should get something in writing to produce if your status is queried.",
+    "image": null
+  },
+  {
+    "id": "1G1-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "What is the PEAK level at which the EMF restrictions in the amateur licence apply assuming the average level is NOT breached?",
+    "options": {
+      "A": "10W EIRP",
+      "B": "20W EIRP",
+      "C": "50W EIRP",
+      "D": "100W EIRP"
+    },
+    "correct": "D",
+    "explanation": "The peak level is 100W EIRP or 61W ERP.",
+    "image": null
+  },
+  {
+    "id": "1G1-2",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "When is it necessary to repeat an EMF assessment?",
+    "options": {
+      "A": "Within 5 years of the previous assessment.",
+      "B": "When there is a change to the station which might increase the field strength.",
+      "C": "When revalidating your amateur licence.",
+      "D": "On each anniversary of the coming into force of the electromagnetic field regulations."
+    },
+    "correct": "B",
+    "explanation": "Any change that might result in an increase in the EIRP must be re-assessed for compliance.",
+    "image": null
+  },
+  {
+    "id": "1H1-1",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Which part of the 14MHz amateur band is NOT permitted for use in satellite communications?",
+    "options": {
+      "A": "14.00 - 14.25MHz.",
+      "B": "14.00 - 14.35MHz.",
+      "C": "14.20 - 14.30MHz.",
+      "D": "14.25 - 14.35MHz."
+    },
+    "correct": "D",
+    "explanation": "A free mark for looking it up in the schedule.",
+    "image": null
+  },
+  {
+    "id": "1H1-2",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The schedule to the amateur licence shows",
+    "options": {
+      "A": "how the International Amateur Radio Union (IARU) has chosen to use the amateur bands.",
+      "B": "the frequency bands allocated for amateur use within the United Kingdom.",
+      "C": "how the different users of radio services share the radio frequency spectrum.",
+      "D": "the types of use to which radio amateurs are permitted to put their frequency bands."
+    },
+    "correct": "B",
+    "explanation": "The IARU set out band plans on how we choose to sub-divide our bands. The UK licence does not restrict our band planning within our bands or prescribe the modes of transmission. The non-commercial requirement is in the body of the licence, clause (6-4b), not the schedule.",
+    "image": null
+  },
+  {
+    "id": "1H1-3",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "The frequency 431.50MHz is subject to a transmit power limit of",
+    "options": {
+      "A": "32W.",
+      "B": "40W.",
+      "C": "40W ERP",
+      "D": "50W."
+    },
+    "correct": "C",
+    "explanation": "Free marks are always welcome.",
+    "image": null
+  },
+  {
+    "id": "1H1-4",
+    "level": "intermediate",
+    "chapter": 1,
+    "source": "chapter",
+    "question": "Which frequency band is restricted to transmissions from Space to Earth for satellite operation?",
+    "options": {
+      "A": "1260-1270MHz.",
+      "B": "2400-2450MHz.",
+      "C": "5650-5670MHz.",
+      "D": "5830-5850MHz."
+    },
+    "correct": "D",
+    "explanation": "Take care to find Space to Earth and not Earth to Space, for another free mark.",
+    "image": null
+  }
+]

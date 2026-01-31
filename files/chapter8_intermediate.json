@@ -1,0 +1,194 @@
+[
+  {
+    "id": "8A1-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Which device may still give a nasty electric shock after the power has been switched off?",
+    "options": {
+      "A": "A high value inductor.",
+      "B": "A high voltage capacitor.",
+      "C": "A mains transformer.",
+      "D": "A low-pass filter."
+    },
+    "correct": "B",
+    "explanation": "Capacitors can hold a charge for a long time. The energy stored in a high voltage capacitor can cause injury, and a sudden reaction may cause further injury or fall.",
+    "image": null
+  },
+  {
+    "id": "8A4-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "A suitable fuse to fit in the mains plug of a 20A 12V power supply is",
+    "options": {
+      "A": "1A.",
+      "B": "5A.",
+      "C": "13A.",
+      "D": "25A."
+    },
+    "correct": "B",
+    "explanation": "Read this one carefully. The 20A supply is at 12V so the power rating is 240W. The power supply unit (PSU) won't be 100% efficient but the current drawn from the 230V mains is unlikely to exceed 2A. Choose the 5A fuse from those listed.",
+    "image": null
+  },
+  {
+    "id": "8A6-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When repairing equipment yourself it is important that",
+    "options": {
+      "A": "the manufacturer's warranty has expired.",
+      "B": "an approved make of solder is used.",
+      "C": "the item is on a conductive mat of some kind.",
+      "D": "it is unplugged from the mains supply."
+    },
+    "correct": "D",
+    "explanation": "When repairing the equipment it should be unplugged as well as switched off. Tests may require the power to be connected, but switch off and unplug before working on it.",
+    "image": null
+  },
+  {
+    "id": "8A8-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "A significant feature of vehicle batteries is that",
+    "options": {
+      "A": "they contain corrosive acids.",
+      "B": "they give off oxygen in normal use.",
+      "C": "the available current is quite limited.",
+      "D": "they are sensitive to high levels of RF."
+    },
+    "correct": "A",
+    "explanation": "Of the points listed the most significant is the corrosive content which can cause nasty chemical burns that take a long time to heal and may not fully heal in more severe cases.",
+    "image": null
+  },
+  {
+    "id": "8B2-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Which point is MOST important when using tools?",
+    "options": {
+      "A": "Cutting blades are kept sharp.",
+      "B": "They are protected from getting wet.",
+      "C": "Fingers are kept behind the blade.",
+      "D": "Heavy or padded gloves are worn."
+    },
+    "correct": "C",
+    "explanation": "Most injuries with tools are caused by improper or careless use.",
+    "image": null
+  },
+  {
+    "id": "8B3-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The item being worked on should be held in a vice when",
+    "options": {
+      "A": "using a drill or file.",
+      "B": "it is being soldered.",
+      "C": "there is a risk of swarf.",
+      "D": "wearing protective gloves."
+    },
+    "correct": "A",
+    "explanation": "Drilling, filing, sawing and any other action that applies force to the item being worked means that it must be held secure with all parts of the body behind the tool being used, so the applied pressure is away from the hands and body.",
+    "image": null
+  },
+  {
+    "id": "8B4-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Being hit hard by a chuck key suggests",
+    "options": {
+      "A": "it has been left on the workbench.",
+      "B": "it was left in the chuck of the drill.",
+      "C": "the drill is loose and liable to wander.",
+      "D": "a centre-punch was not properly used."
+    },
+    "correct": "B",
+    "explanation": "Power tools start very rapidly and can eject a chuck key or similar device at considerable speed.",
+    "image": null
+  },
+  {
+    "id": "8B5-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "The purpose of a centre-punch is to",
+    "options": {
+      "A": "mark out the work to help drill or file in the right place.",
+      "B": "identify all the places where a hole needs to be drilled.",
+      "C": "make an indentation so the drill is less likely to wander.",
+      "D": "produce a pilot hole that can be seen from the other side."
+    },
+    "correct": "C",
+    "explanation": "A centre punch makes a small indent in the job so the drill is less likely to wander. Safer and more accurate.",
+    "image": null
+  },
+  {
+    "id": "8B6-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When using a pillar mounted drill",
+    "options": {
+      "A": "goggles need not be worn.",
+      "B": "there is a higher risk of vibration.",
+      "C": "the drill is secure and unlikely to wander.",
+      "D": "it is not possible to leave the key in the chuck."
+    },
+    "correct": "C",
+    "explanation": "A pillar drill holds the work in a vice and the drill bit in a fixed chuck. It is very much less likely to wander or slip. Your hands are also much further away from sharp or moving parts.",
+    "image": null
+  },
+  {
+    "id": "8D1-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Transmitting at 100W to an antenna with modest gain is likely to result in an EMF compliance distance of",
+    "options": {
+      "A": "a few centimetres.",
+      "B": "several metres.",
+      "C": "around 150 metres.",
+      "D": "over a kilometre."
+    },
+    "correct": "B",
+    "explanation": "7m. This is an example quoted in the syllabus. You are not expected to know other situations or use the spreadsheet in the exam.",
+    "image": null
+  },
+  {
+    "id": "8D1-2",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "When operating mobile on 2m at about 50W FM to an antenna on the car roof, you must cease transmitting when",
+    "options": {
+      "A": "you are actually driving the vehicle.",
+      "B": "you pull up outside your house late at night.",
+      "C": "other vehicles are driving past you.",
+      "D": "stationary with pedestrians standing around."
+    },
+    "correct": "D",
+    "explanation": "At this power level the compliance distance is around 3m so people standing nearby will be inside the compliance distance and may remain there for most, if not all, of the 6-minute time period. To avoid exceeding the ICNIRP recommendations you must stop transmitting.",
+    "image": null
+  },
+  {
+    "id": "8E1-1",
+    "level": "intermediate",
+    "chapter": 8,
+    "source": "chapter",
+    "question": "Some protection from static charge collected on antennas can be obtained by",
+    "options": {
+      "A": "a high value resistor connected between the antenna and earth.",
+      "B": "a high value capacitor connected between the antenna and earth.",
+      "C": "only connecting the transmitter to the antenna when required.",
+      "D": "using coaxial cable between the transceiver and the antenna."
+    },
+    "correct": "A",
+    "explanation": "Static charges can collect on antennas even in dry air and from charged raindrops. It does not require a thunderstorm to occur. Larger antennas may hold enough charge to be painful and, being unexpected, may cause you to jerk away causing accident or injury. It is also very likely to damage electronic equipment as the potentials are in the kV range.",
+    "image": null
+  }
+]

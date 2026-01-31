@@ -1,0 +1,338 @@
+[
+  {
+    "id": "7A1-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "One should ask if the frequency is in use because",
+    "options": {
+      "A": "it lets others listening on the frequency know it is about to be used.",
+      "B": "you could interfere with someone listening to a more distant station.",
+      "C": "that is the procedure laid down in the amateur licence.",
+      "D": "it might not be your turn to use that frequency."
+    },
+    "correct": "B",
+    "explanation": "It is possible a station in range of your transmission is already in contact listening to a station outside your range so that your transmissions will cause interference. By asking you avoid the risk.",
+    "image": null
+  },
+  {
+    "id": "7A2-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "The purpose of a much longer CQ call on HF SSB is to",
+    "options": {
+      "A": "overcome the limitations of HF propagation to ensure your call is heard.",
+      "B": "allow people tuning round to tune correctly on to your transmission.",
+      "C": "encourage people listening to reply to you rather than someone else.",
+      "D": "transmit for long enough that other stations realise the frequency is in use."
+    },
+    "correct": "B",
+    "explanation": "There is no calling channel on HF, and on SSB tuning in for clear reception does take a few moments.",
+    "image": null
+  },
+  {
+    "id": "7A3-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "When replying to a CQ call on 2m FM you can expect the person calling CQ to",
+    "options": {
+      "A": "ask you your name and start a conversation.",
+      "B": "give the location and details of their station.",
+      "C": "ask you to wait while they find a clear channel.",
+      "D": "call CQ again to see if anybody else wants to join in."
+    },
+    "correct": "C",
+    "explanation": "On most FM bands there is a designated calling channel, but having made contact courtesy demands you move to an agreed working frequency.",
+    "image": null
+  },
+  {
+    "id": "7A4-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "Which suffix may be used when transmitting from the house of a friend?",
+    "options": {
+      "A": "/P",
+      "B": "/A",
+      "C": "/M",
+      "D": "/T"
+    },
+    "correct": "B",
+    "explanation": "The previous licence specified /A, now retained as common usage.",
+    "image": null
+  },
+  {
+    "id": "7A5-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "The correct phonetic spelling of the word NOVEMBER is",
+    "options": {
+      "A": "november oscar victor echo may bravo echo romeo.",
+      "B": "nut oscar victor echo mike bravo echo rodeo.",
+      "C": "nut oscar victor easy mike bravo easy romeo.",
+      "D": "november oscar victor echo mike bravo echo romeo."
+    },
+    "correct": "D",
+    "explanation": "Practice often, it's an easy way to learn it. Each time you see a car number plate for example.",
+    "image": null
+  },
+  {
+    "id": "7A6-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "It is advised that a Log should be kept recording times in UTC, why UTC?",
+    "options": {
+      "A": "All communications stations worldwide use UTC to avoid the confusion of time zones.",
+      "B": "The licence specifically requires the use of UTC in a log.",
+      "C": "It saves an overlap in the log when changing from GMT to British Summer Time.",
+      "D": "The internet works on UTC so radio communications adopted the same system."
+    },
+    "correct": "A",
+    "explanation": "All international radio stations use UTC simply to avoid confusion of which clock is being used.",
+    "image": null
+  },
+  {
+    "id": "7A7-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "Which action is not considered appropriate when in contact by amateur radio?",
+    "options": {
+      "A": "Playing a short favourite piece of music.",
+      "B": "Discussing the results of a football match seen on TV.",
+      "C": "Giving your name using the phonetic alphabet.",
+      "D": "Discussing a club meeting with another amateur."
+    },
+    "correct": "A",
+    "explanation": "Some years ago the licence did not permit music. It is no longer a licence condition but amateurs have kept the convention of no music.",
+    "image": null
+  },
+  {
+    "id": "7A7-2",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "When calling CQ you receive a reply giving a seemingly valid callsign but using rude language. You should",
+    "options": {
+      "A": "reply to the contact but remain polite.",
+      "B": "reply saying you do not like that kind of language.",
+      "C": "tell the person that you will report them to the RSGB.",
+      "D": "ignore the reply and pretend you had not heard it."
+    },
+    "correct": "D",
+    "explanation": "Amateur culture is mutual respect and polite language. The best way of dealing with any form of abuse is to ignore it, don't reply and, if necessary just find a different frequency. Don't give such people an audience.",
+    "image": null
+  },
+  {
+    "id": "7A8-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "To help avoid causing undue interference it is a good idea to",
+    "options": {
+      "A": "limit transmit powers to the level shown in the licence schedule.",
+      "B": "always listen and ask if the frequency is clear before transmitting.",
+      "C": "keep an eye on the standing wave ratio at the antenna.",
+      "D": "carry out tests with another amateur listening to your transmissions."
+    },
+    "correct": "D",
+    "explanation": "Getting another amateur to listen to your transmission, listen each side for any 'splatter' on to adjacent frequencies and recording the test results in your log will help satisfy you that you are transmitting a good clean signal and also look good if your station is inspected for any reason. There are other tests that the other amateur might try too which are not covered at Foundation level.",
+    "image": null
+  },
+  {
+    "id": "7B1-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "Having just enjoyed a Morse practice session, you decide to listen on-air for a Morse transmission. A likely frequency to listen to is",
+    "options": {
+      "A": "14.055MHz.",
+      "B": "14.120MHz.",
+      "C": "144.725MHz.",
+      "D": "144.900MHz."
+    },
+    "correct": "A",
+    "explanation": "A look up question for the band plan. Telegraphy is in the band from 14.000 to 14.070MHz.",
+    "image": null
+  },
+  {
+    "id": "7B1-2",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "You are trying SSB for the first time at a friend's station. On which 2m frequency should you NOT transmit?",
+    "options": {
+      "A": "144.300MHz",
+      "B": "144.450MHz",
+      "C": "144.650MHz",
+      "D": "144.780MHz"
+    },
+    "correct": "B",
+    "explanation": "The 2m band plan is in the Reference Data booklet (look at it!). 144.400 to 144.490MHz is for propagation beacons only. You will be very unpopular indeed transmitting in that band. Note this is a 'not question. There are only a few 'not' questions in the exam but there are a some things that you specifically must not do and these do need to be examined.",
+    "image": null
+  },
+  {
+    "id": "7B2-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "The frequency 106MHz is used for",
+    "options": {
+      "A": "amateur radio.",
+      "B": "broadcasting.",
+      "C": "land mobile radio.",
+      "D": "space operations."
+    },
+    "correct": "B",
+    "explanation": "Look it up in the Frequency Allocation Table for a free mark.",
+    "image": null
+  },
+  {
+    "id": "7C1-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "To reduce the risk of an amateur on a hilltop transmitting into two repeaters at the same time, the repeaters",
+    "options": {
+      "A": "are all on different radio frequencies.",
+      "B": "on the same radio frequency are too far apart.",
+      "C": "on the same radio frequency have different sub-audio tones.",
+      "D": "are connected together so only the stronger one responds."
+    },
+    "correct": "C",
+    "explanation": "Repeaters have to share a small number of different radio frequencies so it is possible on a hilltop to be in range of two repeaters. Accessing analogue repeaters requires a subaudible tone between 67 and 200Hz",
+    "image": null
+  },
+  {
+    "id": "7C1-2",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "You notice that on a busy repeater the speaker's voice is sometimes overlaid with a series of beeps. This is probably because the",
+    "options": {
+      "A": "signal in to the repeater is on the wrong frequency.",
+      "B": "speaker didn't wait for a reset tone after the previous speaker.",
+      "C": "wrong CTCSS tone for that repeater is being used.",
+      "D": "received signal is much stronger than needed."
+    },
+    "correct": "B",
+    "explanation": "Some repeaters have a timeout limit to allow many people to use the repeater. Overlaying beeps or simply cutting off may be used. When following the previous speaker, allow the repeater to send a 'reset' beep which restarts the clock.",
+    "image": null
+  },
+  {
+    "id": "7C1-3",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "Why is it necessary to have different transmit and receive frequencies when accessing a repeater?",
+    "options": {
+      "A": "To allow more than one user to hold a conversation without interrupting each other.",
+      "B": "To prevent your transmission causing interference to a person in range of both your transmission and the repeater.",
+      "C": "To prevent the repeater transmission causing interference to its own input frequency.",
+      "D": "To allow greater range and coverage area to be achieved without overlapping other repeaters."
+    },
+    "correct": "C",
+    "explanation": "A repeater simultaneously re-transmits its received signal. It will be unable to hear incoming signals from users if it transmits on the same frequency. The repeater output frequency must be sufficiently far away from its input to allow its transmitted signal to be filtered out. At 2m (145MHz) the offset is 600kHz with the input in the range 145.0000MHz to 145.1875MHz and outputs 145.6000 to 145.7875MHz. That is a 12.5kHz spacing and +600kHz offset.",
+    "image": null
+  },
+  {
+    "id": "7C2-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "You notice that on occasions despite normally accessing the local DV repeater easily and receiving a good signal from it, there are occasions where it is quiet but you have difficulty accessing it. A reason might be",
+    "options": {
+      "A": "you have not turned on the CTCSS facility.",
+      "B": "another user is accessing it on analogue FM.",
+      "C": "the repeater's licence has expired.",
+      "D": "the repeater does not recognise your callsign."
+    },
+    "correct": "B",
+    "explanation": "Many DV repeaters also have an existing FM capability and will switch according to the mode of the input signal. If it is being used by an FM station it may be silent and apparently unresponsive to a user with a DV radio. If your handheld also has an FM capability it is worth switching to that and listening to see if it is active.",
+    "image": null
+  },
+  {
+    "id": "7D1-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "When connecting a computer sound card to the socket of your radio you should",
+    "options": {
+      "A": "check that the SWR has not been affected.",
+      "B": "send CQ PC as a call instead of the normal CQ call.",
+      "C": "save the frequency and mode in the radio's memory.",
+      "D": "check the audio level is correct and correct PTT operation."
+    },
+    "correct": "D",
+    "explanation": "Microphone inputs expect signal levels of a few millivolts but computer sound cards often have outputs between 600mV and 1V. A suitable interface is needed to set the audio signal level to the correct value and ensure the push-to-talk (PTT) control works as intended.",
+    "image": null
+  },
+  {
+    "id": "7E2-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "The signal report 5 and 2 means",
+    "options": {
+      "A": "a weak signal and very difficult to read.",
+      "B": "a weak signal but still very clear to read.",
+      "C": "a fairly strong signal but is hard to understand.",
+      "D": "a fairly strong signal and a clear one."
+    },
+    "correct": "B",
+    "explanation": "Signal level reports range from 1 to 9 with 1 being very weak, barely perceptible. Readability is on a 5 point scale with 5 meaning perfectly clear and easy to read (actually listen to and understand). In reality a signal report of 2 would probably get a readability report of 3 or 4 but with only background noise and a perfectly clear channel a 5 and 2 report is possible.",
+    "image": null
+  },
+  {
+    "id": "7F1-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "You are trying without success to access a digital voice repeater while on holiday in the UK. It is a strong signal and a local amateur was using it earlier. One reason might be that",
+    "options": {
+      "A": "your digital transceiver is using a different protocol.",
+      "B": "the wrong CTCSS tone has been selected.",
+      "C": "you are set to the wrong sideband for that repeater.",
+      "D": "you need to make a donation to that repeater society."
+    },
+    "correct": "A",
+    "explanation": "There are a number of different digital voice protocols which are mutually incompatible. It may be that your handheld uses a different one to that repeater. Often that can be checked on the RSGB or the repeater's own website.",
+    "image": null
+  },
+  {
+    "id": "7F1-2",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "When borrowing a friend's digital voice handheld radio one of the things you MUST check is that",
+    "options": {
+      "A": "the radio is working and the battery is fully charged.",
+      "B": "any embedded callsign is reset to your callsign.",
+      "C": "the correct frequency offset is selected.",
+      "D": "the squelch is correctly set."
+    },
+    "correct": "B",
+    "explanation": "Digital voice (DV) radios normally embed the callsign of the owner so it appears in the LCD display of the receiver. It is a licence requirement to correctly identify yourself and it is not acceptable to give a callsign in voice that is different from the digital display. If you borrow (or lend) a radio the embedded callsign must be set correctly for the actual user.",
+    "image": null
+  },
+  {
+    "id": "7G1-1",
+    "level": "foundation",
+    "chapter": 7,
+    "source": "chapter",
+    "question": "Operating on 145.875MHz to talk to a friend across town is not recommended because",
+    "options": {
+      "A": "the short distance is much better suited to the 70cms band.",
+      "B": "your transmissions may interfere with a repeater output frequency.",
+      "C": "it is outside the frequency range available to Foundation licensees.",
+      "D": "it is in part of the band exclusively allocated to satellite contacts."
+    },
+    "correct": "D",
+    "explanation": "A check on the band plan will show that the frequency range 145.806 to 146.000MHz is satellite exclusive. You may be unwittingly accessing a satellite, being heard over part of the UK and Europe, and maybe interfering with another user who you can't hear. The downlink will be in a different amateur band and you may not have equipment for that band.",
+    "image": null
+  }
+]

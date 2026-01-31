@@ -1,0 +1,642 @@
+[
+  {
+    "id": "3A2-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "An FM transmission is regarded as 'narrow band' when",
+    "options": {
+      "A": "only speech or audio signals below 3.5kHz are transmitted.",
+      "B": "the deviation is less than 50% of the peak deviation for the system.",
+      "C": "the modulation index is equal to or less than unity.",
+      "D": "the deviation ratio does not exceed unity."
+    },
+    "correct": "C",
+    "explanation": "The definition of narrow band is where the ratio of the deviation to the audio frequency is less than one. Some amateur transmissions can be slightly over unity but in general terms they are regarded as narrow band which avoids taking up too much spectrum achieving an audio quality greater than that required for reasonable sounding and effective communication.",
+    "image": null
+  },
+  {
+    "id": "3B1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The diagram shows an SSB transmitter. What is the function of the box marked '2'?",
+    "options": {
+      "A": "Modulator.",
+      "B": "Mixer.",
+      "C": "Amplifier.",
+      "D": "Sideband filter."
+    },
+    "correct": "B",
+    "explanation": "Boxes 2 and 4 are both mixers (hint two inputs one output). Box 4 is better known as the modulator where the modulation is at a fixed ‘carrier’ frequency set by the crystal oscillator. That is then mixed up (or down) to the transmit frequency in box 2. Box 1 is a synthesiser allowing the final frequency to be controlled.",
+    "image": "C3_Full_3B1-1.png"
+  },
+  {
+    "id": "3B1-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The modulator of a multi-mode transceiver operates at 4.7MHz. To produce a signal at 14.1MHz the modulator output should be",
+    "options": {
+      "A": "fed to a frequency tripler.",
+      "B": "modulated onto the 14.1MHz carrier.",
+      "C": "mixed with a clean signal on 9.4MHz.",
+      "D": "filtered to remove the image on 11.7MHz."
+    },
+    "correct": "C",
+    "explanation": "Mixing the modulated signal at 4.7MHz with a signal at 9.4MHz will produce outputs at 4.7MHz (9.4-4.7) which must be filtered out and at 14.1MHz (9.4+4.7). A tripler will produce the right carrier frequency but is not suitable for AM or SSB since it will damage the audio sideband(s).",
+    "image": null
+  },
+  {
+    "id": "3C1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The MOST significant effect of drift in a transmitter is that",
+    "options": {
+      "A": "the distant receiver will have to retune periodically to maintain contact.",
+      "B": "the received signal quality will be markedly impaired.",
+      "C": "transmission may occur outside an amateur band.",
+      "D": "interference may be caused to other amateurs."
+    },
+    "correct": "C",
+    "explanation": "The question does not say where in the band the transmission is so it applies to any part of the band. In-band drift is a nuisance to the station contacted, annoying to amateurs on adjacent frequencies and a breach of the licence if drifting out of band. As asked, the event of most significance is out of band transmission. Note if the frequency was stated and clearly well away from the band edge then a question on the most likely unfortunate effect would be annoying other amateurs. Read such questions carefully to be sure of what is being asked.",
+    "image": null
+  },
+  {
+    "id": "3C3-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The block diagram of a frequency synthesiser shows the division ratios and the crystal oscillator frequency. The output frequency is",
+    "options": {
+      "A": "100.4544MHz.",
+      "B": "432.0000MHz.",
+      "C": "436.0000MHz.",
+      "D": "2880.000MHz."
+    },
+    "correct": "C",
+    "explanation": "The reference signal at 6MHz is divided by 480 so the phase comparator operates at 6000/480 = 12.5kHz. The VCO signal is divided by 34880 and that must also be 12.5KHz. The VCO is operating at 12.5 × 34880 = 436000KHz or 436MHz in the 70cm amateur band.",
+    "image": "C3_Full_3C3-1.png"
+  },
+  {
+    "id": "3C3-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The drawing shows an example of a",
+    "options": {
+      "A": "Phase lock loop synthesiser.",
+      "B": "Digital to analogue conversion.",
+      "C": "Direct digital synthesis.",
+      "D": "Analogue sinewave generation."
+    },
+    "correct": "C",
+    "explanation": "The drawing is of a Direct Digital Synthesiser. The sinewave lookup table is probably the best indicator.",
+    "image": "C3_Full_3C3-2.png"
+  },
+  {
+    "id": "3D1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A 9cm transmitter is used to produce an FM signal on 10.260GHz. The transmitter is likely to be set to a frequency of",
+    "options": {
+      "A": "3260MHz.",
+      "B": "3420MHz.",
+      "C": "3456MHz.",
+      "D": "3620MHz."
+    },
+    "correct": "B",
+    "explanation": "If the 9cm source is mixed up then all options can be equally likely. FM signals can be frequency multiplied so divide 10260MHz by the four options and see which one gives an integer answer. 10260/3420 = 3, the 9cm driver transmitter feeds a frequency tripler.",
+    "image": null
+  },
+  {
+    "id": "3E1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "What is the necessary bandwidth of an FM system with a peak deviation of 5kHz and a maximum audio frequency of 3.5kHz?",
+    "options": {
+      "A": "5kHz.",
+      "B": "7kHz.",
+      "C": "10kHz.",
+      "D": "17kHz."
+    },
+    "correct": "D",
+    "explanation": "The rule of thumb is 2×(max deviation+max audio frequency). 2×(5+3.5) = 17KHz. In theory FM has an infinite number of sidebands of diminishing amplitude. The rule, Carson's Rule) is a guide to what is adequate to recover the modulation with good accuracy. It is more useful for wideband FM, i.e. higher modulation indexes, but is an indication for amateur usage.",
+    "image": null
+  },
+  {
+    "id": "3E1-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A data transmitter feeds the binary data signal direct to the modulator of the transmitter, resulting in a 170Hz transmitted frequency shift between a data one and a data zero. Off-air this type of modulation is indistinguishable from",
+    "options": {
+      "A": "feeding the binary data to the microphone socket of an FM transmitter.",
+      "B": "Feeding the binary data to a modem producing two audio tones separated by 170Hz and feeding them to the microphone socket of an FM transmitter.",
+      "C": "Feeding the binary data to a modem producing two audio tones separated by 170Hz and feeding them to the microphone socket of an SSB transmitter.",
+      "D": "Feeding the binary data to the microphone socket of an SSB transmitter."
+    },
+    "correct": "C",
+    "explanation": "This is not an easy question but does get to the heart of different forms of modulation. The stem of the question describes direct modulation producing one radio frequency for a data 0 and another 170Hz different for a data 1. Feeding binary data to the microphone socket fails for two reasons. The voltage levels are likely to be much higher than the few millivolts expected and microphones are analogue, not digital. That rules out options A and D. Feeding two audio tones into the microphone socket on FM is a good system in common use but FM has multiple sidebands, not as described in the stem. Feeding an audio tone into an SSB transmitter will give a single RF signal offset from the notional carrier by the audio frequency, so using two audio tones 170Hz apart will have an identical RF output. It will not be possible, off-air, to know which method was used to produce the signal.",
+    "image": null
+  },
+  {
+    "id": "3F2-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which type of modulation CANNOT use a non-linear external RF power amplifier?",
+    "options": {
+      "A": "Any type of modulation.",
+      "B": "CW modulation.",
+      "C": "SSB modulation.",
+      "D": "FM modulation."
+    },
+    "correct": "C",
+    "explanation": "Non-linear amplifiers can only be used where the RF level does not change, other than simple on or off as in CW. Some data systems appear to be of constant amplitude but do have momentary amplitude variations during the change from one data symbol to the next. They too need linear amplifiers to avoid spurious RF at other frequencies during the change.",
+    "image": null
+  },
+  {
+    "id": "3F2-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "In the context of an electronic circuit what is meant by the term linearity?",
+    "options": {
+      "A": "The circuit has only one input and one output so the output is always a function of the one input.",
+      "B": "The circuit may have more than one input but all of them have an equal effect on the output.",
+      "C": "A given percentage change in the input will result in exactly the same percentage change in the output.",
+      "D": "A graph of the output current plotted against the output voltage will always be a straight line."
+    },
+    "correct": "C",
+    "explanation": "Linearity in an amplifier means that the output is a faithful reproduction of the input with no distortion, no additional frequencies or harmonics that were not present at the input. The only difference is that the signal is bigger.",
+    "image": null
+  },
+  {
+    "id": "3F2-3",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Signals at 3.601MHz and 3.603MHz represent two audio tones SSB modulated on a 3.600MHz suppressed carrier which are fed to a non-linear amplifier. Apart from the wanted signals, possible output frequencies are",
+    "options": {
+      "A": "3.605 MHz and 3.906MHz.",
+      "B": "3.599MHz and 3.607MHz.",
+      "C": "3.604MHz and 3.605MHz.",
+      "D": "3.602MHz and 3.605MHz."
+    },
+    "correct": "B",
+    "explanation": "If an amplifier or other circuit is non-linear then there will be harmonics and intermodulation products (limps) of all the  frequencies present. At RF the harmonics will be way out of band and easily removed by the filters. So will many of the intermodulation products. However frequencies like 3xf1 – 2xf2 will be as far removed from f1 and f2 as f1 and f2 are apart. They will be in-band and particularly if f1 and f2 are from relatively low audio notes then the limps will be on top of other audio frequencies and impossible to filter out. 2x3.601-3x3.603=3.599. 3x3.603-2x3.601 is 3.607. This question is not difficult but does take a bit of time searching for credible frequencies. Leave it to last!",
+    "image": null
+  },
+  {
+    "id": "3F3-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "In the circuit diagram the collector load can be identified as",
+    "options": {
+      "A": "the r.f.c.",
+      "B": "L1.",
+      "C": "L1, C1-3 and the output.",
+      "D": "the transistor."
+    },
+    "correct": "C",
+    "explanation": "The collector load is the component(s) which absorb the signal currents and power. The radio frequency choke, r.f.c. will not pass any RF, only DC to power the transistor. All the amplified RF passes via L1, C1, C2 &C3 to the output load, the feeder and antenna.",
+    "image": "C3_Full_3F3-1.png"
+  },
+  {
+    "id": "3F4-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Employing speech processing in a transmitter will",
+    "options": {
+      "A": "limit the average output power and heat dissipation to safe value.",
+      "B": "increase the average output power and heat dissipation.",
+      "C": "reduce the average output power or heat dissipation.",
+      "D": "not affect the average output power or heat dissipation."
+    },
+    "correct": "B",
+    "explanation": "The aim of speech processing is to limit the peaks of the signal allowing the average output power level to be increased without breaching the licence limits or the limits imposed by the equipment, typically the power amplifier. If the average level is increased then so is the heat dissipation and the demand on the power supply.",
+    "image": null
+  },
+  {
+    "id": "3F5-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The ALC line between the transmitter and external power amplifier (PA)",
+    "options": {
+      "A": "provides a signal from the transmitter to the PA to control the output power.",
+      "B": "provides a signal from the PA to limit or reduce the transmitter output power.",
+      "C": "allows the metering on the transmitter to show the relevant conditions in the PA.",
+      "D": "prevents the PA from being over-modulated."
+    },
+    "correct": "B",
+    "explanation": "The automatic level control (ALC) is a signal fed back from the power amplifier (often external) to the driver transmitter to indicate the drive is higher than the power amplifier can properly handle. It should not be relied on or used to set the upper limit of output power.",
+    "image": null
+  },
+  {
+    "id": "3G1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Over-modulation is most likely to cause",
+    "options": {
+      "A": "unwanted radiation on harmonics of the RF transmitted signal.",
+      "B": "interference caused by harmonics of the audio signal.",
+      "C": "inadequate suppression of the unwanted sideband.",
+      "D": "frequency instability in the transmitted signal."
+    },
+    "correct": "B",
+    "explanation": "Over-modulation means that the maximum excursions of the audio or other input signal is trying to drive the modulator beyond its designed limit. The most likely effect is that the audio signal will be clipped in some way and that will introduce distortion, harmonics and intermodulation products after any frequency limiting in the microphone amplifier (or other source). That means the sidebands will extend beyond the intended bandwidth causing interference to users on adjacent channels or frequencies.",
+    "image": null
+  },
+  {
+    "id": "3G1-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "An amplitude modulated transmission on 14.200MHz is overmodulated. This may cause interference to other stations on",
+    "options": {
+      "A": "14.100MHz.",
+      "B": "14.196MHz.",
+      "C": "28.4MHz.",
+      "D": "42.6MHz."
+    },
+    "correct": "B",
+    "explanation": "As explained in 3G1-1 above the transmitted RF will extend outside the intended frequency band. In this case we are looking for a user just outside a band 3kHz above and below the carrier, i.e. just outside 14.197 to 14.203MHz.",
+    "image": null
+  },
+  {
+    "id": "3G2-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Overdriving an external power amplifier (PA) may cause intermodulation products because",
+    "options": {
+      "A": "the PA will be operated outside its linear range.",
+      "B": "the ALC action will try to shut down the PA.",
+      "C": "the ALC is too slow to respond to the modulation envelope.",
+      "D": "excessive current will flow in the PA output transistors."
+    },
+    "correct": "A",
+    "explanation": "Overdriving the PA will push outside its linear range causing distortion and intermodulation products.",
+    "image": null
+  },
+  {
+    "id": "3G2-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The drive to the power amplifier stage of a transmitter is a bit too high. The most likely effect of this is",
+    "options": {
+      "A": "over-modulation resulting in a loss of audio when on SSB.",
+      "B": "increase in the background noise level on speech.",
+      "C": "a reduction in the stability of the carrier frequency.",
+      "D": "an increase in the bandwidth of the transmitted signal."
+    },
+    "correct": "D",
+    "explanation": "Excess drive to the PA can cause non-linearity and consequent intermodulation products. Odd order products, particularly third order will be close to and even within the wanted signal resulting in an increase in the transmitted bandwidth.",
+    "image": null
+  },
+  {
+    "id": "3G3-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A transmitter is designed to perform all its modulation functions at 5MHz and mix the modulated signal with a signal from a synthesiser which can be multiplied up as required. What type of filter should be provided at the PA output?",
+    "options": {
+      "A": "High-pass filter.",
+      "B": "Low-pass filter.",
+      "C": "Band-pass filter.",
+      "D": "Band-stop filter."
+    },
+    "correct": "C",
+    "explanation": "A low-pass filter will provide some protection against harmonics of the RF but a band-pass filter is needed to protect against radiating lower frequencies present inside the transmitter as part of the overall process.",
+    "image": null
+  },
+  {
+    "id": "3G4-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The circuit diagram shows part of an amplifier for 144MHz. L2 and C2 resonate at 144MHz but there is an unwanted spurious signal caused by L1 and C1 resonating at 2MHz. This parasitic oscillation may be removed by",
+    "options": {
+      "A": "changing C1 from 100nF to 500nF.",
+      "B": "fitting another 100nF capacitor in parallel with L1.",
+      "C": "fitting a 10nF and 10Ω resistor in series from the bottom of L1 to the OV line.",
+      "D": "fitting a 10nF and 10Ω resistor in series from the bottom of L2 to the OV line."
+    },
+    "correct": "C",
+    "explanation": "Changing the values of L1 or C1 may simply change the frequency at which L1 and C1 resonate. It might dampen the resonance but just as likely won't. The cure is to absorb the energy so the oscillation does not occur. A resistor from the bottom of L1 to the OV line achieves that but a capacitor having low reactance at 2MHz is needed as a DC block.",
+    "image": "C3_Full_3G4-1.png"
+  },
+  {
+    "id": "3G5-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A frequency synthesiser may produce the wrong output if",
+    "options": {
+      "A": "the 'out of lock' signal loses control of the VCO in the synthesiser.",
+      "B": "the signals into the phase comparator are on different frequencies.",
+      "C": "division ratios of the programmable divider and crystal divider are different.",
+      "D": "temperature stability of the VCO is not maintained."
+    },
+    "correct": "B",
+    "explanation": "A phase lock loop synthesiser (PLL) is in lock when the two signals into the phase comparator are equal and it is their phase difference that is controlling the VCO frequency. A demand for a rapid frequency change or a momentary spike or break in the DC supply can cause loss of lock such that the frequency from the two frequencies to be different. A well designed circuit will re-establish lock but during that time an out-of-lock signal is needed to inhibit transmission of an uncontrolled signal.",
+    "image": null
+  },
+  {
+    "id": "3H3-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A radio receiver can just resolve a signal at a level of 0.16uV (-123dBm) and the maximum signal before overloading is 10mV (-27dBm). What is its dynamic range?",
+    "options": {
+      "A": "27dB.",
+      "B": "96dB.",
+      "C": "123dB.",
+      "D": "150dB."
+    },
+    "correct": "B",
+    "explanation": "The dynamic range is simply the range, in dB between the weakest resolvable signal and the maximum before the onset of non-linearity due to overload. 123-27 = 96dB. Note, both levels were in the same unit, dBm, and had the same sign, negative. If the units or sign are different then care is needed to put then in the same units.",
+    "image": null
+  },
+  {
+    "id": "3H3-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Listening close to the top of the 7MHz band it is noticed that weak signals become much easier to resolve in the late afternoon when a broadcast station on 7.22MHz ceases transmission. It is well over 30kHz away so it was not expected to be a problem with a 2.7kHz SSB filter on the wanted signal. A likely cause is",
+    "options": {
+      "A": "the SSB filter is not quite as good as expected.",
+      "B": "the broadcast station has excessively wide sidebands.",
+      "C": "intermodulation products in the receiver front end.",
+      "D": "driving the AGC in time with the broadcast modulation."
+    },
+    "correct": "C",
+    "explanation": "The 2.7kHz filter will be in the receiver IF. The strong broadcast signal on 7.22MHz will be inside the bandwidth of the RF front end amplifier and is evidently overloading it. That is causing multiple intermodulation products seen as a general increase in the noise floor for several kHz around the broadcast and masking the wanted signal. It might be that a small input attenuator will reduce the overload and Imps without reducing the wanted signal so much that it is then unusable.",
+    "image": null
+  },
+  {
+    "id": "3I3-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The diagram shows a double superhet for HF that mixes all incoming signals to a first IF above the HF band. To what frequency should LO2 be set?",
+    "options": {
+      "A": "12.650MHz.",
+      "B": "38.900MHz.",
+      "C": "66.400MHz.",
+      "D": "69.700MHz."
+    },
+    "correct": "C",
+    "explanation": "This is a matter of trying the four possibilities. 53.75+14.25 = 68MHz as IF1. Mix with LO2 at 66.4MHz gives an IF2 of 1.6MHz.",
+    "image": "C3_Full_3I3-1.png"
+  },
+  {
+    "id": "3I3-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A general coverage receiver is required to tune over the range 600kHz to 1600kHz and uses readily available IF components at 465kHz. The best choice for the local oscillator tuning range is",
+    "options": {
+      "A": "135kHz - 1135kHz.",
+      "B": "465kHz - 1465kHz.",
+      "C": "600kHz - 1600kHz.",
+      "D": "1065kHz - 2065kHz."
+    },
+    "correct": "D",
+    "explanation": "Option B can be discounted, as the LO should not be on the IF. Option D is the wanted signal tuning range so won't be the LO range. Options A and D would both give the required tuning range and IF, however the question asks for the best choice, acknowledging there is more than one possibility. Tuning from 1065kHz to 2085kHz is a 2:1 tuning range; tuning from 135kHz to 1135kHz is an 8.4:1 range which is inherently harder. It would also require a 70:1 capacitor range in a tuned circuit. That is not normally achievable in one span.",
+    "image": null
+  },
+  {
+    "id": "3I3-3",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A wideband scanner picks up a good CW signal when tuned to 3.61MHz but picks up the same signal when tuned to 7.51MHz. A reason for this might be that the",
+    "options": {
+      "A": "transmitter has a strong second harmonic.",
+      "B": "receiver intermediate frequency is 1.95MHz.",
+      "C": "signal on 3.61MHz is overloading the receiver.",
+      "D": "transmitter key click filter is faulty."
+    },
+    "correct": "B",
+    "explanation": "A superhet receiver can receive equally on the wanted frequency and its image. Normally the image is rejected by a tuned circuit in the RF front end. The reference to wideband is a hint that it is not filtered. The wanted signal and its image are twice the IF apart which would put the IF on (7.51-3.61)/2 which is 1.95MHz. Option B is a correct one. The second harmonic of 3.61 is 7.22MHz, too far away from 7.51 to be credible and particularly on CW even small frequency offsets are audibly clear. That discounts options A and C which differ only in where the harmonic originates - transmitter or overloaded receiver. Key clicks are also a red herring, there could be such clicks but that does not fit the description of Morse being clearly heard.",
+    "image": null
+  },
+  {
+    "id": "3I3-4",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The factor suggesting a low intermediate frequency should be used in a receiver design is that",
+    "options": {
+      "A": "image frequency rejection is simplified.",
+      "B": "the tuning range of the local oscillator is reduced.",
+      "C": "oscillation due to stray capacitances is less likely to occur.",
+      "D": "the rejection of adjacent channel interference is easier to accomplish."
+    },
+    "correct": "D",
+    "explanation": "A given frequency offset is a larger proportion of a low intermediate frequency. It is easier to filter out an adjacent channel with a low IF.",
+    "image": null
+  },
+  {
+    "id": "3I4-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A feature of an over-coupled response in an IF transformer is that the",
+    "options": {
+      "A": "bandwidth is markedly reduced making the configuration ideal for CW reception.",
+      "B": "-3dB bandwidth is wider than other coupling methods with minimal effect on the response at -30 or -60 dB.",
+      "C": "increased coupling allows lower gain in the IF transistors with consequent reduction in likelihood of oscillations.",
+      "D": "distortions caused by reduced AGC bias are significantly reduced."
+    },
+    "correct": "B",
+    "explanation": "Over-coupling a tuned circuit means wider shoulders and a modest dip in the centre of the frequency response curve. That widens the acceptance bandwidth at -3dB (or -6dB) without having much effect on the -60dB bandwidth. That can mean the response is closer matched to frequency occupancy of a wanted signal without affecting the rejection of nearby unwanted signals.",
+    "image": null
+  },
+  {
+    "id": "3I5-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "An operator has taken much care to get a really good IF filter for CW use but in use the results are much poorer than expected; a very clean stable signal appears to get through the filter over a wider frequency range than the filter response. A possible reason is",
+    "options": {
+      "A": "the receiver's local oscillator has a high level of phase noise close to its operating frequency.",
+      "B": "the poor screening of the IF filters is allowing too much signal leakage across the whole IF band.",
+      "C": "the image frequency attenuation is not poorer than the out of band attenuation of the new IF filter.",
+      "D": "the RF front end amplifier is not as noise free as the new filter needs to operate to its full potential."
+    },
+    "correct": "A",
+    "explanation": "The question clearly says the filter response is good and that the test signal is good. Option D about noise does not address the problem and is irrelevant to the question. Option C regarding image response is also irrelevant. Options A and B appear plausible but B is discouraged by the question saying the filter is good. Can A be the answer? Yes. Phase noise, the small random phase variations of thelocal oscillator, cause noise sidebands on the otherwise clean oscillator signal. The RF test signal is intended to mix with the LO to produce the IF. However it can also mix with the spurious noise sidebands of the LO meaning it is present in the IF over the width of those noise sidebands even if the test signal was absolutely perfect. In good, low noise receivers the phase noise can be a limiting factor in receiver (or transmitter) performance.",
+    "image": null
+  },
+  {
+    "id": "3J1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A radio receiver is specified as having a lowest resolvable signal of 5µV (-123dBW) and a maximum signal without overload of 158mV (-33dBW). Fitting a preamp of 10dB gain results in the lowest resolvable signal of 3µV (-127dBW). Whatchange is there in the dynamic range of the new system?",
+    "options": {
+      "A": "Increased by 4dB.",
+      "B": "No change.",
+      "C": "Reduced by 4dB.",
+      "D": "Reduced by 6dB."
+    },
+    "correct": "D",
+    "explanation": "The dynamic range of the receiver itself is 123-33 = 90dB. With the pre-amp the maximum signal before overload drops by 10dB due to the gain of the pre-amp. On its own that reduces the dynamic range by 10dB. However the combination of pre-amp gain and its superior noise performance has allowed signals of 3µV to be resolved rather than 5µV, an improvement of 127-123 = 4dB. The overall dynamic range has reduced by 10-4 = 6dB.",
+    "image": null
+  },
+  {
+    "id": "3K1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Demodulation of an FM signal is normally achieved by a circuit which",
+    "options": {
+      "A": "relies on the slope of a tuned circuit producing amplitude changes in response to the frequency changes of the signal.",
+      "B": "times the period between successive cycles to determine the exact frequency of the signal.",
+      "C": "mixes the signal with a known reference frequency to determine the instantaneous frequency offset.",
+      "D": "uses changes in phase angle in a tuned circuit to give different voltages, which may then be rectified."
+    },
+    "correct": "D",
+    "explanation": "The normal method of demodulating FM is to use a circuit which relies on phase changes in a tuned circuit. The phase changes much more rapidly than the amplitude response so is sensitive to the comparatively small frequency changes of narrow band FM. Slope detection will work provided the slope of the side of a tuned circuit response is reasonably linear, but is markedly less sensitive. It can only really be considered as an option when the receiver has a diode detector (for AM) but no purpose designed FM capability. It is also only usable on strong signals due to its insensitivity. There are other methods, for example using a phase lock loop, perhaps more common for data demodulation but these are outside the syllabus.",
+    "image": null
+  },
+  {
+    "id": "3K1-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Why when an all mode receiver is set to FM is the AGC normally turned off?",
+    "options": {
+      "A": "The AGC would interfere with the amplitude variations of the received signal.",
+      "B": "The gain is maximised so a limiter results in constant level signals.",
+      "C": "The gain is minimised so the signals don't overload the demodulator.",
+      "D": "FM relies on frequency variations so the amplitude is no of concern."
+    },
+    "correct": "B",
+    "explanation": "Turning off the AGC allows the IF amplifiers to work at maximum gain. The signal amplitude is then limited by using diodes to clip the signal or a transistor circuit with a limited supply voltage and running out of headroom. That ensures constant level signals into the demodulator to remove much of the effect of noise, which is an amplitude disturbance and also enhances 'capture effect' whereby weaker co-channel FM signals are largely ignored.",
+    "image": null
+  },
+  {
+    "id": "3L1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Choosing a slow decay on the AGC means that",
+    "options": {
+      "A": "the transmitter will increase power to an external power amplifier slowly enabling the onset of non-linearity to be easily identified.",
+      "B": "the background noise, particularly when on SSB will recover to its normal level over a few seconds rather than instantly.",
+      "C": "a sudden loud noise such as a static crash is attenuated to a greater extent than normal to prevent any hearing loss or damage.",
+      "D": "the average power fed to the transmitter can be increased since the peaks of power are more limited than normal speech."
+    },
+    "correct": "B",
+    "explanation": "A fast attack is often desirable to limit the response to sudden loud noises, a slow decay means the IF gain recovers slowly so background RF noise returns to its normal level over a second or two and possibly longer.",
+    "image": null
+  },
+  {
+    "id": "3M1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "What method does a software defined receiver use to de modulate incoming signals which may use any modulation mode?",
+    "options": {
+      "A": "The receiver is equipped with all the chosen demodulator circuits and can rapidly try each one until an intelligible signal emerges.",
+      "B": "The receiver is equipped with all the chosen demodulator circuits and can simultaneously use each one, picking the output with an intelligible signal.",
+      "C": "The receiver demodulates the amplitude of the signal in two phases separated by ninety degrees allowing any modulation mode to be extracted.",
+      "D": "The receiver requires a data signal, normally encoded in the carrier, to define the modulation mode being used."
+    },
+    "correct": "C",
+    "explanation": "By demodulating and digitising the received signal in two phases at right-angles it is possible to use software to demodulate any known modulation scheme. Being a software function it is also possible to add the capability to demodulate new modes simply by updating the software.",
+    "image": null
+  },
+  {
+    "id": "3M1-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The drawing shows the phasor diagram representation of a modulated signal. What method of modulation is shown?",
+    "options": {
+      "A": "Amplitude modulation.",
+      "B": "Frequency modulation.",
+      "C": "Phase modulation.",
+      "D": "Data modulation."
+    },
+    "correct": "A",
+    "explanation": "The actual signal at any moment in time is the vector (or phasor) sum of the carrier and all sidebands present. In this case the carrier and upper and lower sidebands. Inspection of the drawing shows the resultant will have constant phase with the sideband vectors simply adding and subtracting to the length, i.e. the amplitude of the signal. That is AM.",
+    "image": "C3_Full_3M1-2.png"
+  },
+  {
+    "id": "3M2-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The drawing shows part of the front end of an SDR receiver. What is significant about signals f1 and f2 from the local oscillator?",
+    "options": {
+      "A": "F1 and f2 must be exactly in phase with the incoming carrier.",
+      "B": "F1 and f2 must have exactly a 90 degree phase relationship.",
+      "C": "F1 and f2 must have exactly a 180 degree phase relationship.",
+      "D": "F1 and f2 must be harmonically related, normally second harmonic."
+    },
+    "correct": "B",
+    "explanation": "The two frequencies f1 and f2 must be at right angles so the amplitude and phase of the incoming RF signal can be accurately digitised for subsequent processing to separate out individual transmissions and demodulate them mathematically.",
+    "image": "C3_Full_3M2-1.png"
+  },
+  {
+    "id": "3N1-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which one of the following parts of a transceiver is only used on one of the two functions of transmitting or receiving?",
+    "options": {
+      "A": "Automatic level control.",
+      "B": "DDS local oscillator.",
+      "C": "Mixer.",
+      "D": "Carrier insertion oscillator."
+    },
+    "correct": "A",
+    "explanation": "ALC is only used on transmit to control the amplitude of the transmitted signal and avoid overdriving the RF power amplifier to prevent it producing excessive harmonics and intermodulation products. The other functions are used both for transmit and receive.",
+    "image": null
+  },
+  {
+    "id": "3N2-1",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The homemade converter shown in the drawing is intended to be connected to an HF receiver operating in the 28 - 30MHz band. Which amateur band is it intended for?",
+    "options": {
+      "A": "2m.",
+      "B": "4m.",
+      "C": "6m.",
+      "D": "10m."
+    },
+    "correct": "C",
+    "explanation": "The converter is producing an 'IF' on 28-30MHz using an 80MHz LO. The input RF is either 80-(28 to 30) = 50-52MHz or 80+ (28 to 30) = 108- 110MHz. 50MHz (6m) is an amateur band, 108 to 110MHz is an aeronautical radio navigation band.",
+    "image": "C3_Full_3N2-1.png"
+  },
+  {
+    "id": "3N2-2",
+    "level": "full",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The converter shown in the drawing for question 3N2-1 has an unfortunate design problem. What is it?",
+    "options": {
+      "A": "The oscillators in the transverter and receiver are in different enclosures so may suffer different temperature related drifts.",
+      "B": "The received frequency will decrease as the frequency on the HF receiver is increased, because the transverter oscillator is above the received frequency.",
+      "C": "It will be necessary to add 28MHz to all the frequencies displayed on the HF receiver.",
+      "D": "The system will be unsuitable for receiving SSB signals because the sidebands are reversed in the mixing process."
+    },
+    "correct": "B",
+    "explanation": "The converter will translate 50MHz to 30MHz and 52MHz to 28MHz so tuning up the band on the HF receiver will result in tuning down the band on 6m. It will also result in the upper and lower sidebands swapping sides. Perfectly usable, just have to set to the 'wrong' sideband and tune accordingly.",
+    "image": null
+  }
+]

@@ -1,0 +1,786 @@
+[
+  {
+    "id": "2A1-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A potential divider uses two 1kΩ resistors to obtain a bias voltage from the supply. The two resistors are colour coded brown, black, red, silver, indicating they are 10% tolerance. How far out might the bias voltage be?",
+    "options": {
+      "A": "0%.",
+      "B": "5%.",
+      "C": "10%.",
+      "D": "20%."
+    },
+    "correct": "C",
+    "explanation": "The error in the bias voltage will still be 10%. This may be shown by calculation using limit values, say 900Ω and 1100Ω. Vout = Vin x 900/2000 = 0.45Vin. That is 10% different from the 0.5Vin expected.",
+    "image": null
+  },
+  {
+    "id": "2B1-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Two resistors are connected in parallel, 20kΩ and 30kΩ. They are then connected in series with an 8kΩ resistor. The effective resistance of the combination is",
+    "options": {
+      "A": "12kΩ.",
+      "B": "20kΩ.",
+      "C": "28kΩ.",
+      "D": "33kΩ."
+    },
+    "correct": "B",
+    "explanation": "The 20k and 30kΩ resistors in parallel have a resistance of 20×30/(20+30) = 12kΩ. That is in series with 8kΩ making a total of 20kΩ.",
+    "image": null
+  },
+  {
+    "id": "2B1-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What current is drawn from the power supply in the circuit diagram?",
+    "options": {
+      "A": "10mA.",
+      "B": "11.8mA.",
+      "C": "15mA.",
+      "D": "18.5mA."
+    },
+    "correct": "A",
+    "explanation": "At first glance this circuit is neither series nor parallel and cannot be solved by the normal means. However further inspection shows that the voltages at each end of the 2kΩ resistor are equal so no current will pass through it, We can simply remove it or replace it with a piece of wire, it will make no difference. The 1kΩ and 3kΩ resistors form a 4kΩ resistance which will draw 7.5mA from a 30V supply. The 12kΩ resistance of the other two will draw 2.5mA giving a total load of 10mA. If you see a circuit of this style, a bridge network, check the voltages at each end of the bridging resistor assuming it was removed. You should find the voltages are equal and removal is legitimate.",
+    "image": "C2_Full_2B1-2.png"
+  },
+  {
+    "id": "2B1-3",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What power is dissipated in the 1kΩ resistor in the circuit diagram?",
+    "options": {
+      "A": "14mW.",
+      "B": "19mW.",
+      "C": "25mW.",
+      "D": "225mW."
+    },
+    "correct": "A",
+    "explanation": "See the comments in 2B1-2 above. That arm of the circuit totals 4kΩ so will draw 3.75mA from a 15V supply. The power in the 1kΩ resistor is I^2R which is 14×10^-6 × 10^3, which is 14mW. The alternative method is to realise a quarter of 15V is across the resistor, 3.75V and 3.75V×3.75mA gives 14mW.",
+    "image": "C2_Full_2B1-3.png"
+  },
+  {
+    "id": "2B1-4",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A radio receiver is reading S9 on its scale, which the handbook says is an input signal of 50µV PD rms. In 50Ω this represents an input power of",
+    "options": {
+      "A": "0.05pW.",
+      "B": "50pW.",
+      "C": "1nW.",
+      "D": "50μW."
+    },
+    "correct": "B",
+    "explanation": "The formula is V^2/R giving 2500×10-12 /50 = 50pW.",
+    "image": null
+  },
+  {
+    "id": "2B1-5",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The audio signal from a computer soundcard is 100mV and this must be reduced to 10mV to connect to the transmitter. A potential divider is used with a 10kΩ resistor connected between the soundcard output and the transmitter microphone input. The resistor between the microphone input and earth should be",
+    "options": {
+      "A": "900Ω.",
+      "B": "1.0kΩ.",
+      "C": "1.1kΩ.",
+      "D": "10kΩ."
+    },
+    "correct": "C",
+    "explanation": "A 10:1 potential divider has two resistors with a 9:1 ratio. The 10:1 ratio here is for R2/R1+R2. The top resistor (R1) in series with the signal is 10kΩ so the bottom resistor (R2), across the mic input and the OV line is 1.1kΩ. The calculation is Vout = Vin (R2/R1+R2) so Vout/Vin = 0.1 = R2/(R1+R2). Multiply both sides by R1+R2 giving 0.1*R1+0.1*R2 = R2. Subtract 0.1R2 from both sides to get 0.1*R1 = 0.9R2 or R1 = 9R2. R1 is 10kΩ so R2 is 10/9 = 1.1kΩ. 10:1 dividers are not uncommon, remember the two resistors have a 9:1 ratio.",
+    "image": null
+  },
+  {
+    "id": "2D1-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A trimmer capacitor consists of five foils connected to the body of the device and four foils loosely interleaved between them with a thin insulation to prevent contact. It is adjusted so the spacing is, on average, halved. The capacitance will",
+    "options": {
+      "A": "halve.",
+      "B": "reduce to about 70%.",
+      "C": "increase by about 40%.",
+      "D": "double."
+    },
+    "correct": "D",
+    "explanation": "The formula sheet gives the capacitance as C=kA/d, A is the area of the plates and d their separation. If d is halved the capacitance will double.",
+    "image": null
+  },
+  {
+    "id": "2D1-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A 1µF and a 2µF capacitor are connected in series. The two open ends are then connected to a 30V supply charging the two capacitors. What is the voltage across the 2µF capacitor?",
+    "options": {
+      "A": "10V.",
+      "B": "15V.",
+      "C": "20V.",
+      "D": "30V."
+    },
+    "correct": "A",
+    "explanation": "The relevant formula is C (Farads) =Q (coulombs) /V (volts), rearrange to Q=C/V. The charge Q is the same - the same charging current for the same time, so the smaller capacitor will have the higher voltage. 20V on 1µF, 10V on 2µF. Formal calculation. Total capacitance = 1x2/(1+2) = 0.667µF. Charge Q = VC = 30×0.667 = 20µC. Voltage on 2µF = 20µC/2µF = 10V.",
+    "image": null
+  },
+  {
+    "id": "2D1-3",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The energy in a capacitor is given by E = Q x V, that is the product of charge and potential difference. Given that, by how much does the energy stored in a capacitor increase if the potential difference is doubled?",
+    "options": {
+      "A": "Doubles, x2.",
+      "B": "Triples, x3.",
+      "C": "Quadruples, x4.",
+      "D": "Five times, x5."
+    },
+    "correct": "C",
+    "explanation": "In this question you are given a piece of information that the syllabus itself does not require you to know, E=QxV. You should know that for a capacitor the charge Q = VxC. So if the voltage V is doubled the charge Q is doubled. Now, using the supplied formula, if Q is doubled and V is doubled then the stored energy increases by a factor of four. The relevance of this is recognising that available energy increases as the square of the voltage and the extra hazard and safety implications.",
+    "image": null
+  },
+  {
+    "id": "2D2-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Capacitors are available with assorted dielectrics, polythene, ceramic etc. A factor affecting the choice of dielectric is",
+    "options": {
+      "A": "linearity.",
+      "B": "leakage resistance.",
+      "C": "phase angle.",
+      "D": "operating frequency."
+    },
+    "correct": "D",
+    "explanation": "Many plastics will absorb some energy from an RF field, exampled by some plastics getting hot in a microwave oven - a good test in choosing suitable materials in power amplifier design. High power AMUs, especially with resonant circuits, can develop voltages easily into the kV range. That level of dielectric stress can cause some plastics to fail.",
+    "image": null
+  },
+  {
+    "id": "2D2-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which dielectric in a capacitor is most likely to absorb energy resulting in losses as the frequency increases?",
+    "options": {
+      "A": "Air.",
+      "B": "Glass.",
+      "C": "Polythene.",
+      "D": "Mica."
+    },
+    "correct": "C",
+    "explanation": "Polythene is good at audio frequencies but lossy at RF.",
+    "image": null
+  },
+  {
+    "id": "2D3-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Apart from the capacitance, another parameter to be considered when selecting a low value capacitor (say 0.1µF) is",
+    "options": {
+      "A": "power handling.",
+      "B": "polarity.",
+      "C": "breakdown voltage.",
+      "D": "internal resistance."
+    },
+    "correct": "C",
+    "explanation": "A 0.1µF capacitor won't be of electrolytic construction so polarity is not an answer but breakdown voltage is. Most capacitors are rated for DC and must be de-rated for AC and especially for RF. For mains use special capacitors, class x or Y must be used, the choice depending on intended use and failure mechanism.",
+    "image": null
+  },
+  {
+    "id": "2D4-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The current arrow shows the direction of the current in the inductor shown in the diagram. The legend shows whether the current is increasing, decreasing, alternating or remains steady. The '+' symbol shows which end of the coil is positive for the induced back EMF in the coil. Which one correctly shows the polarity of the induced EMF?",
+    "options": {
+      "A": "Drawing A.",
+      "B": "Drawing B.",
+      "C": "Drawing C.",
+      "D": "Drawing D."
+    },
+    "correct": "B",
+    "explanation": "This question requires some thought. Option C can be discounted, the back EMF won't remain at one end with an alternating current. D is also out, inductive back EMF occurs when a current changes, no back EMF for steady currents. Choice is now A or B. It is usual to remember that an inductor tries to oppose a current increase\". In A it is aiding, in A a seems wrong. In B it is trying to keep the current going when the external drive is to reduce it. That is true, we have our answer. \"Actually the opposition to change is equally true for increasing or decreasing currents.",
+    "image": "C2_Full_2D4-1.png"
+  },
+  {
+    "id": "2D4-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An old style doorbell has a coil acting as an electromagnet pulling an iron arm across to strike the gong, but in doing so breaks the electrical circuit so the arm returns to the rest position ready to repeat the process. In breaking the circuit the current.",
+    "options": {
+      "A": "stops instantly.",
+      "B": "stops quickly.",
+      "C": "increases before falling to zero.",
+      "D": "reverses direction briefly."
+    },
+    "correct": "B",
+    "explanation": "The back EMF in an inductor opposes change. In this case trying to reduce the current to zero. The magnitude of the back EMF is related to the rate of change. If the current did stop instantly the rate of change is infinitely high, that would generate an infinite voltage to keep the current going. In reality the resulting sparking briefly maintains the current so the rate of change is slowed. A doorbell of the type mentioned running on 6V could easily have one or two hundred volts at the breaking contact.",
+    "image": null
+  },
+  {
+    "id": "2D7-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The graph shows the flow of current through a circuit from 'switch on'. The circuit comprises a resistor and",
+    "options": {
+      "A": "capacitor in series.",
+      "B": "inductor in series.",
+      "C": "capacitor in parallel.",
+      "D": "inductor in parallel."
+    },
+    "correct": "B",
+    "explanation": "Options C and D can be quickly ruled out. If the resistor was in parallel then at switch on the current would rise at least to a value of V/R, that does not happen. That would also apply to option A since the capacitor is initially discharged, the current would jump up to V/R and tail off as the capacitor charges. That leaves B as the only remaining option. The current is zero and climbing just after switch on, that strongly suggests an inductor must be in the only current path, that by itself points to B as well.",
+    "image": "C2_Full_2D7-1.png"
+  },
+  {
+    "id": "2D7-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A valve receiver has a power supply producing 300V. It takes about 10 seconds to unscrew the lid and it is considered safe if the voltage has dropped to about 100V by the time the lid is off. The smoothing capacitor is 200uF. Approximately what value should be chosen for the bleeder resistor to minimise wasted power but meet the safety requirement?",
+    "options": {
+      "A": "20ΚΩ.",
+      "B": "50ΚΩ.",
+      "C": "100ΚΩ.",
+      "D": "200ΚΩ."
+    },
+    "correct": "B",
+    "explanation": "After one time constant the voltage on C will have fallen to about 1/3 of its initial value. From the narrative we can conclude the time constant CR is 10 seconds. So R= 10s/200µF = 10x100/200 = 50kΩ.",
+    "image": null
+  },
+  {
+    "id": "2E3-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows the current and voltage waveforms in an unknown component. The component is probably a",
+    "options": {
+      "A": "resistor.",
+      "B": "capacitor.",
+      "C": "inductor.",
+      "D": "diode."
+    },
+    "correct": "B",
+    "explanation": "The current and voltage are in phase in a resistor and a diode only conducts in one direction. The current is leading the voltage in the drawing so it is a capacitor.",
+    "image": "C2_Full_2E3-1.png"
+  },
+  {
+    "id": "2E3-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A 318pF capacitor has a reactance at 1MHz of",
+    "options": {
+      "A": "500Ω.",
+      "B": "1000Ω.",
+      "C": "1570Ω.",
+      "D": "5000Ω."
+    },
+    "correct": "A",
+    "explanation": "Xc = 1/2πfC = 1/(2πx10^6 x 318x10^-12) = 1/(636πx10^-6) = 10^6/636π = 500Ω",
+    "image": null
+  },
+  {
+    "id": "2E4-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A transistor amplifier is shown in the circuit diagram. Capacitor C3 is used for",
+    "options": {
+      "A": "coupling.",
+      "B": "decoupling.",
+      "C": "buffering.",
+      "D": "blocking."
+    },
+    "correct": "B",
+    "explanation": "The circuit is a common emitter amplifier. C3 decouples the emitter of the transistor removing any signal at the emitter so the full input signal is across the base- emitter junction of the transistor. Without the decoupling much of the voltage gain of the circuit would be lost.",
+    "image": "C2_Full_2E4-1.png"
+  },
+  {
+    "id": "2E4-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the function of the capacitor marked C in the circuit diagram?",
+    "options": {
+      "A": "Coupling.",
+      "B": "Decoupling.",
+      "C": "DC blocking.",
+      "D": "Tuning."
+    },
+    "correct": "C",
+    "explanation": "The circuit is a Colpitts LC oscillator. Without capacitor C the DC bias voltage set up by the base potential divider would be shorted out by the inductor in the tuned circuit. It is there for DC blocking. It could be argued that it is also a signal coupling capacitor allowing the transistor to see the tuned circuit. However the term 'coupling' in this context is normally reserved for coupling a signal from one stage to the next, between a local oscillator and a mixer for example.",
+    "image": "C2_Full_2E4-2.png"
+  },
+  {
+    "id": "2E5-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the purpose of the inductor marked r.f.c. in the circuit diagram?",
+    "options": {
+      "A": "To resonate with the 22pF capacitor in the desired frequency band.",
+      "B": "To provide a dynamic impedance load for the transistor.",
+      "C": "To filter out harmonics of the RF signal from the transistor.",
+      "D": "To help minimise RF signals on the positive supply rail."
+    },
+    "correct": "D",
+    "explanation": "The r.f.c has two purposes; to provide DC power to the transistor and as an r.f.c. to limit the RF signal getting back on to the supply rail. It should have a high inductance to have a high RF reactance/ impedance.",
+    "image": "C2_Full_2E5-1.png"
+  },
+  {
+    "id": "2E6-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A resistor of 400Ω and a capacitor of 0.1µF are fed from an AC source. At a certain frequency the reactance of the capacitor is 300Ω. The impedance of the circuit is",
+    "options": {
+      "A": "300Ω.",
+      "B": "400Ω.",
+      "C": "500Ω.",
+      "D": "700Ω."
+    },
+    "correct": "C",
+    "explanation": "This question uses a formula from the reference booklet, Z = √(R^2 + Xc^2) = √(400^2 + 300^2) = 500Ω It is always worth looking for a 3:4:5 triangle relationship, not overlooking 6:8:10 etc. If the resistor is, say, 3kΩ and calculating Xc comes out at 3997Ω it is probably quite safe to assume it is intended to be 4kΩ leading to an answer of Z = 5kΩ.",
+    "image": null
+  },
+  {
+    "id": "2F1-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An audio signal from the microphone in a voice transmitter is being sampled 7000 times per second. Limitations in the filtering in the microphone amplifier mean that a signal at 4kHz is present at the sampling point. What effect will this have?",
+    "options": {
+      "A": "No effect as the signal is above the Nyquist limit.",
+      "B": "The signal is below the Nyquist limit so will be accurately sampled.",
+      "C": "The signal will appear as an alias signal at 500Hz.",
+      "D": "The signal will appear as an alias signal at 3kHz."
+    },
+    "correct": "D",
+    "explanation": "Sampling at 7000 samples/s gives an upper limit of 3500Hz. The 4kHz signal is 500Hz above the limit so will show as an alias 500Hz below the limit, that is 3kHz.",
+    "image": null
+  },
+  {
+    "id": "2F1-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "To avoid aliases appearing in the digital representation of an analogue signal it is normal to use",
+    "options": {
+      "A": "an analogue filter to remove signals at frequencies above the sampling rate.",
+      "B": "an analogue filter to remove signals at frequencies above half the sampling rate.",
+      "C": "a digital filter to remove signals at frequencies above the sampling rate.",
+      "D": "a digital filter to remove signals at frequencies above half the sampling rate."
+    },
+    "correct": "B",
+    "explanation": "Any signal of a frequency over half the sampling rate will form an alias and must be removed by an ordinary analogue filter prior to sampling. If such signals get past the sampling and are digitised they are indistinguishable from legitimate signals.",
+    "image": null
+  },
+  {
+    "id": "2F2-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The Fourier Transform is used to",
+    "options": {
+      "A": "sample analogue signals and produce a digital representation of them for subsequent digital processing.",
+      "B": "take the digital samples in the time domain and calculate the amplitudes of the signals in the frequency domain.",
+      "C": "utilise the frequency domain signals from the digital sampling to produce a panoramic display of amplitude against frequency.",
+      "D": "convert the frequency domain signals to an analogue domain output suitable for feeding to an audio amplifier."
+    },
+    "correct": "B",
+    "explanation": "The Fourier transform is a mathematical process of taking the digitised sequential samples of the combined incoming signals and representing the amplitudes in frequency order.",
+    "image": null
+  },
+  {
+    "id": "2F2-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the name of the mathematical process used to take a stream of digitised samples of an analogue signal and depict it as the amplitudes of the individual frequency components of the signal?",
+    "options": {
+      "A": "A Fourier Transform.",
+      "B": "A Nyquist Conversion.",
+      "C": "The Shannon Transform.",
+      "D": "Anti-alias Filtering."
+    },
+    "correct": "A",
+    "explanation": "Same question as 2F2-1 above asked the other way round.",
+    "image": null
+  },
+  {
+    "id": "2G1-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "In a transformer the energy is transferred from the primary to the secondary by",
+    "options": {
+      "A": "mutual inductance.",
+      "B": "electromagnetic coupling.",
+      "C": "magnetic resonance.",
+      "D": "eddy current conduction."
+    },
+    "correct": "A",
+    "explanation": "The coupling between the primary and secondary windings of a transformer is termed mutual inductance - as opposed to self-inductance of a single coil. It is magnetic coupling, not electromagnetic which is a reference to radio waves.",
+    "image": null
+  },
+  {
+    "id": "2G1-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A valve RF amplifier requires a load impedance of 1.8kΩ which needs to be matched to a 50Ω output. The secondary has 5 turns, how many turns are required on the primary?",
+    "options": {
+      "A": "30.",
+      "B": "36.",
+      "C": "180.",
+      "D": "250."
+    },
+    "correct": "A",
+    "explanation": "Remember the impedance ratio is the square of the turns ratio. The impedance ratio is 1800:50 or 36:1. √36= 6. So primary turns = 6 x 5 = 30. Note it is possible the impedance ratio in a particular question might not have an integer square root and that the calculated number of turns required might not be an integer either. In those circumstances, if you are satisfied your calculation is correct then choose the nearest integer answer. It should be very close!",
+    "image": null
+  },
+  {
+    "id": "2G1-3",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "When selecting a core for an intermediate frequency (IF) transformer you should consider the",
+    "options": {
+      "A": "RF screening properties of the chosen material.",
+      "B": "frequency range over which it will operate.",
+      "C": "matching to the impedance of the following circuit.",
+      "D": "resonant frequency of the chosen material."
+    },
+    "correct": "B",
+    "explanation": "The ferrite is to improve the magnetic coupling and inductance. The key need is to get the right grade of ferrite for the chosen IF. The coil and associated capacitor will resonate, but the ferrite doesn't. Aluminium screens are used for IF transformers.",
+    "image": null
+  },
+  {
+    "id": "2H1-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "At 10MHz a long wire antenna presents a capacitive reactance at its feed point equivalent to a capacitor of about 20pF. What inductance is required to bring the system to resonance?",
+    "options": {
+      "A": "12.5μH.",
+      "B": "25μH.",
+      "C": "40μH.",
+      "D": "80μH."
+    },
+    "correct": "A",
+    "explanation": "This requires the resonant frequency formula to be transposed to make L the subject of the formula. f = 1/(2π√LC) square both sides. f² = 1/(4π²LC) Multiply both sides by L and divide by f² L= 1/(4π²f²C)=1/(80π²*10²)=1/80mH or 1000/80μH L = 12.5μH",
+    "image": null
+  },
+  {
+    "id": "2H1-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The crystal of an old oscillator circuit for a miniature CW transmitter has been lost but the capacitor is marked as 30pF and the coil is measured as about 4.25µH. What band is this transmitter designed for?",
+    "options": {
+      "A": "10m.",
+      "B": "15m.",
+      "C": "17m.",
+      "D": "20m."
+    },
+    "correct": "D",
+    "explanation": "A straight plug in the numbers question. f = 1/(2π√LC)=1/(2π√10⁻¹²*4.25*10⁻⁶)=1/(2π√127.5*10⁻¹⁸)=1/(2π*11.29*10⁻⁹)=10⁹/22.58π = 14.1MHz That is the 20m band.",
+    "image": null
+  },
+  {
+    "id": "2H2-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which drawing shows the equivalent circuit of a crystal?",
+    "options": {
+      "A": "Drawing 1.",
+      "B": "Drawing 2.",
+      "C": "Drawing 3.",
+      "D": "Drawing 4."
+    },
+    "correct": "B",
+    "explanation": "Drawing 2 is the equivalent circuit of a crystal.",
+    "image": "C2_Full_2H2-1.png"
+  },
+  {
+    "id": "2H2-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A home made crystal oscillator is found to be unstable in frequency and adjustment of the small trimmer capacitor can cause it to stop oscillating. The circuit is published in a reputable magazine and is known to work. What is a reasonable next check having inspected the circuit board and soldering?",
+    "options": {
+      "A": "Check that gain of the transistor is sufficient for the intended operation.",
+      "B": "Check whether the crystal should be mounted horizontally or vertically.",
+      "C": "Check the stability and adequacy of the bench power supply unit.",
+      "D": "Check whether the crystal is designed for series or parallel operation."
+    },
+    "correct": "D",
+    "explanation": "If the circuit expects a crystal designed for parallel resonance but a series resonance crystal is used then it will usually work in the 'wrong' mode, but not reliably and not on the correct frequency.",
+    "image": null
+  },
+  {
+    "id": "2H4-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A series resonant circuit has 10V peak across it when at resonance. At that frequency the resistance of the coil is approximately 4Ω and the Q-factor is calculated as 100. The peak voltage across the capacitor will be about",
+    "options": {
+      "A": "40V.",
+      "B": "100V.",
+      "C": "400V.",
+      "D": "1000V."
+    },
+    "correct": "D",
+    "explanation": "The Q-factor is the ratio of XL to R which means it is also the ratio of the voltage across R (10Vpk) to the voltage across L (and C). At resonance the voltages across L and C will be equal and in anti phase so the supply voltage is all across R. With a Q of 100 the voltage across the inductor will be Qx the supply voltage which is 1000V. This may be the case in an AMU at high transmit powers although with the antenna radiating most of the power the loaded-Q may be rather lower.",
+    "image": null
+  },
+  {
+    "id": "2H4-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A 3.5MHz tuned circuit has a 3dB bandwidth of 35kHz. At that frequency the reactance of both the coil and capacitor are calculated to be 2.4kΩ. The coil resistance will be about",
+    "options": {
+      "A": "2.4Ω.",
+      "B": "3.5Ω.",
+      "C": "24Ω.",
+      "D": "35Ω."
+    },
+    "correct": "C",
+    "explanation": "The Q-factor of this circuit is 3.5MHz/35kHz = 100. Q is also XL/R (and Xc/R since Xc=Xc at resonance) so if X is 2.4kΩ then R must be 24Ω.",
+    "image": null
+  },
+  {
+    "id": "2H4-3",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Some antenna matching units can have tuned circuits with a high Q-factor. A significant implication of this is that",
+    "options": {
+      "A": "there will be a need to reduce the Q-factor for satisfactory reception of wide band signals.",
+      "B": "the circulating currents and voltages in the tuned circuits can be very high.",
+      "C": "tuning the receiver to the wanted signal can become quite critical.",
+      "D": "a low pass filter is also desirable to limit harmonic radiation."
+    },
+    "correct": "B",
+    "explanation": "Robust construction and wide spaced capacitors are needed in high power AMUs to cope with high circulating currents and voltages.",
+    "image": null
+  },
+  {
+    "id": "2H5-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which circuit or device possesses a property commonly called its dynamic resistance?",
+    "options": {
+      "A": "The input resistance of a feeder for correct impedance matching.",
+      "B": "The input resistance of the base of an RF transistor amplifier.",
+      "C": "The effective resistance of a parallel tuned circuit at resonance.",
+      "D": "The effective resistance of a series tuned circuit at resonance."
+    },
+    "correct": "C",
+    "explanation": "Dynamic resistance, RD, of a parallel tuned circuit.",
+    "image": null
+  },
+  {
+    "id": "2I1-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A Zener diode is",
+    "options": {
+      "A": "forward biased to provide a specified reference voltage.",
+      "B": "reverse biased to provide a specified reference voltage.",
+      "C": "forward biased to provide an accurately known current.",
+      "D": "reverse biased to prevent excessive current flow."
+    },
+    "correct": "B",
+    "explanation": "The Zener diode is used reverse biased and will conduct at a set voltage determined during manufacture. The current must be limited to prevent destruction. It is a voltage reference.",
+    "image": null
+  },
+  {
+    "id": "2I3-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a class A amplifier using an N-channel depletion mode FET. The source and drain voltages are shown. What voltage might be expected on the gate in normal operation?",
+    "options": {
+      "A": "3.2V.",
+      "B": "5.2V.",
+      "C": "9.2V.",
+      "D": "16V."
+    },
+    "correct": "A",
+    "explanation": "A depletion mode FET (most are) will have a reverse biased gate so the voltage at the gate will be a bit lower than the source which is at 4.5V. 3.2V at the gate fits the bill.",
+    "image": "C2_Full_2I3-1.png"
+  },
+  {
+    "id": "2I4-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A transistor amplifier has a current gain of one and a voltage gain of about 30. It is likely that the configuration of the device is",
+    "options": {
+      "A": "emitter follower.",
+      "B": "common emitter.",
+      "C": "common base.",
+      "D": "common collector."
+    },
+    "correct": "C",
+    "explanation": "In a transistor the emitter and collector currents are almost equal but the base current is much smaller. To have a current gain of one the input must be on the emitter and the output on the collector; that is a common base amplifier.",
+    "image": null
+  },
+  {
+    "id": "2I4-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A sine wave signal is supplied to the base of a common emitter amplifier which is biased in class A. Which statement correctly describes the output signal?",
+    "options": {
+      "A": "The output is a complete smooth sinewave, larger than the input and in phase with the input.",
+      "B": "The output is a complete smooth sinewave, larger than the input and 180º out of phase with the input.",
+      "C": "The output is a complete smooth sinewave, very slightly smaller than the input and in phase with the input.",
+      "D": "The output is a complete smooth sinewave, very slightly smaller than the input and 180º out of phase with the input."
+    },
+    "correct": "B",
+    "explanation": "Class A means that the biasing is such that the complete cycle of signal is faithfully amplified. All four answers say that so strictly we did not need that information. The common emitter circuit gives both voltage gain and current gain so the output will be larger than the input. It is also 180° out of phase.",
+    "image": null
+  },
+  {
+    "id": "2I4-3",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which configuration of transistor amplifier exhibits a high current gain but a voltage gain of about one?",
+    "options": {
+      "A": "Common emitter.",
+      "B": "Common gate.",
+      "C": "Common collector.",
+      "D": "Common source."
+    },
+    "correct": "C",
+    "explanation": "The output from the emitter follower tracks the input on the base so has a gain of about one, just under one to be exact as a small part of the input signal actually drives the transistor. The current gain is high, about the value of ß for the device.",
+    "image": null
+  },
+  {
+    "id": "2I4-4",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An amplifier operated in class C is particularly suited to",
+    "options": {
+      "A": "audio and low frequency signals.",
+      "B": "a push-pull output stage for audio or RF.",
+      "C": "radio frequencies for AM and SSB.",
+      "D": "radio frequencies for CW and FM."
+    },
+    "correct": "D",
+    "explanation": "A class C amplifier amplifies less than half the waveform of the signal. Audio signals would be distorted and,with many frequencies involved could not be cleaned up with tuned circuits to remove the harmonics. A push-pull circuit, even at RF, relies on a smooth transition from one transistor conducting to the other. Each transistor must handle at least half the waveform which is class B. Class C relies on tuned circuits to remove the harmonics and thus the distortion. The other feature of class C is that it is biased into non-conduction in the absence of a signal and relies on a strong input signal to turn on the power transistors. Consequently it is not sensitive to varying drive levels, it is highly non-linear. Modulations relying on signal amplitude such as AM and SSB cannot be handled. FM and CW only. Many data signals have level transitions at the point of data symbol change so also rely on linearity for clean transmitted RF. Some data modes are deliberately designed to work with class C amplifiers but this cannot be relied on generally.",
+    "image": null
+  },
+  {
+    "id": "2I4-5",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which class of biasing is least likely to cause the production of harmonics of the input signal?",
+    "options": {
+      "A": "Class A.",
+      "B": "Class C.",
+      "C": "Class AB.",
+      "D": "Class B."
+    },
+    "correct": "A",
+    "explanation": "Class A biasing ensures every part of the waveform is amplified correctly so is least likely to cause distortion and the production of harmonics.",
+    "image": null
+  },
+  {
+    "id": "2I5-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An oscillator is, in effect an amplifier stage and a frequency selective feedback stage. In order to oscillate",
+    "options": {
+      "A": "the frequency selective stage must be set manually to the wanted frequency.",
+      "B": "the gain of the amplifier stage must be at least equal to the loss in the feedback stage.",
+      "C": "the amplifier stage must provide a 90 degree phase shift at the wanted frequency.",
+      "D": "the feedback stage must provide a 90 degree phase shift at the wanted frequency."
+    },
+    "correct": "B",
+    "explanation": "There are two key requirements. The gain in the amplifier must not be less than the loss in the feedback or any oscillation will die out. The phase of the amplifier and feedback must be such that there is no overall phase change round the loop. Either both devices have a 0° change or both have a 180° change at the wanted frequency. Note answer A may be a true statement, but it isn't an answer to the question asked.",
+    "image": null
+  },
+  {
+    "id": "2J2-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The circuit diagram shows a regulated supply for 13.6V. The voltage across the Zener diode D will be about",
+    "options": {
+      "A": "0.7V.",
+      "B": "3V.",
+      "C": "6V.",
+      "D": "10V."
+    },
+    "correct": "C",
+    "explanation": "Regulation is achieved by monitoring the output voltage. In this circuit by means of a potential divider with two 10k resistors. The voltage fed to the base of the sense transistor will be about 6.8V. That suggests the emitter will be at just over 6V.",
+    "image": "C2_Full_2J2-1.png"
+  },
+  {
+    "id": "2J3-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The secondary of a power supply transformer for a valve receiver produces 200V rms. A half-wave rectifier is used feeding a smoothing capacitor. The maximum reverse voltage across the diode will be about",
+    "options": {
+      "A": "200V.",
+      "B": "300V.",
+      "C": "400V.",
+      "D": "600V."
+    },
+    "correct": "D",
+    "explanation": "The capacitor will charge to the peak voltage of the transformer output, 200 x 1.414 or about 283V. On negative half cycles the voltage on the capacitor and the transformer voltage will add to double that voltage across the diode. At least 566V. With real life mains voltage variations and simply playing safe we must allow at least 600V for the diode. 1000V and 1200V diodes are readily available and the cost difference is negligible. Play even safer!",
+    "image": null
+  },
+  {
+    "id": "2J4-1",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shown a block diagram of a typical switched mode power supply. What item or function is associated with the blank box?",
+    "options": {
+      "A": "Mains transformer (50Hz).",
+      "B": "High frequency transformer.",
+      "C": "Voltage stabilisation.",
+      "D": "Smoothing and filtering."
+    },
+    "correct": "B",
+    "explanation": "The mains is rectified and may be partly smoothed then chopped at some 10s of kHz so the transformer size and weight can be substantially reduced. The box is a high frequency transformer.",
+    "image": "C2_Full_2J4-1.png"
+  },
+  {
+    "id": "2J4-2",
+    "level": "full",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What function is performed in the blank box in the block diagram of a typical switched mode power supply?",
+    "options": {
+      "A": "Filtering.",
+      "B": "Voltage transformation.",
+      "C": "DC Smoothing.",
+      "D": "High frequency chopping."
+    },
+    "correct": "D",
+    "explanation": "The mains is rectified and may be partly smoothed then chopped at some 10s of kHz so the transformer size and weight can be substantially reduced. The box contains the electronics to chop the rectified mains before feeding to the transformer.",
+    "image": "C2_Full_2J4-2.png"
+  }
+]

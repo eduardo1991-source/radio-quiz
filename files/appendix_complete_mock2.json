@@ -1,0 +1,1277 @@
+[
+{
+    "id": "APP-MIX2-1",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "An amateur holding the callsign MM0ABC has permanently moved to Spain, which has implemented CEPT Recommendation T/R 61-01. MM0ABC can",
+    "options": {
+      "A": "not operate as MM0ABC under the CEPT agreement.",
+      "B": "operate under the CEPT agreement using the call EA/MM0ABC.",
+      "C": "operate under the CEPT agreement using the call EA/MM0ABC/P.",
+      "D": "operate under the CEPT agreement using the call EA/M0ABC."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-2",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The ITU Regulations",
+    "options": {
+      "A": "specify the power limits that should be applied to amateur licences.",
+      "B": "give guidance on EMC considerations between the amateur service and other radio users.",
+      "C": "contain the frequencies allocated to amateur radio in different parts of the world.",
+      "D": "publish the research on the effect of radio frequency radiation on the human body."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-3",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Apart from a CQ call the amateur licence does not permit",
+    "options": {
+      "A": "talking about a programme heard on the BBC.",
+      "B": "transmitting to anybody who happens to be listening.",
+      "C": "allowing other people to overhear your transmissions.",
+      "D": "transmitting to more than one person."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-4",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "M7ABC is visiting you in your shack and operating SSB on 2m when you need to leave the room to take a telephone call. M7ABC MUST",
+    "options": {
+      "A": "reduce power to no more than their licenced power and continue to use your callsign for the contact.",
+      "B": "continue the contact to its natural conclusion and sign off with his own callsign.",
+      "C": "stop operating until you are back in the same room.",
+      "D": "use their own callsign at no more than their licenced power if they continue to operate."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-5",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The determination of the safe levels for human exposure to electromagnetic fields were performed on behalf of the",
+    "options": {
+      "A": "ITU.",
+      "B": "IARU.",
+      "C": "ICNIRP.",
+      "D": "RSGB."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-6",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "You are supervising a scout sending a message on HF while at a scout camp. When called away you hand over to 2E0ABC. The scout must",
+    "options": {
+      "A": "continue if it is under a club call sign.",
+      "B": "continue but using the call sign 2E0ABC.",
+      "C": "reduce power to no greater than 100W.",
+      "D": "stop operating until you return."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-7",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which of the following is NOT a valid UK call sign?",
+    "options": {
+      "A": "GM6GHT.",
+      "B": "GZ2FTR/P.",
+      "C": "MM0FFF/M.",
+      "D": "GW4GHR/A."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-8",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which description of the amateur radio link between a transceiver at home and a main transmitter at another location most closely reflects the full licence requirements?",
+    "options": {
+      "A": "The link must operate above 30MHz and need not be encrypted.",
+      "B": "The link may operate above 30MHz but should be encrypted.",
+      "C": "The link must operate above 30MHz and must be encrypted.",
+      "D": "The link must operate above 30MHz but must not be encrypted."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-9",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "In the 1.810-1.830MHz band, what is the maximum permitted power supplied to the antenna?",
+    "options": {
+      "A": "15dBW",
+      "B": "9dBW.",
+      "C": "30dBW.",
+      "D": "20dBW."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-10",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "You are a passenger on a river cruise chatting on 2 metres when the master of the vessel asks you to stop transmitting. Your licence",
+    "options": {
+      "A": "makes no requirement for you to need permission.",
+      "B": "says that you need permission only when on a vessel at sea.",
+      "C": "states that you must comply.",
+      "D": "does not permit operating at all when on a vessel."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-11",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "If you move house without notifying Ofcom then you",
+    "options": {
+      "A": "may have to pay a fixed penalty charge of £20.",
+      "B": "risk having your licence revoked.",
+      "C": "will be operating while unlicensed.",
+      "D": "must add the suffix “/A” to your callsign when on-air."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-12",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Rather than buy expensive business radios to contact their fleet of lorries, a haulage company has opted to use an amateur radio as the fleet manager holds a Foundation Licence.",
+    "options": {
+      "A": "That is not acceptable as this is against the terms of the Amateur Radio Licence.",
+      "B": "That is acceptable as the fleet manager holds an amateur radio licence.",
+      "C": "That is acceptable if the fleet manager is speaking to another amateur radio user.",
+      "D": "That is not acceptable as the fleet manager is often in business meetings and another member of staff would have to use the radio."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-13",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which type of modulation of an amateur transmission would NOT normally be produced using a computer and a suitable interface?",
+    "options": {
+      "A": "CW.",
+      "B": "PSK31.",
+      "C": "Slow scan television.",
+      "D": "Single sideband voice."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-14",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Contests are a regular feature of amateur activities but the band plans advise that contests should not occur in the",
+    "options": {
+      "A": "10, 12 and 15m bands.",
+      "B": "12, 15 and 17m bands.",
+      "C": "12, 17 and 30m bands.",
+      "D": "15, 20 and 40m bands."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-15",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A call sign with the prefix ZL indicates a station in",
+    "options": {
+      "A": "New Zealand.",
+      "B": "Australia.",
+      "C": "South Africa.",
+      "D": "Belgium."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-16",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Doppler shift is a phenomenon usually associated with",
+    "options": {
+      "A": "operating via amateur satellites.",
+      "B": "poor Morse keying of an amateur transmitter.",
+      "C": "operating whilst mobile.",
+      "D": "receiving amateur television signals."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-17",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The main purpose of a repeater is to",
+    "options": {
+      "A": "enable packet radio data to be sent to another station that might otherwise be out of range.",
+      "B": "work DX on the HF bands.",
+      "C": "increase the coverage of mobile stations.",
+      "D": "increase the coverage of fixed stations."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-18",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The Q-code for 'your signals are fading' is",
+    "options": {
+      "A": "QRU.",
+      "B": "QSB.",
+      "C": "QSL.",
+      "D": "QSK."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-19",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The drawing shows the circuit of a switching transistor controlling the current in the coil of a relay. The base is fed with regular pulses to cause the relay contacts to close. Which circuit will minimise the voltage spikes caused by the switching?",
+    "options": {
+      "A": "Circuit 1.",
+      "B": "Circuit 2.",
+      "C": "Circuit 3.",
+      "D": "Circuit 4."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": "App_Mix_MOCK2_Q19.png"
+  },
+  {
+    "id": "APP-MIX2-20",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Crystals are available with a variety of resonant frequencies. When selecting the required crystal it is important to also check",
+    "options": {
+      "A": "if it is polarised and requires a small DC bias voltage.",
+      "B": "whether it is optimised for vertical or horizontal mounting.",
+      "C": "whether it is designed for series or parallel resonance.",
+      "D": "which harmonic or sub-harmonic it is optimised for."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-21",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "An HF antenna and open wire twin feeder present an impedance of about 450Ω at the feed point in the shack. The transmitter requires a 50Ω load. The ferrite ring balun has 2 sets of 9 turns connected in series with the centre point earthed. How many turns are required on the primary?",
+    "options": {
+      "A": "2.",
+      "B": "6.",
+      "C": "9.",
+      "D": "27."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-22",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "You wish to run an SDR receiver from a battery. The receiver requires 6v at 350mA and will be used for a period of 25 hours. The lowest capacity for this battery would need to be",
+    "options": {
+      "A": "6V 8Ah.",
+      "B": "6V 10Ah.",
+      "C": "6V 2.1Ah.",
+      "D": "6V 1.5Ah."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-23",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The battery voltage is 10V. What power is dissipated in the 4kΩ resistor?",
+    "options": {
+      "A": "4mW.",
+      "B": "13.6mW.",
+      "C": "16mW.",
+      "D": "20mW."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": "App_Mix_MOCK2_Q23.png"
+  },
+  {
+    "id": "APP-MIX2-24",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "What components are most important in determining the output frequency from this circuit?",
+    "options": {
+      "A": "C1, C2 and C3.",
+      "B": "C1 and C2.",
+      "C": "R1 and R2.",
+      "D": "L1 and C4."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "App_Mix_MOCK2_Q24.png"
+  },
+  {
+    "id": "APP-MIX2-25",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The capacitance of a variable capacitance diode is normally adjusted by varying the",
+    "options": {
+      "A": "forward bias voltage.",
+      "B": "forward bias current.",
+      "C": "reverse bias voltage.",
+      "D": "reverse bias current."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-26",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The purpose of digitising an analogue signal such as that from a microphone is to",
+    "options": {
+      "A": "limit the frequency response to between 300Hz and 3kHz.",
+      "B": "identify the person who is speaking to comply with the licence.",
+      "C": "keep the ratio between the signal and background noise as low as possible.",
+      "D": "allow the signal to be processed with suitable software."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-27",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The circuit diagram shows an oscillator. The function of capacitor C relies upon the ability of a capacitor to",
+    "options": {
+      "A": "prevent direct current entering further circuit stages.",
+      "B": "prevent alternating current entering further circuit stages.",
+      "C": "provide correct biasing of the transistor.",
+      "D": "smooth alternating currents."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": "App_Mix_MOCK2_Q27.png"
+  },
+  {
+    "id": "APP-MIX2-28",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A long open wire twin feeder is feeding a dipole with a 20m signal. At a particular time and location on the feeder, the RF voltage is zero. Where else on the feeder at that time will the RF voltage also be zero?",
+    "options": {
+      "A": "At a distance of 5m further along the feeder.",
+      "B": "At a distance of 15m further along the feeder.",
+      "C": "At a distance of 10m further along the feeder.",
+      "D": "At any distance further along the feeder."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-29",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The oscillator in an HF transmitter is based on an LC tuned circuit and is specified as having a maximum drift of 0.1%. An important effect of this is that a CW signal in the 10MHz amateur band",
+    "options": {
+      "A": "above 10.14MHz may be out of band.",
+      "B": "above 10.13MHz may contravene the band plan.",
+      "C": "below 10.11MHz may be out of band.",
+      "D": "the chirp on the signal could become unreadable."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-30",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "One advantage of a fast attack in the response of the AGC circuits is that",
+    "options": {
+      "A": "the receiver will recover quickly from a strong burst of interfering RF.",
+      "B": "the receiver will be very quick to react to frequency changes in the wanted signal.",
+      "C": "a sudden large RF signal on FM will not result in an overly loud audio output.",
+      "D": "a sudden large RF signal on SSB will not result in an overly loud audio output."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-31",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The block diagram shows a typical",
+    "options": {
+      "A": "FM transmitter.",
+      "B": "CW transmitter.",
+      "C": "AM transmitter.",
+      "D": "SSB transmitter."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": "App_Mix_MOCK2_Q31.png"
+  },
+  {
+    "id": "APP-MIX2-32",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A transmitter is normally used on SSB and runs comfortably warm even when peaking at 100W output. It is decided to use the same transmitter on RTTY (radio teletype) and the input level is set so the RF output peaks at the same level as previously used on voice. It is likely that the transmitter will run",
+    "options": {
+      "A": "at much the same temperature as before.",
+      "B": "considerably hotter than before.",
+      "C": "slightly hotter than before.",
+      "D": "a bit cooler than before."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-33",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "As well as quoting the phase noise level in dBc/Hz what other factor must be quoted for the figure to be usable?",
+    "options": {
+      "A": "The type of modulation concerned.",
+      "B": "The bandwidth of the transmission.",
+      "C": "The actual power level of the carrier.",
+      "D": "The frequency offset from the carrier."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-34",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The sensitivity of a receiver is an indication of its ability to",
+    "options": {
+      "A": "receive weak signals that are only a little stronger than the natural RF noise.",
+      "B": "reject any unwanted signals close to the intended receive frequency.",
+      "C": "function correctly even when the wanted signal is particularly strong.",
+      "D": "reject signals using a different type of modulation to that selected."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-35",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The spectrum of an FM signal is being displayed on a spectrum analyser which is showing the individual sidebands generated by a single audio tone of variable frequency and amplitude. An increasing number of sidebands must mean that the",
+    "options": {
+      "A": "deviation ratio is increasing.",
+      "B": "audio volume is increasing.",
+      "C": "audio frequency is increasing.",
+      "D": "modulation index is increasing."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-36",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A transmitter for the 160 metre band is found to radiate on other amateur bands. What action could be taken to prevent this?",
+    "options": {
+      "A": "Fit a low-pass filter at the output",
+      "B": "Increase the output power",
+      "C": "Thread ferrite beads on the microphone leads",
+      "D": "Stabilise the power supply"
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-37",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The drawing shows one and a half cycles of a signal over a time of 1.5µs. Which frequency domain graph corresponds to the waveform shown?",
+    "options": {
+      "A": "Graph 1.",
+      "B": "Graph 2.",
+      "C": "Graph 3.",
+      "D": "Graph 4."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "App_Mix_MOCK2_Q37.png"
+  },
+  {
+    "id": "APP-MIX2-38",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "An HF transceiver is being used on the 28MHz band to transmit on 50MHz using a transverter with a 80MHz oscillator as the local oscillator. This particular arrangement means that tuning from high to low on the transceiver equates to",
+    "options": {
+      "A": "tuning from high to low in the 6m band and the sidebands are reversed.",
+      "B": "tuning from low to high in the 6m band and the sidebands are not reversed.",
+      "C": "tuning from high to low in the 6m band and the sidebands are not reversed.",
+      "D": "to tuning from low to high in the 6m band and the sidebands are reversed."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-39",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "To transmit and receive on the 144MHz band with a transceiver that covers only 1.8MHz to 30MHz you could use",
+    "options": {
+      "A": "a receive down converter",
+      "B": "an attenuator.",
+      "C": "a transverter.",
+      "D": "a 6:1 balun."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-40",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A correctly connected and terminated coaxial cable from an active transmitter will",
+    "options": {
+      "A": "not have an RF field outside the cable provided the termination is of the correct resistance.",
+      "B": "not have an RF field inside the cable when the termination is of the correct resistance.",
+      "C": "have an RF field inside the cable only if the SWR shows there is a poor match.",
+      "D": "have an RF field between the conductors inside the cable but none outside."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-41",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Four Yagi antennas with a feed-point impedance of 50Ω are stacked and bayed to give a box formation. Each has λ/4 tails of 75Ω coax to a common point where they are all paralleled together. Another λ/4 length is used to match to the 50Ω main feeder. What characteristic impedance is ideally needed?",
+    "options": {
+      "A": "25Ω.",
+      "B": "7.5Ω.",
+      "C": "50Ω.",
+      "D": "75Ω."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-42",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The circuit is a",
+    "options": {
+      "A": "4:1 balun.",
+      "B": "low-pass filter.",
+      "C": "braid-breaker filter.",
+      "D": "1:1 balun."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "App_Mix_MOCK2_Q42.png"
+  },
+  {
+    "id": "APP-MIX2-43",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The maximum potential difference between the conductors of a feeder divided by the minimum potential difference is known as the",
+    "options": {
+      "A": "return loss.",
+      "B": "voltage standing wave ratio.",
+      "C": "vector sum.",
+      "D": "maximum working voltage."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-44",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which one of the following shows a PL259 plug?",
+    "options": {
+      "A": "Drawing 3.",
+      "B": "Drawing 1.",
+      "C": "Drawing 4.",
+      "D": "Drawing 2."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": "App_Mix_MOCK2_Q44.png"
+  },
+  {
+    "id": "APP-MIX2-45",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "An antenna which radiates equally in all 3-dimensional directions is termed",
+    "options": {
+      "A": "an ionospheric antenna.",
+      "B": "an isotropic antenna.",
+      "C": "a vertical half-wave dipole.",
+      "D": "a ground-plane antenna."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-46",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "To reduce the angle of radiation of a transmitted signal the amateur should",
+    "options": {
+      "A": "reduce the number of Yagi elements",
+      "B": "electrically isolate the antenna from the mast",
+      "C": "reduce the height of the antenna above the ground",
+      "D": "increase the height of the antenna above ground"
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-47",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A λ/4 coaxial line transformer using air spaced coaxial cable is replaced with one using a solid polythene dielectric. The length of the replacement cable will be",
+    "options": {
+      "A": "the same as the one it replaces.",
+      "B": "about 2/3 of the one it replaces.",
+      "C": "about half the length of the original.",
+      "D": "1.5 times the length of the one it replaces."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-48",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Under free space conditions electromagnetic waves",
+    "options": {
+      "A": "travel in straight lines and spread out according to the inverse square law of power flux density.",
+      "B": "travel in straight lines and are spread out according to the square law of power flux density.",
+      "C": "travel in straight lines and are spread out according to the inverse linear law of power flux density.",
+      "D": "travel in straight lines and spread out according to the linear law of power flux density."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-49",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "What is the most likely cause of VHF multipath propagation?",
+    "options": {
+      "A": "Ionospheric refraction.",
+      "B": "Doppler shift.",
+      "C": "Reflection off a building.",
+      "D": "Snow and Ice."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-50",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "NVIS contacts are usually possible",
+    "options": {
+      "A": "on bands above 30 MHz.",
+      "B": "on the lower HF bands.",
+      "C": "only well after sunset.",
+      "D": "only during the day."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-51",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A large solar flare will",
+    "options": {
+      "A": "increase the ionisation of the F-layers so the MUF increases quite markedly and causing a considerable improvement in HF propagation.",
+      "B": "increase the ionisation in the D-layer increasing the absorption of radio waves and increasing the LUF such that HF propagation is disrupted.",
+      "C": "increase the number of charged particles entering the higher layers of the ionosphere ensuring improved propagation over several days.",
+      "D": "interact with the earth's magnetic field to deflect charged particles away from the lower ionospheric layers and reducing the LUF."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-52",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Two amateurs want to know if there is any prospect, under normal propagation conditions, of being able to make a simplex contact. Both run 10W transmit power and transceiver requires -121dBm (0.2µV) on receive. Both have feeder losses of 2dB, one has an antenna gain of 8dB and the other 12dB. Terrain software predicts a pathloss of 150dB and 10dB is added for clutter loss of trees and buildings. What is the likelihood of a contact?",
+    "options": {
+      "A": "Very good as there is 17dB to spare.",
+      "B": "Reasonable as there is 7dB to spare.",
+      "C": "Unlikely as the signal will be 3dB short.",
+      "D": "Virtually none as the signal will be 13dB short."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-53",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The IF transformers in a superhet receiver are often enclosed in aluminium cans in order to",
+    "options": {
+      "A": "increase the dynamic resistance and broaden the bandwidth.",
+      "B": "reduce temperature fluctuations which would affect the tuning.",
+      "C": "prevent unwanted coupling between stages.",
+      "D": "increase the Q value of the coils."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-54",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A neighbour has a new television of very good quality installed in his lounge. Nonetheless there are instances of interference from nearby amateur and CB transmissions. It would be sensible to check if the",
+    "options": {
+      "A": "mains voltage to the premises is below the required level.",
+      "B": "aerial and its downlead may have deteriorated since they were installed.",
+      "C": "affected premises does not have a suitable RF earth system.",
+      "D": "television has the latest firmware programming installed."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-55",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "An amateur’s HF transmissions are interfering with the family TV which is receiving UHF broadcasts. Which one of the following filters when fitted at the TV coaxial socket might cure the problem?",
+    "options": {
+      "A": "Low pass.",
+      "B": "Ferrite ring braid breaker.",
+      "C": "Mains hum.",
+      "D": "Sideband."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-56",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A next door neighbour complains of television interference. As a first step towards curing the interference,",
+    "options": {
+      "A": "the neighbour should be instructed to move away from the television receiver.",
+      "B": "the transmitting output should be increased.",
+      "C": "a low pass filter should be fitted to the television receiver.",
+      "D": "the transmitting antenna should be moved away from the TV aerial."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-57",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Why is the keeping of a log book useful if an EMC dispute arises?",
+    "options": {
+      "A": "The length of your antenna you were transmitting on at the time will be logged.",
+      "B": "You are able to see if your transmission times match up with the EMC allegations.",
+      "C": "You can prove you are a radio amateur.",
+      "D": "The callsign of that station contacted will be logged."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-58",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which of the following modes of transmission is LEAST likely to cause interference to a neighbour’s radio or television?",
+    "options": {
+      "A": "CW (Morse).",
+      "B": "SSB - lower sideband.",
+      "C": "FM.",
+      "D": "SSB - upper sideband."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-59",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which of the following are likely to reduce the generation of passive inter-modulation products at your station? 1. Including a low pass filter (LPF) in your station. 2. Including a high pass filter (HPF) in your station. 3. Ensuring all antenna joints and connections are clean and not corroded. 4. Replacing old metal guttering with plastic guttering.",
+    "options": {
+      "A": "1 and 3.",
+      "B": "1 and 2.",
+      "C": "3 and 4.",
+      "D": "2 and 4."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-60",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Amateur transmissions might be picked up by",
+    "options": {
+      "A": "earth leads only.",
+      "B": "any wiring in the neighbour's house.",
+      "C": "only wiring which is longer than 2 metres.",
+      "D": "only wiring that does not have an earth lead."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-61",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The following tests have been carried out to find out how an amateur transmitter is causing interference to a mains powered television with roof mounted aerial. • Transmitting with a dummy load on the transmitter output does not cause interference. • Transmitting with the antenna connected normally causes interference. • Transmitting with the antenna replaced with a dummy load causes interference. • Transmitting normally but powered by a battery rather than mains causes interference. What is a reasonable conclusion as to the cause of interference?",
+    "options": {
+      "A": "Radiation from the antenna.",
+      "B": "Radiation from the feeder.",
+      "C": "RF escaping along the transmitter power leads.",
+      "D": "RF picked up by the house mains wiring."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-62",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "What EMC safety precautions are essential when installing amateur radio equipment in a motor vehicle?",
+    "options": {
+      "A": "Connection of the radio DC supply directly to the battery with suitably rated fuses in both the positive and negative wires.",
+      "B": "Testing to prove the absence of interference between the radio equipment and any of the vehicle's electronic systems.",
+      "C": "Confirmation that the grounding of the feeder screen to the vehicle body at the aerial is being properly achieved.",
+      "D": "Listening to the radio receiver whilst the engine, heater and wiper motor are running to assess how well the suppression of electrical noise produced by the vehicle is being achieved."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-63",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "It is important to note that when removing the case of an active mains-powered amateur transmitter that",
+    "options": {
+      "A": "hand proximity may affect discriminator stability.",
+      "B": "the RF screening will not be compromised.",
+      "C": "lethal voltages may be exposed.",
+      "D": "an integral AMU will be less effective."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-64",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The purpose of conducting a risk assessment is to",
+    "options": {
+      "A": "draw up a suitable document which is required by the owner of the premises proposed for an event.",
+      "B": "identify the likelihood and severity of potential accidents along with mitigation and remedial measure.",
+      "C": "satisfy your insurance company that you have addressed the matter and thus obtain insurance cover.",
+      "D": "provide evidence to health and safety officials that you had considered the risks after an accident has occurred."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-65",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which of the following statements concerning the protection of an amateur radio station from a direct lightning strike is true?",
+    "options": {
+      "A": "You should switch off the mains where it enters the property where the station is located.",
+      "B": "You should make sure your antenna is lower than your TV aerial.",
+      "C": "You cannot take any precautions even with regards to distant lightning strikes.",
+      "D": "You cannot protect against a direct strike."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-66",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "It is unwise, when transmitting, to touch the",
+    "options": {
+      "A": "coaxial feeder.",
+      "B": "transmitter.",
+      "C": "PTT.",
+      "D": "antenna."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-67",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which ONE of the following is likely to be caused by inhaling soldering fumes?",
+    "options": {
+      "A": "Earache.",
+      "B": "Dry joints.",
+      "C": "Breathing difficulties.",
+      "D": "Haemorrhoids."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-68",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "If it is unavoidable to make internal adjustments to a mains powered transceiver while it is switched on, the operator should",
+    "options": {
+      "A": "wear a rubber apron.",
+      "B": "wear safety goggles",
+      "C": "place the equipment on an insulating mat",
+      "D": "use only one hand"
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-69",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Vehicle batteries pose a fire risk because",
+    "options": {
+      "A": "they are a source of very high currents.",
+      "B": "they contain several lead plates.",
+      "C": "they contain a concentrated acid.",
+      "D": "they are electrically polarised."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-70",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A risk when drilling metal is",
+    "options": {
+      "A": "the centre punch will mark the work.",
+      "B": "swarf will fly up towards the eyes.",
+      "C": "the drill bit will become blunt.",
+      "D": "an electric shock may occur."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-71",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The basic accuracy of a digital frequency meter is determined by the",
+    "options": {
+      "A": "time for which the 'gate' of the counter is open.",
+      "B": "resolution of the display.",
+      "C": "accuracy of the clock frequency.",
+      "D": "number of non-zero digits displayed."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-72",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A 7.10MHz LC tuned circuit is on frequency when first switched on in a room at 20°C. Both the coil and the capacitor have a temperature coefficient of +10ppm per degree C. When the device has warmed up the temperature inside the enclosure is 60°C. What temperature coefficient for a replacement capacitor should be chosen to minimise the frequency drift?",
+    "options": {
+      "A": "zero.",
+      "B": "-20 ppm per degree C.",
+      "C": "-10 ppm per degree C.",
+      "D": "+10 ppm per degree C."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-73",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "An oscilloscope is displaying an AC signal showing 6 cycles across 6 divisions on the xaxis of the screen. The time base is set to 10ms per division. What is the frequency of the AC signal?",
+    "options": {
+      "A": "60Hz.",
+      "B": "1kHz.",
+      "C": "100Hz.",
+      "D": "600Hz."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-74",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "An RF amplifier is required to bring the 200mV output from an oscillator up to 4V to drive the output transistors in a transmitter. What gain device should you be looking for?",
+    "options": {
+      "A": "26dB.",
+      "B": "20dB.",
+      "C": "13dB.",
+      "D": "10dB."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP-MIX2-75",
+    "level": "mixed",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The circuit shown is connected to a supply of 24V. R1 is 20kΩ and R2 is 10kΩ. The voltmeter reads 0-15V and has a resistance of 10kΩ. Approximately what voltage will it read?",
+    "options": {
+      "A": "12V.",
+      "B": "8V.",
+      "C": "5V.",
+      "D": "15V."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": "App_Mix_MOCK2_Q75.png"
+  }
+]

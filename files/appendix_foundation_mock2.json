@@ -1,0 +1,470 @@
+[
+  {
+    "id": "APP_FOUND_MOCK2_Q1",
+    "number": 1,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "An Amateur Radio Licensee may use the Station for",
+    "options": {
+      "A": "Self-training in communication by wireless telegraphy.",
+      "B": "Broadcasting messages for reception by un-licenced listeners.",
+      "C": "The Licensee’s personal business interests.",
+      "D": "Transmitting recorded music for reception by institutions such as hospitals."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q2",
+    "number": 2,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "To correctly identify your station in accordance with your licence you MUST state",
+    "options": {
+      "A": "your name and the Callsign of the station you are using.",
+      "B": "your Callsign and then the Callsign of the station you are in contact with.",
+      "C": "your Callsign in voice or the mode of transmission you are using.",
+      "D": "the Callsign of the station you are in contact with and then your Callsign."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q3",
+    "number": 3,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A member of a User Service wishes to pass a message using your radio equipment to support operations.",
+    "options": {
+      "A": "That is only acceptable in times of emergency.",
+      "B": "That is not acceptable unless the member is a licenced amateur.",
+      "C": "That is not acceptable.",
+      "D": "That is acceptable."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q4",
+    "number": 4,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The holder of an Amateur Radio Licence may be told to close down and cease to operate the station when",
+    "options": {
+      "A": "the station has not been on the air for 6 months.",
+      "B": "the station has not been on the air for 3 months.",
+      "C": "operation has only been mobile.",
+      "D": "the licensee is in breach of the licence."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q5",
+    "number": 5,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The EMF requirements in the amateur licence are there to",
+    "options": {
+      "A": "limit the exposure of people to RF radiation.",
+      "B": "avoid other electronic equipment suffering interference.",
+      "C": "set the permitted power limits at each licence level.",
+      "D": "minimise RF pickup in overheard telephone wires."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q6",
+    "number": 6,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which amateur band shown is allocated on a Primary basis with the condition of non-interference to other services outside the UK?",
+    "options": {
+      "A": "1.85 – 2.00MHz.",
+      "B": "3.50 – 3.80MHz.",
+      "C": "0.1357 – 0.1378MHz.",
+      "D": "1.81 – 1.83MHz."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q7",
+    "number": 7,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which one of the following is an electrical insulator?",
+    "options": {
+      "A": "Copper",
+      "B": "Gold",
+      "C": "Silver",
+      "D": "Ceramic."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q8",
+    "number": 8,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "What wavelength corresponds to the 14MHz band?",
+    "options": {
+      "A": "50 metres",
+      "B": "20 metres",
+      "C": "0.6 metres",
+      "D": "40 metres."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q9",
+    "number": 9,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The block diagram shows part of a radio receiver which uses digital processing to demodulate the radio signals. What is the function of the box marked 'X'?",
+    "options": {
+      "A": "Digital to analogue converter",
+      "B": "Analogue to digital converter",
+      "C": "Frequency demodulator stage",
+      "D": "Amplitude demodulator stage."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": "APP_FOUND_MOCK2_Q9.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q10",
+    "number": 10,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Modulation is the process of",
+    "options": {
+      "A": "ensuring the transmitter is on the same frequency as the distant receiver",
+      "B": "adding the data or voice to be transmitted to the radio frequency carrier",
+      "C": "extracting the transmitted data from the radio frequency carrier",
+      "D": "ensuring the transmitter is on the same frequency as the local receiver."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q11",
+    "number": 11,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "What is the function of the box marked '3' on the transmitter block diagram?",
+    "options": {
+      "A": "Modulator",
+      "B": "Audio amplifier",
+      "C": "RF power amplifier",
+      "D": "Oscillator."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "APP_FOUND_MOCK2_Q11.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q12",
+    "number": 12,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "In a software defined radio (SDR) receiver the required signal is selected using",
+    "options": {
+      "A": "A low pass filter",
+      "B": "An anti-alias filter",
+      "C": "A filter defined in software",
+      "D": "A diode detector."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q13",
+    "number": 13,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The cable shown in the drawing is normally used for",
+    "options": {
+      "A": "carrying mains power",
+      "B": "outdoor lighting",
+      "C": "radio frequency signals",
+      "D": "low voltage DC devices."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": "APP_FOUND_MOCK2_Q13.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q14",
+    "number": 14,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "10W EIRP is the same radiating power as",
+    "options": {
+      "A": "6.1W ERP.",
+      "B": "6.1W PEP.",
+      "C": "10W ERP.",
+      "D": "10W PEP."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q15",
+    "number": 15,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which type of cable is fitted to a PL259 plug?",
+    "options": {
+      "A": "Two core AC mains",
+      "B": "300Ω ribbon",
+      "C": "Three core AC mains",
+      "D": "50Ω coaxial."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q16",
+    "number": 16,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The layers of conductive gases between 70 and 400km in height are known as the",
+    "options": {
+      "A": "troposphere",
+      "B": "solarsphere",
+      "C": "ionosphere",
+      "D": "mesosphere."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q17",
+    "number": 17,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which action will be most effective in extending the range for transmitting and receiving VHF or UHF signals?",
+    "options": {
+      "A": "Increasing the height of the antenna",
+      "B": "Using UHF rather than VHF",
+      "C": "Using an indoor antenna",
+      "D": "Increasing the transmitter power."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q18",
+    "number": 18,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Which item is most likely to be affected by a local radio transmission?",
+    "options": {
+      "A": "An electric bell",
+      "B": "An electronic calculator",
+      "C": "A domestic radio receiver",
+      "D": "An electric fire."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q19",
+    "number": 19,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Amateur transmissions might be picked up by",
+    "options": {
+      "A": "only wiring that does not have an earth lead",
+      "B": "only wiring which is longer than 2 metres",
+      "C": "earth leads only",
+      "D": "any nearby electrical wiring."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q20",
+    "number": 20,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "It is proving difficult to determine how an amateur transmission is interfering with a neighbour’s television. The amateur should try seeking help from the",
+    "options": {
+      "A": "Radio Society of Great Britain",
+      "B": "British Telecommunications",
+      "C": "Planning Department of the local council",
+      "D": "Radio Licensing Centre."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q21",
+    "number": 21,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "The main reason for listening on the frequency before making a CQ call or starting a conversation is",
+    "options": {
+      "A": "because the station you are calling might be calling you.",
+      "B": "to make sure the station you are contacting is listening on that frequency.",
+      "C": "to allow your transmitter to settle properly on the chosen frequency.",
+      "D": "to ensure your transmission will not upset other transmissions."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q22",
+    "number": 22,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "According to the 'Band Plan' what is the 2 metre band FM calling frequency?",
+    "options": {
+      "A": "144.500MHz",
+      "B": "144.300MHz",
+      "C": "145.500MHz",
+      "D": "144.700MHz."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q23",
+    "number": 23,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Getting an amateur friend to comment on your transmitted audio signal when you are using a new microphone is necessary because",
+    "options": {
+      "A": "the tone controls might need adjusting.",
+      "B": "the microphone could be tuned to the wrong frequency",
+      "C": "not all microphones are suitably fused",
+      "D": "the microphone gain on the transmitter may need to be re-adjusted."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q24",
+    "number": 24,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "A fuse is formed from",
+    "options": {
+      "A": "a coil of wire",
+      "B": "a metal strip designed to melt at a specific current",
+      "C": "a junction of two different types of silicon material",
+      "D": "two metal plates separated by an insulator."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q25",
+    "number": 25,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "Protective goggles should be worn when drilling in order to",
+    "options": {
+      "A": "hold glasses (if worn) securely",
+      "B": "allow closer inspection of the work",
+      "C": "prevent swarf entering your eyes",
+      "D": "allow greater drill speeds."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK2_Q26",
+    "number": 26,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 2,
+    "question": "At an open day hosted by your radio club who is responsible for the safety ofthose attending?",
+    "options": {
+      "A": "Everybody present",
+      "B": "The RSGB",
+      "C": "Ofcom",
+      "D": "The police."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  }
+]

@@ -1,0 +1,930 @@
+[
+  {
+    "id": "APP_FULL1_Q1",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Which action is prohibited by the licence unless carried out in support of a user service, disaster or international emergency?",
+    "options": {
+      "A": "Sending messages in a code such as Morse code which is not widely understood.",
+      "B": "Using abbreviations which are not listed in the relevant examination syllabus.",
+      "C": "Using words where the meaning is known only to the intended recipient.",
+      "D": "Speaking in a foreign language not commonly spoken in the United Kingdom."
+    },
+    "correct": "C",
+    "explanation": "(6-19b) prohibits obscuring the meaning of messages unless for the purposes of (6-5) which is supporting user services or disasters. Morse and Q-codes are to enhance communication and are fine as is using any language both parties happen to share.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q2",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Why is it appropriate the take steps to control the transmitted bandwidth?",
+    "options": {
+      "A": "The transmission will occupy more spectrum than required for satisfactory communication and may contravene licence condition 6-2.",
+      "B": "Spread spectrum modes are not permitted by the amateur radio licence unless a special research permit is obtained from Ofcom.",
+      "C": "The signal will be unintelligible on most receivers.",
+      "D": "The transmitted frequency will be unstable."
+    },
+    "correct": "A",
+    "explanation": "(6-2) requires us to not cause undue interference to any wireless telegraphy, that includes other amateurs. A transmission wider than that necessary for successful communication risks doing that and is, in any case, anti-social.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q3",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A remotely controlled transmitter is on 7.11MHz and the control link is on 145.795MHz. The main transmitter is set to a power level of 80W ERP. The maximum permitted power limit for the link is",
+    "options": {
+      "A": "10W",
+      "B": "40W ERP",
+      "C": "80W ERP",
+      "D": "1000W"
+    },
+    "correct": "D",
+    "explanation": "The only technical requirement for a link in an amateur band is that it must be above 30MHz, so the licence limit is 1kW at each end. Obviously, and to comply with (6-2) on undue interference, the link should be at the lowest power that allows reliable operation.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q4",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If you have your HAREC document with you when in a country which has signed up to CEPT recommendation T/R 61-02 then you may",
+    "options": {
+      "A": "operate in that country for longer than the normal 3 month limit.",
+      "B": "apply for an amateur licence in that country as if you had passed their examination.",
+      "C": "operate on bands that are in either that countries licence or your UK licence.",
+      "D": "drop the normal requirement to prefix your UK callsign with the local prefix letters."
+    },
+    "correct": "B",
+    "explanation": "The Harmonised Amateur Radio Examination Certificate confirms you have passed the Full level examination, or its equivalent in signatory countries and can obtain a licence from that country.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q5",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The UK is in ITU Region",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct": "A",
+    "explanation": "The UK and Europe are in Region 1.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q6",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What is the relevance of the transmit mode in assessing EMF (electromagnetic field) compliance?",
+    "options": {
+      "A": "It allows for the average transmit power for a given peak power.",
+      "B": "It allows for the relative transmit and receive times over any 6 minute period.",
+      "C": "It corrects for people being out of the main beam of the antenna.",
+      "D": "It limits the instantaneous transmit power at the crest of the modulation envelope."
+    },
+    "correct": "A",
+    "explanation": "Not all modes transmit at full power while the PTT is pressed. FM does, unprocessed (uncompressed) SSB is rated at 20% and processed SSB at 50%. The RSGB online calculator has many modes built in for selection.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q7",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "You are taking part in an NVIS net on 5.314MHz USB in support of an event. You must have",
+    "options": {
+      "A": "a copy of the 5MHz schedule to refer to.",
+      "B": "a telephone in your possession or nearby.",
+      "C": "contact details of the nearest military Unit.",
+      "D": "permission from the nearest military Unit."
+    },
+    "correct": "B",
+    "explanation": "The rules for identification are different on 5MHz where we have a Secondary allocation with MoD having primary access. Note G to Schedule 1 requires you to be contactable by telephone. This must be the number you gave to Ofcom when applying for your licence or confirming the details, including your phone number at the transmission location, remain correct.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q8",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "It is decided to limit the lowest POWER from the loudspeaker to 1% of full volume. To achieve this a resistor is inserted between the lower connection of the potentiometer and the OV line to form a potential divider as shown in the diagram. The control itself is a 10k potentiometer. The value of the resistor should be",
+    "options": {
+      "A": "0.1kΩ.",
+      "B": "1kΩ.",
+      "C": "1.1kΩ.",
+      "D": "10kΩ."
+    },
+    "correct": "C",
+    "explanation": "If the power delivered to the loudspeaker is to be 1% of the maximum power, that is at full volume on the volume control, then the minimum will be 10% of the voltage. (P=V²/R). That means the potential divider formed by the volume control and the new resistor must be 10:1. Remember that a 10kΩ and a 1kΩ resistor form an 11:1 divider, 10x1/(10+1). The 1kΩ resistor must be a bit bigger than 1k for a 10:1 divider. Option C is the only one close. However to prove it the calculation, working in KΩ is: Vout/Vin = 0.1 = R/(10+R) multiply both sides by 10+R <=> 1+0.1R = R or 1 = 0.9R so R = 1/0.9=1.1kΩ",
+    "image": "App_Full_MOCK1_Q8.png"
+  },
+  {
+    "id": "APP_FULL1_Q9",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A 3µF and a 6µF capacitor are connected in series to a 12V supply. What is the voltage across each of the capacitors?",
+    "options": {
+      "A": "6V on each capacitor.",
+      "B": "4V on 3µF and 8V on 6µF.",
+      "C": "4V on 6µF and 8V on 3µF.",
+      "D": "12V on each capacitor."
+    },
+    "correct": "C",
+    "explanation": "The quick solution is to realise that in series both capacitors will have same charge, which is current x time. Q=VxC so V=Q/C. The smaller capacitor will have the larger voltage. Calculating: 3uF and 6uF in series gives 3x6/(3+6) = 18/9 = 2uF. At 12V the charge is Q = VxC = 24µC. The voltage on the 3µF capacitor is V = Q/C = 24/3 = 8V The voltage on the 6uF capacitor is V = Q/C = 24/6 = 4V",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q10",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The circuit diagram shows a transistor operating a relay which consists of a coil on a soft iron former so the magnetic attraction operates a contact to control some mains lighting. What is the purpose of the diode?",
+    "options": {
+      "A": "To prevent the relay operating if the low voltage supply is of the wrong polarity.",
+      "B": "To avoid the back EMF from affecting the transistor when it turns on to operate the relay.",
+      "C": "To avoid the back EMF from affecting the transistor when it turns off to release the relay.",
+      "D": "To ensure the relay releases when the signal on the transistor base is removed."
+    },
+    "correct": "C",
+    "explanation": "If the current to the relay is stopped abruptly then the back EMF will cause a voltage spike considerably greater than the supply voltage and quite possibly high enough to damage the transistor. The diode will provide somewhere for the current associated with the spike to pass harmlessly saving the transistor. It is not a problem at turn-on, the voltage may be applied suddenly but the current can build up at such a rate as the coil inductance permits with only a modest back EMF.",
+    "image": "App_Full_MOCK1_Q10.png"
+  },
+  {
+    "id": "APP_FULL1_Q11",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A 1kV high voltage power supply has a reservoir capacitor of 10µF. It is estimated that if the stored voltage falls to about 100V in 10 seconds then it will be safe to open the case. What value of bleed resistor should be fitted?",
+    "options": {
+      "A": "100kΩ.",
+      "B": "200kΩ.",
+      "C": "500kΩ.",
+      "D": "1ΜΩ."
+    },
+    "correct": "C",
+    "explanation": "After one time constant the voltage will have fallen to about a third of the initial value so after two time constants 1kV should be reasonably close to 100V. So the time constant required is about 5 seconds. T = CXR so R = T/C = 5/10μ = 500kΩ. Note a more accurate calculation (outside the syllabus) will show the voltage is about 135V after 10 seconds and about 11.5 seconds is needed to get down to 100V. It should also be noted that at 1KV the current is 2mA and 2W power dissipation. A resistor suitable for 1KV and 2W dissipation is needed.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q12",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An 18.2µH coil and a resistor of 300Ω are connected in series. A current of 3mA at 3.5MHz is flowing through the circuit. What is the applied voltage?",
+    "options": {
+      "A": "0.9V.",
+      "B": "0.96V.",
+      "C": "1.5V.",
+      "D": "2.1V."
+    },
+    "correct": "C",
+    "explanation": "XL = 2πfL = 2π x 3.5×106 x 18.2×10-6 = 400Ω The total impedance is Z = √(R²+X²) = √300² + 400² = 500Ω. At 3mA the applied voltage is 3mA x 500Ω = 1.5V. Note, it is worth looking out for 3,4,5 triangles if XL had calculated out to 398Ω it's a fair bet R was 300 and thus Z is 500Ω. Of course it could be a 6,8,10 triangle.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q13",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An SDR transmitter digitises the audio signal from the microphone at a rate of 7000 samples per second. A particularly loud whistle at 4kHz gets through the analogue audio filter, albeit reasonably well attenuated. What audio frequency will this cause at the distant receiver if all the other processes are performed as intended?",
+    "options": {
+      "A": "2kHz.",
+      "B": "3kHz.",
+      "C": "4kHz.",
+      "D": "7kHz."
+    },
+    "correct": "B",
+    "explanation": "At 7000 samples/second the Nyquist frequency is 3.5kHz. A signal at 4kHz is 500Hz above the Nyquist frequency so will be interpreted as a signal 500Hz below it or 3kHz.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q14",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A transformer has 960 turns on the primary and 64 turns on the secondary. The mains input is 240V rms. The load on the secondary is equivalent to a 2Ω resistor. What current is drawn from the mains assuming no losses in the transformer?",
+    "options": {
+      "A": "0.5A.",
+      "B": "1A.",
+      "C": "6.4A.",
+      "D": "8A."
+    },
+    "correct": "A",
+    "explanation": "The output from the transformer is 240 x 64/960 = 16V. Into a 2Ω load the current is 8A and the power 8 x 16 = 128W.At 240V that power is just over 0.5A.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q15",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A 400W transmitter is feeding an antenna matching unit where the first components are a parallel tuned circuit. On their own the Q-factor of the tuned circuit is about 50 but when loaded, that is connected to the antenna, the working Q drops to 5. What is a reasonable estimate for the circulating current in the tuned circuit?",
+    "options": {
+      "A": "5A.",
+      "B": "8A.",
+      "C": "14A.",
+      "D": "40A."
+    },
+    "correct": "C",
+    "explanation": "At 400W the input current into 500 is P=V2/R so I=√400/50 = 2.83A with a working Q of 5 that gives a circulating current of about 14A.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q16",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Calculate the component value of R1 in the circuit diagram to bring the collector voltage to 7.3V. The transistor has a VBE of 0.7V and B between 400 and 900.",
+    "options": {
+      "A": "38kΩ.",
+      "B": "57kΩ.",
+      "C": "90kΩ.",
+      "D": "161kΩ."
+    },
+    "correct": "A",
+    "explanation": "With a collector voltage of 7.3V the collector current is about (12-7.3)/4.7 = 1 mA. The voltage across the emitter resistor will be about 1.8V so the base will be at about 2.5V. 2.5V across 10kΩ is a current of 250µA, and much the same current will be in R1 which should have 9.5V across it. That requires a resistance of R = V/I = 9.5/0.25 kΩ = 38kΩ. The base current will be a maximum of 2.5µA which we can neglect in the standing current of 250µA.",
+    "image": "App_Full_MOCK1_Q16.png"
+  },
+  {
+    "id": "APP_FULL1_Q17",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What configuration is the transistor amplifier in the circuit diagram?",
+    "options": {
+      "A": "Emitter follower.",
+      "B": "Common emitter.",
+      "C": "Common base.",
+      "D": "Common collector."
+    },
+    "correct": "C",
+    "explanation": "The input is on the emitter and the base is held at OV AC by a capacitor to the OV line. That is a common base configuration.",
+    "image": "App_Full_MOCK1_Q17.png"
+  },
+  {
+    "id": "APP_FULL1_Q18",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "At what frequency is the transformer in the block diagram likely to operate?",
+    "options": {
+      "A": "50Hz.",
+      "B": "100Hz.",
+      "C": "30-80kHz.",
+      "D": "3.5-3.8MHz."
+    },
+    "correct": "C",
+    "explanation": "The block diagram is of a switched mode power supply. The transformer operating frequency will be above human (and hopefully dogs) hearing range up to maybe 80 - 100kHz.",
+    "image": "App_Full_MOCK1_Q18.png"
+  },
+  {
+    "id": "APP_FULL1_Q19",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A modulator produces an SSB output from 8.900MHz to 8.903MHz. This is mixed with a VFO at 5.250MHz to give outputs in the 20m and 80m amateur bands. What are the actual frequencies?",
+    "options": {
+      "A": "3.650 to 3.653MHz and 14.150 to 14.153MHz.",
+      "B": "3.650 to 3.647MHz and 14.150 to 14.153MHz.",
+      "C": "3.650 to 3.653MHz and 14.150 to 14.147MHz.",
+      "D": "3.650 to 3.647MHz and 14.150 to 14.147MHz."
+    },
+    "correct": "A",
+    "explanation": "The sum outputs are 14.150MHz (0Hz) to 14.153MHz (3kHz). The difference outputs 3.650MHz (0Hz) to 3.653MHz (3kHz).",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q20",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "To safely operate on 29.696MHz USB with audio at 300Hz to 3kHz, the allowable drift in the master oscillator must be better than",
+    "options": {
+      "A": "3.4ppm.",
+      "B": "10ppm.",
+      "C": "34ppm.",
+      "D": "100ppm."
+    },
+    "correct": "C",
+    "explanation": "The occupied bandwidth is 29.696MHz to 29.699MHz. The top of the band (see the schedule) is 29.700MHz; 1kHz to spare. 1kHz in 29700MHz is 100000/29700 = 34 parts per million, ppm.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q21",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What is the function of the blank block in the block diagram?",
+    "options": {
+      "A": "Sine wave lookup table.",
+      "B": "Fourier transform.",
+      "C": "Square to sine wave conversion.",
+      "D": "Digital filter."
+    },
+    "correct": "A",
+    "explanation": "The blank box is the sinewave lookup table giving the amplitude of a sinewave at a enough points through the cycle to seed the digital to analogue converter to produce an analogue output of sufficient purity.",
+    "image": "App_Full_MOCK1_Q21.png"
+  },
+  {
+    "id": "APP_FULL1_Q22",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What is the output from this circuit?",
+    "options": {
+      "A": "a single sideband with no carrier.",
+      "B": "a single sideband with a carrier.",
+      "C": "a double sideband with a carrier.",
+      "D": "a double sideband with no carrier."
+    },
+    "correct": "D",
+    "explanation": "The circuit is a balanced modulator. The output is the upper and lower sidebands representing the audio signal on the RF carrier. The carrier itself and the audio signal are balanced out.",
+    "image": "App_Full_MOCK1_Q22.png"
+  },
+  {
+    "id": "APP_FULL1_Q23",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A single tone test using the CW mode at 14.300MHz is driving the PA into non-linearity. As well as the signal on 14.300MHz there is likely to be a signal on",
+    "options": {
+      "A": "14.3007MHz.",
+      "B": "28.300MHz.",
+      "C": "42.900MHz.",
+      "D": "57.100MHz."
+    },
+    "correct": "C",
+    "explanation": "Non-linearity will produce harmonics. Only 42.9MHz is a harmonic. 14.3007MHz is a 700Hz offset, relevant for a BFO but not what was asked.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q24",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What component part of a transmitter would have an output called \"out of lock\"?",
+    "options": {
+      "A": "Automatic level control.",
+      "B": "Frequency synthesiser.",
+      "C": "Full break-in keying.",
+      "D": "Standing wave detection circuit."
+    },
+    "correct": "B",
+    "explanation": "Specifically it would be a phase lock loop frequency synthesiser, the direct digital synthesis type does not have an out-of-lock condition. The out-of-lock output must inhibit transmission because under those circumstances the transmitted frequency is uncontrolled.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q25",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Why will an overly strong signal within the RF front end passband but outside the subsequent IF bandwidth limit the receiver's ability to detect weak signals otherwise perfectly readable?",
+    "options": {
+      "A": "The strong signal will cause the AGC to reduce the gain below that needed to bring weak signals up to a usable level.",
+      "B": "Non-linearity will result in intermodulation products, some of which will be close to and on top of the wanted weak signal.",
+      "C": "The dynamic range of the receiver is degraded by strong signal and this loss of range is always at the low signal end.",
+      "D": "The wanted weak signals will mix with stronger signals resulting in them appearing at the sum and difference frequencies."
+    },
+    "correct": "B",
+    "explanation": "An overly strong signal will drive the RF front end circuits into non-linearity resulting in lots of intermodulation products which will be alongside and on top of the wanted signal which then appears to be lost in the noise. The other options deserve a comment. The AGC control signal is developed at the output from the IF so a signal outside the IF bandwidth should have little or no effect. The Dynamic range of a receiver is set by the gains and internal noise of the receiver, not external signals. The mixing effect may be true but the effect stated does not answer the question asked.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q26",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A superhet receiver is tuned to 1.82MHz and has an IF of 460kHz. The image frequency of the receiver might be",
+    "options": {
+      "A": "0.90MHz.",
+      "B": "0.92MHz.",
+      "C": "1.36MHz.",
+      "D": "2.28MHz."
+    },
+    "correct": "A",
+    "explanation": "There are two possible image frequencies. 2 × IF = 920kHz, 1820kHz ± 920 gives 900kHz and 2740kHz.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q27",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Why is a preamp often more beneficial at VHF/UHF than at HF?",
+    "options": {
+      "A": "At HF many signals overlap from different parts of the world so the environment is interference limited.",
+      "B": "At VHF and UHF the natural background noise is much lower and internal receiver noise can be the limiting factor.",
+      "C": "VHF and UHF propagation is poorer and signals naturally weaker which requires more gain for good detection.",
+      "D": "HF propagation is poorer and signals naturally weaker which requires more gain for good detection."
+    },
+    "correct": "B",
+    "explanation": "The limiting factor on sensitivity is noise. Having sufficient gain is easy but low internal noise is harder and expensive. At HF the natural noise is high, higher than the internal noise of ordinary circuits. The opposite is true at VHF and much more so at UHF and above. Ideally the preamp will be at the antenna end of the feeder, so feeder losses don't affect the achievable sensitivity. Higher gain antennas also improve the sensitivity, and the option of preamp, straight through or attenuator will allow the greatest range of signal levels to be handled, albeit not simultaneously.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q28",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The device shown in the diagram is a",
+    "options": {
+      "A": "product detector.",
+      "B": "SWR indicator.",
+      "C": "frequency discriminator.",
+      "D": "PLL out-of-lock detector."
+    },
+    "correct": "C",
+    "explanation": "The device is a ratio detector for demodulating FM signals. It relies on phase changes around resonance in a tuned circuit. The phase changes are much more marked than amplitude changes, making the device sensitive to even very narrow frequency deviations.",
+    "image": "App_Full_MOCK1_Q28.png"
+  },
+  {
+    "id": "APP_FULL1_Q29",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The phasor diagram shows a phasor representation of a modulated carrier. What type of modulation is depicted?",
+    "options": {
+      "A": "Amplitude modulation.",
+      "B": "Frequency modulation.",
+      "C": "Single sideband modulation.",
+      "D": "Binary phase shift keying."
+    },
+    "correct": "B",
+    "explanation": "It is worth remembering that a phasor diagram shows the relative phases of the currents, voltages or signal concerned. In reality the whole diagram is rotating at the frequency of the signal (the carrier in this case) but we have a 'freeze-frame' of the signal so we can actually see the phase relationships. Here the relationship is between the modulated carrier and an unmodulated carrier as a reference. An unmodulated carrier will not have any sidebands so will just sit, apparently stationary, at the 6 o'clock position. If the carrier is modulated then its frequency will change above and below its nominal value and the phase at any instant in time will vary from what it would have been if it had not been modulated. As drawn in the question the vector or phasor sum of the carrier and the two sidebands will move left and right in time with the audio signal. More accurately the sum, the resultant, moves anti-clockwise and clockwise. If we assume the unmodulated carrier is actually rotating anti-clockwise then any anti-clockwise movement on the phasor diagram itself represents a small increase in the overall rate of rotation. That is the frequency has increased at that moment in time. Similarly a clockwise movement on the phasor diagram represents a decrease in frequency. The diagram therefore represents frequency modulation. Frequency and phase modulation are subtle variations on the same technique. Frequency modulation means that the instantaneous frequency is directly related to the instantaneous amplitude of the audio signal and the resulting phase changes are merely a consequence of the frequency changes. In phase modulation it is the phase offset that is directly related to the instantaneous audio amplitude and the frequency is simply a consequence of achieving that particular phase. Note: This explanation goes well beyond what is expected even at Full level, but it does give some context to the phasor diagrams. It is also worth noting that this topic has been added to the syllabus to give some modest understanding of why software defined receivers have an I and a 'Q' channel-it is to track the amplitude and phase changes of the received signal as a prelude to demodulation. A mathematician would call the I and Q channels X and Y on a graph!",
+    "image": "App_Full_MOCK1_Q29.png"
+  },
+  {
+    "id": "APP_FULL1_Q30",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Which one of the functions below is NOT common to both transmit and receive?",
+    "options": {
+      "A": "Local Oscillator.",
+      "B": "Automatic Gain Control.",
+      "C": "Mixer.",
+      "D": "IF filter."
+    },
+    "correct": "B",
+    "explanation": "The local oscillator is often used to mix up in the transmitter and mix down to the IF in the receiver. That also covers the mixer for transmitting and receiving. The IF filter stages can follow the modulator to remove the other modulation products on transmit. The AGC is only used in the IF to maintain a constant level signal into the detector.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q31",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A two-way splitter for a couple of stacked 2m antennas requires 2 lengths of solid polythene coax λ/4 long. These should be cut to",
+    "options": {
+      "A": "104cm.",
+      "B": "52cm.",
+      "C": "35cm.",
+      "D": "26cm."
+    },
+    "correct": "C",
+    "explanation": "Solid polythene has a velocity factor of 0.67 or 2/3. At 2m λ/4 is 51.7cm. 2/3 of that is about 35cm. The aim of the two λ/4 lengths is to transform the 50Ω at each antenna to 100Ω at the join to the main feeder so two 100Ω impedances in parallel make a 50Ω match to the feeder.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q32",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A quarter wave ground-plane antenna, mounted with the radiating element vertical has a feed impedance of approximately",
+    "options": {
+      "A": "25Ω.",
+      "B": "37Ω.",
+      "C": "50Ω.",
+      "D": "75Ω."
+    },
+    "correct": "B",
+    "explanation": "The λ/4 ground plane is effectively half a dipole, the 'other half' being the reflection in the ground plane. Feed impedance of a dipole in free space is 73Ω so a λ/4 ground plane is 73/2 = 37Ω.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q33",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The feeder of an existing installation is replaced with one having a lower loss. On checking the installation from in the shack, it should be observed that the SWR",
+    "options": {
+      "A": "and return loss have increased.",
+      "B": "has increased and the return loss reduced.",
+      "C": "has reduced and the return loss increased.",
+      "D": "and return loss have reduced."
+    },
+    "correct": "B",
+    "explanation": "The only change is the feeder loss. The reflection at the antenna, whatever proportion that was, hasn't changed. Neither has the power from the transmitter. If the feeder loss is lower then a bit more signal will reach the antenna and a bit more signal will reach the transmitter on the return path. That means the standing wave ratio will be greater. Goodbye options C and D. The return loss is the ratio between the forward and reflected signals. If more reflected signal arrives back at the transmitter then the ratio between them will be lower.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q34",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An amateur inadvertently uses a short lead λ/4 long intended for use on an oscilloscope, where the characteristic impedance used is 75Ω. The lead is connected to a 50Ω dummy load. The impedance at the free end will be",
+    "options": {
+      "A": "37Ω.",
+      "B": "50Ω.",
+      "C": "75Ω.",
+      "D": "112Ω."
+    },
+    "correct": "D",
+    "explanation": "The formula for a λ/4 line is Z0²=Zin x Zout from the formula sheet on the back of the Reference Data booklet. So Zin = 75x75/50=112.5Ω",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q35",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Communication with satellites often uses",
+    "options": {
+      "A": "vertical polarisation.",
+      "B": "slant polarisation.",
+      "C": "horizontal polarisation.",
+      "D": "circular polarisation."
+    },
+    "correct": "D",
+    "explanation": "Satellite communication often uses circular polarisation mainly because the orientation of the satellite can change either as a feature of its orbit or as the viewing angle changes from different points on the earth's surface.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q36",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Which of these parameters about the ionosphere will have the lowest frequency?",
+    "options": {
+      "A": "MUF on a long path.",
+      "B": "MUF on a short path.",
+      "C": "Critical frequency.",
+      "D": "NVIS frequency."
+    },
+    "correct": "C",
+    "explanation": "The Critical Frequency is the highest frequency that will be refracted back to the Earth on vertical incidence. As the distance between transmitter and receiver gets greater the angle through which the wave must be refracted reduces; so the highest frequency, the MUF, increases. The Critical Frequency is the lowest of those. The NVIS  frequency is not really a recognised term but is a description of the MUF on a very short path.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q37",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What propagation mechanism is responsible for aurora propagation?",
+    "options": {
+      "A": "The effect is caused by intense solar illumination near the equator causing ionisation in denser parts of the atmosphere supporting longer distance VHF propagation.",
+      "B": "Charges solar particles are directed towards the poles by the earth's magnetic fields causing curtains of ionised gases which can reflect radio waves.",
+      "C": "Interaction between the sun's and earth's magnetospheres causes molecules in the upper atmosphere to become polarised which may reflect radio waves.",
+      "D": "The intense cold in the polar regions of the upper atmosphere dramatically slows the normal night time deionisation so it can remain reflective all night."
+    },
+    "correct": "B",
+    "explanation": "The Aurora is primarily caused by charged solar particles being swept towards the poles by the Earth's magnetic field. The resulting ionisation can be quite intense and reflect radio waves.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q38",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A neighbour is complaining that amateur transmissions are causing his top quality alarm system to trigger. Its quality is not really in doubt but the problem may be caused by",
+    "options": {
+      "A": "a change in operating frequency at the amateur station.",
+      "B": "installing the system with unscreened, untwisted wires throughout.",
+      "C": "a missing RF earth at the premises where the alarm is fitted.",
+      "D": "an overhead telephone line passing close to the affected premises."
+    },
+    "correct": "B",
+    "explanation": "The field from an amateur transmitter can be quite high, higher than envisaged by the EMC directive when setting immunity standards for interference conducted into the affected device, not helped by poor installation methods. Ferrite rings and twisting the wiring to avoid open loops will reduce the risk.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q39",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Home constructed amateur radio transmitters must",
+    "options": {
+      "A": "be designed to comply with the CEPT EMC standards.",
+      "B": "be demonstrated to comply with the CEPT EMC standards.",
+      "C": "comply with the licence requirements in respect of interference.",
+      "D": "comply with both the CEPT and licence interference requirements."
+    },
+    "correct": "C",
+    "explanation": "The EMC directive and CEPT requirements apply to equipment placed on the market, not home made (or modified) equipment. Nonetheless the requirements of the licence to avoid undue interference to wireless telegraphy apparatus still apply.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q40",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Blocking is a phenomenon where",
+    "options": {
+      "A": "a filter is used to remove an image channel in a receiver but pass the wanted signal.",
+      "B": "a strong constant signal close in frequency to the wanted signal, overloads the receiver input.",
+      "C": "a transmission on the intermediate frequency of a receiver is picked up and interferes with the wanted signal.",
+      "D": "a wanted signal is interrupted in time with the modulation envelope of an unwanted interfering signal."
+    },
+    "correct": "B",
+    "explanation": "Blocking is caused by a strong signal driving the victim equipment outside its operating range such that the wanted signal disappears or the equipment ceases to function as intended. If the wanted signal is interfered with in time with the interfering modulation then that phenomenon is termed cross modulation. Often the interfering modulation is distinguishable as another transmission.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q41",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "RF entering an electronic device may be demodulated by",
+    "options": {
+      "A": "the radio receiver section of the device.",
+      "B": "any semiconductor junction in the device.",
+      "C": "any tuned circuits close to the radio frequency concerned.",
+      "D": "the loudspeaker and leads."
+    },
+    "correct": "B",
+    "explanation": "All semiconductor devices rely in part on non-linear junctions inside the semiconductor, a diode for example. Consequently unwanted RF can be demodulated in the manner of a diode detector for AM.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q42",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Morse transmissions at 1.83MHz on top band are causing interference to a neighbour's battery powered medium wave radio particularly when it is tuned around 900kHz. This may well be because",
+    "options": {
+      "A": "the radio antenna is a quarter wave long at the affected frequency.",
+      "B": "the local oscillator in the radio is set above the tuned frequency.",
+      "C": "a sub-harmonic of the transmission is getting radiated as well.",
+      "D": "the field strength is causing direct pickup on that particular frequency."
+    },
+    "correct": "B",
+    "explanation": "It is common for the local oscillator in a medium wave domestic radio to be set above the wanted signal because its tuning range is then proportionately much lower. The image frequency is twice the IF removed and the IF is typically in the range 460-470kHz, partly because it is an optimum choice from image-v-adjacent considerations and partly because it is economic for all manufacturers to choose common components. 1830-900kHz is 930kHz and half that is 465kHz. 1.83MHz is on the image frequency of a domestic medium wave radio tuned to 900kHz. There is a small range of frequencies where this problem can occur.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q43",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A particularly strong signal on 145MHz is causing interference to the FM broadcast band, notably 102.6MHz. A T-piece is used to connect a coaxial stub in parallel with the input to the domestic radio. The coaxial cable stub should be",
+    "options": {
+      "A": "λ/4 at 102.6MHz with the free end shorted, inner to braid.",
+      "B": "λ/4 at 145MHz with the free end shorted, inner to braid.",
+      "C": "λ/4 at 145MHz with the free end open circuit and insulated.",
+      "D": "λ/2 at 145MHz with the free end open circuit and insulated."
+    },
+    "correct": "C",
+    "explanation": "The aim is to short out the unwanted 145MHz signal whilst doing as little damage as possible to the 102.6MHz signal. A λ/4 coaxial stub open circuit at the far end will appear as a short circuit at the T-piece end. It needs to be λ/4 at 145MHz.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q44",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A competition station is using 400W fed to two stacked long Yagis with a total gain of 16dB. It is assumed that other equipment will have adequate immunity to field strengths up to 3V/m; that is achieved at a distance of about",
+    "options": {
+      "A": "30m.",
+      "B": "130m.",
+      "C": "300m.",
+      "D": "2.1km."
+    },
+    "correct": "C",
+    "explanation": "The formula sheet gives the formula E= (7√(erp))/d. The erp is 400W with an antenna gain of 16dB which is 10+3+3dB or 40 times. √400 = 20 and √40 = 6.32 so the distance is 7x20x6.32/3 = 295m. Local geography will affect that so the best we can do is 300m and the real answer could be between 250 and 350m.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q45",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Balanced horizontal HF antennas tend to cause fewer EMC problems to neighbouring houses because",
+    "options": {
+      "A": "house wiring is generally more susceptible to vertically polarised fields.",
+      "B": "being balanced the horizontal fields will largely cancel out.",
+      "C": "house wiring is unbalanced and less sensitive to balanced fields.",
+      "D": "a balun at the antenna centre allows the coaxial cable feed to drop vertically away."
+    },
+    "correct": "A",
+    "explanation": "House wiring tends to act as a vertical antenna with the horizontal wiring acting as capacitive loading. Consequently it tends to be more susceptible to vertical fields. A better analysis is outside the scope of the syllabus.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q46",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What does the Federation of Communication Services do that is of interest to the radio amateur?",
+    "options": {
+      "A": "Provide a route for amateurs to make their collective wishes known to government.",
+      "B": "Provide advice and assistance on EMC problems in domestic households.",
+      "C": "Issue publications on the wide range of communications facilities in commercial use.",
+      "D": "Produce the Code of Practice for installing radio communications facilities in vehicles."
+    },
+    "correct": "D",
+    "explanation": "The Federation of Communication Services produces document FCS 1363 which is the accepted Code of Practice for installing radio communications facilities in vehicles.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q47",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A neighbour complains that he is suffering quite often to interference to his TV and suspects it might be you. You should",
+    "options": {
+      "A": "Explain that now the TV transmissions are digital the concept of suffering radio interference no longer exists.",
+      "B": "Suggest he might be better off subscribing to one of the many cable fed systems.",
+      "C": "Ask if he can recall when the problem occurs and compare that with your operating Log.",
+      "D": "Advise him to call the services of a TV dealer or, if he prefers, report the matter to the BBC."
+    },
+    "correct": "C",
+    "explanation": "A good reason to keep a Log. One you already have, clearly kept since well before the complaint arose, will be given much more credibility that one written after the complaint.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q48",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What is the purpose of operating split frequency?",
+    "options": {
+      "A": "It spreads out stations calling in a pile-up allowing some callsigns to be copied.",
+      "B": "It allows full duplex or simultaneous two way contacts speeding up contacts.",
+      "C": "It simplifies automated log keeping at the distant station in a pile-up.",
+      "D": "It allows callers from different countries to operate in accordance with their band plans."
+    },
+    "correct": "A",
+    "explanation": "Rare stations, particularly DXpeditions (visits to rare locations) can cause a large pileup where there are hundreds of overlapping calls none of which are clear. By listening a few kHz away from the transmit frequency the callers are much more spread out and more successful contacts are made.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q49",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "When sending an Olivia data signal with a bandwidth of about 350Hz in the 472kHz band, it is recommended to use frequencies between",
+    "options": {
+      "A": "472.0 and 479.0kHz.",
+      "B": "472.0 to 475.0kHz.",
+      "C": "475.0 to 479.0kHz.",
+      "D": "477.0 to 479.9kHz."
+    },
+    "correct": "C",
+    "explanation": "The 472kHz (600m) Band Plan recommends 475 to 479kHz for CW and digital modes over 200Hz bandwidth. The 472 to 475kHz part is for modes with a bandwidth of less than 200Hz.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q50",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What is the risk, in an amateur radio context, if a PME mains supply suffers a break in the neutral conductor somewhere in the street outside the premises?",
+    "options": {
+      "A": "All power to the shack will be lost, possibly in the middle of a contact.",
+      "B": "RCBO's and similar protective devices may trip, hiding reconnection of the supply.",
+      "C": "The mains earth and bonded metalwork will rise significantly above earth potential.",
+      "D": "The reflected power surge in the network can momentarily double the mains voltage."
+    },
+    "correct": "C",
+    "explanation": "If the supply Neutral is ruptured in the street then the house Neutral will rise to near Live potential though connected appliances. If the premises have a PME supply then the house Earth will be connected to the incoming Neutral at the Main Earth Terminal (MET) beside the company fuse and meter. That means the house Earth will also rise to near Live voltage as will all exposed metalwork which is bonded to the house Earth. Not all exposed metalwork need be bonded to the Main Earth Terminal, which is explained in Chapter 8 under PME.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q51",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A fellow amateur terminates the feeders on a copper panel where they enter the shack to allow manual antenna selection. There is a radio frequency choke (RFC) between each centre conductor and the earthed panel. What is the purpose of the RFC?",
+    "options": {
+      "A": "To bleed off any static charges that might collect on the antennas.",
+      "B": "To assist in bringing the whole system to resonance, avoiding the need for an AMU.",
+      "C": "To offset the capacitances inherent in the main coaxial feeders to the antennas.",
+      "D": "To allow the coaxial cable to carry power to an external automated AMU."
+    },
+    "correct": "A",
+    "explanation": "Radio Frequency Chokes (RFCs) are fairly high inductance, often wound on a ferrite slug intended to pass modest DC currents but block RF. They won't affect the RF characteristics of the installation but will provide a DC static discharge path.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q52",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "You are proposing to run an amateur radio station at a scout camp and have access to a small shed for dry storage and mains power. As part of your planning you must check the",
+    "options": {
+      "A": "number of scouts who will be at the radio station at any one time.",
+      "B": "capacity of the mains supply in the shed and provision of an RCBO.",
+      "C": "allowable height and space requirements of the various antennas.",
+      "D": "ease of vehicle access to deliver the equipment to the radio station."
+    },
+    "correct": "B",
+    "explanation": "All of the options have their merits but the one affecting safety is the goodness and adequacy of the mains supply and the provision of RCBOs. That, the other options listed and several other factors, including RF field strengths should be the subject of a written Risk Assessment.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q53",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "One of the documents an insurance company is likely to want to see when requesting cover for club meetings and training courses at a new club premises is",
+    "options": {
+      "A": "reports of activities carried out over the previous year.",
+      "B": "record of premium payments over the last three years.",
+      "C": "minutes of the most recent annual general meeting.",
+      "D": "a risk assessment covering all the proposed activities."
+    },
+    "correct": "D",
+    "explanation": "Any activity to which visitors attend should have a risk assessment. The core reason is to identify and minimise risks and have procedures ready to deal with any incidents that do occur. Normally they are a mandatory part of obtaining insurance cover. They will be requested if a claim arises, if they haven't been requested as part of arranging cover. Not having documented assessments could result in the insurance being invalid and personal liability for compensation.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q54",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A small 50µA movement meter is to be used as a voltmeter reading 0 - 15V DC. The meter coil has a resistance of 80Ω. What value resistor should be used and how should it be fitted?",
+    "options": {
+      "A": "15kΩ in series.",
+      "B": "300kΩ in series.",
+      "C": "15kΩ in parallel.",
+      "D": "300kΩ in parallel."
+    },
+    "correct": "B",
+    "explanation": "As a voltmeter it will need a series resistor to limit the current to 50µA when 15V is applied. R=V/I = 15/50 MΩ = 0.3ΜΩ or 300kΩ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q55",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An RF voltmeter is calibrated to read RMS voltages and indicates the key down CW output from a transmitter is 145V into the feeder. What power does this represent?",
+    "options": {
+      "A": "210W.",
+      "B": "300W.",
+      "C": "420W.",
+      "D": "590W."
+    },
+    "correct": "C",
+    "explanation": "145V into 50Ω. Power = V²/R = 145x145/50 = 420.5W. I guess the 20.5W are lost in the feeder.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q56",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The oscilloscope shown in the drawing has the time base set to 500µs/div and the Y amplifier to 10V/div. What is the frequency of the signal?",
+    "options": {
+      "A": "200Hz.",
+      "B": "400Hz.",
+      "C": "500Hz.",
+      "D": "2kHz."
+    },
+    "correct": "C",
+    "explanation": "Inspection of the drawing shows 2.5 cycles over 10 divisions which is 5ms in total or 2ms per cycle. Frequency 1/2ms = 500Hz.",
+    "image": "App_Full_MOCK1_Q56.png"
+  },
+  {
+    "id": "APP_FULL1_Q57",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A microphone amplifier is designed for an audio input of 4mV and an output of 0.6V. The input and output impedances are both 600Ω. The gain of the amplifier is",
+    "options": {
+      "A": "11.8dB.",
+      "B": "21.8dB.",
+      "C": "43.5dB.",
+      "D": "55.6dB."
+    },
+    "correct": "C",
+    "explanation": "The gain is 20Log(600/4) expresssing both amplitudes in mV That is 43.5dB using a calculator. We can get close simply using standard values. Remember we are working in voltages so double voltage is 6dB, ten times voltage is 20dB. 4mV to 40mV is 20dB. 40mV to 400mV is another 20dB, 40 in total. 400mV to 800mV would be another 6dB, 46dB in total. The actual level is 600mV so in dB the figure is between 40 and 46dB. There is only one option in that range so that is the answer.",
+    "image": null
+  },
+  {
+    "id": "APP_FULL1_Q58",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A tuned circuit comprises a capacitor of 100pF and an inductor of 200µH. The inductor has a temperature coefficient of +3ppm per degree C. What temperature coefficient is needed for the capacitor to keep the centre frequency as stable as possible?",
+    "options": {
+      "A": "+3ppm.",
+      "B": "-3ppm.",
+      "C": "+6ppm.",
+      "D": "-6ppm."
+    },
+    "correct": "B",
+    "explanation": "The need is to bring the overall coefficient as close to zero as possible. In this case zero is achieved by choosing a capacitor with a -3ppm coefficient. The fact that the value of one is 100 units and the other 200 units is not relevant.",
+    "image": null
+  }
+]

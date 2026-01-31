@@ -1,0 +1,194 @@
+[
+  {
+    "id": "5A1-1",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "In an electromagnetic wave the",
+    "options": {
+      "A": "field strength falls linearly with distance.",
+      "B": "field strength obeys the inverse square law with distance.",
+      "C": "power flux density drops linearly with distance.",
+      "D": "power flux density depends on the square root of the field strength."
+    },
+    "correct": "A",
+    "explanation": "The field strength is an inverse linear relationship. Twice the distance is half the field strength. Just like resistors halving the field strength (V/m) is a quarter of the power flux density (V/m²).",
+    "image": null
+  },
+  {
+    "id": "5A3-1",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Circular polarisation is characterised by the electric and magnetic",
+    "options": {
+      "A": "vectors rotating in opposite directions.",
+      "B": "vectors having a 90° phase difference, giving the appearance of rotation.",
+      "C": "fields taking the form of closed circles rather than a flat plane of polarisation.",
+      "D": "fields remaining at right angles but rotating through one revolution per wavelength."
+    },
+    "correct": "D",
+    "explanation": "The E and H fields remain in phase and at 90° polarisation but twist or rotate one complete revolution per wavelength.",
+    "image": null
+  },
+  {
+    "id": "5A3-2",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Satellites often use circular rather than linear polarisation, a reason for this is",
+    "options": {
+      "A": "because the antennae have a high gain but also a high wind resistance which is not a problem in space.",
+      "B": "the attenuation between left handed and right handed antennas is much higher allowing both to be used to increase link capacity.",
+      "C": "the apparent orientation of the satellite depends on where on earth the satellite is viewed.",
+      "D": "to provide a degree of attenuation to terrestrial signals which are either horizontal or vertical, reducing the risk of interference."
+    },
+    "correct": "C",
+    "explanation": "Satellites can be seen from a wide area of the earth and the earth's curvature means that the polarisation of the satellite depends on where it is viewed from.",
+    "image": null
+  },
+  {
+    "id": "5B1-1",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "When there is a high sunspot count it is likely that HF propagation will be",
+    "options": {
+      "A": "noticeably enhanced allowing many more contacts.",
+      "B": "rather poorer than normal with less chance of a contact.",
+      "C": "particularly variable with a much higher risk of fading.",
+      "D": "characterised by enhanced reflection from the D layer."
+    },
+    "correct": "A",
+    "explanation": "A higher sunspot count means more charged particles and UV radiation, increasing the level of ionisation which increases the MUF and enhances long distance propagation.",
+    "image": null
+  },
+  {
+    "id": "5B2-1",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "The highest MUFs can be expected to occur during the",
+    "options": {
+      "A": "day in the winter.",
+      "B": "night in the winter.",
+      "C": "day in the summer.",
+      "D": "night in the summer."
+    },
+    "correct": "A",
+    "explanation": "The range of variation in the MUF is higher in the winter than in the summer. Although there is more sunlight to cause ionisation in the summer the rate of recombination, deionisation, is greater in the summer so the achieved MUFs are lower.",
+    "image": null
+  },
+  {
+    "id": "5B2-2",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Which option below shows a list of frequencies in ascending order assuming a contact is possible?",
+    "options": {
+      "A": "Critical frequency, optimum working frequency, LUF, MUF",
+      "B": "LUF, critical frequency, optimum working frequency, MUF",
+      "C": "LUF, optimum working frequency, MUF, critical frequency",
+      "D": "Critical frequency, LUF, MUF, optimum working frequency."
+    },
+    "correct": "B",
+    "explanation": "The critical frequency, the optimum frequency and MUF are all related. The critical frequency is the maximum frequency returned on a vertical path, the MUF is the maximum returned on a particular path and the optimum is around 10-15% below the MUF. All of those relate to the F1 & F2 layers. The LUF is set by absorption in the D layer. Particularly on a long path involving multiple hops in different time zones the LUF can be above the MUF when no ionospheric communication is possible over the path concerned. If communication is possible it follows that the LUF is below the MUF and optimum frequencies.",
+    "image": null
+  },
+  {
+    "id": "5B3-1",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "One of the difficulties with NVIS propagation is",
+    "options": {
+      "A": "interference from direct signals propagated via groundwave.",
+      "B": "finding a suitable frequency above the LUF and below the MUF.",
+      "C": "finding a suitable frequency below the LUF or above the MUF.",
+      "D": "achieving the correct vertical angle for optimum radiation."
+    },
+    "correct": "B",
+    "explanation": "A key feature of Near Vertical Incidence Skywave is that short paths require sharp angels of refraction meaning that the MUF can be below 7MHz. D layer absorption sets the LUF above 3.5MHz so 5MHz is the optimum and often the only available band.",
+    "image": null
+  },
+  {
+    "id": "5B4-1",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "The polarisation of an HF antenna, particularly for receiving,",
+    "options": {
+      "A": "can be important in avoiding multi-path propagation.",
+      "B": "does not matter as the plane of the wave may be changed in the ionosphere.",
+      "C": "is not critical when the antenna is less than half a wavelength in height.",
+      "D": "should match that of the transmitting station for best results."
+    },
+    "correct": "B",
+    "explanation": "HF signals often undergo polarisation change in the ionosphere, so the appropriate polarisation of a receive antenna is unpredictable.",
+    "image": null
+  },
+  {
+    "id": "5C3-1",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "EME contacts are best made when",
+    "options": {
+      "A": "there is a full moon.",
+      "B": "there is a new moon.",
+      "C": "the moon is at apogee (furthest).",
+      "D": "the moon is at perigee (closest)."
+    },
+    "correct": "D",
+    "explanation": "The moon is a poor RF reflector and even with sharp focussing most of the transmitted signal misses the moon. The distance to the moon can be the deciding factor in overall path loss and success of the contact.",
+    "image": null
+  },
+  {
+    "id": "5C3-2",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Auroral flutter on radio signals is caused by",
+    "options": {
+      "A": "changes in the level of ionisation.",
+      "B": "changes in the earth's magnetic field.",
+      "C": "movement of the ionised curtains.",
+      "D": "rapid rotation of signal polarisation."
+    },
+    "correct": "C",
+    "explanation": "Auroral communication is by reflection of the ionised curtains which form in polar regions. These move or flutter due to the random arrival of charged particles interacting with the Earth's magnetic field and gas particles in the upper atmosphere.",
+    "image": null
+  },
+  {
+    "id": "5D1-1",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Galactic noise originates from",
+    "options": {
+      "A": "various natural noise sources such as distant thunderstorms.",
+      "B": "thermal radiation from the ground causing ionic movement in the air.",
+      "C": "outside the effect of the earth and its atmosphere.",
+      "D": "random electron movement in crystal lattices in semiconductors."
+    },
+    "correct": "C",
+    "explanation": "Galactic noise is the name given to random background noise originating outside the earth and its atmosphere.",
+    "image": null
+  },
+  {
+    "id": "5D2-1",
+    "level": "full",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "The purpose of a link budget is to",
+    "options": {
+      "A": "determine the gain of the antennae to be used at each end of the link.",
+      "B": "determine the noise figure required at the receiver to allow communication.",
+      "C": "ensure that the end to end path loss is reciprocal, that is equal in each direction.",
+      "D": "check that the proposed system will deliver an adequate signal to noise ratio."
+    },
+    "correct": "D",
+    "explanation": "A link budget is the sum of all the gains and losses between the transmitter output socket and the distant receiver input socket. That allows a calculated prediction of the signal strength at the receiver, given the transmit power, and thus the likely success of the contact.",
+    "image": null
+  }
+]

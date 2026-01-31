@@ -1,0 +1,470 @@
+[
+  {
+    "id": "APP_FOUND_MOCK1_Q1",
+    "number": 1,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "If you move house then your licence requires you to",
+    "options": {
+      "A": "add the suffix 'A' to your callsign until you have a replacement licence.",
+      "B": "immediately notify the Post Office of your new address.",
+      "C": "immediately notify Ofcom of your new address.",
+      "D": "ensure your new details are published in the call book."
+    },
+    "correct": "C",
+    "explanation": "C. Licence clause (2-2) requires immediate notification to Ofcom on a change of address.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q2",
+    "number": 2,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "When identifying your station you should",
+    "options": {
+      "A": "identify your station at the end of each 'over'.",
+      "B": "ensure your station is clearly identifiable at all times.",
+      "C": "identify your station on the calling channel.",
+      "D": "listen carefully, check, and ask if the frequency is clear."
+    },
+    "correct": "B",
+    "explanation": "B. Clause (6-21a) says 'the station is clearly identifiable at all times.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q3",
+    "number": 3,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "When another amateur is using your radio and is identifying using your callsign, then",
+    "options": {
+      "A": "you can leave him or her alone since they have their own licence.",
+      "B": "you must supervise them because they are using your equipment.",
+      "C": "you must supervise them because they are using your callsign.",
+      "D": "it is sufficient for you to listen to what they are saying on another receiver."
+    },
+    "correct": "C",
+    "explanation": "C. If your callsign is used to identify the station then either you or somebody in your presence and under your direct supervision is operating as noted in Clause (6-6). They can use your equipment if you are content to let them but if you are not there then they use it under their callsign and their licence terms. You and your licence are not involved.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q4",
+    "number": 4,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Who may require you to keep a log of your transmissions?",
+    "options": {
+      "A": "A person authorised by Ofcom.",
+      "B": "A person from the Local Authority.",
+      "C": "A Police Officer in uniform.",
+      "D": "A neighbour suffering interference"
+    },
+    "correct": "A",
+    "explanation": "A. Clause (8-4) says 'a person authorised by Ofcom'. This will normally be a member of Ofcom staff but it is possible they are an 'authorised person'. They should then have appropriate evidence of authorisation.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q5",
+    "number": 5,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "The Foundation licence does NOT permit you to transmit on a frequency of",
+    "options": {
+      "A": "1.950MHz.",
+      "B": "7.350MHz.",
+      "C": "14.150MHz.",
+      "D": "18.125MHz."
+    },
+    "correct": "B",
+    "explanation": "B. Frequencies A, C and D are in the schedule, B is not.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q6",
+    "number": 6,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Apart from you, who may be with you whilst you are transmitting if you are inside the EMF exclusion zone?",
+    "options": {
+      "A": "Nobody.",
+      "B": "Just your family members.",
+      "C": "An amateur guest.",
+      "D": "Anybody over 18."
+    },
+    "correct": "C",
+    "explanation": "C. Only licenced amateurs are permitted inside the exclusion zone; they are assumed to know what they are doing.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q7",
+    "number": 7,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "A long length of wire to a transmitter in the garden has a resistance of half an Ohm (0.5Ω). When the transmitter is drawing 3A the voltage dropped in the wire will be",
+    "options": {
+      "A": "0.5V.",
+      "B": "1.5V.",
+      "C": "3V.",
+      "D": "3/5V."
+    },
+    "correct": "B",
+    "explanation": "B. V=I x R = 3A x0.5Ω = 1.5V",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q8",
+    "number": 8,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "The frequency range required for amateur radio speech communication purposes is about",
+    "options": {
+      "A": "100Hz-5kHz.",
+      "B": "100Hz-15kHz.",
+      "C": "300Hz-3kHz.",
+      "D": "300Hz-15kHz."
+    },
+    "correct": "C",
+    "explanation": "C. 300Hz to 3kHz is adequate to clearly understand speech.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q9",
+    "number": 9,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "The diagram shows part of a modern entertainment system capable of storing and playing broadcast music in a digital form. What is the function of the block marked 'X'?",
+    "options": {
+      "A": "Digital to analogue converter.",
+      "B": "Digital to analogue filter.",
+      "C": "Software defined filter.",
+      "D": "Audio converter."
+    },
+    "correct": "A",
+    "explanation": "A. The digital representation must be converted to analogue form for our ears.",
+    "image": "App_Found_MOCK1_Q9.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q10",
+    "number": 10,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Which drawing represents a frequency modulated carrier wave?",
+    "options": {
+      "A": "Drawing 1.",
+      "B": "Drawing 2.",
+      "C": "Drawing 3.",
+      "D": "Drawing 4."
+    },
+    "correct": "D",
+    "explanation": "D. Drawing 4 shows an FM signal.",
+    "image": "App_Found_MOCK1_Q10.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q11",
+    "number": 11,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Use of the wrong antenna on a transmitter",
+    "options": {
+      "A": "will only affect the strength of the transmitted signal.",
+      "B": "may result in the wrong frequency being transmitted.",
+      "C": "will affect the way the carrier is modulated.",
+      "D": "may result in damage to the transmitter."
+    },
+    "correct": "D",
+    "explanation": "D. The RF power amplifier relies on having the correct load and may be damaged if operated into an incorrect load such as an antenna for a different frequency and without an antenna matching unit.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q12",
+    "number": 12,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Which stage of the receiver block diagram demodulates the wanted signal?",
+    "options": {
+      "A": "Stage 1.",
+      "B": "Stage 2.",
+      "C": "Stage 3.",
+      "D": "Stage 4."
+    },
+    "correct": "B",
+    "explanation": "B. Stage 2 is the demodulator.",
+    "image": "App_Found_MOCK1_Q12.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q13",
+    "number": 13,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "What should be used to connect the centre of a horizontal dipole antenna to a coaxial cable feeder?",
+    "options": {
+      "A": "A balun.",
+      "B": "An SWR meter.",
+      "C": "An AMU.",
+      "D": "A low-pass filter."
+    },
+    "correct": "A",
+    "explanation": "A. A centre fed dipole is a balanced antenna. Coaxial cable is unbalanced so a balun is needed to join them.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q14",
+    "number": 14,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Which type of antenna has an omni-directional coverage?",
+    "options": {
+      "A": "Horizontal dipole.",
+      "B": "5/8λ ground plane.",
+      "C": "Yagi.",
+      "D": "End fed."
+    },
+    "correct": "B",
+    "explanation": "B. All practical antennas are directional in at least one of their three dimensions. A 5/8Aλ ground plane mounted vertically is omni-directional in all horizontal directions but does not radiate vertically upwards.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q15",
+    "number": 15,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "The plug in the diagram is known as a",
+    "options": {
+      "A": "N-type plug.",
+      "B": "BNC plug.",
+      "C": "PL259 plug.",
+      "D": "RS232 plug."
+    },
+    "correct": "B",
+    "explanation": "B. The plug shown is a BNC type.",
+    "image": "App_Found_MOCK1_Q15.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q16",
+    "number": 16,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "The bottom of the ionosphere is",
+    "options": {
+      "A": "just above the ground.",
+      "B": "at a height of about 8km.",
+      "C": "at a height of about 70km.",
+      "D": "at a height of about 400km."
+    },
+    "correct": "C",
+    "explanation": "C. The lower edge of the ionosphere is around 70km in altitude.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q17",
+    "number": 17,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "At which point in the diagram would you expect the radio signal to be the weakest?",
+    "options": {
+      "A": "Point 1.",
+      "B": "Point 2.",
+      "C": "Point 3.",
+      "D": "Point 4."
+    },
+    "correct": "C",
+    "explanation": "C. The signal will get weaker as the distance from the transmitter increases but point 3 will be in more of a shadow from the hill than point 4.",
+    "image": "App_Found_MOCK1_Q17.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q18",
+    "number": 18,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Interference to television signals is likely to be caused by",
+    "options": {
+      "A": "birds sitting on the TV aerial.",
+      "B": "a mains powered clock radio.",
+      "C": "an amateur radio transmitter.",
+      "D": "the TV remote control unit."
+    },
+    "correct": "C",
+    "explanation": "C. Of the items listed a transmitter is the most likely source of interference.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q19",
+    "number": 19,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Which type of transmission is the LEAST likely to cause interference?",
+    "options": {
+      "A": "Frequency modulation.",
+      "B": "Single sideband.",
+      "C": "Morse (CW).",
+      "D": "Amplitude modulation."
+    },
+    "correct": "A",
+    "explanation": "A. Most interference is caused by amplitude variations in the interfering signal. FM is constant amplitude so is the least likely to cause problems.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q20",
+    "number": 20,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "A good source of advice on how to deal with a complaint of interference is the",
+    "options": {
+      "A": "Police.",
+      "B": "British Broadcasting Corporation.",
+      "C": "Radio Society of Great Britain.",
+      "D": "local council."
+    },
+    "correct": "C",
+    "explanation": "C. The RSGB is a good source of advice on dealing with, and avoiding, a case of interference. Particularly the EMC section of their website.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q21",
+    "number": 21,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "An amateur has added the suffix '/P' to his callsign. This suggests he is",
+    "options": {
+      "A": "at a house with an address that is not the one on his licence.",
+      "B": "out and about on foot somewhere.",
+      "C": "at a fixed location outside somewhere.",
+      "D": "moving about in a vehicle or on a boat on an inland waterway."
+    },
+    "correct": "C",
+    "explanation": "C. /P means portable but not mobile which is /M",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q22",
+    "number": 22,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Frequencies just above the 2m (144-146MHz) amateur band are used by",
+    "options": {
+      "A": "Broadcasting.",
+      "B": "Mobile (except aeronautical mobile).",
+      "C": "Radionavigation Satellite.",
+      "D": "Space Operations and Space Research."
+    },
+    "correct": "B",
+    "explanation": "B. The Reference Data booklet for use in the Foundation Level Examination shows the answer to be Mobile (except aeronautical mobile).",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q23",
+    "number": 23,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "When lending a digital voice handheld radio to another member of your radio society you should",
+    "options": {
+      "A": "notify Ofcom by email or on their website.",
+      "B": "remind the borrower to reset any embedded callsign.",
+      "C": "remind the borrower to use your callsign.",
+      "D": "swap the SIM cards to avoid confusion of ownership."
+    },
+    "correct": "B",
+    "explanation": "B. DV radios normally have an embedded callsign which is sent to the text screen of the receiving device. This needs to be reset so the digital callsign and spoken callsign match and correctly identify the actual user.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q24",
+    "number": 24,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "If you find a fellow amateur lying unconscious on the floor holding a piece of equipment, you should",
+    "options": {
+      "A": "switch off the power before doing anything else.",
+      "B": "pull his hand away from the equipment.",
+      "C": "pull the equipment away from his hand.",
+      "D": "turn the casualty into the recovery position and go for help."
+    },
+    "correct": "A",
+    "explanation": "A. The first action must be to switch off the power to ensure you don't become a casualty.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q25",
+    "number": 25,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "What is the main reason for having a soldering iron stand?",
+    "options": {
+      "A": "Bring the iron quickly up to temperature.",
+      "B": "Prevent the iron from overheating.",
+      "C": "Avoid melting the iron's power lead.",
+      "D": "Avoid skin contact with a hot iron."
+    },
+    "correct": "D",
+    "explanation": "D. A soldering iron stand is a stable safe place to put the iron while it is not in your hand.",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK1_Q26",
+    "number": 26,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 1,
+    "question": "Who is responsible for safety at a radio club event open to the public?",
+    "options": {
+      "A": "The club chairman.",
+      "B": "The event organiser.",
+      "C": "The owner of the premises.",
+      "D": "Every club member there."
+    },
+    "correct": "D",
+    "explanation": "D. You should have somebody nominated as the lead on safety matters but everybody is responsible for their and everybody else's safety.",
+    "image": null
+  }
+]

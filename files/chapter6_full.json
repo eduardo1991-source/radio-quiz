@@ -1,0 +1,354 @@
+[
+  {
+    "id": "6A2-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Poor installation of EMC compliant equipment",
+    "options": {
+      "A": "should be acceptable as the compliance rules allow for inexperienced installation.",
+      "B": "is quite likely to compromise its safe and effective operation.",
+      "C": "is a breach of the EMC regulations and could result in prosecution.",
+      "D": "is likely to cause considerable interference to many radio equipment users."
+    },
+    "correct": "B",
+    "explanation": "Both B and D are credible answers, but B is a safety consideration so is the better answer.",
+    "image": null
+  },
+  {
+    "id": "6A4-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "When you modify a commercial transceiver to operate in an amateur band you must ensure the device complies with the requirements of",
+    "options": {
+      "A": "your amateur radio licence.",
+      "B": "both your licence and the original commercial specification.",
+      "C": "the original commercial specification.",
+      "D": "the national EMC standards for the frequency band concerned."
+    },
+    "correct": "A",
+    "explanation": "The requirement is simply to comply with the standards in your licence; particularly clause 7 on Equipment. You may like to check the other standards as a technical guide, but that is a personal choice.",
+    "image": null
+  },
+  {
+    "id": "6B1-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "It is noticed that leaving a mobile phone next to the bedside clock-radio results in occasional clicking and buzzing noises. This is",
+    "options": {
+      "A": "an indication that the phone might not be reducing its transmit power when in standby mode.",
+      "B": "the clock-radio is unduly sensitive and possibly not EMC compliant.",
+      "C": "possibly due to one of the two items having developed a fault.",
+      "D": "quite normal if the items are close together and easily resolved with increased separation."
+    },
+    "correct": "D",
+    "explanation": "Mobile phones need to keep periodic contact with a local base station so incoming calls can be correctly routed. If placed alongside other electrical equipment then it is not realistic to expect no interaction. Only a modest separation is required to avoid problems.",
+    "image": null
+  },
+  {
+    "id": "6B1-2",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A significant risk of importing electronic equipment is that it may",
+    "options": {
+      "A": "not have been manufactured to comply with European EMC standards.",
+      "B": "not be available locally so may be easily identified as an illicit import.",
+      "C": "have been designed to work on 60Hz mains supplies for keeping time.",
+      "D": "take longer to obtain spares and consumable parts."
+    },
+    "correct": "A",
+    "explanation": "All the answers could be a true statement but non-compliance with EMC regulations could give rise to interference problems and might also risk electrical safety.",
+    "image": null
+  },
+  {
+    "id": "6B2-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Which mode of transmission is most likely to be a cause of cross-modulation?",
+    "options": {
+      "A": "SSB.",
+      "B": "FM.",
+      "C": "PSK.",
+      "D": "RTTY."
+    },
+    "correct": "A",
+    "explanation": "Cross modulation is where the modulation on one signal becomes impressed on another signal, usually because the victim receiver is being pushed out of its linear range. A strong FM signal can cause blocking which can effectively mute reception of the wanted signal by overloading the receiver. Cross-mod requires amplitude variations associated with SSB, FM, PSK and RTTY are relatively constant amplitude with frequency or phase changes. The transitions can result in amplitude changes which could cause a low frequency buzz, the pitch depending on data rate.",
+    "image": null
+  },
+  {
+    "id": "6B3-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "It is noticed that when a nearby amateur operates on 3.78MHz, his voice and another female voice on 3.60MHz are both heard interfering with a world service broadcast on 3.96MHz. Inspections of both amateur stations give them a clean bill of health. The interference may be caused by",
+    "options": {
+      "A": "one of the amateur stations overdriving their PA.",
+      "B": "a corroded contact in some metalwork.",
+      "C": "an image frequency in the receiver.",
+      "D": "a fault on the world service transmitter."
+    },
+    "correct": "B",
+    "explanation": "This is a case of playing with the numbers. Can signals on 3.60 and 3.78MHz cause a signal on 3.96MHz? The affected frequency is above both transmissions so the first option is 2×3.78 - 3.60 = 3.96. Found it! Corroded contacts can be partially rectifying, particularly if one of the signals is quite strong, and this can cause intermodulation products.",
+    "image": null
+  },
+  {
+    "id": "6C1-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A 7MHz SSB transmission is heard as a voice like signal in a neighbours music system that has a medium wave and VHF FM receiver as well as a CD player. Tests reveal it does not matter which audio input is selected, it simply needs to be switched on. A possible explanation is that",
+    "options": {
+      "A": "a harmonic of the transmission falls on the IF of the receiver.",
+      "B": "the signal is being picked up on the speaker leads and detected in a p-n junction.",
+      "C": "sufficient signal is being picked up for its envelope to excite the loudspeakers.",
+      "D": "there is direct pickup into the very sensitive CD laser amplifier."
+    },
+    "correct": "B",
+    "explanation": "Options A and D should be discounted because the effect does not depend on the signal source selected on the music system. It is unlikely the pick-up is sufficient to drive the speakers directly, far more likely is that the SSB transmission is being picked up and conveyed to the audio amplifier where a P-N semiconductor junction is acting as a diode detector with the audio circuits amplifying the resulting signal.",
+    "image": null
+  },
+  {
+    "id": "6C2-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Which transmission risks overloading a TV mast-head preamplifier?",
+    "options": {
+      "A": "2m FM.",
+      "B": "40m SSB.",
+      "C": "80m CW.",
+      "D": "10GHz TV."
+    },
+    "correct": "A",
+    "explanation": "Many masthead amplifiers cover either from about 50MHz (old TV bands in many continental countries) or 90MHz (bottom of VHF sound broadcasts) up to around 900MHz which was the top of most TV broadcast bands. 2m and 70cm are inside that range.",
+    "image": null
+  },
+  {
+    "id": "6C3-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "It is noticed that when transmitting in the 3.5MHz band there is often interference evident on the domestic VHF FM radio. The most likely mechanism is",
+    "options": {
+      "A": "direct pickup into the more sensitive RF front end of the receiver.",
+      "B": "conducted interference via the mains wiring affecting the audio stages.",
+      "C": "third harmonic of the transmissions getting in to the receiver IF stages.",
+      "D": "intermodulation between the amateur transmitter and the VHF broadcast."
+    },
+    "correct": "C",
+    "explanation": "The third harmonic of 3.567MHz is 10.7MHz which is the standard intermediate frequency of domestic FM broadcast receivers. That is the easily most likely option.",
+    "image": null
+  },
+  {
+    "id": "6C3-2",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "The UK Digital Audio Broadcasting band in the UK extends from",
+    "options": {
+      "A": "526 to 1606kHz",
+      "B": "87.5 to 108MHz",
+      "C": "174 to 230MHz",
+      "D": "183 to 240MHz"
+    },
+    "correct": "C",
+    "explanation": "This is a 'remember it' question either directly as in this question or to answer an EMC question as in 6C3-1 above where knowing the IF was an integral part of selecting the correct answer.",
+    "image": null
+  },
+  {
+    "id": "6D1-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Several ferrite rings are fitted over a two-wire ribbon feeder. This is found to have no effect on the transmitted signal. Why?",
+    "options": {
+      "A": "The ferrite is not very effective at radio frequencies.",
+      "B": "The RF currents are in phase in each conductor and have no net effect.",
+      "C": "The transmitted signal is a common mode signal and not affected by the ferrite.",
+      "D": "The transmitted signal is a differential mode signal and not affected by the ferrite."
+    },
+    "correct": "D",
+    "explanation": "The wanted signal, transmit or receive, coax or twin wire, is always differential mode. That is the currents at any point are always in opposite directions with no overall magnetic field. If there is no field the ferrite rings will have no effect.",
+    "image": null
+  },
+  {
+    "id": "6D1-2",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Tests suggest that RF is being picked up on the loudspeaker leads of a music system and the speech is heard from the loudspeakers. The most likely effective cure is fitting",
+    "options": {
+      "A": "ferrite rings at the loudspeaker ends of the leads.",
+      "B": "ferrite rings at the amplifier ends of the leads.",
+      "C": "0.1uF capacitors across the loudspeaker terminals.",
+      "D": "1000µF capacitors in series with the speaker leads."
+    },
+    "correct": "B",
+    "explanation": "The interference mechanism is that modulated RF is being picked up on the speaker leads and conducted into the audio amplifier stage of the music system. Any diode or transistor in the amplifier is likely to rectify the RF signal resulting in demodulation to an audio signal which can then be amplified alongside whatever music is being played. The need is to stop the RF getting into the amplifier stages. Ferrite rings should do that. The 0.1µF capacitors, if fitted at the amplifier end of the leads might help but with common mode pickup on both leads it is far from certain. The series 1000µF capacitor would have minimal effect if any, and ferrite rings at the loudspeaker end of the leads would have little or no effect too.",
+    "image": null
+  },
+  {
+    "id": "6D1-3",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "The drawing shows a coaxial stub to remove a 2m amateur signal from a 100MHz VHF transmission. The stub should be open circuit at the free end and",
+    "options": {
+      "A": "λ/4 long at 145MHz.",
+      "B": "λ/2 long at 145MHz.",
+      "C": "λ/4 long at 100MHz.",
+      "D": "λ/2 long at 100MHz."
+    },
+    "correct": "A",
+    "explanation": "The aim is to put a short circuit across the input at 145MHz to attenuate signals picked up at that frequency and do minimal damage to signals at 100MHz. An open circuit stub λ/4 at 145MHz will have that effect.",
+    "image": "C6_Full_6D1-3.png"
+  },
+  {
+    "id": "6D1-4",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A 2m amateur antenna and a broadcast TV antenna are mounted on the same roof. To minimise the risk of problems it is helpful to fit a",
+    "options": {
+      "A": "high-pass filter in the TV down lead.",
+      "B": "low-pass filter in the TV down lead.",
+      "C": "high-pass filter in the amateur feeder.",
+      "D": "low-pass filter in the amateur feeder."
+    },
+    "correct": "A",
+    "explanation": "The aim is to keep 145MHz out of the TV input at frequencies above 470MHz. There could be small harmonics of 145MHz at 290, 435 and 580MHz. 725MHz is now off the top of the TV band. However the key need is to avoid a strong signal at 145MHz getting in to the TV and causing overload or non-linearity. The best bet is a high-pass filter allowing frequencies above 470MHz in the TV aerial lead.",
+    "image": null
+  },
+  {
+    "id": "6D2-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "What should the point marked 'X' in the drawing be connected to?",
+    "options": {
+      "A": "The centre of a balanced feeder.",
+      "B": "The earth point on an antenna tuning unit.",
+      "C": "The safety earth point on a transmitter.",
+      "D": "The braid of the feeder connection on a balun."
+    },
+    "correct": "C",
+    "explanation": "The drawing is a mains filter. Point X is connected via the mains plug to the house earth and should now be connected to an earth  point on the transmitter/transceiver as the safety earth. Note the guidance regarding an RF earth and cross-bonding the two earths. Professional advice is essential as there are safety considerations which differ depending on the type of supply and the engineering practice of your particular supplier, the District Network Operator.",
+    "image": "C6_Full_6D2-1.png"
+  },
+  {
+    "id": "6E1-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "The field strength 20m away from an antenna of 10dB gain fed with 40W is",
+    "options": {
+      "A": "7V/m.",
+      "B": "140V/m.",
+      "C": "0.08W/m².",
+      "D": "0.8W/m²."
+    },
+    "correct": "A",
+    "explanation": "The formula is Field strength = (7√(ERP))/d=7√400/200=7V/m",
+    "image": null
+  },
+  {
+    "id": "6E2-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "If the RF earth on an HF transmitter is missing or not well installed then it is quite likely that",
+    "options": {
+      "A": "the frequency stability of the transmitter will be impaired.",
+      "B": "the RCBO on the mains input to the house will trip out.",
+      "C": "the transceiver will appear 'hot' to the touch when on transmit.",
+      "D": "decoding of data signals will be impaired leading to multiple errors."
+    },
+    "correct": "C",
+    "explanation": "Unless the antenna system is well balanced there will have a moderately high RF voltage on the outer connection of the coaxial output to the feeder. That means the entire case will have that RF voltage and give a hot to the touch sensation which can be quite unpleasant. That also means RF radiation in the shack which could cause interference to other electronic equipment.",
+    "image": null
+  },
+  {
+    "id": "6E3-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Minimum coupling between an HF dipole antenna and the feeder is achieved by",
+    "options": {
+      "A": "using balanced feeder from the dipole down to ground level.",
+      "B": "twisting the balanced feeder to get one half twist per quarter wavelength.",
+      "C": "keeping the dipole elements and the feeder at right angles.",
+      "D": "using a balun and a ferrite choke on the feeder, close to the dipole."
+    },
+    "correct": "C",
+    "explanation": "The feeder, coaxial or twin, should leave centre-fed dipole antennas at right-angles to avoid pickup from the radiated field.",
+    "image": null
+  },
+  {
+    "id": "6F1-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "General advice on installing amateur radio in a vehicle is available from",
+    "options": {
+      "A": "the Ofcom Code of Practice for mobile amateur operation.",
+      "B": "the Federation of Communication Services Code of Practice.",
+      "C": "the Radio Communications Federation Mobile Code of Practice.",
+      "D": "The Automobile Association (AA) or Royal Automobile Club (RAC)."
+    },
+    "correct": "B",
+    "explanation": "The Federation of Communication Services produce a Code of Practice (FCS1362:2016) for installing radio communications equipment in vehicles. It is regarded as the Industry Standard but it does say that specific instructions from the vehicle manufacturer take precedence. Following such guidance may be a requirement of your vehicle insurance policy.",
+    "image": null
+  },
+  {
+    "id": "6F2-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "When installing an amateur transceiver in a vehicle, it is important to",
+    "options": {
+      "A": "connect the radio to a circuit which is dead when the ignition key is removed.",
+      "B": "keep the antenna and feeder well away from the vehicle wiring.",
+      "C": "check the auxiliary position on the ignition switch is adequately rated.",
+      "D": "mount the transceiver on the dashboard where it can be easily seen."
+    },
+    "correct": "B",
+    "explanation": "Keeping the antenna, feeder and transceiver power and control wiring as far away from the vehicle electrics will minimise the risk of RF pickup. Consider also the field strength in the passenger compartment.",
+    "image": null
+  },
+  {
+    "id": "6F2-2",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "To minimise the likelihood of RF being conducted into the vehicle electronics and in the absence of specific manufacturer instructions,",
+    "options": {
+      "A": "the positive and negative leads should run together by a convenient route direct to the vehicle battery with both leads unfused.",
+      "B": "the positive and negative leads should run together by a convenient route direct to the vehicle battery with fuses in both the positive and negative leads.",
+      "C": "the positive and negative leads should run together direct to the vehicle battery with only the positive lead fused.",
+      "D": "the positive lead should be fused direct to the vehicle battery and the negative lead to the chassis by the battery negative connection."
+    },
+    "correct": "D",
+    "explanation": "Any specific guidance by the manufacturer must be followed but the normal standard advice (FCS1362:2016) is to take the positive power lead direct to the vehicle battery with a suitable fuse. The negative lead should run parallel as far as practicable and connect to the vehicle chassis next to where the battery negative connects to the chassis. The negative lead is not fused. That is a change from the guidance in the superseded document MPT 1362.",
+    "image": null
+  },
+  {
+    "id": "6G1-1",
+    "level": "full",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "An old telephone belonging to a neighbour is suffering from interference from HF SSB. A possible cure to try is to",
+    "options": {
+      "A": "fit capacitors of about 0.01uF across the input terminals in the phone.",
+      "B": "connect a 100uH choke in series with each lead of the telephone.",
+      "C": "clip ferrite rings over the lead to the phone or wind round a ring if possible.",
+      "D": "replace the phone with a modern electronic version."
+    },
+    "correct": "C",
+    "explanation": "Telephone equipment requires approval for connection to the network and should not therefore be modified since it will invalidate the approval. The best option is a ferrite ring. In severe cases more than one ring might be required to get sufficient inductance.",
+    "image": null
+  }
+]

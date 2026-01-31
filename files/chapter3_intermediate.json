@@ -1,0 +1,642 @@
+[
+  {
+    "id": "3A2-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The drawing shows an AM signal with a Depth of Modulation of",
+    "options": {
+      "A": "33%.",
+      "B": "50%.",
+      "C": "60%.",
+      "D": "67%."
+    },
+    "correct": "D",
+    "explanation": "The depth of modulation is the ratio of the carrier amplitude to the 'audio' amplitude. The carrier amplitude is shown as 15 units and the peak, that is carrier plus audio, is 25 giving an audio amplitude of 25-15= 10. The depth of modulation is 10/15 or 67%.",
+    "image": "C3_Inter_3A2-1.png"
+  },
+  {
+    "id": "3A2-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The peak deviation of a frequency modulated (FM) transmission is",
+    "options": {
+      "A": "the greatest deviation recorded over any one minute interval.",
+      "B": "the greatest deviation recorded over the duration of the transmission.",
+      "C": "the deviation chosen as the system design maximum.",
+      "D": "the maximum deviation the transmitter is capable of."
+    },
+    "correct": "C",
+    "explanation": "Unlike AM there is no inherent maximum to the peak frequency deviation; it is the designed limit of the system concerned. Typically 3 or 5kHz for audio in the amateur service. This corresponds to the loudest audio signal that can/should be passed to the modulator.",
+    "image": null
+  },
+  {
+    "id": "3A3-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "In a single sideband transmission the",
+    "options": {
+      "A": "carrier radiates most of the transmitted power.",
+      "B": "bandwidth is about twice the highest audio frequency used.",
+      "C": "carrier is only needed when transmitting.",
+      "D": "bandwidth is half that of amplitude modulation."
+    },
+    "correct": "D",
+    "explanation": "SSB comprises only one sideband which has the same bandwidth as the audio modulating signal. There is no radiated carrier.",
+    "image": null
+  },
+  {
+    "id": "3A3-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which mode of modulation can have the narrowest bandwidth whilst still successfully transmitting the required information?",
+    "options": {
+      "A": "AM.",
+      "B": "FM.",
+      "C": "Digital.",
+      "D": "SSB."
+    },
+    "correct": "C",
+    "explanation": "The stem does not say the required information is audio, so don't assume a digitised audio signal will be wider than SSB and choose SSB on that basis. In any case a technique called vocoding (voice coding), used in SDR systems, can produce a digital representation that is narrower than SSB.",
+    "image": null
+  },
+  {
+    "id": "3B1-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "What mode of transmission requires the architecture of transmitter shown?",
+    "options": {
+      "A": "Amplitude modulation.",
+      "B": "Single sideband.",
+      "C": "Frequency modulation.",
+      "D": "Morse CW."
+    },
+    "correct": "C",
+    "explanation": "The audio is modulating the oscillator, varying its frequency. FM.",
+    "image": "C3_Inter_3B1-1.png"
+  },
+  {
+    "id": "3C1-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "When considering whether to use a crystal oscillator or a VFO in a home-made transmitter, an amateur should note that a",
+    "options": {
+      "A": "crystal will give a readily tuneable frequency of high accuracy.",
+      "B": "VFO makes it easy to change frequency but may lack stability.",
+      "C": "VFO gives a more stable frequency than a crystal oscillator.",
+      "D": "crystal can only be tuned in fixed steps, determined on manufacture."
+    },
+    "correct": "B",
+    "explanation": "A crystal is very stable but can only be 'pulled' over a very narrow frequency range. A VFO can be tuned over a wide range but is not as stable.",
+    "image": null
+  },
+  {
+    "id": "3C1-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The output frequency of a variable frequency oscillator depends on the",
+    "options": {
+      "A": "amount of gain of the associated transistor.",
+      "B": "bias setting of the associated transistor.",
+      "C": "calibration of the dial on the transmitter front panel.",
+      "D": "values of L and C in a resonant circuit."
+    },
+    "correct": "D",
+    "explanation": "The values of L and C in a tuned circuit determine the frequency of oscillation.",
+    "image": null
+  },
+  {
+    "id": "3C2-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "To help prevent a continuously tuneable transmitter from drifting off frequency it is advisable to",
+    "options": {
+      "A": "run the power amplifier from a specially stabilised supply.",
+      "B": "rigidly construct the VFO and put it in its own screened box.",
+      "C": "mount the oscillator as close as possible to the power amplifier.",
+      "D": "use a band-pass filter immediately after the modulator."
+    },
+    "correct": "B",
+    "explanation": "AVFO needs rigid construction, a stable supply voltage, screening from unwanted external influence and kept at as constant a temperature as possible.",
+    "image": null
+  },
+  {
+    "id": "3C2-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A key advantage of using a synthesiser as the oscillator in a transmitter is that",
+    "options": {
+      "A": "the frequency can be shown on a digital display.",
+      "B": "it is tuneable and has the frequency stability of a crystal",
+      "C": "all the different modes of modulation are available in one transmitter.",
+      "D": "the tuning is continuously variable rather than in fixed steps."
+    },
+    "correct": "B",
+    "explanation": "The key merits of a synthesiser are the accuracy and stability of a crystal oscillator and the ability to tune over a wide band, albeit in small steps. The choice of oscillator/synthesiser does not affect the available modulation modes and whilst a digital frequency display is nice, it is not as useful as stability and tuning range.",
+    "image": null
+  },
+  {
+    "id": "3C3-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The instructions to generate the waveform by Direct Digital Synthesis are obtained from",
+    "options": {
+      "A": "the operator programing via a keyboard or front panel control.",
+      "B": "the off-air instructions recovered by the radio receiver.",
+      "C": "a look up table held in memory within the device itself.",
+      "D": "digitising the sinewave from a stable crystal master oscillator."
+    },
+    "correct": "C",
+    "explanation": "A DDS has a set of values for a sinewave embedded in its memory, normally called a look-up table.",
+    "image": null
+  },
+  {
+    "id": "3E1-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A double sideband signal with the carrier suppressed is normally produced by",
+    "options": {
+      "A": "an AM modulator and carrier filter.",
+      "B": "an SSB signal and image generator.",
+      "C": "a balanced modulator.",
+      "D": "a phase lock loop."
+    },
+    "correct": "C",
+    "explanation": "A balanced modulator produces two sidebands but balances out the carrier. To produce SSB one sideband is removed by a filter.",
+    "image": null
+  },
+  {
+    "id": "3E2-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The drawing shows the block diagram of a transmitter. What is the function of the box marked 'X'?",
+    "options": {
+      "A": "Sideband filter.",
+      "B": "Harmonic filter.",
+      "C": "High-pass filter.",
+      "D": "Low-pass filter."
+    },
+    "correct": "A",
+    "explanation": "The balance modulator produces two sidebands, box X filters out the one not wanted. It is an SSB transmitter.",
+    "image": "C3_Inter_3E2-1.png"
+  },
+  {
+    "id": "3E3-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The device shown by the circuit symbol might be found",
+    "options": {
+      "A": "on the front panel of a transmitter to indicate transmission.",
+      "B": "in a transmitter power supply.",
+      "C": "in an audio amplifier.",
+      "D": "in a frequency modulator."
+    },
+    "correct": "D",
+    "explanation": "The circuit symbol is a varicap diode which is used in an oscillator circuit to produce frequency modulation.",
+    "image": "C3_Inter_3E3-1.png"
+  },
+  {
+    "id": "3F1-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The ammeter in the drawing reads 3A when on transmit. Allowing for all the circuits in the transmitter suggests an RF efficiency around 35% so a reasonable RF transmit power will be",
+    "options": {
+      "A": "5W.",
+      "B": "15W.",
+      "C": "50W.",
+      "D": "100W."
+    },
+    "correct": "B",
+    "explanation": "The DC input power is 13.8V x 3A = 41.4W. At 35% efficiency the RF output power will be 41.4 x 0.35 = 14.49W. We only know the current to one significant figure so we can't assume it is 3.0A so any answer between 13W and 16W is perfectly credible.",
+    "image": "C3_Inter_3F1-1.png"
+  },
+  {
+    "id": "3F2-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Harmonics from your transmitter can be reduced by using a",
+    "options": {
+      "A": "low-pass filter.",
+      "B": "high-pass filter.",
+      "C": "ferrite ring on your feeder.",
+      "D": "balun fitted close to the antenna."
+    },
+    "correct": "A",
+    "explanation": "A balun may not have any effect on harmonics and the need, or not, for one depends on the choice of antenna, which is not stated. Ferrite rings will not affect wanted signals or harmonics on the feeder. To remove harmonics without affecting the wanted signal requires a low-pass filter.",
+    "image": null
+  },
+  {
+    "id": "3G2-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which harmonic of a 145MHz transmission will fall inside the TV broadcast band which extends from 470 to 694MHz?",
+    "options": {
+      "A": "2nd.",
+      "B": "3rd.",
+      "C": "4th.",
+      "D": "5th."
+    },
+    "correct": "C",
+    "explanation": "You may know that the third harmonic of 145MHz is 435MHz, the middle of the amateur 70cm band. The fourth is 580MHz which is the correct answer.",
+    "image": null
+  },
+  {
+    "id": "3G2-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A harmonic of your transmission is quite likely to be heard by",
+    "options": {
+      "A": "other amateurs in the same band.",
+      "B": "radio users just above and below your amateur band.",
+      "C": "other amateurs in a different amateur band.",
+      "D": "the amateur you are in contact with."
+    },
+    "correct": "C",
+    "explanation": "Harmonics won't be in or close to the same amateur band as you are transmitting on and that removes options A, B and D in one go. Many amateur bands are harmonically related so if you do have a problem there is a reasonable chance a fellow amateur will tell you.",
+    "image": null
+  },
+  {
+    "id": "3G3-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "To avoid radiation of several harmonics from an HF transmitter the box marked X should be a",
+    "options": {
+      "A": "notch filter.",
+      "B": "low-pass filter.",
+      "C": "high-pass filter.",
+      "D": "band-stop filter."
+    },
+    "correct": "B",
+    "explanation": "Harmonics can be minimised by a low-pass filter set to pass the wanted signal but remove or at least attenuate higher frequencies. A multiband transceiver will need more than one filter so any harmonics of the lower frequency bands do not radiate on higher frequency amateur (or other users) bands.",
+    "image": "C3_Inter_3G3-1.png"
+  },
+  {
+    "id": "3G4-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which transmitted envelope of a CW signal will result in the minimum occupied bandwidth?",
+    "options": {
+      "A": "Envelope 1.",
+      "B": "Envelope 2.",
+      "C": "Envelope 3.",
+      "D": "Envelope 4."
+    },
+    "correct": "D",
+    "explanation": "The rise and fall of each Morse dot and dash should be noticeably smooth and rounded.",
+    "image": "C3_Inter_3G4-1.png"
+  },
+  {
+    "id": "3G4-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Fast edges on a Morse transmission will",
+    "options": {
+      "A": "risk causing chirp on the transmission.",
+      "B": "make the transmitted signal much wider than necessary.",
+      "C": "simplify automatic reading of the signal at the receiver.",
+      "D": "be uncomfortable to listen to at the receiving station."
+    },
+    "correct": "B",
+    "explanation": "Fast edges to each Morse dot or dash can be likened to part of a higher audio or above audio frequency. That means the transmission will be wider than necessary and heard as clicks over several kHz. It will also be harsher to listen to but that is unfortunate as opposed to antisocial clicking over other users.",
+    "image": null
+  },
+  {
+    "id": "3H2-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The receiver shown in the block diagram is an example of",
+    "options": {
+      "A": "A tuned radio frequency receiver.",
+      "B": "A direct conversion receiver.",
+      "C": "A superhet receiver.",
+      "D": "A software defined receiver."
+    },
+    "correct": "B",
+    "explanation": "This may look like a superhet receiver except that there is no IF. It is a direct conversion receiver. It uses the superhet idea of mixing down with the product detector/beat frequency oscillator principle in mixing the RF straight down to an audio frequency.",
+    "image": "C3_Inter_3H2-1.png"
+  },
+  {
+    "id": "3H3-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The sensitivity of a radio receiver can be described as",
+    "options": {
+      "A": "its ability to pick up weak signals without masking them with internal noise.",
+      "B": "its ability to pick up the wanted signal and reject those on nearby frequencies.",
+      "C": "the amount of gain provided by RF, IF and audio amplifier circuits.",
+      "D": "the difference in level between the weakest and strongest signals."
+    },
+    "correct": "A",
+    "explanation": "Gain is easy, the trick to receiving weak signals is to have sufficient gain but without introducing extra noise which would mask them. Not a problem on HF where natural radio noise is high but on UHF and above the natural noise is much lower and noise free electronics more expensive.",
+    "image": null
+  },
+  {
+    "id": "3H4-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The selectivity of a radio receiver can be described as",
+    "options": {
+      "A": "the degree of rejection of the image frequency compared to the wanted frequency.",
+      "B": "its ability to pick up weak signals without masking them with internal noise.",
+      "C": "the degree of rejection of signals having the wrong mode of modulation.",
+      "D": "its ability to pick up the wanted signal and reject those on nearby frequencies."
+    },
+    "correct": "D",
+    "explanation": "A receiver needs a wide enough bandwidth to pick up all of the wanted signal but then a fast roll off of the filter frequency response to remove other signals (or noise) on adjacent frequencies. Typically the selectivity is expressed as how far off-tune to get 60dB rejection of unwanted signals. One thousandth of the signal voltage or one millionth of the signal power.",
+    "image": null
+  },
+  {
+    "id": "3H4-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "To get the narrowest possible bandwidth a tuned circuit requires",
+    "options": {
+      "A": "a low Q factor and a low resonant frequency.",
+      "B": "a low Q factor and a high resonant frequency.",
+      "C": "a high Q factor and a low resonant frequency.",
+      "D": "a high Q factor and a high resonant frequency."
+    },
+    "correct": "C",
+    "explanation": "The Q factor is defined as the resonant frequency/bandwidth.Transpose to get bandwidth = resonant frequency/Q. It follows that to get the lowest bandwidth the resonant frequency must be low and the Q factor high.",
+    "image": null
+  },
+  {
+    "id": "3I1-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which one of the statements is NOT an advantage of the superhet architecture? Note the use of the word NOT.",
+    "options": {
+      "A": "The bulk of the gain is achieved at a fixed frequency.",
+      "B": "The IF is tuneable over a wide range.",
+      "C": "The filter bandwidths are independent of the selected radio frequency.",
+      "D": "Demodulation of all modes is performed at a single frequency."
+    },
+    "correct": "B",
+    "explanation": "Superhets do have an image frequency, the one other frequency that will mix with the local oscillator to produce a mixer output on the IF. The other statements are true.",
+    "image": null
+  },
+  {
+    "id": "3I1-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The block diagram of a radio receiver is shown. What is the function of the box marked 'X'?",
+    "options": {
+      "A": "Mixer.",
+      "B": "Demodulator.",
+      "C": "IF amplifier.",
+      "D": "RF amplifier."
+    },
+    "correct": "C",
+    "explanation": "The RF amplifier and local oscillator feed into the mixer and produce an output on the IF. The marked block is the IF amplifier.",
+    "image": "C3_Inter_3I1-2.png"
+  },
+  {
+    "id": "3I2-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A radio receiver is tuned to 7.05MHz and the intermediate frequency is 465kHz. The local oscillator will be on a frequency of",
+    "options": {
+      "A": "462kHz.",
+      "B": "465kHz.",
+      "C": "6585kHz.",
+      "D": "7050kHz."
+    },
+    "correct": "C",
+    "explanation": "The wanted frequency and the local oscillator are separated in frequency by the IF. So the LO is either on 7050+465 = 7515kHz or 7050-465 = 6585kHz. Only 6585 is an available option.",
+    "image": null
+  },
+  {
+    "id": "3I2-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A mixer is fed with a 10.5MHz signal and a signal from a variable frequency oscillator. Outputs are noted on 7MHz and 14MHz. What is the VFO frequency?",
+    "options": {
+      "A": "3.5MHz.",
+      "B": "7.0MHz.",
+      "C": "17.5MHz.",
+      "D": "24.5MHz."
+    },
+    "correct": "A",
+    "explanation": "The two outputs from a mixer are the sum and difference of the two inputs. Turning that calculation round, one input is on (14+7)/2 which is 10.5MHz as given, the other is on (14-7)/2 = 3.5MHz. Try it!",
+    "image": null
+  },
+  {
+    "id": "3I3-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The stage in a radio receiver which provides the most gain and selectivity is the",
+    "options": {
+      "A": "RF amplifier.",
+      "B": "local oscillator.",
+      "C": "IF amplifier.",
+      "D": "audio amplifier."
+    },
+    "correct": "C",
+    "explanation": "The IF is a single fixed frequency, actually a narrow band ideally the same width as the RF signal we wish to receive. 2.7kHz for SSB. A fixed frequency means it is much easier to design high quality amplifiers and tuned circuits.",
+    "image": null
+  },
+  {
+    "id": "3I3-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which type of receiver architecture allows multi-band reception without having to use separate tuned circuits to select the wanted signal in each band?",
+    "options": {
+      "A": "Tuned Radio Frequency.",
+      "B": "Superheterodyne.",
+      "C": "Crystal Controlled.",
+      "D": "Phase locked."
+    },
+    "correct": "B",
+    "explanation": "The whole point of the superhet architecture is to choose appropriate local oscillator frequencies to bring (mix) any frequency signal we want to receive to the IF where we concentrate the gain and selectivity. The only tuneable item is the LO and a we need selection of band filters covering the desired HF bands.",
+    "image": null
+  },
+  {
+    "id": "3I3-3",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which components identify the tuned circuits in the circuit diagram?",
+    "options": {
+      "A": "R1 and R2.",
+      "B": "L1 and L2.",
+      "C": "C2 and L3.",
+      "D": "C2 and L2."
+    },
+    "correct": "D",
+    "explanation": "There are four tuned circuits in the diagram, C1 and L1, C2 and L2, C3 and L3, C4 and L4.",
+    "image": "C3_Inter_3I3-3.png"
+  },
+  {
+    "id": "3K1-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A superhet radio receiver is picking up a CW signal on 14.020MHz and the IF is on 460kHz. A suitable frequency for the BFO is",
+    "options": {
+      "A": "460.0kHz.",
+      "B": "460.7kHz.",
+      "C": "14.020MHz.",
+      "D": "14.021MHz."
+    },
+    "correct": "B",
+    "explanation": "There are two choices for the Beat Frequency Oscillator which will mix with the IF on CW reception, to produce an audio note. Typically it is around 700Hz but is user adjustable. They are 460kHz ± 700Hz, 459.3kHz and 460.7kHz.",
+    "image": null
+  },
+  {
+    "id": "3K1-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "A superhet radio receiver is picking up an SSB signal on 14.220MHz and the IF is on 460kHz to 463kHz. A suitable frequency for the CIO is",
+    "options": {
+      "A": "460.0kHz.",
+      "B": "460.7kHz.",
+      "C": "14.220MHz.",
+      "D": "14.221MHz."
+    },
+    "correct": "A",
+    "explanation": "The CIO effectively reinserts the carrier or the process can be viewed as mixing the IF band down to audio frequencies. The IF at 460kHz represents 0Hz audio and the band up to 463kHz the 3kHz audio communications band. The CIO, actually the same circuit as the BFO which is simply renamed after its new purpose, needs to be exactly on 460kHz to mix down to the correct audio frequencies, but that assumes the tuning to mix the RF down to IF is exactly correct too.",
+    "image": null
+  },
+  {
+    "id": "3K1-3",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "Which one of the waveforms shown will be seen at the output of a diode detector for AM?",
+    "options": {
+      "A": "Waveform 1.",
+      "B": "Waveform 2.",
+      "C": "Waveform 3.",
+      "D": "Waveform 4."
+    },
+    "correct": "C",
+    "explanation": "Waveform 1 is an AM signal prior to demodulation. Waveform 2 is an FM signal prior to demodulation. Waveform 3 is AM after diode detection (demodulation) which will be smoothed to remove the residual RF by a capacitor. Waveform 4 is the result of diode detection of an FM signal; a bit pointless perhaps, but that is what it would look like.",
+    "image": "C3_Inter_3K1-3.png"
+  },
+  {
+    "id": "3L1-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The signal used to produce the AGC feedback to the IF amplifier is obtained from the",
+    "options": {
+      "A": "RF amplifier stage.",
+      "B": "AF amplifier stage.",
+      "C": "local oscillator.",
+      "D": "demodulator stage."
+    },
+    "correct": "D",
+    "explanation": "The purpose of AGC is to keep the signal out of the IF to the demodulator as constant as possible. It is derived at the IF output/demodulator input or just into the demodulator. It is used to adjust the bias of the IF amplifier transistors to vary their gain.",
+    "image": null
+  },
+  {
+    "id": "3L1-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The AGC control voltage can also be used to",
+    "options": {
+      "A": "operate a signal strength meter.",
+      "B": "enable automatic mode selection.",
+      "C": "identify which sideband is in use on SSB.",
+      "D": "provide a sidetone when used for CW."
+    },
+    "correct": "A",
+    "explanation": "The AGC voltage also indicates the strength of the signal into the IF stage and therefore the RF signal level and can be used to drive a signal strength meter.",
+    "image": null
+  },
+  {
+    "id": "3M1-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "In a software defined receiver the Fourier transform is used to",
+    "options": {
+      "A": "separate the signals in a wide band of frequencies into frequency order ready for further processing.",
+      "B": "demodulate the wanted signal while suppressing the modulation on signals at other frequencies.",
+      "C": "take a stream of digital data and convert it to a series of amplitudes to construct an analogue signal.",
+      "D": "sample the analogue signal from the antenna and convert it to a data stream for digital processing."
+    },
+    "correct": "A",
+    "explanation": "The Fourier transform is a mathematical process which takes the sequential samples of RF amplitude and calculates the amplitudes of the RF signal present in frequency (rather than time) order. The other options detail necessary functions in an SDR receiver but do not describe the Fourier transform process.",
+    "image": null
+  },
+  {
+    "id": "3M1-2",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "An advantage of digital filters, particularly in crowded amateur bands is that they",
+    "options": {
+      "A": "can identify and remove the random RF noise present on top of the wanted signal.",
+      "B": "can provide sharper and more selective frequency responses to remove unwanted signals.",
+      "C": "automatically adjust to the correct bandwidth for the type of signal being received.",
+      "D": "enable the presentation of waterfall displays to show the occupancy of the band concerned."
+    },
+    "correct": "B",
+    "explanation": "Digital filters can be designed with much sharper pass/attenuate boundaries and their width is easily adjusted in software.",
+    "image": null
+  },
+  {
+    "id": "3M2-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "The diagram shows an analogue signal in the time domain. The fundamental, shown dashed, is 1kHz and the frequency domain graphs are scaled in kHz. Which one of the four frequency domain graphs correctly represents the waveform?",
+    "options": {
+      "A": "Picture 1.",
+      "B": "Picture 2.",
+      "C": "Picture 3.",
+      "D": "Picture 4."
+    },
+    "correct": "A",
+    "explanation": "This takes a bit of experience and doodling. Distortion of a waveform always causes harmonics. In this instance the distortion is symmetrical over each half cycle. That is typically the case with odd order harmonics, 3rd, 5th, etc. That rules out drawings 2 and 4. If the third harmonic was as strong as the fundamental the dip in the fundamental would be back to the zero line, suggesting the correct answer is drawing 1 rather than drawing 3.",
+    "image": "C3_Inter_3M2-1.png"
+  },
+  {
+    "id": "3M3-1",
+    "level": "intermediate",
+    "chapter": 3,
+    "source": "chapter",
+    "question": "What is the function of the block marked X in the block diagram of an SDR receiver?",
+    "options": {
+      "A": "Fourier transform.",
+      "B": "Anti-alias filter.",
+      "C": "Mixer and sideband filter.",
+      "D": "Analogue to digital converter."
+    },
+    "correct": "D",
+    "explanation": "The drawings can either be remembered or reasoned out. The RF filter removes the risk of higher frequency signals being present than the SDR can handle. Often this is combined with the RF amplifier. Before the signals can be digitally processed they need to be sampled and digitised. That is done in the analogue to digital 'box' which is the one marked 'X'.",
+    "image": "C3_Inter_3M3-1.png"
+  }
+]

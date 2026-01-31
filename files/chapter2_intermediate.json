@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "2A1-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A resistor is marked as 2.7kΩ 5%. This means that",
+    "options": {
+      "A": "its resistance is within 5% of 2.7kΩ.",
+      "B": "its resistance can change by up to 5% with temperature.",
+      "C": "its resistance is between 2.43kΩ and 2.97kΩ.",
+      "D": "there is a 95% probability that it is 2.70kΩ."
+    },
+    "correct": "A",
+    "explanation": "The 5% is the tolerance, that is how far out could the actual value be. 5% of 2.7kΩ is 135Ω so the actual value is between 2.565kΩ and 2.835kΩ.",
+    "image": null
+  },
+  {
+    "id": "2C1-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the effective resistance of a 10kΩ and a 15kΩ resistor in parallel?",
+    "options": {
+      "A": "6kΩ.",
+      "B": "25kΩ.",
+      "C": "12.5kΩ.",
+      "D": "less than 1Ω."
+    },
+    "correct": "A",
+    "explanation": "The formula is 1/Rtotal = 1/R1 + 1/R2 = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 So Rtotal = 30/5 = 6kΩ. There is a quick way for two resistors Rtotal = (R1*R2)/(R1+R2) = (10*15)/(10+15) = 150/25 = 6kΩ",
+    "image": null
+  },
+  {
+    "id": "2C1-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The circuit diagram shows a 10V battery feeding two series resistors. What is the voltage across the 2Ω resistor?",
+    "options": {
+      "A": "2V.",
+      "B": "3V.",
+      "C": "4V.",
+      "D": "6V."
+    },
+    "correct": "C",
+    "explanation": "The total resistance of the circuit is 3Ω + 2Ω = 5Ω. That gives a current of I=V/R=10/5=2A. 2A through 2Ω gives a voltage of V=IxR = 2A x 2Ω = 4V.",
+    "image": "C2_Inter_2C1-2.png"
+  },
+  {
+    "id": "2C1-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A battery supplies a 2Ω resistor and a 4Ω resistor connected in series. There is 6V across the 2Ω resistor. What is the battery voltage?",
+    "options": {
+      "A": "3V.",
+      "B": "6V.",
+      "C": "12V.",
+      "D": "18V."
+    },
+    "correct": "D",
+    "explanation": "With 6V across a 2Ω resistor the current through it is I=V/R=6/2=3A. That is also the current in the 4Ω resistor so the voltage across it is V=IxR = 3x4 = 12V. The total voltage across the circuit is 6V + 12V = 18V.",
+    "image": null
+  },
+  {
+    "id": "2C1-4",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "All three resistors in the diagram are 10kΩ and are connected to a 10V battery. What current is drawn from the battery?",
+    "options": {
+      "A": "0.33mA.",
+      "B": "0.67mA.",
+      "C": "1.5mA.",
+      "D": "3mA."
+    },
+    "correct": "B",
+    "explanation": "The two 10kΩ resistors in parallel will give 5kΩ. That is series with 10kΩ will give 5 + 10 =15kΩ. The battery 'sees' a resistance of 15kΩ. The current is I=V/R = 10V/15kΩ. Remember the k is 1000 and it is on the bottom of the calculation making the result 1000 times smaller. The current will be 10/15mA which is 0.67mA.",
+    "image": "C2_Inter_2C1-4.png"
+  },
+  {
+    "id": "2C1-5",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "All three resistors in the diagram are 10kΩ and are connected to a 10V battery. What current is drawn from the battery?",
+    "options": {
+      "A": "3mA.",
+      "B": "0.67mA.",
+      "C": "0.33mA.",
+      "D": "1.5mA."
+    },
+    "correct": "D",
+    "explanation": "R1 and R2 are in series, 20kΩ. That is in parallel with the other 10kΩ resistor. Two options: Current in R1/R2 = 10V/20kΩ = 0.5mA Current in R3 = 10V/10kΩ = 1mA total current 1.5mA Or 20kΩ in parallel with 10kΩ = (20*10)/(20+10) = 200/30 = 6.67kΩ, I=V/R=10/6.67kΩ = 1.5mA",
+    "image": "C2_Inter_2C1-5.png"
+  },
+  {
+    "id": "2C2-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the output voltage from the potential divider if Vin is 12V?",
+    "options": {
+      "A": "6V.",
+      "B": "8V.",
+      "C": "4V.",
+      "D": "2V."
+    },
+    "correct": "B",
+    "explanation": "This may be easier by inspection. There is 12V across 6kΩ so each kΩ would have 2V across it. 4V across the 2kΩ and 8V across the 4kΩ. Using the formula. Vout = 12*(4/(2+4))=8V (note since all resistor values are in kΩ and the calculation is simply a ratio then we can omit the k).",
+    "image": "C2_Inter_2C2-1.png"
+  },
+  {
+    "id": "2C2-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the output voltage from the potential divider if he is 20V?",
+    "options": {
+      "A": "2.0V.",
+      "B": "1.8V.",
+      "C": "1.0V.",
+      "D": "0.9V"
+    },
+    "correct": "B",
+    "explanation": "Take care with this one! It is NOT a 10:1 potential divider, it is 11:1. The answer will be a bit less than 2V. Only one option is close, safe to choose it. However calculating, Vout = 20*(1/(10+1))=1.8V Since we only had two significant figures in the question we cannot give an answer to apparently greater accuracy.",
+    "image": "C2_Inter_2C2-2.png"
+  },
+  {
+    "id": "2C3-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A battery has an EMF of 9.1V and a source resistance of 1.5Ω. What is the terminal PD when a current of 0.5A is drawn from the battery?",
+    "options": {
+      "A": "8.75V.",
+      "B": "9.1V.",
+      "C": "9.0V.",
+      "D": "8.35V."
+    },
+    "correct": "D",
+    "explanation": "The voltage drop will be 0.5A x 1.50 = 0.75V. Thus the terminal voltage will be 9.1-0.75 = 8.35V.",
+    "image": null
+  },
+  {
+    "id": "2D1-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a",
+    "options": {
+      "A": "capacitor.",
+      "B": "inductor.",
+      "C": "diode.",
+      "D": "switch."
+    },
+    "correct": "A",
+    "explanation": "An air-spaced capacitor.",
+    "image": "C2_Inter_2D1-1.png"
+  },
+  {
+    "id": "2D1-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Increasing the area of the plates of a capacitor will",
+    "options": {
+      "A": "increase the breakdown voltage.",
+      "B": "decrease the breakdown voltage.",
+      "C": "increase its ability to store a charge.",
+      "D": "decrease its polarity."
+    },
+    "correct": "C",
+    "explanation": "Increasing the area of the plates will increase the capacitance and therefore its ability to store an electrical charge.",
+    "image": null
+  },
+  {
+    "id": "2D2-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the effective capacitance of a 5µF, a 2µF and a 500nF capacitor all connected in parallel?",
+    "options": {
+      "A": "7.5µF.",
+      "B": "7.05µF.",
+      "C": "0.37µF.",
+      "D": "3.7µF."
+    },
+    "correct": "A",
+    "explanation": "Note the different unit sizes. 500nF is 0.5µF. Add capacitances in parallel. 7.5µF.",
+    "image": null
+  },
+  {
+    "id": "2D2-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What capacitance would be measured between the two terminals of the circuit shown?",
+    "options": {
+      "A": "8pF.",
+      "B": "4pF.",
+      "C": "2pF.",
+      "D": "6pF."
+    },
+    "correct": "C",
+    "explanation": "The two 2pF capacitors in parallel add to give 4pF. We now have two 4pF capacitors in series. You probably know that means half the value of either one of them, but to prove it: Ctotal = (C1*C2)/(C1+C2) = (4*4)/(4+4) = 2pF",
+    "image": "C2_Inter_2D2-2.png"
+  },
+  {
+    "id": "2D2-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which statement about three capacitors of different values connected in series is true?",
+    "options": {
+      "A": "The effective capacitance is smaller than the smallest capacitor.",
+      "B": "The effective capacitance is larger than the largest capacitor.",
+      "C": "The effective capacitance is larger than the smallest capacitor.",
+      "D": "The effective capacitance is an average of the three capacitors."
+    },
+    "correct": "A",
+    "explanation": "The capacitance of capacitors in series can be thought of as increasing the separation of the plates which reduces the capacitance. The result will always be smaller than the smallest one.",
+    "image": null
+  },
+  {
+    "id": "2D2-4",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a variable capacitor with a pre-set trimmer at 10pF and a series capacitor. Its purpose is to adjust the overall capacitance to set the tuning range to the desired value. The maximum capacitance of the circuit is",
+    "options": {
+      "A": "160pF.",
+      "B": "150pF.",
+      "C": "77pF.",
+      "D": "300pF."
+    },
+    "correct": "C",
+    "explanation": "At maximum the parallel capacitors total 10pF + 150pF = 160pF. That is in series with another 150pF capacitor. Two 150pF series is 75pF (half) so 150pF and 160pF will be a little over that. Only option C is even close, a safe choice. However, to calculate: C = (150x160)/(150+160) = 24000/310 = 77pF",
+    "image": "C2_Inter_2D2-4.png"
+  },
+  {
+    "id": "2D3-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Larger value capacitors are often of electrolytic construction and are",
+    "options": {
+      "A": "normally polarised.",
+      "B": "unable to pass alternating currents.",
+      "C": "fitted either way round.",
+      "D": "unsuitable for smoothing circuits."
+    },
+    "correct": "A",
+    "explanation": "Electrolytic capacitors are naturally polarised by their method of production. It is important the polarity is observed or damage and possible injury can occur.",
+    "image": null
+  },
+  {
+    "id": "2D4-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "If a magnet is waved past a piece of copper wire then",
+    "options": {
+      "A": "nothing much will happen.",
+      "B": "a current will be induced in the magnet.",
+      "C": "the wire will become magnetised.",
+      "D": "a voltage will be induced in the wire."
+    },
+    "correct": "D",
+    "explanation": "This is an example of electromagnetic induction, a voltage will be induced in the wire all the time it is subject to a changing magnetic field. If there is a complete circuit there will be a current in the wire and circuit.",
+    "image": null
+  },
+  {
+    "id": "2D4-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An inductor relies on the fact that when a current passes through a wire it",
+    "options": {
+      "A": "increases in temperature.",
+      "B": "forms a magnetic field.",
+      "C": "limits to current to a set value.",
+      "D": "oscillates at a known frequency."
+    },
+    "correct": "B",
+    "explanation": "Inductance is the effect of a current creating a magnetic field and that field having an opposing change effect on the current that created it.",
+    "image": null
+  },
+  {
+    "id": "2D4-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The circuit component which consists of a coil of wire is",
+    "options": {
+      "A": "an inductor.",
+      "B": "a capacitor.",
+      "C": "a transformer.",
+      "D": "an antenna."
+    },
+    "correct": "A",
+    "explanation": "A single coil is an inductor; two coils sharing a magnetic field is a transformer.",
+    "image": null
+  },
+  {
+    "id": "2D4-4",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What does an inductor store in its magnetic field?",
+    "options": {
+      "A": "Current.",
+      "B": "Potential difference.",
+      "C": "Energy.",
+      "D": "Power."
+    },
+    "correct": "C",
+    "explanation": "A magnetic field stores energy – as does the electric field in a capacitor.",
+    "image": null
+  },
+  {
+    "id": "2D4-5",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which action will MOST affect the energy that can be stored in a coil?",
+    "options": {
+      "A": "changing the number of turns and the diameter of the coil.",
+      "B": "changing the number of turns but not the diameter of the coil.",
+      "C": "changing the diameter of the coil but not the number of turns.",
+      "D": "changing the polarisation of the coil in the Earth's magnetic field."
+    },
+    "correct": "A",
+    "explanation": "Increasing either the number of turns and/or the diameter will increase the inductance. On its own, polarisation is not relevant but would be if another coil was nearby.",
+    "image": null
+  },
+  {
+    "id": "2D5-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which method of connecting three coils having the same inductance will result in the MINIMUM overall inductance?",
+    "options": {
+      "A": "method 1.",
+      "B": "method 2.",
+      "C": "method 3.",
+      "D": "method 4."
+    },
+    "correct": "B",
+    "explanation": "Inductors in series increase the total inductance, in parallel the inductance is reduced. All in parallel willhave the lowest inductance.",
+    "image": "C2_Inter_2D5-1.png"
+  },
+  {
+    "id": "2D5-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Two coils of inductance of 15mH and 150μH are connected in parallel. The overall inductance of the pair is",
+    "options": {
+      "A": "165mH.",
+      "B": "149μH.",
+      "C": "15.15mH.",
+      "D": "165μH."
+    },
+    "correct": "B",
+    "explanation": "Just like resistors, inductors in parallel have a total inductance less than the smallest one. That is less than 150μH. There is only one answer meeting that condition. The 15mH inductor is 100 times bigger so its effect in minimal. 149μH is the correct answer.",
+    "image": null
+  },
+  {
+    "id": "2D5-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An antenna matching unit (AMU) has switched inductors connected in series. L1 and L2 are each 20μH and L3 is 50μH. The three inductors are well spaced apart to avoid unwanted interaction. The maximum inductance is",
+    "options": {
+      "A": "12μH.",
+      "B": "40μH.",
+      "C": "50μH.",
+      "D": "90μH."
+    },
+    "correct": "D",
+    "explanation": "Inductors in series add giving a total of 90μH. If there was an overlap of the magnetic fields and the coils were in line then the overall field would increase, increasing the inductance. If one coil was connected the opposite way round, so the field reduced, then the inductance would reduce too.",
+    "image": null
+  },
+  {
+    "id": "2D6-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Decreasing the spacing of each turn of a multi-turn coil together will",
+    "options": {
+      "A": "decrease the inductance.",
+      "B": "increase the resistance.",
+      "C": "increase the inductance.",
+      "D": "decrease the resistance."
+    },
+    "correct": "C",
+    "explanation": "Squeezing the turns together concentrates the magnetic field (slightly) so the inductance increases.",
+    "image": null
+  },
+  {
+    "id": "2D6-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A coil for use in the IF of a receiver is wound on a hollow former. To adjust the tuning a slug may be screwed into the former core. This slug is normally made of a",
+    "options": {
+      "A": "high permeability material such as ferrite.",
+      "B": "high permittivity material such as ceramic.",
+      "C": "low conductivity material such as tantalum.",
+      "D": "piezoelectric material such as quartz."
+    },
+    "correct": "A",
+    "explanation": "A high permeability means a high magnetic effect, so inserting a ferrite slug increases the inductance. The screen thread is to allow fine adjustment of the inductance in an LC tuned circuit to bring it to resonance on the designed Intermediate frequency (IF).",
+    "image": null
+  },
+  {
+    "id": "2E1-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the mechanism by which a capacitor can pass an alternating current?",
+    "options": {
+      "A": "The capacitor charges and discharges in alternate directions.",
+      "B": "The dielectric allows electrons to pass in proportion to the dielectric constant.",
+      "C": "The energy transfers from one plate to the other by magnetic induction.",
+      "D": "The two coils share the same electric field allowing the signal to pass."
+    },
+    "correct": "A",
+    "explanation": "The dielectric is an insulator, no electrons get from one plate to the other, the capacitor charges and discharges in alternate directions.",
+    "image": null
+  },
+  {
+    "id": "2E1-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An alternating current can pass through a capacitor because",
+    "options": {
+      "A": "capacitors always block direct currents.",
+      "B": "it continuously charges and discharges.",
+      "C": "allows electrons to pass through the dielectric.",
+      "D": "has a permeable membrane dielectric."
+    },
+    "correct": "B",
+    "explanation": "The dielectric is an insulator, no electrons get from one plate to the other, the capacitor charges and discharges in alternate directions.",
+    "image": null
+  },
+  {
+    "id": "2E2-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "To fully specify a sine wave signal it is necessary to state both the",
+    "options": {
+      "A": "amplitude and frequency.",
+      "B": "frequency and periodic time.",
+      "C": "amplitude and phase.",
+      "D": "frequency and phase."
+    },
+    "correct": "A",
+    "explanation": "The amplitude and frequency must be specified. There is no concept of phase until there is something to compare our sine wave with.",
+    "image": null
+  },
+  {
+    "id": "2E2-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows two cycles of a sine wave. If the frequency is 50Hz, the time for the TWO cycles is",
+    "options": {
+      "A": "20ms.",
+      "B": "30ms.",
+      "C": "40ms.",
+      "D": "50ms."
+    },
+    "correct": "C",
+    "explanation": "At 50Hz the time for one cycle is T=1/f = 1/50 seconds or 20ms. Two cycles as asked (don't miss this step) is 40ms.",
+    "image": "C2_Inter_2E2-2.png"
+  },
+  {
+    "id": "2E2-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A low frequency signal is applied to a frequency meter. For measuring low frequencies the meter actually measures the time for 10 complete cycles, which is 800ms. The frequency display should read",
+    "options": {
+      "A": "1.25Hz.",
+      "B": "8Hz.",
+      "C": "12.5Hz.",
+      "D": "80Hz."
+    },
+    "correct": "C",
+    "explanation": "The time for ONE cycle is 80ms giving a frequency of 1/0.08 = 12.5Hz. The 0.08 being the cycle time in seconds.",
+    "image": null
+  },
+  {
+    "id": "2E2-4",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows two sine waves of the same frequency. The phase difference between them is",
+    "options": {
+      "A": "zero, they both have the same phase.",
+      "B": "90 with dashed wave B is leading the solid wave A.",
+      "C": "90° with dashed wave B is lagging the solid wave A.",
+      "D": "180°, dashed wave B is out of phase with solid wave A."
+    },
+    "correct": "C",
+    "explanation": "The first thing to do is identify the same point on the two waveforms. This could be a 'start' - conventionally taken as a zero point going positive, a positive peak on both or similar. In this case waveform A does start at time zero. The same point on B occurs when A is at a positive peak. Inspection shows that is a quarter of the way through a complete cycle of A. Time increases to the right so the start of B lagging A, by a quarter of a cycle. There are 360 degrees in one cycle so the lag is 90.",
+    "image": "C2_Inter_2E2-4.png"
+  },
+  {
+    "id": "2E2-5",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows the voltage waveforms in a circuit fed with an AC signal. Waveform B (shown dashed) LAGS waveform A by",
+    "options": {
+      "A": "90°.",
+      "B": "180°.",
+      "C": "270°.",
+      "D": "360°."
+    },
+    "correct": "C",
+    "explanation": "Identify the same point on the two waveforms. In this instance the positive peak may be easiest. Waveform B has a peak at time zero. The peak of A occurs a quarter of a cycle later. So A lags B by a quarter cycle or 90°. However the question asks by how much B lags A. We must find the next positive peak on B after a peak on A. That is at the right hand end of the drawing 3/4 of a cycle later. The answer to the question as asked is B lags A by 270°.",
+    "image": "C2_Inter_2E2-5.png"
+  },
+  {
+    "id": "2E3-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows the voltage across a single component and current through it. What type of component is it?",
+    "options": {
+      "A": "A resistor.",
+      "B": "A capacitor.",
+      "C": "An inductor.",
+      "D": "A diode"
+    },
+    "correct": "A",
+    "explanation": "The voltage and current waveforms are in phase so the component is a resistor.",
+    "image": "C2_Inter_2E3-1.png"
+  },
+  {
+    "id": "2E3-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The waveform shows the PD across a resistive circuit. The power dissipated in the circuit will be a maximum",
+    "options": {
+      "A": "at all times during the cycle.",
+      "B": "at point 1 but minimum at 3.",
+      "C": "at points 1 and 3.",
+      "D": "at point 2."
+    },
+    "correct": "C",
+    "explanation": "The current and voltage are in phase in a resistor so the peak power will occur at the peaks, positive and negative of the waveform shown, points 1 and 3. answer C.",
+    "image": "C2_Inter_2E3-2.png"
+  },
+  {
+    "id": "2E3-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The supply to an overseas premises is quoted as 110V RMS and 60Hz. What is the peak voltage of this supply?",
+    "options": {
+      "A": "78V.",
+      "B": "110V.",
+      "C": "155V.",
+      "D": "220V."
+    },
+    "correct": "C",
+    "explanation": "AC is always specified as RMS unless specifically stated otherwise. The peak for a sine wave is √2 times bigger than the RMS. 110 x 1.41 = 155V.",
+    "image": null
+  },
+  {
+    "id": "2E3-4",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A 50Hz AC signal of 10V peak is applied to a resistor and the temperature rise noted. What voltage of a DC supply will result in the same temperature?",
+    "options": {
+      "A": "5V.",
+      "B": "7V.",
+      "C": "10V.",
+      "D": "14V."
+    },
+    "correct": "B",
+    "explanation": "This question specifies the peak of the sinewave as 10V. The reference to a resistor at the same temperature is the heating effect or average power which is the definition of RMS. 10/√2 = 7.07V. To the level of accuracy implied in the question, 7V.",
+    "image": null
+  },
+  {
+    "id": "2E4-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "If an alternating current (I) is passed through an inductor, there will be a potential difference (V) across it. The ratio V/I will give the",
+    "options": {
+      "A": "resistance of the inductor in Ohms.",
+      "B": "reactance of the inductor in Ohms.",
+      "C": "reactance of the inductor in Henries.",
+      "D": "inductance of the inductor in Henries."
+    },
+    "correct": "B",
+    "explanation": "V/I for an inductor is its reactance in Ohms.",
+    "image": null
+  },
+  {
+    "id": "2E4-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Measurements on a capacitor show that when a 6V audio frequency signal is applied to a capacitor the current through it is 2mA. That means that",
+    "options": {
+      "A": "the resistance of the capacitor is 3kΩ.",
+      "B": "the reactance of the capacitor is 3kΩ.",
+      "C": "the capacitance of the capacitor is 3mF.",
+      "D": "the inductance of the capacitor is 3mF."
+    },
+    "correct": "B",
+    "explanation": "V/I for a capacitor is its reactance in Ohms. In this case 6V/2mA = 3kΩ.",
+    "image": null
+  },
+  {
+    "id": "2E4-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The graph shows the reactance of a single component as the frequency is varied. What component is it?",
+    "options": {
+      "A": "A resistor.",
+      "B": "An inductor.",
+      "C": "A capacitor.",
+      "D": "A semiconductor."
+    },
+    "correct": "C",
+    "explanation": "The graph shows the change in reactance of a capacitor as the frequency rises.",
+    "image": "C2_Inter_2E4-3.png"
+  },
+  {
+    "id": "2E5-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An inductor is supplied with an alternating voltage of constant RMS amplitude but steadily increasing frequency. Which statement below is true?",
+    "options": {
+      "A": "The inductance reduces as the frequency rises.",
+      "B": "The reactance increases as the frequency rises.",
+      "C": "The inductance increases as the frequency rises.",
+      "D": "The reactance reduces as the frequency rises."
+    },
+    "correct": "B",
+    "explanation": "The inductance is a property of the coil unaffected by external factors such as supply frequency. The reactance, 2πfL, increases with rising frequency.",
+    "image": null
+  },
+  {
+    "id": "2E5-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The reactance of an inductor is the value given by the",
+    "options": {
+      "A": "RMS voltage/RMS current.",
+      "B": "RMS voltage/frequency.",
+      "C": "frequency/RMS current.",
+      "D": "RMS current/RMS voltage."
+    },
+    "correct": "A",
+    "explanation": "The reactance XL is given by voltage/current. As long as V and I are both in the same form (RMS or peak) then the calculation will be correct.",
+    "image": null
+  },
+  {
+    "id": "2E6-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows an inductor and resistor in series. When an alternating PD is applied, energy will",
+    "options": {
+      "A": "be transferred into heat in the resistor and the inductor.",
+      "B": "be transferred into heat in the resistor but not in the inductor.",
+      "C": "stored and released in the resistor but heat in the inductor.",
+      "D": "stored and released in the resistor and in the inductor."
+    },
+    "correct": "B",
+    "explanation": "Current in a resistor always results in some electrical energy being transferred into heat energy. The energy in the field of an inductor is stored and returned during the cycle.",
+    "image": "C2_Inter_2E6-1.png"
+  },
+  {
+    "id": "2E7-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the wavelength of the 198kHz long wave broadcast station?",
+    "options": {
+      "A": "1.52m.",
+      "B": "0.66m.",
+      "C": "0.66km.",
+      "D": "1.52km."
+    },
+    "correct": "D",
+    "explanation": "The simplified formula, in MHz is f=300/λ = 300/0.198 = 1515m or 1.52km.",
+    "image": null
+  },
+  {
+    "id": "2E8-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An open wire feeder is set up as a demonstration as shown in the drawing and fed with RF at a frequency at which the wavelength is 4m. At a particular instant in time the current at point A is at a maximum left to right as shown by the arrow. The current at the same time at point B is",
+    "options": {
+      "A": "at a maximum left to right.",
+      "B": "slightly less than at point A.",
+      "C": "at a maximum right to left.",
+      "D": "zero."
+    },
+    "correct": "D",
+    "explanation": "The current and voltage on a wire carrying RF varies sinusoidally along the length of wire with a wavelength similar to free space. Point B is 3m from A or 3/4λ. Point A at the 2m mark has a current maximum to the right. At the 3m mark it will be zero, 4m maximum to the left and at 5m, point B, zero.",
+    "image": "C2_Inter_2E8-1.png"
+  },
+  {
+    "id": "2F1-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows an audio signal being sampled to produce a digital representation. At each sample point, shown by the dots, the amplitude of the signal is recorded to the closest digital level. The resulting digital representation shows that",
+    "options": {
+      "A": "the accuracy in recording the amplitude is not sufficient.",
+      "B": "the samples need to be taken a lot more frequently.",
+      "C": "both the amplitude accuracy and sample frequency are insufficient.",
+      "D": "the sampling is adequate to capture all the signal detail."
+    },
+    "correct": "B",
+    "explanation": "The sample amplitudes seem to be OK but need to be taken a lot more frequently. At least two samples per cycle at the highest frequency present.",
+    "image": "C2_Inter_2F1-1.png"
+  },
+  {
+    "id": "2F1-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Why might an analogue signal sampled sufficiently often nonetheless suffer from distortion?",
+    "options": {
+      "A": "Digital signals are more susceptible to unwanted noise caused by digital processing.",
+      "B": "All digital calculations can only be performed to the nearest whole number.",
+      "C": "The analogue signal level will have changed between successive samples.",
+      "D": "The sample amplitude is taken as the nearest digital level which cannot be perfect."
+    },
+    "correct": "D",
+    "explanation": "Digitising a signal amplitude always means assigning the nearest digital level to the actual signal. The error, quantisation distortion, can be made small but not zero.",
+    "image": null
+  },
+  {
+    "id": "2F1-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "An audio signal occupies the frequency range from 200Hz to 6kHz. To record and store the signal digitally for future use it is necessary to sample this signal at a rate of just over",
+    "options": {
+      "A": "200Hz.",
+      "B": "3kHz.",
+      "C": "6kHz.",
+      "D": "12kHz."
+    },
+    "correct": "D",
+    "explanation": "If 6kHz is the highest signal present then we must sample at least at 12kHz or 12k samples per second.",
+    "image": null
+  },
+  {
+    "id": "2G1-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The purpose of the iron core in a transformer is to",
+    "options": {
+      "A": "provide a substantial support to wind the coils on.",
+      "B": "allow both coils to be placed side by side but insulated from each other.",
+      "C": "limit the energy transferred from one coil to the other to a safe value.",
+      "D": "concentrate the magnetic field present round both the coils."
+    },
+    "correct": "D",
+    "explanation": "The iron core concentrates the magnetic field improving the magnetic coupling between primary and secondary winding and improving efficiency.",
+    "image": null
+  },
+  {
+    "id": "2G1-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A transformer is suitable for transferring energy from the primary winding to the secondary winding",
+    "options": {
+      "A": "only when alternating currents are used.",
+      "B": "only when direct currents are used.",
+      "C": "when either direct or alternating currents are used.",
+      "D": "provided both windings are wound in the same direction."
+    },
+    "correct": "A",
+    "explanation": "A transformer is only good for AC, AC in, AC out.",
+    "image": null
+  },
+  {
+    "id": "2G1-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a transformer used to reduce the 230V mains supply to 12V. The secondary winding will have",
+    "options": {
+      "A": "fewer turns than the primary winding.",
+      "B": "more turns than the primary winding.",
+      "C": "the same number of turns as the primary.",
+      "D": "a direct current (DC) output."
+    },
+    "correct": "A",
+    "explanation": "Fewer turns on the secondary means a lower voltage AC out.",
+    "image": "C2_Inter_2G1-3.png"
+  },
+  {
+    "id": "2H1-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The circuit shown is usually called",
+    "options": {
+      "A": "a resistive circuit.",
+      "B": "an inductive circuit.",
+      "C": "a tuned circuit.",
+      "D": "a dielectric circuit."
+    },
+    "correct": "C",
+    "explanation": "The circuit is a parallel tuned circuit.",
+    "image": "C2_Inter_2H1-1.png"
+  },
+  {
+    "id": "2H1-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What is the significance of point A on the graph?",
+    "options": {
+      "A": "Point A shows the cut-off frequency of a filter.",
+      "B": "Point A shows the capacitance and inductance are equal in value.",
+      "C": "Point A shows the reactances X and X are in phase.",
+      "D": "Point A shows where X, equals X, and the resonant frequency."
+    },
+    "correct": "D",
+    "explanation": "You should recognise this as a graph of reactance against frequency for a capacitor and inductor. Point A shows the frequency at which the reactances of C and L are equal, the resonant frequency.",
+    "image": "C2_Inter_2H1-2.png"
+  },
+  {
+    "id": "2H2-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A series resonant circuit has a",
+    "options": {
+      "A": "low impedance well away from the resonant frequency.",
+      "B": "high impedance at resonance and frequencies above.",
+      "C": "low impedance at resonance but high at other frequencies.",
+      "D": "high impedance at resonance but low at other frequencies."
+    },
+    "correct": "C",
+    "explanation": "A series tuned circuit has a low impedance at resonance, high elsewhere.",
+    "image": null
+  },
+  {
+    "id": "2H2-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows the response of a",
+    "options": {
+      "A": "a parallel resonant circuit.",
+      "B": "a series resonant circuit.",
+      "C": "a high pass filter.",
+      "D": "a low pass filter."
+    },
+    "correct": "B",
+    "explanation": "The graph shows a low impedance at a particular frequency, the resonant frequency of a series tuned circuit. A parallel one has a high impedance at resonance. High- and low-pass filters do not have a central dip but are high one side of the cut-off frequency and low the other.",
+    "image": "C2_Inter_2H2-2.png"
+  },
+  {
+    "id": "2H3-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The resonant frequency of a circuit containing a capacitor and inductor depends on",
+    "options": {
+      "A": "the frequency of the applied signal.",
+      "B": "the amount of energy contained in the capacitor.",
+      "C": "the values of the capacitor and inductor.",
+      "D": "the reactance of the tuned circuit."
+    },
+    "correct": "C",
+    "explanation": "The resonant frequency of a tuned circuit depends only on the component values used.",
+    "image": null
+  },
+  {
+    "id": "2H4-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows the response of a particular tuned circuit. What is its Q-factor?",
+    "options": {
+      "A": "7.14.",
+      "B": "14.3.",
+      "C": "35.",
+      "D": "70."
+    },
+    "correct": "D",
+    "explanation": "The Q-factor of a tuned circuit can be found from the formula Q = centre frequency/bandwidth. The bandwidth being measured at the -3dB or half power points. The graph legend says 'acceptance level' but that must be the -3dB points or the question cannot be answered at all. The bandwidth is 14.2-14.0MHz or 0.2MHz.",
+    "image": "C2_Inter_2H4-1.png"
+  },
+  {
+    "id": "2H5-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The low pass filter shown in the diagram has a cut-off frequency of",
+    "options": {
+      "A": "20kHz.",
+      "B": "30kHz.",
+      "C": "35kHz.",
+      "D": "40kHz."
+    },
+    "correct": "B",
+    "explanation": "The corner or cut-off frequency is taken at the -3dB or half power points.",
+    "image": "C2_Inter_2H5-1.png"
+  },
+  {
+    "id": "2H5-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which circuit will have the frequency response curve shown in the drawing?",
+    "options": {
+      "A": "Circuit 1.",
+      "B": "Circuit 2.",
+      "C": "Circuit 3.",
+      "D": "Circuit 4."
+    },
+    "correct": "A",
+    "explanation": "The graph is for a high-pass filter. Capacitive reactance drops as the frequency rises so, circuit 1 will pass higher frequency signals rather than low frequency ones. Circuit 2 is exactly the opposite. Circuits 3 and 4 are two forms of band-pass filters.",
+    "image": "C2_Inter_2H5-2.png"
+  },
+  {
+    "id": "2I1-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a diode and resistor connected across a battery. The voltage across the resistor will be about",
+    "options": {
+      "A": "0V.",
+      "B": "5.0V.",
+      "C": "9.3V.",
+      "D": "10V."
+    },
+    "correct": "C",
+    "explanation": "The diode is forward biased and will drop around 0.6-0.7V, the rest is across the resistor. 10-0.7 = 9.3V.",
+    "image": "C2_Inter_2I1-1.png"
+  },
+  {
+    "id": "2I1-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a diode and resistor connected across a battery. The voltage across the diode will be about",
+    "options": {
+      "A": "0V.",
+      "B": "0.7V.",
+      "C": "9.3V.",
+      "D": "10V."
+    },
+    "correct": "D",
+    "explanation": "The diode is reverse biased. There is no current through the resistor so there is no voltage drop across it, it is all across the non-conducting diode.",
+    "image": null
+  },
+  {
+    "id": "2I2-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "When the device shown has its input voltage 'V' varied, the",
+    "options": {
+      "A": "current through the resistor will change.",
+      "B": "voltage between 'A' and 'B' will remain constant.",
+      "C": "capacitance between 'A' and 'B' will vary.",
+      "D": "forward bias on the diode will change."
+    },
+    "correct": "C",
+    "explanation": "The diode is a reverse biased variable capacitance diode. There is no current through the resistor so the voltage across it will always be zero. Its function is to isolate the voltage supply circuit from whatever function is relying on the diode capacitance for its operation.",
+    "image": "C2_Inter_2I2-1.png"
+  },
+  {
+    "id": "2I3-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The transistor in the circuit diagram is there to",
+    "options": {
+      "A": "limit the current through the resistors.",
+      "B": "remove any unwanted signals.",
+      "C": "produce DC from the AC input.",
+      "D": "amplify the input signal."
+    },
+    "correct": "D",
+    "explanation": "The transistor amplifies the input signal. The two base resistors and the emitter resistor provide correct biasing and the collector resistor is the output load resistor.",
+    "image": "C2_Inter_2I3-1.png"
+  },
+  {
+    "id": "2I3-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A particular feature of a transistor amplifier is that a small change in the",
+    "options": {
+      "A": "collector current can cause a large change in base voltage.",
+      "B": "collector voltage can cause a large change in the emitter current.",
+      "C": "base current can cause a large change in the collector current.",
+      "D": "emitter current can cause a large change in the collector current."
+    },
+    "correct": "C",
+    "explanation": "The bipolar junction transistor, to give its full name, is a current driven device. A change in input base current causes a larger change in the collector current.",
+    "image": null
+  },
+  {
+    "id": "2I3-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The parameter β of a transistor relates to its gain, that is the ratio of the",
+    "options": {
+      "A": "collector current to emitter current.",
+      "B": "collector voltage to base voltage.",
+      "C": "collector current to base current.",
+      "D": "emitter current to collector current."
+    },
+    "correct": "C",
+    "explanation": "The definition of current gain B is the ratio of the collector current to base current.",
+    "image": null
+  },
+  {
+    "id": "2I3-4",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The circuit shows a relay being controlled by a transistor that is being used as a switch. To achieve this the",
+    "options": {
+      "A": "input signal should be greater than that required for an amplifier.",
+      "B": "input signal should be less than that required for an amplifier.",
+      "C": "biasing should be such that the transistor is always fully conducting.",
+      "D": "biasing should be such that the transistor is always nonconducting."
+    },
+    "correct": "A",
+    "explanation": "If the base current into the transistor is larger than that needed to simply pass all the collector current the relay resistance will allow then the transistor is hard on with minimal voltage across it. That keeps the power dissipation in the transistor low. With less current than required for normal amplification then the relay current may not be sufficient for it to operate. The other two answers, C and D, will leave the relay permanently on or permanently off which is pointless.",
+    "image": "C2_Inter_2I3-4.png"
+  },
+  {
+    "id": "2I4-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The circuit shown is",
+    "options": {
+      "A": "An oscillator.",
+      "B": "A voltage regulator.",
+      "C": "A common-base amplifier.",
+      "D": "A common emitter amplifier."
+    },
+    "correct": "D",
+    "explanation": "The circuit is a common emitter amplifier.",
+    "image": "C2_Inter_2I4-1.png"
+  },
+  {
+    "id": "2I4-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Biasing a transistor is",
+    "options": {
+      "A": "ensuring the input signal will not cause an overload.",
+      "B": "supplying the correct DC voltages and currents.",
+      "C": "setting the frequency of oscillation to the correct value.",
+      "D": "applying a signal to squelch the audio when required."
+    },
+    "correct": "B",
+    "explanation": "Correctly biasing a transistor is simply providing it with the correct currents and voltages to enable it to operate as intended, normally as an amplifier.",
+    "image": null
+  },
+  {
+    "id": "2I5-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The function of the transistor in an oscillator is to",
+    "options": {
+      "A": "set the correct DC voltages.",
+      "B": "determine the frequency of oscillation.",
+      "C": "maintain the oscillations in the tuned circuit.",
+      "D": "vary the value of the capacitance of the tuned circuit."
+    },
+    "correct": "C",
+    "explanation": "The signal out of a frequency determining or tuned circuit is always a lower amplitude than the signal in. To keep the oscillator going a transistor is needed to amplify the circuit output by enough to overcome the losses and maintain the oscillations.",
+    "image": null
+  },
+  {
+    "id": "2I5-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The diagram shows an oscillator, normally called a",
+    "options": {
+      "A": "crystal oscillator.",
+      "B": "adjustable frequency oscillator.",
+      "C": "variable frequency oscillator.",
+      "D": "modulation oscillator."
+    },
+    "correct": "A",
+    "explanation": "The crystal in the base circuit of the transistor is a give-away that it is a crystal oscillator.",
+    "image": "C2_Inter_2I5-2.png"
+  },
+  {
+    "id": "2I6-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The photograph shows an example of",
+    "options": {
+      "A": "an NPN transistor.",
+      "B": "a crystal oscillator.",
+      "C": "an integrated circuit.",
+      "D": "a digital oscillator."
+    },
+    "correct": "C",
+    "explanation": "The photograph is of an integrated circuit. The key is the number of pins or legs. A part number on the top face will identify its function.",
+    "image": "C2_Inter_2I6-1.png"
+  },
+  {
+    "id": "2J1-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which item of information about a battery gives its capacity?",
+    "options": {
+      "A": "Terminal voltage V.",
+      "B": "Electromotive force EMF E.",
+      "C": "Ampere-hours AH.",
+      "D": "Charge at 200 mA max."
+    },
+    "correct": "C",
+    "explanation": "The capacity of a battery tell us how much current it can supply for how long until it is flat or needs recharging. That is quoted in amp-hours, AH or mAH for small batteries. The actual capacity tends to fall with high current demands.",
+    "image": null
+  },
+  {
+    "id": "2J1-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What feature of a battery influences its terminal voltage when new/fully charged?",
+    "options": {
+      "A": "The type of technology and chemistry.",
+      "B": "Its remaining shelf life before use.",
+      "C": "Its ampere-hour rating when new.",
+      "D": "The recommended type of charger."
+    },
+    "correct": "A",
+    "explanation": "Different battery chemistries give different terminal voltages. It is important to use only the recommended charger for rechargeable batteries or corrosive chemical leakage, fire or explosion can occur.",
+    "image": null
+  },
+  {
+    "id": "2J2-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "A 12V battery powered transmitter is to be run from the mains. As well as a transformer the power supply will need a",
+    "options": {
+      "A": "resistor.",
+      "B": "inductor.",
+      "C": "diode.",
+      "D": "transistor."
+    },
+    "correct": "C",
+    "explanation": "Quite a few components will be needed from a power supply along with the transformer, but of those listed a diode is essential, the others are optional depending on the design chosen.",
+    "image": null
+  },
+  {
+    "id": "2J2-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The accepted name for the type of rectifier shown is",
+    "options": {
+      "A": "half-wave.",
+      "B": "full-wave.",
+      "C": "bridge.",
+      "D": "regulated."
+    },
+    "correct": "C",
+    "explanation": "The rectifier circuit is full-wave but of a particular type known as a bridge rectifier.",
+    "image": "C2_Inter_2J2-2.png"
+  },
+  {
+    "id": "2J3-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "The drawing shows a power supply circuit and four waveforms that might be seen at different points in the circuit. Which waveforms would be seen at points 1 and 2?",
+    "options": {
+      "A": "Waveform A    B",
+      "B": "Waveform A    C",
+      "C": "Waveform B    C",
+      "D": "Waveform B    D"
+    },
+    "correct": "A",
+    "explanation": "Point 1 is an AC output from the transformer and can only be waveform A. No smoothing capacitor is shown so waveform D is not correct. The diode is forward biased and conducting if point 1 is positive, resulting in waveform B at point 2.",
+    "image": "C2_Inter_2J3-1.png"
+  },
+  {
+    "id": "2J3-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "One of the problems of using a diode to rectify the AC from a transformer is that there is no output during the negative half cycles of the AC. This can be solved by using a",
+    "options": {
+      "A": "diode.",
+      "B": "capacitor.",
+      "C": "transistor.",
+      "D": "tuned circuit."
+    },
+    "correct": "B",
+    "explanation": "A capacitor will charge while the diode is conducting, storing the charge for use during the negative half cycles from the transformer. None of the other options will do that.",
+    "image": null
+  },
+  {
+    "id": "2J3-3",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Different types of rectifier circuit may have different smoothing capacitor requirements for the same degree of ripple on the output when on-load. Which of the three types below have the same requirement? 1) half-wave. 2) centre-tapped transformer. 3) bridge.",
+    "options": {
+      "A": "1 and 2 are the same.",
+      "B": "1 and 3 are the same.",
+      "C": "2 and 3 are the same.",
+      "D": "All of them are the same."
+    },
+    "correct": "C",
+    "explanation": "The half-wave rectifier circuit has 50 charging pulses per second given 50Hz mains. Both the centretapped transformer and bridge rectifier designs give 100 charging pulses per second. That halves the time between cycles compared to the half-wave circuit allowing a smaller capacitor to be used for the same degree of ripple.",
+    "image": null
+  },
+  {
+    "id": "2J4-1",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "What type of power supply is shown in the diagram?",
+    "options": {
+      "A": "A discrete switched mode power supply.",
+      "B": "An integrated switched mode power supply.",
+      "C": "A discrete linear mode power supply.",
+      "D": "An integrated linear mode power supply."
+    },
+    "correct": "D",
+    "explanation": "The voltage regulator is shown as a single block which will contain a number of circuits to regulate the output voltage. It can be described as an integrated circuit. Mains powered switch mode regulators rectify and chop the mains before the transformer allowing it to run at several 10s of kHz. This design clearly does not do that. It is an integrated linear (rather than switched) mode power supply.",
+    "image": "C2_Inter_2J4-1.png"
+  },
+  {
+    "id": "2J4-2",
+    "level": "intermediate",
+    "chapter": 2,
+    "source": "chapter",
+    "question": "Which statement correctly describes features of a switched mode power supply when compared to a linear power supply of the same output?",
+    "options": {
+      "A": "Heavy, requires heat sink, not very efficient.",
+      "B": "Light, no heatsink needed, quite efficient.",
+      "C": "Light, requires heatsink, not very efficient.",
+      "D": "Heavy, no heatsink needed, quite efficient."
+    },
+    "correct": "B",
+    "explanation": "By switching the mains at high speed the transformer size and weight can be considerably reduced. Switches, including electronic ones, are either on or off, that is high current low voltage drop; or zero current, high voltage drop. The power dissipated is low in both states. There is some heat to get rid of, but nothing like as much as linear devices. With little wasted power they are more efficient.",
+    "image": null
+  }
+]

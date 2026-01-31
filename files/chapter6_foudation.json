@@ -1,0 +1,338 @@
+[
+  {
+    "id": "6A1-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Good EMC practice is",
+    "options": {
+      "A": "the avoidance of interference between electronic devices.",
+      "B": "installing external antennas so they are not seen by the neighbours.",
+      "C": "ensuring every transmission from the station is carefully logged.",
+      "D": "not transmitting when the neighbours are likely to be watching TV."
+    },
+    "correct": "A",
+    "explanation": "The whole aim of good EMC practice is to avoid causing an interference problem and avoiding suffering from one.",
+    "image": null
+  },
+  {
+    "id": "6A2-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "If the immunity of a piece of electronic equipment is improved it means that",
+    "options": {
+      "A": "it is better able to work in the presence of unwanted RF signals.",
+      "B": "it can clearly pick up weaker wanted signals then before.",
+      "C": "it is less likely to fail in the presence of thunder and lightning.",
+      "D": "it is able to receive a wider variety of modulation methods."
+    },
+    "correct": "A",
+    "explanation": "Immunity is the ability of a piece of equipment to continue operating as intended in the presence of radio frequency signals, picked up or conducted in to the equipment along power or other leads.",
+    "image": null
+  },
+  {
+    "id": "6A3-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Interference to other electronic equipment is most likely to be caused by",
+    "options": {
+      "A": "a soldering iron.",
+      "B": "a digital electric clock.",
+      "C": "a fixed telephone.",
+      "D": "an amateur transmitter."
+    },
+    "correct": "D",
+    "explanation": "Of the items listed an amateur transmitter is the most likely source of RF signals. Some of the other items may be susceptible to interference but are unlikely to be a cause.",
+    "image": null
+  },
+  {
+    "id": "6A4-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A domestic radio receiver is suffering interference, even when the amateur next door is away. The interference could be caused by",
+    "options": {
+      "A": "a rechargeable razor.",
+      "B": "an electric drill.",
+      "C": "a steam iron.",
+      "D": "a radio controlled clock."
+    },
+    "correct": "B",
+    "explanation": "The comment that the amateur is away is intended to remove that possibility. The next most likely culprit is the sparking at the commutator, the electrical connection to the rotating part of the drill motor. Sparking can cause RF interference over a wide range of frequencies but a limited distance. The RF can be radiated from the motor or its power cables or conducted along the cables to the victim receiver.",
+    "image": null
+  },
+  {
+    "id": "6B1-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Which transmission is the MOST likely to cause interference?",
+    "options": {
+      "A": "2W of SSB.",
+      "B": "10W of SSB.",
+      "C": "2W of FM.",
+      "D": "10W of FM."
+    },
+    "correct": "B",
+    "explanation": "The higher power is obviously likely to be a greater problem and SSB has amplitude variations which can be demodulated to an audio signal which may or may not be recognisable. FM has no amplitude variations so is less of a problem.",
+    "image": null
+  },
+  {
+    "id": "6C1-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "The drawing shows a music system in a house. It is suffering from interference and some protective measures have already been taken but with little effect. Where might the interference be getting in?",
+    "options": {
+      "A": "Via the remote control.",
+      "B": "Conducted along the power leads from the transmitter.",
+      "C": "Picked up on the loudspeaker leads.",
+      "D": "Picked up on the mains lead."
+    },
+    "correct": "C",
+    "explanation": "The next option to try is the loudspeaker leads, they have not been protected.",
+    "image": "C6_Found_6C1-1.png"
+  },
+  {
+    "id": "6D1-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "When fitting ferrite rings on the TV down lead from its aerial, the ferrite ring should be fitted",
+    "options": {
+      "A": "as close to the wall outlet as possible.",
+      "B": "in the middle of the lead from the wall to the TV.",
+      "C": "a quarter of a wavelength from the TV.",
+      "D": "as close to the TV as possible."
+    },
+    "correct": "D",
+    "explanation": "Ferrite rings and other filters should be fitted as close as possible to the affected device so there is little or no unprotected cable to pick up interference. References to wavelength are meaningless; we don't know what frequency the interfering signal is nor do we know what frequency, if it matters, the affected device is tuned to.",
+    "image": null
+  },
+  {
+    "id": "6D1-2",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "It is decided that a suitable filter is needed on the mains lead to the TV to prevent interference from an amateur transmitter in the same house. A good solution is to",
+    "options": {
+      "A": "obtain a surge suppressor from the local computer supplies shop.",
+      "B": "make a suitable filter from a design seen in a book.",
+      "C": "buy a filter from an amateur radio dealer.",
+      "D": "e-mail the local authority and ask their advice."
+    },
+    "correct": "C",
+    "explanation": "At Foundation level the philosophy is to discourage working with the mains and buy a suitable filter.",
+    "image": null
+  },
+  {
+    "id": "6D4-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "The purpose of the dummy load is to",
+    "options": {
+      "A": "provide the correct tension on long wire antennas.",
+      "B": "absorb the unwanted power reflected from the antenna.",
+      "C": "use in place of an antenna when checking the transmitter.",
+      "D": "prevent unwanted radiation escaping back down the power leads."
+    },
+    "correct": "C",
+    "explanation": "A dummy load will match the feeder so the SWR should be 1:1 and the RF power turned into heat, not radiated RF. That allows the transmitter to be tested into a known good load.",
+    "image": null
+  },
+  {
+    "id": "6D4-2",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "It is suspected an interfering signal is either being conducted from the transmitter power leads to the TV or the transmitted signal is being picked up by the mains wiring to the TV. To determine which it is, a suitable test would be to fit a",
+    "options": {
+      "A": "ferrite ring on the transmitter feeder.",
+      "B": "ferrite ring on the TV mains lead.",
+      "C": "low-pass filter on the transmitter output.",
+      "D": "dummy load on the transmitter output."
+    },
+    "correct": "D",
+    "explanation": "Running with a dummy load will remove the radiation from the antenna and feeder but leave all other routes the RF might leak out active. If the problem has gone the likelihood is that the properly radiated RF was being picked up by the victim device or wires connected to it. If the problem persists then RF is getting out where it shouldn't and needs to be investigated.",
+    "image": null
+  },
+  {
+    "id": "6E1-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "If all other factors are equal, which HF antenna is the LEAST likely to cause interference problems?",
+    "options": {
+      "A": "A vertical antenna at the far end of the garden.",
+      "B": "A balanced horizontal antenna at the far end of the garden.",
+      "C": "A vertical antenna on the roof.",
+      "D": "A balanced horizontal antenna in the loft."
+    },
+    "correct": "B",
+    "explanation": "In general houses are more susceptible to picking up vertical (E-field) signals so horizontal dipoles are better in that respect. The further away from any houses the better.",
+    "image": null
+  },
+  {
+    "id": "6E1-2",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A good source of information on how to avoid causing interference is",
+    "options": {
+      "A": "the BBC technical department.",
+      "B": "the RSGB EMC web pages.",
+      "C": "a local radio and TV dealer.",
+      "D": "the local authority trading standards."
+    },
+    "correct": "B",
+    "explanation": "The RSGB web pages, their EMC team and experienced local club members are all good sources of advice. A person suffering from broadcast radio and TV interference can complain to the BBC but technical investigations are normally carried out by Ofcom. Local authorities and dealers are unfamiliar with radio interference and tend to blame the amateur, often wrongly.",
+    "image": null
+  },
+  {
+    "id": "6E2-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "The purpose of fitting an RF earth in an amateur station is to",
+    "options": {
+      "A": "improve the SWR on the antenna feeder.",
+      "B": "provide a safe route for RF currents.",
+      "C": "minimise the risk of electrocution.",
+      "D": "reduce the background noise on receive."
+    },
+    "correct": "B",
+    "explanation": "The purpose of an RF earth is to provide a suitable path for the RF currents to flow to earth as harmlessly as possible. Without an RF earth there is a likelihood of the RF getting into the mains supply wiring and being both radiated from the wiring and conducted to other appliances. It is also possible that the transmitter will have high RF voltages on its metalwork when transmitting, making it unpleasant or painful to touch.",
+    "image": null
+  },
+  {
+    "id": "6E2-2",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "When fitting an RF earth it may also be helpful to",
+    "options": {
+      "A": "disconnect the mains earth wire in the plug.",
+      "B": "fit a ferrite ring on the mains lead.",
+      "C": "fit a ferrite ring on the RF earth lead.",
+      "D": "disconnect the outer braid of the antenna feeder."
+    },
+    "correct": "B",
+    "explanation": "Never disconnect the mains earth, it is there for your safety. The RF earth will give a suitable path to earth but ferrite rings will prevent or at least minimise any RF which nonetheless could get into the mains.",
+    "image": null
+  },
+  {
+    "id": "6F1-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Who is responsible for ensuring a radio installation in a vehicle is safe and compatible with the vehicle's electrical management systems?",
+    "options": {
+      "A": "The manufacturer.",
+      "B": "The dealer.",
+      "C": "The owner.",
+      "D": "The insurers."
+    },
+    "correct": "C",
+    "explanation": "If you fitted the amateur radio in your car you are clearly responsible. However even if it was fitted by the dealer or professional installer the authorities will initially look to you as the owner (and driver) if anything is wrong.",
+    "image": null
+  },
+  {
+    "id": "6F2-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Having installed a new transceiver in your car it is advisable to",
+    "options": {
+      "A": "go for a drive and check the radio is not causing any problems.",
+      "B": "go for a drive and get a passenger to check the radio is not causing any problems.",
+      "C": "make a local contact while driving and ask them to check your transmissions.",
+      "D": "check for problems while the vehicle is stationary and work up to on-road tests."
+    },
+    "correct": "D",
+    "explanation": "It is much safer to start with a stationary vehicle and work up to on-road tests as confidence is gained by the tests carried out.",
+    "image": null
+  },
+  {
+    "id": "6F3-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A weak buzzing sound is heard on the transceiver in your car on a number of frequencies. Driving out of the town centre to the countryside does remove some of the interference but the remainder",
+    "options": {
+      "A": "may be from distant transmissions refracted off the ionosphere.",
+      "B": "from power lines that, due to their length, are difficult to get far enough away from.",
+      "C": "from vehicle ignition, alternator and other car electronic systems.",
+      "D": "from broadcast transmitters which are intended to cover the whole country."
+    },
+    "correct": "C",
+    "explanation": "It is always sensible to look close to home, or in this case the car, as the source of problems. Car electronics and the data processing involved with engine and car systems management can radiate much as a PC can. The other options in the question are not at all likely.",
+    "image": null
+  },
+  {
+    "id": "6G1-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "If a neighbour complains of interference to his television, you should",
+    "options": {
+      "A": "show him your licence to prove you are allowed to transmit.",
+      "B": "say it cannot be you as you are only transmitting voice, not pictures.",
+      "C": "stop and ask if you can carry out tests to see what is causing the problem.",
+      "D": "accept that it might not be possible to practice amateur radio in that neighbourhood."
+    },
+    "correct": "C",
+    "explanation": "Any complaint must be handled sensitively; you have a licence to operate amateur radio, not upset the neighbours. It is best to keep calm and ask if you can carry out some tests to investigate. If your log is up to date it may help narrow down the problem.",
+    "image": null
+  },
+  {
+    "id": "6G1-2",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Information leaflets on dealing with cases of interference are available from",
+    "options": {
+      "A": "television service engineers.",
+      "B": "the RSGB EMC committee.",
+      "C": "the reference section of a local library.",
+      "D": "most TV and electronic shops."
+    },
+    "correct": "B",
+    "explanation": "The EMC pages on the RSGB website contain a wealth of information and a number of downloadable leaflets, some aimed at you and some, less technically worded, aimed at the neighbours. The tendency outside amateur circles is to blame the source, the amateur, regardless of the actual situation. Many problems arise from poor installation of the victim device.",
+    "image": null
+  },
+  {
+    "id": "6G2-1",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A good reason for keeping a station log is that",
+    "options": {
+      "A": "you can check if you were or were not transmitting at the time interference was complained of.",
+      "B": "it will remind you when you need to revalidate your amateur licence.",
+      "C": "you will know how many hours your transmitter has been used if a warranty repair is needed.",
+      "D": "it can keep a note of names and callsigns of the people you have contacted."
+    },
+    "correct": "A",
+    "explanation": "Your log can be very useful for a number of reasons both social and technical. A well-kept and up to date log will tell you as well as inspectors and neighbours what you were doing at the time of an interference event and show you have a responsible and professional attitude to your operating.",
+    "image": null
+  },
+  {
+    "id": "6G2-2",
+    "level": "foudation",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A neighbour approaches you with a record of times over the last two weeks when he was suffering from interference. You should",
+    "options": {
+      "A": "send this record to Ofcom with a request for investigation.",
+      "B": "compare the times of interference with your station log.",
+      "C": "advise him to show this to his TV service engineer.",
+      "D": "ask him to continue recording for another two weeks."
+    },
+    "correct": "B",
+    "explanation": "Comparing a well-kept log with the neighbours record will quickly show if you are involved and what you were doing at the time. Since you will have made the entries before the complaint arose the neighbour is likely to give it some credibility and be more co-operative.",
+    "image": null
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "9A1-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "The drawing shows a meter connected in a circuit to perform a measurement. The meter should be set to read",
+    "options": {
+      "A": "10V DC with terminal 1 positive.",
+      "B": "20V DC with terminal 1 positive.",
+      "C": "10A DC with terminal 2 positive.",
+      "D": "10A DC with terminal 2 negative."
+    },
+    "correct": "D",
+    "explanation": "A meter in series with the circuit is intended to measure current. It is in the positive lead and terminal 1 should be connected to the positive supply, with terminal 2 connected to the positive terminal of the transmitter which will be slightly less positive than terminal 1 due to the very small voltage drop across the meter. The current through the meter passes from the positive supply, in to terminal 1, through the meter, out of terminal 2 and in to the positive terminal of the transmitter.",
+    "image": "C9_Inter_9A1-1.png"
+  },
+  {
+    "id": "9A2-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "In the circuit shown the meters are correctly shown in which line of the table below? V = voltmeter A = ammeter",
+    "options": {
+      "A": "Meter 1 = A Meter 2 = A Meter 3 = V",
+      "B": "Meter 1 = A Meter 2 = V Meter 3 = V",
+      "C": "Meter 1 = V Meter 2 = V Meter 3 = V",
+      "D": "Meter 1 = V Meter 2 = A Meter 3 = A"
+    },
+    "correct": "B",
+    "explanation": "Meter 1 is an ammeter measuring the current from the battery. Meter 2 is measuring the voltage across the top resistor R1. Meter 3 is measuring the voltage across R2. Adding the voltages across R1 and R2 will give the battery voltage. The current measured by meter 1 will pass equally through R1 and R2.",
+    "image": "C9_Inter_9A2-1.png"
+  },
+  {
+    "id": "9A2-2",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "In the circuit shown, which two meters will have the same reading?",
+    "options": {
+      "A": "Meters 1 and 2.",
+      "B": "Meters 1 and 4.",
+      "C": "Meters 2 and 3.",
+      "D": "Meters 3 and 4."
+    },
+    "correct": "B",
+    "explanation": "Meters 1 and 4 are ammeters: meters 2 and 3 are voltmeters. The two voltmeters are in different parts of the circuit so there is no basis to assume the readings will be the same. They could be but that is an unreasonable assumption. The circuit is a single series circuit so the current will be the same at all points. Meters 1 and 4 will give the same reading.",
+    "image": "C9_Inter_9A2-2.png"
+  },
+  {
+    "id": "9A2-3",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "Which option below correctly shows the internal resistance of a voltmeter and an ammeter?",
+    "options": {
+      "A": "Voltmeter High; Ammeter Low.",
+      "B": "Voltmeter Low; Ammeter High.",
+      "C": "Voltmeter High; Ammeter High.",
+      "D": "Voltmeter Low; Ammeter Low."
+    },
+    "correct": "A",
+    "explanation": "A voltmeter has a high internal resistance so it does not draw much current from the circuit under test, possibly altering the circuit voltages and correct operation. An ammeter has a low internal resistance so the voltage drop across it is minimal and the current unaffected.",
+    "image": "C9_Inter_9A2-3.png"
+  },
+  {
+    "id": "9A3-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "A meter scale is shown in the drawing. The meter is set to read 10V full scale. The measured voltage is",
+    "options": {
+      "A": "1.23V.",
+      "B": "6.0V.",
+      "C": "6.3V.",
+      "D": "10.0V."
+    },
+    "correct": "C",
+    "explanation": "We are told the meter is 10V full scale so the lower scale is used. The voltage is clearly between 6 and 7 (i.e. more than 6.0) and only one answer fits that requirement.",
+    "image": "C9_Inter_9A3-1.png"
+  },
+  {
+    "id": "9A5-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "What power is drawn by the transceiver in the drawing?",
+    "options": {
+      "A": "28W.",
+      "B": "14W.",
+      "C": "10W.",
+      "D": "139W."
+    },
+    "correct": "B",
+    "explanation": "Inspection of the power supply will show a knob to adjust the voltage and one to select current or voltage set to the voltage range. The multi-meter is set to the 1A range. The lower scale runs from 0 to 10, so 10 is taken as 1A; so the reading of 7.5 is taken as 0.75A. The calculation becomes 18.5 × 0.75 = 13.9W, so 14W is the answer to pick. Meters are typically accurate to between 1 and 5% of full scale so implying a higher accuracy by quoting numbers in the answer after the decimal point in this question is not really justified.",
+    "image": "C9_Inter_9A5-1.png"
+  },
+  {
+    "id": "9B1-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "An RF preamplifier is picking up a signal of 1uW and has a gain of 7dB. What output power is expected?",
+    "options": {
+      "A": "4uW",
+      "B": "5uW",
+      "C": "6uW",
+      "D": "7uW"
+    },
+    "correct": "B",
+    "explanation": "7dB is 10dB - 3dB which is ×10 ÷ 2 or 5 times, giving 5µW at the output.",
+    "image": null
+  },
+  {
+    "id": "9B1-2",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "The RF output of a transmitter is 10W. The feeder loss is 1dB and the antenna gain is quoted as 8.15dBi. Remembering that ERP is given with respect to a dipole antenna, the expected ERP will be about",
+    "options": {
+      "A": "16W",
+      "B": "32W",
+      "C": "52W",
+      "D": "85W"
+    },
+    "correct": "B",
+    "explanation": "The RF output is 10W or 10dBW which becomes 9dBW or 8W at the antenna. The antenna gain is 8.15dBi which is 6dBd. The ERP is 9dBW+6dB which is 15dBW which is 32W. Alternatively a gain of 6dB is 4 times and 4x8 = 32W. Two of the wrong answers assumed you either added 2.15 to the antenna gain in dBi or forgot to subtract it. This question reminded you that ERP is always given with respect to a dipole, some questions might not. Be on the lookout! Read the question carefully.",
+    "image": null
+  },
+  {
+    "id": "9C1-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "A resistor is held up to show the bands gold, green, red, red.",
+    "options": {
+      "A": "The actual value will be within 10% of that indicated.",
+      "B": "The resistance will be greater than 1ΜΩ.",
+      "C": "The resistance is 225kΩ.",
+      "D": "The tolerance is given as 2%."
+    },
+    "correct": "B",
+    "explanation": "The values happen to be in the wrong order, no value begins with gold. The value is red, red, which is 22 followed by green, 5 zeros giving 2.2ΜΩ. Option B is certainly correct. Gold indicates 5% tolerance. Had the last (rather than first) band been red then 2% tolerance would be correct but that is a wrong reading of the bands.",
+    "image": null
+  },
+  {
+    "id": "9C1-2",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "Which one of the four pairs of resistors have the same value?",
+    "options": {
+      "A": "Brown Green Red Gold & Brown Green Black Red Gold",
+      "B": "Brown Red Red Gold & Brown Red Black Black Gold",
+      "C": "Yellow Violet Red Gold & Yellow Violet Black Brown Gold",
+      "D": "Orange Orange Red Gold & Orange Orange Black Black Gold"
+    },
+    "correct": "C",
+    "explanation": "The first resistor is a 3-band plus tolerance band resistor; the second a 4-band plus tolerance band resistor. The third band of the 3-band resistor gives the number of zeros following the two-digit number indicated by bands one and two. The fourth band of the 4-band resistor gives the number of zeros following the three-digit number indicated by bands one to three. The values are 4 7 000 and 4 7 0 00, both giving 47kΩ.",
+    "image": null
+  },
+  {
+    "id": "9D1-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "Unwanted radiation from a local oscillator stage in a receiver can be minimised by using",
+    "options": {
+      "A": "a balanced output from the oscillator.",
+      "B": "an emitter follower buffer stage.",
+      "C": "a thin metal cover round the oscillator.",
+      "D": "bipolar transistors in preference to FETs."
+    },
+    "correct": "C",
+    "explanation": "Screening with a thin metal cover will contain any radiation within the cover and will also prevent radiation from elsewhere in the equipment from affecting the local oscillator.",
+    "image": null
+  },
+  {
+    "id": "9E1-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "Soldering a wire to the copper track of a circuit board will",
+    "options": {
+      "A": "melt the wire onto the copper board.",
+      "B": "glue the wire onto the copper board.",
+      "C": "melt both the wire and a bit of the copper board.",
+      "D": "melt another metal onto the wire and the copper board."
+    },
+    "correct": "D",
+    "explanation": "The solder is melted by the iron which must first heat the two surfaces to be joined to a temperature above the melting point of the solder so that a good mechanical and electrical connection is made.",
+    "image": null
+  },
+  {
+    "id": "9E2-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "Most solders contain a flux, its purpose is to",
+    "options": {
+      "A": "hold the wire in place while the iron is applied and the solder sets.",
+      "B": "improve the heat transfer from the iron to the wire.",
+      "C": "prevent the copper surfaces oxidising as they get hot.",
+      "D": "coat the joint to reduce the risk of subsequent corrosion."
+    },
+    "correct": "C",
+    "explanation": "The primary role of the flux is to cover the hot surfaces to be joined so they don't oxidise and form a thin layer that the molten solder will not form a bond with.",
+    "image": null
+  },
+  {
+    "id": "9E3-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "Which metal CANNOT be soldered using a tin or tin/lead based solder?",
+    "options": {
+      "A": "Brass.",
+      "B": "Aluminium.",
+      "C": "Zinc.",
+      "D": "Copper."
+    },
+    "correct": "B",
+    "explanation": "Aluminium is very difficult to solder, the surface oxidises as fast as it is cleaned. There are specialist processes but the normal procedure is to bolt on a solder tag.",
+    "image": null
+  },
+  {
+    "id": "9E4-1",
+    "level": "intermediate",
+    "chapter": 9,
+    "source": "chapter",
+    "question": "Why is it advisable to 'tin' the wires prior to soldering the joint?",
+    "options": {
+      "A": "The solder is unlikely to adhere to both surfaces in one operation.",
+      "B": "Tinning ensures the wires are clean and ready to be soldered.",
+      "C": "The tinning ensures better heat conduction to the joint.",
+      "D": "Tinning avoids the flux coming into contact with the bare copper."
+    },
+    "correct": "B",
+    "explanation": "Tinning involves cleaning the wire and coating it with a thin film of solder so it will easily form a soldered joint.",
+    "image": null
+  }
+]

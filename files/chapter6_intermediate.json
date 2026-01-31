@@ -1,0 +1,370 @@
+[
+  {
+    "id": "6A1-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Which statement below BEST describes the concept of electromagnetic compatibility?",
+    "options": {
+      "A": "Electronic equipment must avoid causing any electromagnetic disturbance.",
+      "B": "Electronic equipment must be immune to ill effects due to electromagnetic disturbance.",
+      "C": "Electronic equipment must be reasonably immune to electromagnetic disturbance and must not cause intolerable disturbance.",
+      "D": "Electronic equipment that does not adequately limit the electromagnetic disturbance they cause or are insufficiently immune must be marked as not complying."
+    },
+    "correct": "C",
+    "explanation": "The essential concept is finding a reasonable and viable solution. Equipment must be reasonably immune and minimise unwanted radiation. If the limit on radiation is below the limit of immunity then problems are unlikely to occur. This does assume reasonable physical separation but also recognises that transmitters are designed to radiate and receivers are designed to receive.",
+    "image": null
+  },
+  {
+    "id": "6A2-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Tests show that RF is not being sent down power lines from an amateur transmitter and the radiated field strength is just within acceptable limits. Nonetheless a mains powered domestic radio is having problems with the transmission. What could be done to improve the matter?",
+    "options": {
+      "A": "Probably very little if the field strength is reasonable.",
+      "B": "Obtain a new receiver certified compliant with the EMC regulations.",
+      "C": "Ask the amateur concerned not to transmit while the neighbour is home.",
+      "D": "Try to improve the immunity of the affected receiver by filtering the mains lead."
+    },
+    "correct": "D",
+    "explanation": "The interference mechanism is most likely RF pickup in the mains wiring being conducted into the radio. The radio might not meet the EMC directive limits so a new radio might be better. That said the EMC directive cannot anticipate all situations. As asked, there is still room to fit a filter, a ferrite ring, to the mains lead. That stands a good chance of resolving the problem.",
+    "image": null
+  },
+  {
+    "id": "6A3-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "An amateur radio transmitter",
+    "options": {
+      "A": "is licensed to cause electromagnetic disturbance to other electronic equipment.",
+      "B": "might cause RF fields stronger than the agreed limits on electromagnetic disturbance.",
+      "C": "must not be able to cause electromagnetic disturbance to any electronic equipment.",
+      "D": "must be identified as being capable of causing electromagnetic disturbance."
+    },
+    "correct": "B",
+    "explanation": "The amateur licence allows transmissions but clause 5(1)(b) does not allow Undue Interference. Clause 17(1)(mm) defines that by reference to section 115 of the Wireless Telegraphy Act 2006 which says 'it degrades, obstructs or repeatedly interrupts anything which is being broadcast or otherwise transmitted'. The licenced levels do permit field strengths that, depending on distance, might cause problems, so to comply with the licence it is necessary to then deal with them. Clearly it is socially preferable to not cause problems to any electronic equipment but the licence only refers to radio devices.",
+    "image": null
+  },
+  {
+    "id": "6A4-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "New electronic equipment should meet the European EMC immunity requirements",
+    "options": {
+      "A": "and older equipment must be brought up to the current standards.",
+      "B": "but older or poorly installed equipment might not meet the standards.",
+      "C": "and existing installations must be re-tested to the current standards.",
+      "D": "and must avoid causing difficulties to older equipment not meeting the standards."
+    },
+    "correct": "B",
+    "explanation": "Older equipment may not meet the current standards and poor installation of new equipment could also be a source of difficulty either in causing interference or being more susceptible to interference. There is no requirement to bring old equipment up to current standards but actual cases will be dealt with on their individual merits.",
+    "image": null
+  },
+  {
+    "id": "6B1-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "An SSB speech transmission is being picked up by a music system even if its radio receiver is switched off. A likely effect is that the",
+    "options": {
+      "A": "radio circuitry is tuned to the offending transmission and weakly responding.",
+      "B": "interference will cause speech like sounds in the loudspeakers.",
+      "C": "volume of the wanted broadcast transmission will be reduced or muted.",
+      "D": "AGC will vary the volume of the wanted signal in time with the interference."
+    },
+    "correct": "B",
+    "explanation": "If the radio receiving parts of the victim system are turned off then the likely mechanism is pickup and diode-like demodulation.",
+    "image": null
+  },
+  {
+    "id": "6B1-2",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "An FM speech transmission is being picked up by a music system that does not include a radio receiver. This could result in",
+    "options": {
+      "A": "distortion to the speech of the FM transmission.",
+      "B": "the speech being clearly audible in the loudspeakers.",
+      "C": "the music being played being distorted or reduced in volume.",
+      "D": "the AGC varying the volume of the music in time with the speech."
+    },
+    "correct": "C",
+    "explanation": "An FM transmission is constant amplitude. Pressing or releasing the PTT on the transmitter might cause a click on the music system, or if particularly strong then diode-like detection causes DC voltages which upsets the bias of the music system electronics causing distortion or loss of volume. Clicks are a more likely occurrence but that was not an available answer.",
+    "image": null
+  },
+  {
+    "id": "6B2-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A medium wave radio is suffering every few minutes from a short burst of heavy interference causing a rasping sound.",
+    "options": {
+      "A": "a nearby computer.",
+      "B": "an amateur transmitter.",
+      "C": "a mechanical thermostat.",
+      "D": "a fluorescent light."
+    },
+    "correct": "C",
+    "explanation": "Mechanical thermostats use a bi-metal strip which senses the temperature by bending as the two metals expand at different rates. That results in a very slow opening and closing of a contact actuated by the bending. That causes a short burst of sparking and consequent wide-band RF radiation which can be detected over a few tens of metres.",
+    "image": null
+  },
+  {
+    "id": "6B3-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A digital TV is suffering from modest interference from an FM amateur transmission. This may be seen as",
+    "options": {
+      "A": "a jerky picture and jigsaw like pixelation.",
+      "B": "loss of colour and a severe buzz on sound.",
+      "C": "wavy lines and patterning on the picture.",
+      "D": "spots on the screen and possible clicks on sound."
+    },
+    "correct": "A",
+    "explanation": "The modulation techniques of digital TV are reasonably robust but interference can corrupt the data resulting in small groups of picture pixels being wrongly decoded, pixelation. The nature of the TV data signal is such that squares of picture are corrupted rather like a missing or wrong coloured piece in a jigsaw. Unlike analogue TV all forms of interference and even momentarily weak wanted signals all have similar visual effects.",
+    "image": null
+  },
+  {
+    "id": "6C1-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A domestic radio is found to be susceptible to interference from an amateur transmission. Tuning the radio to different frequencies or asking the amateur to transmit in other parts of the band has little effect. Ferrite rings on the transmitter power leads made no difference. It is likely the receiver is suffering from",
+    "options": {
+      "A": "direct pickup.",
+      "B": "conducted interference.",
+      "C": "a poor earth connection.",
+      "D": "an almost flat battery."
+    },
+    "correct": "A",
+    "explanation": "The fact that the exact tuning of either the transmitter or the victim receiver has no effect suggests that the signal is getting in to non-tuned parts of the receiver. That could be pickup by wiring inside the receiver or, if relevant, the power cable into the receiver. The fact that ferrite rings on the transmitter power leads has no effect shows that the interference is not conducted along the mains wiring out of the shack.",
+    "image": null
+  },
+  {
+    "id": "6C2-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A known problem with many masthead TV amplifiers is that",
+    "options": {
+      "A": "they are tuned only to the UK TV channels.",
+      "B": "they amplify a wide range of frequencies.",
+      "C": "their power supply is often delivered via the coaxial down lead",
+      "D": "linear amplifiers are commonly used."
+    },
+    "correct": "B",
+    "explanation": "Many mast-head TV amplifiers are made for the wider European market and cover a wider range of frequencies than are used in the UK alone. That renders them more susceptible to picking up amateur transmissions.",
+    "image": null
+  },
+  {
+    "id": "6D1-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "The purpose of a filter in the power supply leads to a transceiver is to",
+    "options": {
+      "A": "prevent noise and interference on the mains from affecting the receiver.",
+      "B": "minimise the production of harmonics, which may cause interference.",
+      "C": "minimise the level of RF from the transmitter getting into the mains wiring.",
+      "D": "ensure the supply to the transceiver is properly balanced."
+    },
+    "correct": "C",
+    "explanation": "A filter on the mains lead of a transceiver will minimise noise on the mains getting in to the receiver circuits and degrading reception. It will also minimise the risk of RF getting out into the mains when transmitting. It is that, the risk of causing interference, that is the reason for the filter. Improving reception is a bonus.",
+    "image": null
+  },
+  {
+    "id": "6D1-2",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "HF and VHF transmissions occasionally cause interference to a nearby TV set. A possible cure is to fit a",
+    "options": {
+      "A": "low-pass filter in the TV aerial down lead.",
+      "B": "high-pass filter in the TV aerial down lead.",
+      "C": "low-pass filter in the transmitter feeder.",
+      "D": "high-pass filter in the transmitter feeder."
+    },
+    "correct": "B",
+    "explanation": "TV signals are in the UHF band above 470MHz. The question makes no suggestion the amateur transmissions are plagued by harmonics so it would be wrong to simply assume that is the case. It is much more likely the strength of the transmissions are upsetting the TV. That leads to fitting a high-pass filter in the TV lead to admit the wanted UHF TV signals but reject the lower frequency VHF and HF amateur ones.",
+    "image": null
+  },
+  {
+    "id": "6D2-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Placing a ferrite ring round an RF feeder will reduce the",
+    "options": {
+      "A": "common mode currents because the magnetic field from each conductor adds together.",
+      "B": "common mode currents because the magnetic field from each conductor cancels out.",
+      "C": "differential mode currents because the magnetic field from each conductor adds together.",
+      "D": "differential mode currents because the magnetic field from each conductor cancels out."
+    },
+    "correct": "A",
+    "explanation": "Common mode currents flow in the same direction at the same time so their magnetic fields add. That means the inductive effect of the ferrite ring will attenuate those currents. Differential mode currents are equal and opposite so the magnetic fields cancel and the ferrite ring will have no effect. Properly set up, it is the differential mode current that is the wanted signal.",
+    "image": null
+  },
+  {
+    "id": "6D3-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Checking for spurious signals and harmonics from the transmitter is best done using",
+    "options": {
+      "A": "a crystal set receiver.",
+      "B": "a general coverage receiver.",
+      "C": "a frequency counter.",
+      "D": "an RF power meter."
+    },
+    "correct": "B",
+    "explanation": "A crystal set is far too insensitive and would fail to detect harmonics that were strong enough to cause problems. A frequency counter only responds to the strongest signal and would not show if there were any harmonics. RF power meters are not normally tuned and would show the strength of the fundamental signal, not any harmonics. A general coverage receiver is the best option.",
+    "image": null
+  },
+  {
+    "id": "6D3-2",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A 3.5MHz transmitter is believed to have a third harmonic. A suitable device to check this is",
+    "options": {
+      "A": "a VHF receiver.",
+      "B": "an oscilloscope.",
+      "C": "a frequency counter.",
+      "D": "an HF receiver."
+    },
+    "correct": "D",
+    "explanation": "The third harmonic of 3.5MHz is 10.5MHz, in the HF band, not VHF. A frequency counter will respond to the 3.5MHz signal, not any harmonic. The harmonic will cause some distortion to the waveform but would be way over an acceptable level before departure from a clean sinewave was observable on an oscilloscope. The HF receiver ideally, with a dummy load to ensure the fundamental signal does not overload it, is the correct choice.",
+    "image": null
+  },
+  {
+    "id": "6D4-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "It is suspected RF is leaking out of the transmitter via its power leads. A suitable test is",
+    "options": {
+      "A": "run the transmitter on batteries on low power rather than the power supply.",
+      "B": "run an affected device on batteries if one is available and compare results.",
+      "C": "sweep round the house wiring and mains inlet with a handheld receiver.",
+      "D": "check for problems whilst transmitting as normal but in to a dummy load."
+    },
+    "correct": "D",
+    "explanation": "If leakage via the power leads is suspected then removing the radiated RF by using a dummy load will show that, the problem will remain. Running on batteries is a good idea but to be effective as a test the transmitter must be run at full power. Running at low power will probably stop the interference but give no clue as to the mechanism.",
+    "image": null
+  },
+  {
+    "id": "6D4-2",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "The drawing shows 4 possible constructions of a dummy load. Without considering their power handling, which construction would be most suitable?",
+    "options": {
+      "A": "Dummy load 1.",
+      "B": "Dummy load 2.",
+      "C": "Dummy load 3.",
+      "D": "Dummy load 4."
+    },
+    "correct": "D",
+    "explanation": "There are three requirements of a dummy load. Correct resistance; no reactance; no RF radiation. The best option is 4, all three requirements are satisfied. Option 1 with resistors in parallel should be the correct resistance and, in parallel, any residual inductance in each resistor will be minimised. It is not screened. Option 3 tends to maximise the residual inductance, and option 2 is clearly inductive. Options 2 and 3 are not screened either.",
+    "image": "C6_Inter_6D4-2.png"
+  },
+  {
+    "id": "6D4-3",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "It is necessary to set the voltage level into the microphone socket of your transceiver from a new desk microphone. To do that you have borrowed a separate receiver so you can compare the volume from your hand microphone and the new desk microphone. The RF output from the transceiver should be connected to",
+    "options": {
+      "A": "the receiver RF input socket.",
+      "B": "your normal antenna.",
+      "C": "nothing, just left unconnected.",
+      "D": "a dummy load."
+    },
+    "correct": "D",
+    "explanation": "The transceiver should be connected to a dummy load so its RF power amplifier is feeding the correct load resistance and very little signal is radiated. There will be sufficient radiated signal to be picked up on a nearby receiver. Connecting the transceiver output direct to the receiver input will result in instant and expensive damage.",
+    "image": null
+  },
+  {
+    "id": "6E1-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "The connection between a transmitter and an antenna matching unit",
+    "options": {
+      "A": "should be made using coaxial cable and RF plugs which connect with the braid.",
+      "B": "can use any type of cable since the antenna tuning unit will avoid any problems.",
+      "C": "should not be longer that one quarter of a wavelength to avoid matching problems.",
+      "D": "must include a suitable balun for the frequencies in use by the transmitter."
+    },
+    "correct": "A",
+    "explanation": "It is important that coaxial cable is used to maintain screening and continuity of the braid outer conductor as well as the inner conductor. The AMU will not prevent radiation from the wrong type of cable and, since the SWR should be close to unity between the transceiver and AMU the length is immaterial. At HF, where an AMU is common, cable loss is not normally an issue.",
+    "image": null
+  },
+  {
+    "id": "6E2-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "A good RF earth",
+    "options": {
+      "A": "should be used in place of the house mains earth.",
+      "B": "is the house mains water supply pipe.",
+      "C": "is a short fat lead to copper rods buried in the garden.",
+      "D": "is only required for frequencies above 430MHz."
+    },
+    "correct": "C",
+    "explanation": "Whatever RF earthing is arranged, the mains safety earth must remain connected. The RF earth should be as short as practicable and a substantial flat braid or tape is better than round conductor.",
+    "image": null
+  },
+  {
+    "id": "6E3-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "Using a loft antenna for amateur radio activities is",
+    "options": {
+      "A": "normally quite satisfactory if an outside antenna will look unsightly.",
+      "B": "likely to cause considerable interference to TV reception.",
+      "C": "only advisable for frequencies above 30MHz.",
+      "D": "only advisable for frequencies below 30MHz."
+    },
+    "correct": "B",
+    "explanation": "Loft antennas have two drawbacks. Signal loss through the tiles and felt (which might be metallised) and proximity to TV aerials, down leads and mains cables.",
+    "image": null
+  },
+  {
+    "id": "6F2-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "When fitting a transceiver in a vehicle it is necessary to",
+    "options": {
+      "A": "run the power cables neatly alongside the existing wiring loom to avoid making additional holes in the vehicle.",
+      "B": "connect the power leads direct to the battery by the shortest available route, with a fuse in both leads.",
+      "C": "keep the power leads and antenna leads well away from other power or control leads in the vehicle.",
+      "D": "integrate the audio output from the receiver with the existing vehicle music system to mute the music when required."
+    },
+    "correct": "C",
+    "explanation": "All the leads connected to the transceiver should be kept away from existing vehicle wiring and certainly not run parallel in the same loom. Normally the positive lead is fused to the battery with the negative lead connected to the chassis close to the battery connection to the chassis. The exception is where the manufacturer specifies otherwise and it is clear the reference is to transmitting equipment, where the allowable transmit power should also be specified.",
+    "image": null
+  },
+  {
+    "id": "6F3-1",
+    "level": "intermediate",
+    "chapter": 6,
+    "source": "chapter",
+    "question": "When choosing a location for a vehicle mounted antenna an important consideration is the",
+    "options": {
+      "A": "field strength inside the vehicle.",
+      "B": "effect on the antenna radiation pattern.",
+      "C": "height of the antenna above the ground.",
+      "D": "length of the feeder to the antenna."
+    },
+    "correct": "A",
+    "explanation": "The most important matter about vehicle mounted antennas is safety. The field strength inside the vehicle must be considered, from both an EMC and human exposure viewpoint. Also the size and location must not constitute a hazard for occupants or pedestrians.",
+    "image": null
+  }
+]

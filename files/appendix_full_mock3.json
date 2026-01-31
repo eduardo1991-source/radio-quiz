@@ -1,0 +1,930 @@
+[
+  {
+    "id": "APP_FULL3_Q1",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Which one of the circumstances listed would allow you to pass an encrypted message on behalf of another person?",
+    "options": {
+      "A": "The message contains the name and address of a casualty.",
+      "B": "The message has been given to you by a member of a User Service.",
+      "C": "The message contains particularly unpleasant details of injuries.",
+      "D": "The message has been given to you by the casualty in person."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q2",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Testing a home-made VFO shows it is stable to about 0.1%. What is the most serious problem you are likely to encounter on-air when using it for transmitting on 14.346 MHz upper sideband?",
+    "options": {
+      "A": "The possibility of transmitting out of band.",
+      "B": "Interference to non-amateur stations on immediately adjacent bands.",
+      "C": "Harmonics of your transmission in the 21 and 28MHz amateur bands.",
+      "D": "The need for your distant contact to retune his receiver occasionally."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q3",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "To control your remote station from your main station your communication link within an amateur band",
+    "options": {
+      "A": "must be below 30MHz.",
+      "B": "must be above 30MHz.",
+      "C": "must be above 200MHz.",
+      "D": "must be below 15MHz."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q4",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An amateur holding the callsign MJ0JKL has permanently moved to Italy, which has implemented CEPT Recommendation T/R 61-01. MJ0JKL can",
+    "options": {
+      "A": "operate under the CEPT agreement using the call I/M0JKL.",
+      "B": "not operate as M0JKL under the CEPT agreement.",
+      "C": "operate under the CEPT agreement using the call I/MJ0JKL.",
+      "D": "operate under the CEPT agreement using the call I/MJ0JKL/P."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q5",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The American continent is classified as",
+    "options": {
+      "A": "ITU Region 1.",
+      "B": "ITU Region 2.",
+      "C": "ITU Region 3.",
+      "D": "ITU Region 4."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q6",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If a check of the EMF compliance distance shows that it extends outside the licensee's private premises and grounds, then it will be necessary to",
+    "options": {
+      "A": "apply for planning permission to extend the boundary of the premises to cover the affected area.",
+      "B": "fence off the affected area such that members of the general public cannot gain access without permission.",
+      "C": "ensure that transmission does not take place if the general public are, or can be expected to be, present in the affected locations.",
+      "D": "notify both Ofcom and the local authority of the extent of the increase, ensuring that it is no more than the 5% permitted in the planning regulations."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q7",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "You are operating on the 60m band and form a net with a group of radio amateurs. In order to comply with your licence conditions you must give your",
+    "options": {
+      "A": "on joining and leaving the net.",
+      "B": "when contacting other net members.",
+      "C": "every 30 minutes when you are speaking.",
+      "D": "when requested to do so by the station controlling the net."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q8",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What power is dissipated in the resistor in the diagram?",
+    "options": {
+      "A": "5.5mW",
+      "B": "1.75mW",
+      "C": "7mW",
+      "D": "14mW."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "App_Full_MOCK3_Q8.png"
+  },
+  {
+    "id": "APP_FULL3_Q9",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A small electrolytic capacitor is marked 100µF - 25 V. This means that",
+    "options": {
+      "A": "the DC voltage, plus the peak value of any superimposed AC voltage applied, must not exceed 25 V",
+      "B": "when charged to 25 V it will have a charge of 2,500 coulombs",
+      "C": "it should not be connected to an AC voltage source of more than 25 V peak",
+      "D": "the polarity does not matter provided the DC supply is below 25V."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q10",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The drawing shows the circuit of a switching transistor controlling the current in the coil of a relay. The base is fed with regular pulses to cause the relay contacts to close. Which circuit will minimise the voltage spikes caused by the switching?",
+    "options": {
+      "A": "Circuit 3",
+      "B": "Circuit 4",
+      "C": "Circuit 1",
+      "D": "Circuit 2."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "App_Full_MOCK3_Q10.png"
+  },
+  {
+    "id": "APP_FULL3_Q11",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The switch S in the diagram is closed at time t=0. Which graph correctly shows the voltage across the coil after the switch is closed?",
+    "options": {
+      "A": "Graph 3",
+      "B": "Graph 4",
+      "C": "Graph 1",
+      "D": "Graph 2."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": "App_Full_MOCK3_Q11.png"
+  },
+  {
+    "id": "APP_FULL3_Q12",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "In the circuit shown, C2 is used as a",
+    "options": {
+      "A": "frequency matching capacitor",
+      "B": "DC blocking capacitor",
+      "C": "decoupling capacitor",
+      "D": "coupling capacitor."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": "App_Full_MOCK3_Q12.png"
+  },
+  {
+    "id": "APP_FULL3_Q13",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An analogue to digital converter is sampling at 7000 samples per second. There is a low-level signal present at the ADC input at 3.6kHz. After conversion the signal will be treated as",
+    "options": {
+      "A": "a signal at 3.4 kHz",
+      "B": "a signal at 100 Hz",
+      "C": "a wideband noise signal",
+      "D": "a signal at 3.6 kHz."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q14",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A transformer with 25 turns on the primary and 5 turns on the secondary, has a 1kΩ resistor connected to the secondary. The impedance measured at the primary will be",
+    "options": {
+      "A": "50kΩ",
+      "B": "5kΩ",
+      "C": "50Ω",
+      "D": "25kΩ."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q15",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The drawing shows the response curve of a single tuned circuit that might be used in the IF of a receiver. If the centre frequency is 100kHz, the Q-factor is approximately",
+    "options": {
+      "A": "6",
+      "B": "33",
+      "C": "20",
+      "D": "17."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "App_Full_MOCK3_Q15.png"
+  },
+  {
+    "id": "APP_FULL3_Q16",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "In a Field Effect Transistor the",
+    "options": {
+      "A": "gate is normally forward-biased (with respect to the source), and with more forward bias the channel moves into “enhancement mode”",
+      "B": "width of the depletion layer increases rapidly as the forward current between drain and source increases",
+      "C": "width of the depletion layer increases rapidly as the forward current between drain and source decreases",
+      "D": "gate is normally reverse-biased (with respect to the source), and with more reverse bias, the channel becomes “pinched off”."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q17",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "One feature of a transistor amplifier biased in class C is that",
+    "options": {
+      "A": "the levels of distortion are likely to be lower than other classes",
+      "B": "a tuned or resonant collector load is normally required",
+      "C": "two transistors are required, operating in a push-pull configuration",
+      "D": "the supply current tends to be higher than other classes."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q18",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The output voltage of a stabilised mains operated power supply is often controlled by a",
+    "options": {
+      "A": "series pass transistor with a Zener reference diode",
+      "B": "bridge rectifier with series pass transistor",
+      "C": "bridge rectifier with a reservoir capacitor",
+      "D": "series pass transistor with a reservoir capacitor."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q19",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "For the block diagram of a transmitter, select the response that matches the function of the numbered component blocks.",
+    "options": {
+      "A": "1=Frequency Synthesiser, 2=Mixer, 3=Crystal Oscillator, 4=Filter RF Driver",
+      "B": "1=Crystal Oscillator, 3=Mixer, 4=Frequency Synthesiser, 5=Filter RF Driver",
+      "C": "1=Crystal Oscillator, 3=Mixer, 4=Filter RF Driver, 5=Frequency Synthesiser",
+      "D": "1=Frequency Synthesiser, 2=Filter RF Driver, 3=Mixer, 4=Crystal Oscillator."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": "App_Full_MOCK3_Q19.png"
+  },
+  {
+    "id": "APP_FULL3_Q20",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If there is frequency instability in a transmitter, which of the following methods can minimise this?",
+    "options": {
+      "A": "Load the PA stage correctly",
+      "B": "Use a regulated power supply",
+      "C": "Do not make Morse code dashes too long",
+      "D": "Speak at a distance from the microphone."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q21",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What is the purpose of the low pass filter in a direct digital synthesiser?",
+    "options": {
+      "A": "To ensure the output frequency of the wanted signal remains stable and accurate",
+      "B": "To remove the effects of minor frequency variations associated with the phase comparator",
+      "C": "To remove frequencies associated with the step nature of the signal from the DAC",
+      "D": "To minimise the effect of requesting a fast rate of tuning to a different output frequency."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q22",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A superhet receiver is tuned to an upper sideband signal on 144.500MHz. The local oscillator is running at 148.500MHz. The sideband filter to admit the signal should be set to",
+    "options": {
+      "A": "144.500 to 144.503MHz",
+      "B": "4.000 to 4.003MHz",
+      "C": "144.493 to 144.500MHz",
+      "D": "3.997 to 4.000MHz."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q23",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A transmitter is normally used on SSB and runs comfortably warm even when peaking at 100W output. It is decided to use the same transmitter on RTTY (radio teletype) and the input level is set so the RF output peaks at the same level as previously used on voice. It is likely that the transmitter will run",
+    "options": {
+      "A": "a bit cooler than before",
+      "B": "considerably hotter than before",
+      "C": "slightly hotter than before",
+      "D": "at much the same temperature as before."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q24",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An RF power amplifier (PA) is specified as 200W output and 10dB gain. An input of 25W from the transceiver driving the PA is likely to result in",
+    "options": {
+      "A": "additional signals close in frequency to those at the input being produced in the PA",
+      "B": "the transceiver showing an increase in the SWR at its output",
+      "C": "the PA receiving an overload (ALC) control signal from the transceiver",
+      "D": "third order harmonics being present in the transceiver output."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q25",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The ratio between the input signal that can just be heard on a receiver and the signal level at which it overloads is known as the receiver’s",
+    "options": {
+      "A": "noise factor",
+      "B": "overload margin",
+      "C": "receive threshold",
+      "D": "dynamic range."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q26",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Phase noise is a feature often associated with",
+    "options": {
+      "A": "an AF amplifier",
+      "B": "an amplifier operating in class C",
+      "C": "an oscillator",
+      "D": "an amplifier operating in class A."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q27",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If a pre-amplifier with 6dB gain and a sensitivity of 0.15µV for 10dB signal to noise is added to a receiver of identical sensitivity then the sensitivity will be",
+    "options": {
+      "A": "slightly poorer (less sensitive)",
+      "B": "increased by 6dB",
+      "C": "slightly better (more sensitive)",
+      "D": "unchanged."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q28",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What settings might be provided to operate the AGC in a receiver?",
+    "options": {
+      "A": "Attack/decay; fast/slow",
+      "B": "Forward/reverse; high/low",
+      "C": "CW/data; on/off",
+      "D": "Data/voice; high/low."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q29",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Modulating a carrier with digital data can",
+    "options": {
+      "A": "vary the amplitude and phase of the carrier",
+      "B": "only vary the phase of the carrier",
+      "C": "only vary the amplitude of the carrier",
+      "D": "only vary the frequency of the carrier."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q30",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "When operating HF SSB in a net of several stations, it is noted that the stations are all transmitting on slightly different frequencies. A good way of improving reception is to adjust the",
+    "options": {
+      "A": "main frequency or tuning control",
+      "B": "IF filter bandwidth",
+      "C": "RIT control",
+      "D": "squelch."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q31",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The drawing shows a sleeve balun. How long should the sleeve be and at which end should the sleeve be connected to the outer braid of the coaxial feeder?",
+    "options": {
+      "A": "Connected at end B and a half of a wavelength long",
+      "B": "Connected at end B and a quarter of a wavelength long",
+      "C": "Connected at end A and a half of a wavelength long",
+      "D": "Connected at end A and a quarter of a wavelength long."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "App_Full_MOCK3_Q31.png"
+  },
+  {
+    "id": "APP_FULL3_Q32",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The length of ONE SIDE of a half-wave dipole for 10MHz mounted clear of local obstructions will be approximately",
+    "options": {
+      "A": "7.1m",
+      "B": "15.0m",
+      "C": "7.50m",
+      "D": "6.7m."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q33",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If RF losses in a feeder are high the SWR measured at the transmitter will be",
+    "options": {
+      "A": "matched to the feeder",
+      "B": "the same as the return loss",
+      "C": "higher than that at the antenna",
+      "D": "lower than that at the antenna."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q34",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A 100Ω antenna is feeding a receiver with a 50Ω input impedance. It is decided to improve the matching by inserting a λ/4 length of coaxial cable as an impedance transformer. The characteristic impedance of this cable should be",
+    "options": {
+      "A": "100Ω",
+      "B": "50Ω",
+      "C": "72Ω",
+      "D": "300Ω."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q35",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Communications with amateur satellites should preferably use",
+    "options": {
+      "A": "orthogonal polarisation",
+      "B": "circular polarisation",
+      "C": "transverse polarisation",
+      "D": "vertical polarisation."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q36",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A specific feature of NVIS contacts is that the frequency employed is",
+    "options": {
+      "A": "close to the Critical Frequency",
+      "B": "always below the Critical Frequency",
+      "C": "about half the Critical Frequency",
+      "D": "always above the Critical Frequency."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q37",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What is the signal level at the receiver if the transmit power is 36dBm and given the link budget parameters below? Tx feeder loss 2dB/Tx antenna gain 6dB/Spreading loss 96dB/Obstruction loss 7dB/Rx antenna gain 4dB/Rx feeder loss 1dB",
+    "options": {
+      "A": "-60dBW",
+      "B": "-60dBm",
+      "C": "-80dBm",
+      "D": "-90dBm."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q38",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "To simplify the installation of an alarm system a single wire is run from the control unit through each sensor in series round the house and then back to the control unit. A risk with this approach is that",
+    "options": {
+      "A": "the loop needs to be balanced to achieve adequate immunity to RF",
+      "B": "the loop will radiate RF which may interfere with TV reception",
+      "C": "there is a high likelihood of the wiring picking up RF transmissions",
+      "D": "it will be slightly harder to determine which sensor has triggered the alarm."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q39",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Which mode is least likely to cause the form of interference known as cross modulation?",
+    "options": {
+      "A": "FM",
+      "B": "CW",
+      "C": "SSB",
+      "D": "AM."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q40",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If an amateur’s HF transmission enters a TV system via a masthead pre-amplifier the breakthrough is likely to be caused by",
+    "options": {
+      "A": "unwanted mixer products in the masthead pre-amplifier",
+      "B": "harmonics of the amateur transmission",
+      "C": "cross-modulation in the masthead pre- amplifier",
+      "D": "unwanted mixer products in the TV receiver."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q41",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "It is noticed that when listening to the amplitude modulated air traffic control transmissions around 134MHz a nearby 2m FM transmission causes the sound to stop. This effect is known as",
+    "options": {
+      "A": "intermodulation",
+      "B": "cross-modulation",
+      "C": "muting",
+      "D": "blocking."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q42",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Breakthrough on one particular frequency is best cured by which one of the following?",
+    "options": {
+      "A": "Balun",
+      "B": "Notch filter",
+      "C": "Ferrite bead or beads",
+      "D": "Low-pass filter."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q43",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A Mains supply filter that could be fitted to a transmitter power supply generally consists of:",
+    "options": {
+      "A": "An arrangement of coils wound on ferrite cores and capacitors configured as a 50Hz band stop (notch) filter",
+      "B": "An arrangement of coils wound on ferrite cores and capacitors configured as a high pass filter",
+      "C": "An arrangement of coils wound on ferrite cores and capacitors configured as a low pass filter",
+      "D": "An arrangement of coils wound on laminated iron cores and capacitors to form a 50Hz band pass filter."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q44",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Why is it recommended that your transmit power is reduced to no more that that required to maintain the contact?",
+    "options": {
+      "A": "It is a mandatory condition of the Full Licence",
+      "B": "It reduces the probability of causing interference to nearby electronic devices",
+      "C": "It allows the transmitter to run a higher duty cycle without overheating",
+      "D": "More amateur contacts can be achieved without mutual interference."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q45",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Why is it difficult to achieve a good RF ground when the transmitter is in an upstairs room of a house or building?",
+    "options": {
+      "A": "The earth rods should be sited several metres from the building and any mains safety earths which is difficult to achieve",
+      "B": "The distance to the actual ground is a substantial portion of a wavelength so impedance transformation effects need to be considered",
+      "C": "The vertical RF earth is likely to radiate which will adversely affect the wanted radiation pattern as well as risk EMC problems",
+      "D": "The inductance of a few metres of wire or braid results in a high reactance, typically over 1kΩ which limits the effectiveness."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q46",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Powering a transmitter in a car, via the cigarette lighter (accessory) socket is",
+    "options": {
+      "A": "ill advised because the lighter socket is intended for intermittent use only",
+      "B": "acceptable if the current required will not exceed about 5A",
+      "C": "a simple and safe solution for temporary installations",
+      "D": "ill advised because of the risk of RF entering the car electronics."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q47",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A neighbour complains to you that they are suffering from interference on a landline telephone. You should advise the neighbour to contact",
+    "options": {
+      "A": "their telecommunications service provider",
+      "B": "Ofcom",
+      "C": "the Radio Society of Great Britain",
+      "D": "the local authority."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q48",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The rare island station you are trying to contact often says 'receiving five down'. This means that",
+    "options": {
+      "A": "it is looking for distant stations coming in at less than S5 in signal strength.",
+      "B": "it will take five more contacts before pausing for a rest or change of band.",
+      "C": "it is listening for contacts about 5kHz lower in frequency than transmitting.",
+      "D": "it is trying to separate out callers using the IOTA reference numbers."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q49",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "When calling CQ using SSB the band appears to be occupied by RTTY and other data signals. This may be because",
+    "options": {
+      "A": "a strong broadcast transmitter is causing 'rusty bolt' intermodulation.",
+      "B": "the band plan in other countries may be different to the UK plan.",
+      "C": "other amateurs are operating in contravention of the band plans.",
+      "D": "anomalous propagation is causing cross-modulation effects."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q50",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Valve equipment presents a higher risk to safety than solid state equipment mainly because",
+    "options": {
+      "A": "higher electrical potentials are likely to be present",
+      "B": "more radio frequency energy is produced",
+      "C": "valves emit non-ionising radiation",
+      "D": "there may be broken glass inside the equipment."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q51",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The static charge from thunderclouds can ionise the air to",
+    "options": {
+      "A": "allow exceptionally good VHF propagation for several hours",
+      "B": "allow exceptionally good HF propagation for several hours",
+      "C": "form a low resistance path to ground enabling a very high current to flow as a lightning strike",
+      "D": "form a high resistance path to ground allowing the static charge to safely bleed away."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q52",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A significant risk in a motor vehicle, not normally a problem in a house is",
+    "options": {
+      "A": "the lower height and movement of the vehicle causing lower signal strength and deep fades.",
+      "B": "the Doppler effect associated with the vehicle speed.",
+      "C": "interference and EMC issues to many more people and houses as the vehicle moves.",
+      "D": "chafing of wires and resulting possibility of shorting to the electrical earth."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q53",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A risk assessment should be carried out",
+    "options": {
+      "A": "in response to a third party claim following an incident",
+      "B": "as part of the normal planning for any event",
+      "C": "when requested by an appropriate authority",
+      "D": "immediately after an accident when all the details are fresh."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q54",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The circuit shown is connected to a supply of 24V. R1 is 20kΩ and R2 is 10kΩ. The voltmeter reads 0-15V and has a resistance of 10kΩ. approximately what voltage will it read?",
+    "options": {
+      "A": "8V",
+      "B": "12V",
+      "C": "15V",
+      "D": "5V."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "App_Full_MOCK3_Q54.png"
+  },
+  {
+    "id": "APP_FULL3_Q55",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An oscilloscope is being used with a half-wave dipole antenna to monitor a received signal. The trace shows 282mV peak-to-peak. However when you also connect this assembly to your radio receiver it shows 6dB lower. Why?",
+    "options": {
+      "A": "Your previous observation was of the peak voltage, not the peak-to-peak voltage",
+      "B": "In disconnecting the oscilloscope you also inadvertently disconnected the audio to the transmitter",
+      "C": "The receiver has a 50Ω input impedance for correct matching to 50Ω systems",
+      "D": "Your previous observation did not allow for peak-to-peak to RMS conversion."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q56",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A device that measures forward and reflected power on a transmission line is a description of",
+    "options": {
+      "A": "a heterodyne wavemeter",
+      "B": "a signal strength meter",
+      "C": "an absorption wavemeter",
+      "D": "an SWR meter."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q57",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The decibel maybe used to measure",
+    "options": {
+      "A": "power ratios, where multiplying the power by 10 represents an increase of 10 decibels",
+      "B": "voice quality at a microphone, on a scale which allows the equipment to be used without suffering distortion",
+      "C": "differences between various types of amplifier, with 0 decibels as the least efficient, and 100 decibels as the most efficient",
+      "D": "voltage ratios, where multiplying the PD by 10 represents an increase of 10 decibels."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FULL3_Q58",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The drawing shows an FET circuit biased by R1 and R2. R1 is 80kΩ and R2 is 20kΩ. Both resistors are 10% tolerance. The bias voltage might be lower than its design value by a maximum of",
+    "options": {
+      "A": "180mV",
+      "B": "100mV",
+      "C": "300mV",
+      "D": "200mV"
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": "App_Full_MOCK3_Q58.png"
+  }
+]

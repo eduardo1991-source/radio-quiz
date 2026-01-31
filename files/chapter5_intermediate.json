@@ -1,0 +1,226 @@
+[
+  {
+    "id": "5A2-1",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "When listening to a conversation on HF it is noticed that an Italian station is strong but the UK station, which is much closer, is barely audible at all. A likely reason for this is that",
+    "options": {
+      "A": "the Italian station is running more power.",
+      "B": "the UK station is using a large Yagi antenna and beaming away from you.",
+      "C": "sporadic-E is wiping out the UK station's signal.",
+      "D": "you are in the skip zone of the UK station but not the Italian one."
+    },
+    "correct": "D",
+    "explanation": "The lonosphere has a limited ability to bend radio waves back to earth. It is quite common for relatively shallow angles of long distance contacts to be adequately bent back but the sharper angles of much closer contacts to be unachievable at certain times of day or choice of frequency band. The skip zone is an area 'skipped over' because the angle of refraction required is too great and no signal is received. Much closer may get a ground wave signal and further away an ionospheric one.",
+    "image": null
+  },
+  {
+    "id": "5A2-2",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "HF ground wave range is limited by",
+    "options": {
+      "A": "energy absorption in the ground, which is more significant as the frequency rises.",
+      "B": "energy absorption in the ground, which is less significant as the frequency rises.",
+      "C": "attenuation in the densely ionised D layer, especially at lower frequencies.",
+      "D": "the attenuating effects of hill shadowing, trees and building clutter."
+    },
+    "correct": "A",
+    "explanation": "The ground wave is the wave that hugs the ground but has high losses into the ground limiting the range, more so as the frequency rises.",
+    "image": null
+  },
+  {
+    "id": "5A3-1",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "In a radio wave the electric field and the magnetic field are",
+    "options": {
+      "A": "parallel and define the plane of polarisation.",
+      "B": "at right angles and the electric field defines the plane of polarisation.",
+      "C": "at right angles and the magnetic field defines the plane of polarisation.",
+      "D": "at right angles and the electric field defines the direction of propagation."
+    },
+    "correct": "B",
+    "explanation": "The E (electric) and H (magnetic) fields of an EM wave are in phase but physically at right angles to each other. It is the E field that is used to define the polarisation.",
+    "image": null
+  },
+  {
+    "id": "5B1-1",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "The lowest layer of the ionosphere is the",
+    "options": {
+      "A": "E-layer.",
+      "B": "F1 layer.",
+      "C": "F2 layer.",
+      "D": "D layer."
+    },
+    "correct": "D",
+    "explanation": "The D-layer is the lowest layer at around 70km altitude.",
+    "image": null
+  },
+  {
+    "id": "5B2-1",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "HF propagation is found to vary over a number of years. This is because",
+    "options": {
+      "A": "natural phenomena always vary, there need be no specific reason.",
+      "B": "the number of sunspots varies in a cyclic manner.",
+      "C": "the jet stream affects the level of ionisation.",
+      "D": "the gulf stream affects air temperatures, which in turn affect the ionosphere."
+    },
+    "correct": "B",
+    "explanation": "Sunspots vary over an 11 year cycle and the number of sunspots affects the level of ionisation in the ionosphere.",
+    "image": null
+  },
+  {
+    "id": "5B2-2",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "The MUF is the highest frequency that",
+    "options": {
+      "A": "is available over a particular path.",
+      "B": "will get through the D layer.",
+      "C": "can be returned to the transmitting station.",
+      "D": "will propagate from an amateur station."
+    },
+    "correct": "A",
+    "explanation": "The Maximum Usable Frequency (MUF) depends on the angle of refraction required and that depends on the distance between the two stations, that is the particular path concerned.",
+    "image": null
+  },
+  {
+    "id": "5B3-1",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Most HF propagation occurs by",
+    "options": {
+      "A": "ground wave.",
+      "B": "E-layer refraction.",
+      "C": "F-layer refraction.",
+      "D": "tropospheric waves."
+    },
+    "correct": "C",
+    "explanation": "The F layer is responsible for most HF ionospheric contacts. During the day the F-layer splits into F1 and F2 with F2 being the higher and most likely to enable the contact.",
+    "image": null
+  },
+  {
+    "id": "5B3-2",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Fading is a phenomenon caused by",
+    "options": {
+      "A": "signals being refracted away from the receiving station by tilting in the ionosphere.",
+      "B": "signals travelling by slightly different parallel paths arriving with different phases.",
+      "C": "varying attenuation caused by natural air movements in the D layer.",
+      "D": "changing levels of ionisation caused by random arrival of charged solar particles."
+    },
+    "correct": "B",
+    "explanation": "Signals arriving at the receiver by parallel but slightly different paths will have travelled different distances and have different phases. These may add to enhance the signal or, if 180° out of phase, cancel to almost nothing. The effect is a regular fading of the signal.",
+    "image": null
+  },
+  {
+    "id": "5B3-3",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Assuming the path London to Sydney is 17000km, the most likely path for a HF contact between the two cities is by",
+    "options": {
+      "A": "four ionospheric hops, refracting in the F2 layer.",
+      "B": "five ionospheric hops, refracting in the F2 layer.",
+      "C": "five ionospheric hops, refracting in the F1 layer.",
+      "D": "four ionospheric hops, refracting in the F1 layer."
+    },
+    "correct": "B",
+    "explanation": "An F2 layer hop is 4000km max from the height of the layer and the geometry or the earth's curvature. A 17000km contact will require five hops.",
+    "image": null
+  },
+  {
+    "id": "5B4-1",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "It is normally found that continental medium wave broadcast stations are heard during the night in the UK, but not during the day. The reason for this is that",
+    "options": {
+      "A": "few continental stations broadcast during the day.",
+      "B": "the MUF is too high for medium wave signals to be refracted.",
+      "C": "the F1 and F2 layers are separated during the day but combine at night.",
+      "D": "the D layer will absorb medium wave signals during the day but is absent at night."
+    },
+    "correct": "D",
+    "explanation": "The medium waveband is 300kHz to 3MHz, medium wave broadcasts occupy 526kHz to 1606kHz which is below the MUF. However absorption in the D-layer sets a Lowest Usable Frequency (LUF) which can be 5MHz and higher. During the day the broadcast stations are absorbed but not at night when the D-layer disappears.",
+    "image": null
+  },
+  {
+    "id": "5B4-2",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "The D layer of the ionosphere is at a height of",
+    "options": {
+      "A": "70km and allows single hop propagation of about 140km.",
+      "B": "70km and tends to prevent ionospheric propagation.",
+      "C": "120km and tends to enhance ionospheric propagation.",
+      "D": "250km and allows single hop propagation of about 2000km."
+    },
+    "correct": "B",
+    "explanation": "The D-layer is at around 70km altitude and absorbs lower HF frequencies during the day preventing them reaching the F layers to be refracted.",
+    "image": null
+  },
+  {
+    "id": "5B5-1",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Sporadic-E is often responsible for",
+    "options": {
+      "A": "VHF signals received at much greater ranges than usual.",
+      "B": "a sudden loss of HF propagation lasting a few hours.",
+      "C": "a larger number of sunspots than usual.",
+      "D": "ducting in the troposphere."
+    },
+    "correct": "A",
+    "explanation": "Sporadic-E is a refraction of VHF signals by highly ionised patches in the E layer of the ionosphere allowing reception up to 2000km from the transmitter.",
+    "image": null
+  },
+  {
+    "id": "5B5-2",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "Sporadic E is a phenomenon that",
+    "options": {
+      "A": "can cause a fade out of ionospheric propagation following major sunspot activity.",
+      "B": "can refract VHF and UHF signals back to the earth's surface.",
+      "C": "trap HF signals in an ionospheric duct.",
+      "D": "scatter HF signals in random directions."
+    },
+    "correct": "B",
+    "explanation": "Sporadic E is a phenomenon where patches of high ionisation in the E-layer refract VHF and occasionally UHF signals back to Earth up to 2000km away.",
+    "image": null
+  },
+  {
+    "id": "5C3-1",
+    "level": "intermediate",
+    "chapter": 5,
+    "source": "chapter",
+    "question": "While walking in central London using a UHF handheld radio it is noticed the signal strength indicator is fluctuating wildly.",
+    "options": {
+      "A": "changes in the distance from the transmitting station being evident due to the short wavelength of the signal.",
+      "B": "multiple paths caused by assorted reflections arriving at the receiver with different phases.",
+      "C": "modulation of the carrier influencing the response of the signal strength circuitry.",
+      "D": "mobile phones and Wi-Fi signals affecting the indicated signal strength circuits prior to the IF filters."
+    },
+    "correct": "B",
+    "explanation": "The centre of many cities is characterised by large tall buildings often glass fronted with the glass having a metallised coating to reduce solar glare and overheating. Those surfaces reflect radio waves creating a complex pattern of additive and destructive interference as the waves phase together and cancel. The pattern distances are comparable with the wavelengths.",
+    "image": null
+  }
+]

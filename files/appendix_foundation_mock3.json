@@ -1,0 +1,470 @@
+[
+  {
+    "id": "APP_FOUND_MOCK3_Q1",
+    "number": 1,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "The Regional Secondary Locator W in the prefix of an amateur call sign, if used, refers to",
+    "options": {
+      "A": "Northern Ireland.",
+      "B": "England.",
+      "C": "Wales.",
+      "D": "Scotland."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q2",
+    "number": 2,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "To correctly identify your station in accordance with your Licence you MUST state",
+    "options": {
+      "A": "the callsign of the station you are in contact with and your Callsign.",
+      "B": "your Callsign in voice or the mode of transmission you are using.",
+      "C": "your name and the callsign of the station you are using.",
+      "D": "your Callsign and then the Callsign of the station you are in contact with."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q3",
+    "number": 3,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "Apart from a CQ call the amateur licence does not permit",
+    "options": {
+      "A": "talking about a programme heard on the BBC.",
+      "B": "transmitting to anybody who happens to be listening.",
+      "C": "allowing other people to overhear your transmissions.",
+      "D": "transmitting to more than one person."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q4",
+    "number": 4,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "If you are required to keep a log of your transmissions, the items you need to record are",
+    "options": {
+      "A": "whatever you consider appropriate to record.",
+      "B": "the dates and times of any alleged interference.",
+      "C": "whatever the complainant asked you to record.",
+      "D": "whatever an Ofcom official has asked you to record."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q5",
+    "number": 5,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "What is the radiated power level above which an EMF (electromagnetic field) assessment must be carried out?",
+    "options": {
+      "A": "1W EIRP",
+      "B": "1W ERP",
+      "C": "10W EIRP",
+      "D": "10W ERP"
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q6",
+    "number": 6,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "What is the status of UK amateur satellite service on 430.5MHz?",
+    "options": {
+      "A": "Not allocated.",
+      "B": "Primary.",
+      "C": "Primary shared.",
+      "D": "Secondary."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q7",
+    "number": 7,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "What is the voltage across R2 in the circuit shown?",
+    "options": {
+      "A": "21A",
+      "B": "20A",
+      "C": "20V",
+      "D": "21V."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": "APP_FOUND_MOCK3_Q7.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q8",
+    "number": 8,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "The unit of frequency is the",
+    "options": {
+      "A": "hertz",
+      "B": "amp",
+      "C": "watt",
+      "D": "volt."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q9",
+    "number": 9,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "A diagram of the electronics of a handheld radio has a device labelled 'DAC'. It is likely that this device",
+    "options": {
+      "A": "takes the digital signal from the radio's memory and amplifies it to a suitable level for headphones",
+      "B": "processes the data stream into regular samples suitable for storing in the radio's memory",
+      "C": "catalogues the data signals and produces a display of the frequency the radio is tuned to",
+      "D": "takes a digital signal from the radio's memory and turns it into an analogue signal."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q10",
+    "number": 10,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "When an audio frequency is mixed with a radio frequency, which one of the following is produced?",
+    "options": {
+      "A": "Carrier wave",
+      "B": "A direct current",
+      "C": "Harmonics",
+      "D": "Sidebands."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q11",
+    "number": 11,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "A poorly designed frequency generator stage in a transmitter may",
+    "options": {
+      "A": "risk damaging the antenna",
+      "B": "damage the power supply",
+      "C": "cause the transmitter to radiate outside the amateur bands",
+      "D": "risk damage to the audio stage or the microphone."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q12",
+    "number": 12,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "In the block diagram of a radio receiver shown, what is the function of the box marked '1'?",
+    "options": {
+      "A": "Tuning and RF amplifier",
+      "B": "Detection",
+      "C": "Antenna",
+      "D": "Audio amplifier."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": "APP_FOUND_MOCK3_Q12.png"
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q13",
+    "number": 13,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "The device used to correctly connect a dipole antenna to coaxial feeder is called",
+    "options": {
+      "A": "a dummy load",
+      "B": "a balun",
+      "C": "an SWR meter",
+      "D": "a yagi."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q14",
+    "number": 14,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "An antenna will",
+    "options": {
+      "A": "pick up radio signals and convert them into electrical signals",
+      "B": "provide an RF earth",
+      "C": "work equally well at all frequencies",
+      "D": "reflect radio waves away from the transmitter."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q15",
+    "number": 15,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "Damage to an antenna will be most evident inside the station on the",
+    "options": {
+      "A": "transmitter frequency display",
+      "B": "transmitter output meter",
+      "C": "standing wave ratio meter",
+      "D": "power supply voltmeter."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q16",
+    "number": 16,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "The ionosphere is located at heights above the ground between",
+    "options": {
+      "A": "7m and 40m",
+      "B": "7km and 40km",
+      "C": "70ft and 400ft",
+      "D": "70km and 400km."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q17",
+    "number": 17,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "A radio amateur wishes to receive from a greater range on VHF and UHF. Which option is likely to be most successful?",
+    "options": {
+      "A": "Place the antenna on the ground in the garden",
+      "B": "Use UHF for greatest range",
+      "C": "Increase the antenna height to above surrounding roofs",
+      "D": "Double the receiving station’s transmitter power."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q18",
+    "number": 18,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "A radio amateur is operating on 145.5MHz. Which of the items in the ‘shack’ is most likely to suffer interference?",
+    "options": {
+      "A": "An HF receiver on 14.1MHz",
+      "B": "An electric digital clock",
+      "C": "A computer",
+      "D": "A VHF receiver on 144.25MHz."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q19",
+    "number": 19,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "Clicks and a buzz on a mobile receiver in a vehicle can be due to",
+    "options": {
+      "A": "locating the antenna in an exposed location on the roof",
+      "B": "the use of battery power rather than mains power",
+      "C": "battery charging and vehicle ignition systems",
+      "D": "the lack of an actual earth lead to divert the electrical noise."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q20",
+    "number": 20,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "The Station Log will be of assistance in tracing the cause of an interference problem experienced by a neighbour, because",
+    "options": {
+      "A": "the licence requires you to keep a Log of your transmissions",
+      "B": "the station you contacted might be the source of the interference",
+      "C": "it will be useful to compare the times of the interference with the times of transmission",
+      "D": "the local authority will want a copy of your Log in order to deal with the complaint."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q21",
+    "number": 21,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "When you are calling \"CQ\" on 145.500MHz and another station replies you should",
+    "options": {
+      "A": "remain on this frequency.",
+      "B": "state your name and location.",
+      "C": "exchange signal reports.",
+      "D": "arrange to move to a clear channel."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q22",
+    "number": 22,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "Operating just above the 2 metre amateur band (144.0-146.0MHz) is not legal and may interfere with",
+    "options": {
+      "A": "broadcasting.",
+      "B": "radio astronomy",
+      "C": "space operations",
+      "D": "mobile (except aeronautical mobile)."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q23",
+    "number": 23,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "When borrowing or lending a digital voice (DV) radio you must",
+    "options": {
+      "A": "use the original owners callsign but say who is actually using the radio.",
+      "B": "re-register the radio with the RSGB or local digital repeater group.",
+      "C": "ensure the embedded digital callsign is changed to the callsign of the actual user.",
+      "D": "remember to give your callsign in voice to override the embedded details."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q24",
+    "number": 24,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "When checking mains equipment, it is necessary to",
+    "options": {
+      "A": "use only non magnetic tools",
+      "B": "disconnect the unit from the mains supply",
+      "C": "remove the earth wire from the mains plug",
+      "D": "remove the earth wire from the equipment."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q25",
+    "number": 25,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "When using a ladder to erect a new antenna you should",
+    "options": {
+      "A": "only use a wooden ladder",
+      "B": "ensure that you are the only person in the area",
+      "C": "set the ladder at the correct angle (1up to 4 out)",
+      "D": "set the ladder at the correct angle (4 up to 1 out)."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "APP_FOUND_MOCK3_Q26",
+    "number": 26,
+    "level": "foundation",
+    "chapter": null,
+    "source": "appendix",
+    "mock": 3,
+    "question": "The ICNIRP is of interest to amateurs because it",
+    "options": {
+      "A": "produces guidance on the safe levels of RF exposure",
+      "B": "co-ordinates the launch of amateur and other satellites",
+      "C": "produces the International version of the Amateur Band Plans",
+      "D": "oversees the preparation of the International Radio Regulations."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  }
+]

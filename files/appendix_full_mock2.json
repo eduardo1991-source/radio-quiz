@@ -1,0 +1,930 @@
+[
+  {
+    "id": "APP_FULL2_Q1",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "You are helping at a field first aid post tent run by St John Ambulance when a paramedic asks you to send a message relating to a particular patient. It is clear that some details are deliberately obscured. You should,",
+    "options": {
+      "A": "pass the message omitting the obscured parts.",
+      "B": "ask for the obscured details to be clarified.",
+      "C": "decline to send the message because its meaning is obscured.",
+      "D": "pass the message exactly as written."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q2",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Your Licence requires that your amateur station MUST NOT cause",
+    "options": {
+      "A": "any interference to electrical or electro-mechanical devices.",
+      "B": "any interference to other radio users.",
+      "C": "undue interference to any electrical equipment.",
+      "D": "undue interference to other wireless telegraphy."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q3",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Which of the following pairs of frequencies should be used for wireless links established for the purpose of Remote Control Operation?",
+    "options": {
+      "A": "136kHz and 1.8MHz.",
+      "B": "50MHz and 432MHz.",
+      "C": "28MHz and 144MHz.",
+      "D": "21MHz and 28MHz."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q4",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An amateur holding the callsign MW0XYZ has permanently moved to Portugal, which has implemented CEPT Recommendation T/R 61-01. MW0XYZ can",
+    "options": {
+      "A": "operate under the CEPT agreement using the call CT/MW0XYZ/P.",
+      "B": "not operate as M0XYZ under the CEPT agreement.",
+      "C": "operate under the CEPT agreement using the call CT/M0XYZ.",
+      "D": "operate under the CEPT agreement using the call M0XYZ."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q5",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "When on a ship in international waters between Australia and New Zealand the frequencies allocated to amateur radio may be found in",
+    "options": {
+      "A": "The Schedule to the UK licence.",
+      "B": "The ITU Radio Regulations for Region 2.",
+      "C": "The ITU Radio Regulations for Region 3.",
+      "D": "The Schedule to the Australian licence."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q6",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What is the area over which the general public need to be protected from electromagnetic fields exceeding the specified limits?",
+    "options": {
+      "A": "The area identified by a compliance check based on the ITU guidelines.",
+      "B": "The area identified by a compliance check based on ICNIRP guidelines.",
+      "C": "The premises and ground area given by the Main Station Address.",
+      "D": "The premises and ground area currently in use by the station."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q7",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A UK amateur you are talking to on 5MHz insists their licence requires them to give their Callsign when they leave the net you are part of. They are",
+    "options": {
+      "A": "the holder of a Foundation licence operating under supervision.",
+      "B": "probably confusing the style of operating in a different radio service.",
+      "C": "correct in their belief because that requirement applies to any net.",
+      "D": "correct in their belief because the net is being conducted in the 5MHz band."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q8",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A transmitter delivers an RF current of 0.5A into a 50Ω dummy load. The power dissipated in the dummy load is",
+    "options": {
+      "A": "50W",
+      "B": "12.5W",
+      "C": "25W",
+      "D": "0.5W."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q9",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The relative permittivity of a dielectric is a measure of the",
+    "options": {
+      "A": "dynamic resistance of a series tuned circuit, when it is fed with a signal at the resonant frequency",
+      "B": "amount by which the core of a coil affects the inductance, when compared with the inductance in a vacuum",
+      "C": "change in capacitance compared to a capacitor of the same dimensions in a vacuum",
+      "D": "amount of voltage permitted on the plates of a capacitor, when fed by a rectifier diode in a power supply."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q10",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "In the case of self-inductance, the magnetic field created by a changing",
+    "options": {
+      "A": "voltage induces a current in the same circuit",
+      "B": "voltage induces a resistance in the same circuit",
+      "C": "current induces a voltage in the same circuit",
+      "D": "resistance induces a voltage in the same circuit."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q11",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "On applying a constant voltage, V, to a resistor-capacitor series combination the current, I",
+    "options": {
+      "A": "falls from an initial value equal to V/R towards zero",
+      "B": "is always equal to zero",
+      "C": "is initially zero and rises to a value equal to V/R",
+      "D": "may be calculated by Ohms Law and is constant."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q12",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A resistor of 4000Ω and a capacitor of 27pF are connected in series. What is the impedance of the combination at 1.965MHz?",
+    "options": {
+      "A": "7000Ω",
+      "B": "5000Ω",
+      "C": "3000Ω",
+      "D": "5300Ω."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q13",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The process termed a Fast Fourier Transform",
+    "options": {
+      "A": "samples the signals picked up by the antenna and separates them out into signals in frequency order",
+      "B": "produces two digital representations of RF or IF signals separated in phase by 90 degrees",
+      "C": "demodulates data signals into their original binary format for subsequent processing",
+      "D": "relies on the mutual inductance between two coils normally set 90 degrees apart."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q14",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A transformer can NOT be used to",
+    "options": {
+      "A": "produce a greater power output in the secondary winding than the power fed into the primary winding",
+      "B": "provide electrical isolation between the primary winding and the secondary winding or windings",
+      "C": "produce a different voltage across any of its secondary windings from that fed across the primary winding",
+      "D": "match the impedance of a load to the output impedance of a device that is used to power the load."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q15",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A quartz crystal",
+    "options": {
+      "A": "has an equivalent circuit which includes a diode, two inductors and a single capacitor",
+      "B": "will resonate at several design frequencies, selected by an adjustment on the side of the crystal holder",
+      "C": "has a single resonant frequency - whether series or parallel depends on the manufacturing process",
+      "D": "has series and parallel resonant frequencies with the associated circuit design selecting the one required."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q16",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "In the field-effect transistor, the ‘pinch-off’ voltage is the bias required on the",
+    "options": {
+      "A": "gate to reduce the drain-source current to zero",
+      "B": "drain to reduce the gate-drain current to zero",
+      "C": "source to reduce the gate-source current to zero",
+      "D": "source to reduce the source-drain current to zero."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q17",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "In an oscillator the gain in the transistor amplifier must be",
+    "options": {
+      "A": "slightly greater than the loss in the feedback.",
+      "B": "greater than 1/(beta) of the transistor.",
+      "C": "slightly more than one",
+      "D": "not less than the value of beta of the transistor."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q18",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If the secondary voltage from the transformer is 10V rms the peak inverse voltage rating (PIV) of the diode should be at least",
+    "options": {
+      "A": "10V",
+      "B": "20V",
+      "C": "15V",
+      "D": "30V."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": "App_Full_MOCK2_Q18.png"
+  },
+  {
+    "id": "APP_FULL2_Q19",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The Modulation Index of an RF signal is the ratio of",
+    "options": {
+      "A": "the maximum frequency deviation to the nominal unmodulated carrier frequency",
+      "B": "the amplitude of the unmodulated carrier to the variation in amplitude of the envelope",
+      "C": "the frequency deviation from the nominal carrier frequency to the frequency of the audio signal",
+      "D": "the instantaneous frequency deviation from the nominal carrier frequency to the maximum deviation."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q20",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If the frequency of the master oscillator in a transmitter drifts, then",
+    "options": {
+      "A": "the depth of modulation will vary",
+      "B": "Morse signals will change frequency during each ‘dit’ and ‘dah’",
+      "C": "the sidebands on AM and SSB may be inverted",
+      "D": "the transmitted frequency will change."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q21",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The look-up table in a direct digital synthesiser",
+    "options": {
+      "A": "records the frequency, step size and maximum/minimum frequencies",
+      "B": "contains the amplitude of a sine wave at different points in the cycle",
+      "C": "keeps track of the division ratio of the VFO output signal",
+      "D": "contains frequency corrections for the temperature of the crystal reference."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q22",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "It is proposed to generate a microwave signal by feeding the output of a UHF transmitter to a frequency multiplier circuit. This arrangement is suitable for use with",
+    "options": {
+      "A": "amplitude modulation",
+      "B": "single sideband modulation with suppressed carrier",
+      "C": "frequency modulation",
+      "D": "single sideband modulation with a pilot (reduced) carrier."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q23",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A class AB transmitter has been in use for some time and the speech processor is then switched on and set to maximum compression. The peak transmit power is seen to be unaffected. It is LIKELY that the transmitter will run",
+    "options": {
+      "A": "considerably hotter than before",
+      "B": "slightly hotter than before",
+      "C": "a bit cooler than before",
+      "D": "at much the same temperature as before."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q24",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Which of the following is most likely to cause harmonics?",
+    "options": {
+      "A": "a tuned half-wave antenna",
+      "B": "connecting the transmitter to a dummy load",
+      "C": "an overdriven PA stage",
+      "D": "an unscreened power supply unit."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q25",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A receiver can just audibly detect signals of 0.4μV (-145dBW) at its input. The receiver overloads at an input of 10mV (-57dBW) causing intermodulation products that can be heard as false signals. The dynamic range of the receiver is",
+    "options": {
+      "A": "202dB",
+      "B": "88dB",
+      "C": "145dB",
+      "D": "57dB."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q26",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The selectivity of a superheterodyne receiver is determined mainly by the",
+    "options": {
+      "A": "IF amplifier",
+      "B": "detector",
+      "C": "audio amplifier",
+      "D": "frequency changer."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q27",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "It is often found that adding a preamplifier to an HF receiver has little effect on the signal to noise ratio of weak signals. Why might this be so?",
+    "options": {
+      "A": "The extra gain will reduce the overload margin so intermodulation effects will mask any improvement",
+      "B": "Natural HF noise is relatively high, an antenna sited pre-amplifier will have little or no effect on the received SNR",
+      "C": "Preamps are wideband devices so will pick up a wider range of noise which will reduce the overall noise performance",
+      "D": "HF amplifiers are inherently noisy so a preamp is unlikely to be any better than the receiver it is to be used with."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q28",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Which mode of signals is demodulated with a ratio detector?",
+    "options": {
+      "A": "FM",
+      "B": "SSB",
+      "C": "AM",
+      "D": "CW."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q29",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If the amplitude and phase of an incoming RF signal can be captured with reasonable accuracy then",
+    "options": {
+      "A": "it is not possible to demodulate digital data signals",
+      "B": "it is possible to demodulate only frequency modulated signals",
+      "C": "it is possible to demodulate any known form of modulation",
+      "D": "it is possible to demodulate only digital data signals."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q30",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A transceiver will often share circuits between transmitter and receiver. Typically this would include the",
+    "options": {
+      "A": "frequency modulator",
+      "B": "discriminator",
+      "C": "AGC circuits",
+      "D": "IF filters."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q31",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Which of the following is NOT a type of balun?",
+    "options": {
+      "A": "Transformer",
+      "B": "Sleeve",
+      "C": "Differential",
+      "D": "Choke."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q32",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "How long is a typical half wave dipole tuned for the centre of the 1.8MHz band?",
+    "options": {
+      "A": "52.75m",
+      "B": "75.00m",
+      "C": "157.48m",
+      "D": "78.74m."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q33",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The return loss of a feeder and antenna is measured as 30dB. If the feeder has a loss of 3dB, the return loss of the antenna is",
+    "options": {
+      "A": "33dB",
+      "B": "27dB",
+      "C": "36dB",
+      "D": "24dB."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q34",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The diagram shows",
+    "options": {
+      "A": "a 1:4 Balun",
+      "B": "a pi match AMU",
+      "C": "a 1:1 Balun",
+      "D": "an L match AMU."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": "App_Full_MOCK2_Q34.png"
+  },
+  {
+    "id": "APP_FULL2_Q35",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "When travelling away from a transmitter on clear ground, it is noted that the field strength has halved. The power flux density can be expected to",
+    "options": {
+      "A": "remain more or less constant",
+      "B": "have reduced by a factor of about √ 2 (square root 2)",
+      "C": "have halved",
+      "D": "have reduced to a quarter of its initial value."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q36",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The Critical Frequency (CF) and Maximum Usable Frequency (MUF) for local and long distance (DX) contacts depend on ionospheric conditions. Which of the lists correctly shows the various frequencies is ascending numerical order?",
+    "options": {
+      "A": "Set 4",
+      "B": "Set 1",
+      "C": "Set 3",
+      "D": "Set 2."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": "App_Full_MOCK2_Q36.png"
+  },
+  {
+    "id": "APP_FULL2_Q37",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Galactic noise is most likely to influence reception when",
+    "options": {
+      "A": "making auroral contacts",
+      "B": "receiving from satellites",
+      "C": "operating EME",
+      "D": "making HF ionospheric contacts."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q38",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A neighbour has a new television of very good quality installed in his lounge. Nonetheless there are instances of interference from nearby amateur and CB transmissions. It would be sensible to check if the",
+    "options": {
+      "A": "aerial and its downlead may have deteriorated since they were installed",
+      "B": "mains voltage to the premises is below the required level",
+      "C": "television has the latest firmware programming installed",
+      "D": "affected premises does not have a suitable RF earth system."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q39",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Cross modulation is an effect that occurs when",
+    "options": {
+      "A": "the receiver has inadequate rejection on its image frequency.",
+      "B": "strong RF signals enter the RF stage of a receiver causing non-linearity.",
+      "C": "both the wanted signal and the local oscillator signal are modulated.",
+      "D": "different signals are present on the two sidebands of an AM transmission."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q40",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Cross modulation is an effect that occurs when",
+    "options": {
+      "A": "both the wanted signal and the local oscillator signal are modulated",
+      "B": "the receiver has inadequate rejection on its image frequency",
+      "C": "strong RF signals enter the RF stage of a receiver causing non-linearity",
+      "D": "different signals are present on the two sidebands of an AM transmission."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q41",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "One probable cause of mains borne interference is",
+    "options": {
+      "A": "the choice of power amplifier transistors",
+      "B": "an antenna which is positioned too close to an overhead power supply cable",
+      "C": "a highly inductive mains supply",
+      "D": "harmonics generated in the power amplifier stage."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q42",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A domestic VHF FM radio receiver is noticeably more sensitive to interference from a neighbour's HF transmitter when on the 3.5MHz band than on other HF bands. This is likely to be due to",
+    "options": {
+      "A": "a harmonic of the transmission getting into receiver IF stages",
+      "B": "the polar diagram of the amateur antenna having a lobe in the direction of the VHF radio",
+      "C": "the house mains wiring being resonant at that frequency",
+      "D": "the dimensions of the receiver being such that direct pick-up is more efficient."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q43",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What safety consideration must be followed when making a mains supply filter?",
+    "options": {
+      "A": "That the laminated core of the choke is connected to earth",
+      "B": "That all of the components are specifically rated for mains use",
+      "C": "That Voltage Dependent Resistors (VDR) are fitted between the live and the neutral",
+      "D": "That the capacitors are rated for a working voltage of more than 250Volts DC."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q44",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "You are operating your station on 14.25MHz with an ERP of 225W and measure the RF field strength 25m from your antenna as 4.2V/m. You repeat the measurement, still with an ERP of 225W, at 28.5MHz what should the second measurement be?",
+    "options": {
+      "A": "8.4V/m",
+      "B": "2.9V/m",
+      "C": "4.2V/m",
+      "D": "2.1V/m."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q45",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A quarter wave vertical antenna installed without an RF earth and connected to a transmitter is likely to cause?",
+    "options": {
+      "A": "Excessive noise on receive, resulting in an inability to receive weaker signals.",
+      "B": "RF currents in the mains earth and power leads.",
+      "C": "Difficulty in getting a low SWR on the feeder to the antenna.",
+      "D": "Frequency instability due to RF getting into other sections of the transmitter circuitry."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q46",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Advice for radio amateurs on mobile installations is in the",
+    "options": {
+      "A": "Ofcom's UK Code of Practice for the installation of mobile radio and related ancillary equipment in land-based vehicles",
+      "B": "Post Office Communication Services UK Code of Practice for the installation of mobile radio and related ancillary equipment in land-based vehicles",
+      "C": "Federation of Communication Services UK Code of Practice for the installation of mobile radio and related ancillary equipment in aircraft",
+      "D": "Federation of Communication Services UK Code of Practice for the installation of mobile radio and related ancillary equipment in land-based vehicles."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q47",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The first action in dealing with an EMC complaint should be to",
+    "options": {
+      "A": "cease all amateur radio activity until the problem is resolved",
+      "B": "carry out test transmissions on all bands at maximum power",
+      "C": "seek details of times and days that the problem occurs",
+      "D": "complete a report form and send it to the local office of Ofcom."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q48",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "Operating 'split' frequency is",
+    "options": {
+      "A": "listening on a frequency a few kHz away from the transmit frequency.",
+      "B": "listening in a different band to the one used for transmitting.",
+      "C": "operating simultaneous two-way communication in the same band.",
+      "D": "operating simultaneous two-way communication in different bands."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q49",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "One of the 5MHz sub-bands is 10kHz wide. This will allow",
+    "options": {
+      "A": "FM signals with 3kHz audio and 3kHz deviation.",
+      "B": "a transmitted power of 200W provided it is centred within the sub-band.",
+      "C": "up to three SSB transmissions within the sub-band.",
+      "D": "AM to be transmitted with up to 5kHz of audio signal."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q50",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "If working on live equipment, you should",
+    "options": {
+      "A": "be isolated from earth by a rubber mat or other insulation",
+      "B": "hold an earth lead firmly in your hand",
+      "C": "ensure that no interference is being caused to other stations by maintaining a headphone watch",
+      "D": "ensure there is a good earth connection to your body."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q51",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "You have finished operating at the end of the day and you are aware that there is a strong possibility of thunderstorms. You should:",
+    "options": {
+      "A": "disconnect the antenna from the antenna socket but leave it resting against the chassis of the radio",
+      "B": "remember that a neighbour’s house was recently struck by lightning and that lightning does not strike twice",
+      "C": "leave the antenna and radio connected as it is a mains operated set and has an earth lead",
+      "D": "disconnect the equipment from the mains and the antenna."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q52",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "What important action or check has not been performed in planning this outdoor operating trip?",
+    "options": {
+      "A": "Provision of RCBOs",
+      "B": "Correct fusing",
+      "C": "Site survey",
+      "D": "Adequacy of local mains supply."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": "App_Full_MOCK2_Q52.png"
+  },
+  {
+    "id": "APP_FULL2_Q53",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "When operating outdoors with power from an electrical generator the fire extinguisher should be stored",
+    "options": {
+      "A": "with the fuel store to minimise carrying in an emergency",
+      "B": "inside the operating tent to protect from rain and excessive cold",
+      "C": "alongside the generator for speed of access in the event of a fire",
+      "D": "where they are clearly visible and not alongside the generator or fuel store."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q54",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The purpose of the resistors shown is to provide a number of",
+    "options": {
+      "A": "AC voltage ranges",
+      "B": "AC current ranges",
+      "C": "DC voltage ranges",
+      "D": "DC current ranges."
+    },
+    "correct": "C",
+    "explanation": " ",
+    "image": "App_Full_MOCK2_Q54.png"
+  },
+  {
+    "id": "APP_FULL2_Q55",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "To measure the RF output power of a transmitter, the power meter should be",
+    "options": {
+      "A": "connected in parallel with the antenna",
+      "B": "connected in between the transmitter and its power supply",
+      "C": "connected as close as possible to the antenna",
+      "D": "set to the highest power range to begin with."
+    },
+    "correct": "D",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q56",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "An oscilloscope is displaying an AC signal showing 1 cycle across 5 divisions on the x-axis of the screen. The time base is set to 5μs per division. What is the frequency of the AC signal?",
+    "options": {
+      "A": "40kHz",
+      "B": "2kHz",
+      "C": "400kHz",
+      "D": "200kHz."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q57",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "The dBm is often used to express power with respect to 1mW; that is 0dBm=1mW. What power is 20dBm?",
+    "options": {
+      "A": "10mW",
+      "B": "100mW",
+      "C": "1mW",
+      "D": "1000mW."
+    },
+    "correct": "B",
+    "explanation": " ",
+    "image": null
+  },
+  {
+    "id": "APP_FULL2_Q58",
+    "level": "full",
+    "chapter": null,
+    "source": "appendix",
+    "question": "A home-made transmitter uses a crystal at 3.5MHz multiplied up to 28MHz. The crystal is specified as 0.5ppm per degree C. At switch on the room is at 18C but inside the transmitter case is 36C when warmed up. By how much will the transmitted frequency vary in that time?",
+    "options": {
+      "A": "252Hz",
+      "B": "32Hz",
+      "C": "504Hz",
+      "D": "63Hz."
+    },
+    "correct": "A",
+    "explanation": " ",
+    "image": null
+  }
+]

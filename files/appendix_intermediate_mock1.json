@@ -1,0 +1,784 @@
+[
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 1,
+    "id": "INT-MOCK1-1",
+    "question": "If you forget to confirm your licence details remain correct after five years then you risk",
+    "options": {
+      "A": "having to pay a renewal fee.",
+      "B": "having to explain why in writing.",
+      "C": "revocation of your licence.",
+      "D": "downgrading to a Foundation licence."
+    },
+    "correct": "C",
+    "explanation": "Clause 4(5) says that Ofcom may revoke the licence if you do not confirm (or change) your details every five years.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 2,
+    "id": "INT-MOCK1-2",
+    "question": "Some countries do not normally permit non-amateur messages to be passed to another country on amateur frequencies. An exception is messages",
+    "options": {
+      "A": "by holders of a CEPT Full licence.",
+      "B": "concerning an international disaster.",
+      "C": "by local ambulance services.",
+      "D": "encrypted to preserve personal privacy."
+    },
+    "correct": "B",
+    "explanation": "If there is an international disaster then amateurs are free to help. Typically that is health and welfare messages until such time as normal communications are re-established.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 3,
+    "id": "INT-MOCK1-3",
+    "question": "If your transmissions are causing undue interference your licence says you may be",
+    "options": {
+      "A": "asked to pay suitable recompense to the affected party.",
+      "B": "required to use an indoor antenna instead of an external one.",
+      "C": "inspected by the local authority planning department.",
+      "D": "required to reduce your transmit power to an acceptable level."
+    },
+    "correct": "D",
+    "explanation": "(8-1) says that your Radio Equipment may be required to be ‘modified or restricted in use’. Turning the power down on that band is one of the options available. If the problem was simply excessive power then that might be all that is required. If a spurious emission was the problem then you might be required to fit filtering.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 4,
+    "id": "INT-MOCK1-4",
+    "question": "The licence requirement for a remotely controlled transmitter is that",
+    "options": {
+      "A": "transmissions can be terminated promptly.",
+      "B": "the transmit power is limited to 25W ERP.",
+      "C": "another amateur must have the ability to control the transmitter.",
+      "D": "the transmitter can be closed down within two hours of a request by Ofcom."
+    },
+    "correct": "A",
+    "explanation": "(6-10c) says that Transmissions from the Radio Equipment can be terminated promptly.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 5,
+    "id": "INT-MOCK1-5",
+    "question": "Operating in a CEPT country under the terms of the UK Intermediate licence",
+    "options": {
+      "A": "is not routinely permitted.",
+      "B": "requires a letter of authorisation from Ofcom.",
+      "C": "requires a letter of authorisation from the IARU.",
+      "D": "is restricted to temporary visits."
+    },
+    "correct": "A",
+    "explanation": "CEPT Recommendation T/R 61- 01 only applies to UK Full licensees and their equivalent in other CEPT signatory countries. Individuals have obtained permission to operate from the authorities of the country concerned but that is a matter between that individual and the administration. The UK administration is not involved in any way.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 6,
+    "id": "INT-MOCK1-6",
+    "question": "What maximum transmit power on 431.5MHz may be used by an Intermediate amateur in Wales?",
+    "options": {
+      "A": "The same power as an Intermediate amateur anywhere in England.",
+      "B": "The same power as an Intermediate amateur anywhere in Scotland.",
+      "C": "The licence limits the power to a maximum of 32W ERP.",
+      "D": "The maximum permitted power on that frequency is 50W."
+    },
+    "correct": "B",
+    "explanation": "This is a sneaky question. Answers C and D are wrong. The band 431 to 432MHz should trigger a memory. operation is not permitted within 100km of London so option A, anywhere in England, is not correct. B, Scotland, is correct. For Schedule and Band plan questions always look it up. Two reasons, be sure, don't rely on memory, and the versions used in the exam may be out of date to avoid last minute changes in the middle of a training course.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 7,
+    "id": "INT-MOCK1-7",
+    "question": "If R1 is 4kΩ, R2 is 6kΩ and R3 is 5kΩ in the circuit diagram, what is the current in R1?",
+    "options": {
+      "A": "0.4mA.",
+      "B": "1mA.",
+      "C": "2mA.",
+      "D": "3mA."
+    },
+    "correct": "B",
+    "explanation": "R1 and R2 are in series, totalling 10kΩ across a 10V battery so the current in them is I = V/R = 10V/10kΩ = 1mA, R3 has no effect.",
+    "image": "App_Int_MOCK1_Q7.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 8,
+    "id": "INT-MOCK1-8",
+    "question": "A battery has an EMF of 12V and an internal resistance of 0.1Ω. It is supplying a radio receiver drawing 2A and an LED desk lamp drawing 0.5A. What is its PD?",
+    "options": {
+      "A": "12V.",
+      "B": "11.9V.",
+      "C": "11.75V.",
+      "D": "9.5V."
+    },
+    "correct": "C",
+    "explanation": "The total load is 2A + 0.5A = 2.5A. The drop across the internal resistance is 2.5A x 0.1Ω = 0.25V. The terminal PD is 12 – 0.25 = 11.75V",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 9,
+    "id": "INT-MOCK1-9",
+    "question": "A variable capacitor often has additional pre-set trimmer capacitors to set the tuning range, as shown in the circuit diagram. What is the MINIMUM capacitance of the circuit?",
+    "options": {
+      "A": "23pF.",
+      "B": "30pF.",
+      "C": "112pF.",
+      "D": "130pF."
+    },
+    "correct": "A",
+    "explanation": "At minimum we have 10pF in parallel with 20pF giving 30pF which is then in series with 100pF. The capacitance of capacitors in series is always less than the smallest one so the result must be less than 30pF. Only the 23pF option meets that criteria so the result must be less than 30pF. However, to calculate: C = 30x100/(30+100) = 3000/130 = 23pF.",
+    "image": "App_Int_MOCK1_Q9.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 10,
+    "id": "INT-MOCK1-10",
+    "question": "The inductance of three 9mH inductors connected in series is",
+    "options": {
+      "A": "3mH.",
+      "B": "9mH.",
+      "C": "27mH.",
+      "D": "81mH."
+    },
+    "correct": "C",
+    "explanation": "Inductors in series are added because the back EMFs will add, giving 27 mH.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 11,
+    "id": "INT-MOCK1-11",
+    "question": "The dotted sine wave in the drawing is",
+    "options": {
+      "A": "lagging the solid one by 45º.",
+      "B": "leading the solid one by 45º.",
+      "C": "lagging the solid one by 225º.",
+      "D": "leading the solid one by 225º."
+    },
+    "correct": "C",
+    "explanation": "Taking the 'start' as zero going positive the solid sine wave starts at the left hand end of the graph. Moving to the right is later in time, that is a lag. The same point on the dotted sine wave is over half a cycle later, half being where the solid wave returns to zero. That is 180°. The negative peak of the solid wave is another 90°, 270°. The dotted wave starts before then so the lag is greater than 180° but less than 270°. It looks like the start is mid-way which is 180+45 = 225° It is normal to choose lead and lag to give a number less than 180° so the more conventional answer is to say the dotted waveform is leading by 135° (360-225) but leading by 135 and lagging by 225 are two ways of saying the same thing. The other point to note is that unless the waves are drawn on a calibrated scale an accurate estimate is unrealistic. Remembering 0, 90, 180, 270 & 360 and then recognising an answer could be somewhere between two of those points should suffice.",
+    "image": "App_Int_MOCK1_Q11.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 12,
+    "id": "INT-MOCK1-12",
+    "question": "The graph shows the change in reactance of a component and the applied frequency varies. What component is it?",
+    "options": {
+      "A": "A resistor.",
+      "B": "A capacitor.",
+      "C": "An inductor.",
+      "D": "A diode."
+    },
+    "correct": "B",
+    "explanation": "The reactance of a capacitor falls as the frequency rises.",
+    "image": "App_Int_MOCK1_Q12.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 13,
+    "id": "INT-MOCK1-13",
+    "question": "A wire antenna is 68m long which is half a wavelength. What frequency has it been designed for?",
+    "options": {
+      "A": "1.8MHz.",
+      "B": "2.2MHz.",
+      "C": "3.4MHz.",
+      "D": "4.4MHz."
+    },
+    "correct": "B",
+    "explanation": "A full wavelength λ is 2x68 = 136m. f = 300/λ = 2.2MHz. Note, don't assume the answer will be an amateur band.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 14,
+    "id": "INT-MOCK1-14",
+    "question": "Digitally sampling an analogue signal can introduce a form of distortion which depends on",
+    "options": {
+      "A": "sampling at too fast a rate.",
+      "B": "the number of bits used to represent the signal.",
+      "C": "harmonics of the wanted signal.",
+      "D": "the level of Nyquist noise present in the analogue signal."
+    },
+    "correct": "B",
+    "explanation": "The number of bits in a sample determines the number of different levels that can be represented. The sampler simply picks the nearest one, so the errors are a form of distortion.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 15,
+    "id": "INT-MOCK1-15",
+    "question": "A transformer has 1000 turns on its primary winding and 200 turns on its secondary winding and is fed from an AC supply. The output from the secondary will be",
+    "options": {
+      "A": "AC at a higher voltage than the primary.",
+      "B": "AC at a lower voltage than the primary.",
+      "C": "DC at a higher voltage than the primary.",
+      "D": "DC at a lower voltage than the primary."
+    },
+    "correct": "B",
+    "explanation": "The input and output from a transformer are always AC. There are fewer turns on the secondary so the voltage will be lower. Not examined until Full licence level, but the voltage is determined by the turns ratio, in this case for a 230V mains supply the output is 230 x 200/1000 which is 46V.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 16,
+    "id": "INT-MOCK1-16",
+    "question": "The gain β of a transistor is the ratio of",
+    "options": {
+      "A": "collector current to base current.",
+      "B": "collector current to emitter current.",
+      "C": "emitter current to base current.",
+      "D": "emitter current to base plus collector currents."
+    },
+    "correct": "A",
+    "explanation": "β is the ratio of collector current Ic to base current IB.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 17,
+    "id": "INT-MOCK1-17",
+    "question": "The filter which has the frequency response shown in the drawing is a",
+    "options": {
+      "A": "high-pass filter.",
+      "B": "low-pass filter.",
+      "C": "band-pass filter.",
+      "D": "high-stop filter."
+    },
+    "correct": "C",
+    "explanation": "The drawing shows middle frequencies getting through the filter but the lower and higher ones are not. It's a band pass filter.",
+    "image": "App_Int_MOCK1_Q17.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 18,
+    "id": "INT-MOCK1-18",
+    "question": "What is the purpose of resistors R1 and R2 in the circuit diagram?",
+    "options": {
+      "A": "Conduct the input signal to the base of the transistor.",
+      "B": "Provide the correct biasing for the transistor.",
+      "C": "Prevent any DC voltage on the input from affecting the transistor.",
+      "D": "Set the gain of the transistor to the desired value."
+    },
+    "correct": "B",
+    "explanation": "Resistors R1 and R2 set the DC voltage at the base of the transistor to provide correct biasing.",
+    "image": "App_Int_MOCK1_Q18.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 19,
+    "id": "INT-MOCK1-19",
+    "question": "The drawing shows several circuits intended to produce a 12V DC supply, which circuit will work as intended?",
+    "options": {
+      "A": "Circuit 1.",
+      "B": "Circuit 2.",
+      "C": "Circuit 3.",
+      "D": "Circuit 4."
+    },
+    "correct": "C",
+    "explanation": "The easiest way to remember this is that all four diodes point to the positive DC output. The negative DC connection is the blunt end of the triangle on both diodes and the AC connections have one sharp end and one blunt end. There is a balanced modulator circuit using four diodes (Fig 7.13 in the Full Licence Manual). It is not the same circuit.",
+    "image": "App_Int_MOCK1_Q19.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 20,
+    "id": "INT-MOCK1-20",
+    "question": "Which option below correctly shows features of a linear power supply compared to a switched mode supply of the same output?",
+    "options": {
+      "A": "Heavy, large heatsinks.",
+      "B": "Heavy, efficient.",
+      "C": "Light, efficient.",
+      "D": "Light, produces most heat."
+    },
+    "correct": "A",
+    "explanation": "Linear power supplies use a normal 50Hz mains transformer which is bulky and heavy, and a series pass transistor(s) on a big heatsink. It is not power efficient but good for keeping the shack warm in the winter.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 21,
+    "id": "INT-MOCK1-21",
+    "question": "Which methods of modulation (modes) are such that, for the same input, one always has twice the bandwidth of the other?",
+    "options": {
+      "A": "AM and FM.",
+      "B": "FM and CW.",
+      "C": "CW and SSB.",
+      "D": "SSB and AM."
+    },
+    "correct": "D",
+    "explanation": "AM with two sidebands is always twice as wide as SSB with only one.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 22,
+    "id": "INT-MOCK1-22",
+    "question": "The output from a balanced modulator is",
+    "options": {
+      "A": "a carrier with upper and lower sidebands.",
+      "B": "only one sideband, upper or lower.",
+      "C": "an audio signal with suppressed carrier.",
+      "D": "two sidebands but with no carrier."
+    },
+    "correct": "D",
+    "explanation": "A balanced modulator balances out the carrier leaving the two sidebands. One of them is subsequently removed by a filter for SSB.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 23,
+    "id": "INT-MOCK1-23",
+    "question": "Chirp is an effect often associated with",
+    "options": {
+      "A": "RF feedback into the modulator stage.",
+      "B": "poor voltage regulation of the oscillator.",
+      "C": "inadequate screening of the VFO.",
+      "D": "keying the output stage of the transmitter."
+    },
+    "correct": "B",
+    "explanation": "Chirp is the name given to the sound of CW where the pitch of the received note varies during the Morse dit or dah. It is caused by small frequency variations in the oscillator at the transmitter, typically due to poor voltage regulation as the power amplifier draws current when transmitting on key down.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 24,
+    "id": "INT-MOCK1-24",
+    "question": "If the RF amplifier at the receiver input has a high level of electrical noise then it will affect the receiver's",
+    "options": {
+      "A": "selectivity.",
+      "B": "bandwidth.",
+      "C": "sensitivity.",
+      "D": "demodulation."
+    },
+    "correct": "C",
+    "explanation": "Sufficient gain is relatively easy to achieve, the difficulty is getting rid of the noise which masks weak signals.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 25,
+    "id": "INT-MOCK1-25",
+    "question": "The reason the superhet architecture was developed from the simple TRF (tuned radio frequency) receiver was to",
+    "options": {
+      "A": "overcome the difficulty in producing narrow RF filters at higher radio frequencies.",
+      "B": "avoid the risk of overloading and distortion caused by very strong signals.",
+      "C": "simplify the requirements of the audio amplifier circuits in reducing distortion.",
+      "D": "limit the tuning range of the receiver to that required for the type of use intended."
+    },
+    "correct": "A",
+    "explanation": "Filter bandwidths relate to the percentage or proportion of the centre frequency. An average filter has a bandwidth of about 1% and a good one possibly down to 0.5% but in the VHF, UHF and higher band that is insufficient. Better to mix down to a fixed frequency where filtering is much better achieved.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 26,
+    "id": "INT-MOCK1-26",
+    "question": "The AGC signal produced by the detector (demodulator) is used to",
+    "options": {
+      "A": "feed an audio signal to the audio amplifier.",
+      "B": "vary the frequency of the local oscillator to ensure exact tuning.",
+      "C": "ensure the mixer is operating on the correct sideband.",
+      "D": "set the gain of the IF and sometimes the RF amplifier."
+    },
+    "correct": "D",
+    "explanation": "The automatic gain control (AGC) uses a control voltage developed at the IF output or in the demodulator which indicates the relative strength of the signal from the IF. That is used to vary the IF gain, and sometimes RF gain prior to mixing down to IF, to keep the IF output signal constant in level.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 27,
+    "id": "INT-MOCK1-27",
+    "question": "The drawing shows two different ways of representing a signal containing more than one frequency. Which choice below correctly labels the axes of the two graphs?",
+    "options": {
+      "A": "1 Time 2 Frequency 3 Amplitude 4 Frequency.",
+      "B": "1 Amplitude 2 Time 3 Amplitude 4 Frequency.",
+      "C": "1 Time 2 Frequency 3 Amplitude 4 Time.",
+      "D": "1 Amplitude 2 Time 3 Frequency 4 Time."
+    },
+    "correct": "B",
+    "explanation": "The left hand graph shows signal amplitude with time and the right one signal amplitude against frequency.",
+    "image": "App_Int_MOCK1_Q27.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 28,
+    "id": "INT-MOCK1-28",
+    "question": "The characteristic impedance of a coaxial feeder is determined by the",
+    "options": {
+      "A": "standing wave ratio present on the feeder.",
+      "B": "value of the impedance connected to the far end of the feeder.",
+      "C": "diameter and spacing of the feeder conductors.",
+      "D": "length of the feeder in terms of the wavelength of the signal."
+    },
+    "correct": "C",
+    "explanation": "The construction, the relative diameters and spacing of a feeder determines its characteristic impedance.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 29,
+    "id": "INT-MOCK1-29",
+    "question": "What is the Front-to-Back ratio of the antenna having the polar diagram shown?",
+    "options": {
+      "A": "OdB.",
+      "B": "3dB.",
+      "C": "15dB.",
+      "D": "18dB."
+    },
+    "correct": "C",
+    "explanation": "Inspection of the drawing shows the rear lobe to lie close to the -15dB circle so the front to back ratio is 15dB.",
+    "image": "App_Int_MOCK1_Q29.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 30,
+    "id": "INT-MOCK1-30",
+    "question": "An HF dipole antenna is fitted with a trap in each half. The traps are about 5m from the centre of the dipole and overall length of the entire dipole is about 40m. At what frequency should the traps resonate?",
+    "options": {
+      "A": "3.6MHz.",
+      "B": "7.1MHz.",
+      "C": "14.2MHz.",
+      "D": "29.0MHz."
+    },
+    "correct": "C",
+    "explanation": "The traps are parallel resonant circuits to cut off the outer part of the antenna at the frequency at which the inner part is a half wavelength. At 5m from the centre a half wave is twice that at 10m giving a wavelength of about 20m. Using f=300/λ gives a frequency of about 15MHz so recognising the measurements were said to be approximate, that is the 14MHz band, 14.2MHz in this case. Note, it is normal to expect an antenna to be around 5% shorter than the free space length which would make the intended wavelength 21m and 300/21 gives 14.28MHz.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 31,
+    "id": "INT-MOCK1-31",
+    "question": "If an antenna is used on a frequency other than that for which it was designed then",
+    "options": {
+      "A": "the signal coming up the feeder will be lost as heat instead of being radiated.",
+      "B": "the impedance seen by the transmitter will not be the characteristic impedance of the feeder.",
+      "C": "the standing waves will prevent the signal from reaching the antenna.",
+      "D": "the transmitted signal is likely to drift in frequency, risking damage to the transmitter."
+    },
+    "correct": "B",
+    "explanation": "An antenna used on the wrong frequency won't present the correct impedance to the feeder. This will cause standing waves on the feeder which won't then present the correct impedance to the transmitter. The actual impedance will depend on exactly where in the standing wave pattern the end of the feeder is located.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 32,
+    "id": "INT-MOCK1-32",
+    "question": "What is the mechanism that limits the range of a ground wave signal?",
+    "options": {
+      "A": "The energy in the signal is absorbed into the ground.",
+      "B": "The range is limited to the distance to the horizon.",
+      "C": "The water vapour in low lying air absorbs the energy.",
+      "D": "The water vapour in low lying air refracts the signal upwards."
+    },
+    "correct": "A",
+    "explanation": "Ground losses are the main reason ground wave signals are attenuated.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 33,
+    "id": "INT-MOCK1-33",
+    "question": "It is noticed that some years have better HF radio propagation than others and that this year seems to be a peak and propagation is beginning to decline. How long is it likely to be before there is another peak?",
+    "options": {
+      "A": "Next year.",
+      "B": "Six years' time.",
+      "C": "Eleven years' time.",
+      "D": "In about fifteen years."
+    },
+    "correct": "C",
+    "explanation": "The sunspot cycle affects the degree of ionisation of the ionosphere which affects HF skywave propagation. It is an 11 year cycle.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 34,
+    "id": "INT-MOCK1-34",
+    "question": "Which layer of the ionosphere determines the LUF?",
+    "options": {
+      "A": "The D layer.",
+      "B": "The E layer.",
+      "C": "The F1 layer.",
+      "D": "The F2 layer."
+    },
+    "correct": "A",
+    "explanation": "The LUF, lowest usable frequency, is set by absorption in the D-layer.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 35,
+    "id": "INT-MOCK1-35",
+    "question": "The fact that a new piece of electronic equipment is CE marked as complying with the European EMC immunity requirements means that",
+    "options": {
+      "A": "it has been made to a reasonable standard of immunity, but may still suffer from strong amateur transmissions.",
+      "B": "it will not be affected by any amateur transmission that comply with the requirements of the amateur licence.",
+      "C": "if interference does occur then the owner is entitled to have it replaced under the guarantee.",
+      "D": "it must be installed by a properly trained person to maintain its guarantee."
+    },
+    "correct": "A",
+    "explanation": "The EMC directive requires reasonable immunity, but radio transmitters can set up signal strengths greater than the directive levels, which may then cause interference.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 36,
+    "id": "INT-MOCK1-36",
+    "question": "It is found that a VHF SSB transmitter can be heard on a clock radio. Tests reveal that the tuning of the radio or of the transmitter has little or no effect on the pickup. This suggests that the cause of the problem might be",
+    "options": {
+      "A": "RF signals picked up by the clock radio antenna.",
+      "B": "direct pickup inside the clock radio.",
+      "C": "inadequate filtering of the transmitter output.",
+      "D": "harmonics generated in the transmitter."
+    },
+    "correct": "B",
+    "explanation": "SSB is a mode most likely to cause interference and since it is independent of frequency the most probable route of entry is direct pickup in the affected device. Clock radios usually have an integral aerial, often inside a plastic case which is tuned to the broadcast band, not the VHF amateur band.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 37,
+    "id": "INT-MOCK1-37",
+    "question": "An investigation discovers that the mains wiring in an amateur's house is also carrying sufficient RF signal to cause interference to other equipment. A sensible next step is to",
+    "options": {
+      "A": "fit filters in the mains leads of the affected equipment.",
+      "B": "fit a filter in the mains lead to the transmitter.",
+      "C": "connect the casing of the transmitter to the mains earth lead.",
+      "D": "fit an ATU in the mains supply to the transmitter."
+    },
+    "correct": "B",
+    "explanation": "The next step is to fit a filter to minimise signals being conducted into the mains wiring. There may be a subsequent need to provide an RF earth or move the transmitting antenna further away from the house, but that was not what was asked in the question.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 38,
+    "id": "INT-MOCK1-38",
+    "question": "A good RF earth in a normal semi-detached domestic house is",
+    "options": {
+      "A": "a substantial lead to the main earth point where the mains enters the house.",
+      "B": "a connection to the mains earth lead where it enters the radio or the 12V power supply.",
+      "C": "a copper cold water or central heating pipe close to the radio.",
+      "D": "a copper/copper coated steel rod driven into the ground close to the radio location."
+    },
+    "correct": "D",
+    "explanation": "The idea of an RF earth is to avoid the mains earth to keep RF away from it. The RF earth is a separate short wire or braid to copper rods in the ground as close as practicable. Cross-bonding may be needed for safety reasons but if so the cross-bonding can be filtered to avoid RF leaking out through the bonding.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 39,
+    "id": "INT-MOCK1-39",
+    "question": "The amateur band plans state that",
+    "options": {
+      "A": "FM should not be used on 10m.",
+      "B": "SSB should not be used on 30m.",
+      "C": "the 10MHz band may use upper or lower sideband operation.",
+      "D": "the spot frequency 1.860MHz is exclusively used for direction finding beacons."
+    },
+    "correct": "B",
+    "explanation": "This is a remember it question. The 10MHz band (30m) is very narrow and SSB transmissions would unfairly hog a large slice of the band.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 40,
+    "id": "INT-MOCK1-40",
+    "question": "An amateur you are in contact with notes that she is experiencing a lot of QSB. What is she referring to?",
+    "options": {
+      "A": "That your, and other, signals are suffering from fading.",
+      "B": "That there is a lot of background noise affecting communication.",
+      "C": "That many stations appear to have poor frequency stability.",
+      "D": "That there is a high level of anti-social interruptions to contacts."
+    },
+    "correct": "A",
+    "explanation": "QSB is the Q-code for fading. HF skywave signals fading out or varying in strength as time passes. Fast fading is timed in seconds; slow fading often in minutes.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 41,
+    "id": "INT-MOCK1-41",
+    "question": "The manual for a piece of equipment states that the internal fuse is rated at 6.3A slow blow'. Why might it be appropriate to use that type of fuse?",
+    "options": {
+      "A": "Fuses do wear out eventually, slow blow ones last longer.",
+      "B": "Some devices take a surge of current but still need good overload protection.",
+      "C": "It is helpful for the user to recognise the nature of the fault before cutting the power.",
+      "D": "It allows the power to ramp up slowly and minimise the effect of surges."
+    },
+    "correct": "B",
+    "explanation": "Things like large mains transformers and power supply capacitors can take a momentary surge of current at switch-on. Fitting a higher rating fuse to withstand the surge reduces the level of protection. Better to fit a slow-blow fuse on the correct (lower) value that can tolerate a surge.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 42,
+    "id": "INT-MOCK1-42",
+    "question": "When drilling, it is helpful if the position to drill is marked by a",
+    "options": {
+      "A": "felt tip pen.",
+      "B": "scriber.",
+      "C": "centre punch.",
+      "D": "ruler."
+    },
+    "correct": "C",
+    "explanation": "A centre punch will make an indent to reduce the chance of the drill bit wandering.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 43,
+    "id": "INT-MOCK1-43",
+    "question": "When considering the electromagnetic field (EMF) from your antenna when operating mobile, you should consider that",
+    "options": {
+      "A": "pedestrians might be inside the compliance distance.",
+      "B": "the transmitted signal will be fluctuating in strength.",
+      "C": "your received signal will be fluctuating in strength.",
+      "D": "doppler shift may cause some frequency instability."
+    },
+    "correct": "A",
+    "explanation": "Answers B, C & D are wrong At 25W to a typical roof mount antenna at the compliance distance is 2m or just over. Easy for pedestrians to be quite a bit closer. The calculation assumed FM for all six minutes of the time averaging period. At 1 metre distance that drops to about 3 minutes. Entirely credible at traffic lights and pedestrians stopped for a chat.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 44,
+    "id": "INT-MOCK1-44",
+    "question": "The diagram shows a power supply, a transceiver and three meters. To determine the power supplied to the transceiver the meters should be",
+    "options": {
+      "A": "1 Amps 2 Volts 3 Power.",
+      "B": "1 Volts 2 Amps 3 Power.",
+      "C": "1 Volts 2 Power 3 Amps.",
+      "D": "1 Power 2 Volts 3 Amps."
+    },
+    "correct": "A",
+    "explanation": "The DC input power is found from P=VxI. Meter 1 is an ammeter, meter 2 is a voltmeter. Meter 3 is not needed to answer the question but if fitted is probably an RF power meter; but, on HF, it could be an RF ammeter.",
+    "image": "App_Int_MOCK1_Q44.png"
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 45,
+    "id": "INT-MOCK1-45",
+    "question": "An antenna is tested on a range and is found to give a signal in its best direction 25 times stronger than the calculated value from an isotropic antenna. It should be specified as a gain of",
+    "options": {
+      "A": "25dB.",
+      "B": "25dBi.",
+      "C": "14dBi.",
+      "D": "14dB."
+    },
+    "correct": "C",
+    "explanation": "The first task is to convert the linear gain of 25 to dB. Two options 10Log25 which can be done on a suitable calculator 10x1.4=14; or using the values for 10x = 10dB and 2x = 3dB or 2+ = -3dB. In this case the method is 10x 10x 2+ 2+ to get 25 which in dB is 10+10-3-3 = 14. Since the gain is with reference to an isotropic antenna the unit is dBi.",
+    "image": null
+  },
+  {
+    "level": "intermediate",
+    "source": "appendix",
+    "mock": "intermediate_mock1",
+    "number": 46,
+    "id": "INT-MOCK1-46",
+    "question": "A resistor has four coloured bands, yellow, purple, gold, gold. Its resistance and tolerance is",
+    "options": {
+      "A": "4.7Ω 5%.",
+      "B": "47Ω 5%.",
+      "C": "4.7Ω 10%.",
+      "D": "47Ω 10%."
+    },
+    "correct": "A",
+    "explanation": "Yellow purple is 47. The first gold is divide by 10 giving 4.7Ω. The second gold is 5% tolerance.",
+    "image": null
+  }
+]

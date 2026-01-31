@@ -1,0 +1,830 @@
+[
+  {
+    "id": "INT-MOCK4-1",
+    "number": 1,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "You are a passenger onboard a UK registered cargo vessel at sea. With the Captain's permission,",
+    "options": {
+      "A": "you are licenced to transmit only on the 2m/70cm bands.",
+      "B": "you are permitted to transmit on all UK Amateur bands.",
+      "C": "your Licence does not permit you to transmit on Amateur Bands.",
+      "D": "your Licence does not permit you to transmit any data modes."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-2",
+    "number": 2,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "Who, in the course of their employment, may ask you to send a message?",
+    "options": {
+      "A": "The Captain of a tour boat.",
+      "B": "A member of a User Service.",
+      "C": "The Leader of a mountain climbing group.",
+      "D": "A National Express coach driver."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-3",
+    "number": 3,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "You are a passenger on a river cruise chatting on 2 metres when the master of the vessel asks you to stop transmitting. Your licence",
+    "options": {
+      "A": "makes no requirement for you to need permission.",
+      "B": "says that you need permission only when on a vessel at sea.",
+      "C": "does not permit operating at all when on a vessel.",
+      "D": "states that you must comply with that request."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-4",
+    "number": 4,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "If the transmiSer of a remote control radio link happens to fail, the remote station should",
+    "options": {
+      "A": "not make any unintended transmissions.",
+      "B": "reduce power to below 10W.",
+      "C": "transmit its callsign at 15 minute intervals.",
+      "D": "reduce power to no more than 500mW."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-5",
+    "number": 5,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The UK Intermediate amateur licence only permits operation in",
+    "options": {
+      "A": "the United Kingdom of Great Britain, the Channel Islands and the Isle of Man.",
+      "B": "those countries that have agreed to the CEPT common European amateur radio licence.",
+      "C": "the UK and Commonwealth countries which recognise the monarch as their sovereign.",
+      "D": "those countries which are covered by the Radio Regulations of the"
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-6",
+    "number": 6,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "Amateur radio Intermediate licence holders may operate in the band 51-52MHz at an RF output power not exceeding",
+    "options": {
+      "A": "0dBW.",
+      "B": "50dBW.",
+      "C": "20dBW.",
+      "D": "15dBW."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-7",
+    "number": 7,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "Which, of the attributes listed, best apply to a switch mode power supply when compared to a linear supply with the same output voltage and current? 1. Efficient. 2. Heavy. 3. Needs filters. 4. Operates internally at 50Hz. 5. Has a large heatsink. 6. Light weight. 7. Possible RF interference. 8. Relatively small.",
+    "options": {
+      "A": "1, 3, 6.",
+      "B": "2, 3, 8.",
+      "C": "4, 5, 7.",
+      "D": "3, 4, 6."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-8",
+    "number": 8,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "What is the capacitance between points A and B in the circuit shown?",
+    "options": {
+      "A": "1.6µF.",
+      "B": "2.5µF.",
+      "C": "4µF.",
+      "D": "10µF."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": "App_Int_MOCK4_Q8.png"
+  },
+  {
+    "id": "INT-MOCK4-9",
+    "number": 9,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A transmitter set to a wavelength of 10m is feeding a long wire antenna several wavelengths long. At a particular position on the wire close to the transmitter the instantaneous voltage is at its positive peak. How much further from the transmitter, at exactly the same time, will there be a negative peak voltage?",
+    "options": {
+      "A": "2.5m.",
+      "B": "5m.",
+      "C": "10m.",
+      "D": "20m."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-10",
+    "number": 10,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A friend proposes to replace the 12V NiMH batteries in his radio with ones using a Lithium technology. He searches for a battery with the same number of cells. What advice should you offer him?",
+    "options": {
+      "A": "The battery voltage will be the same but should have a greater capacity.",
+      "B": "The cell voltage will be different and needs to be checked first.",
+      "C": "With a bit of luck you will be able to use the same battery charger.",
+      "D": "The new batteries may not fit the original battery holder."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-11",
+    "number": 11,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A transformer consists of",
+    "options": {
+      "A": "two coils of wire wound round an iron former.",
+      "B": "a single coil of wire wound round an iron former.",
+      "C": "two conducting parallel plates separated by an insulating material.",
+      "D": "a resistor specially screened to prevent unwanted radiation."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-12",
+    "number": 12,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "In the circuit shown R1 is 6kΩ and R2 is 12kΩ. The battery is supplying 3 mA, how much of that current flows through R1?",
+    "options": {
+      "A": "1 mA.",
+      "B": "2 mA.",
+      "C": "1.5 mA.",
+      "D": "0.5 mA."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": "App_Int_MOCK4_Q12.png"
+  },
+  {
+    "id": "INT-MOCK4-13",
+    "number": 13,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The minimum sampling rate of an analogue signal to fully capture the signal is known as the",
+    "options": {
+      "A": "Fourier rate.",
+      "B": "Nyquist rate.",
+      "C": "Digital rate.",
+      "D": "Frequency rate."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-14",
+    "number": 14,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The high impedance voltmeter will indicate about",
+    "options": {
+      "A": "30V.",
+      "B": "60V.",
+      "C": "27V.",
+      "D": "33V."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": "App_Int_MOCK4_Q14.png"
+  },
+  {
+    "id": "INT-MOCK4-15",
+    "number": 15,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The Beta of a transistor is the ratio of",
+    "options": {
+      "A": "the base current to the emitter current.",
+      "B": "the base voltage to the emitter voltage.",
+      "C": "the collector current to the base current.",
+      "D": "the collector voltage to the base voltage."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-16",
+    "number": 16,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "If you measure the output of an oscillator you have just built and the peak of the sinewave is 2.0V, the RMS value would be approximately",
+    "options": {
+      "A": "0.7V.",
+      "B": "1.4V.",
+      "C": "4.0V.",
+      "D": "2.8V."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-17",
+    "number": 17,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "An electric circuit consists of an inductor and resistor in series connected to an AC power supply. The supply is switched on.",
+    "options": {
+      "A": "The inductor cools and the magnetic field surrounding the resistor results in heating.",
+      "B": "The inductor transfers energy to its electric field, and the resistor transfers energy as heat.",
+      "C": "The inductor stores and releases energy in its magnetic field and the resistor becomes warm.",
+      "D": "The storage and release of energy in a resistor gives rise to 'impedance'."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-18",
+    "number": 18,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "Three identical inductors are connected in parallel and the effective inductance is 30mH. What will the inductance be if they are connected in series?",
+    "options": {
+      "A": "270mH.",
+      "B": "90mH.",
+      "C": "10mH.",
+      "D": "30mH."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-19",
+    "number": 19,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The curve shows the frequency response from a circuit consisting of a",
+    "options": {
+      "A": "coil and capacitor in series.",
+      "B": "coil and resistor in series.",
+      "C": "coil and capacitor in parallel.",
+      "D": "coil and resistor in parallel."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": "App_Int_MOCK4_Q19.png"
+  },
+  {
+    "id": "INT-MOCK4-20",
+    "number": 20,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The purpose of biasing a transistor is to",
+    "options": {
+      "A": "enable it to store energy on the positive parts of the cycle.",
+      "B": "enable it to oscillate at its resonant frequency.",
+      "C": "minimise the value of ß of the transistor.",
+      "D": "set the DC voltages and currents around the transistor."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-21",
+    "number": 21,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A purpose of AGC is to",
+    "options": {
+      "A": "enable the receiver to compensate for signals of varying strength.",
+      "B": "enable the receiver to maintain a constant S meter reading.",
+      "C": "ensure that the RF stage of the receiver is not damaged by excessive input.",
+      "D": "ensure that the AF stage of the receiver is not damaged by excessive output."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-22",
+    "number": 22,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A variable capacitance diode may be used in a",
+    "options": {
+      "A": "amplitude modulator.",
+      "B": "sideband filter.",
+      "C": "frequency modulator.",
+      "D": "SSB modulator."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-23",
+    "number": 23,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The IF amplifier",
+    "options": {
+      "A": "can be tuned over a wide range of frequencies.",
+      "B": "is tuned to a fixed frequency.",
+      "C": "is tuned to the local oscillator frequency.",
+      "D": "tracks the RF input frequency."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-24",
+    "number": 24,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The drawing is that of a software defined receiver. What is the function of the blank box?",
+    "options": {
+      "A": "Analogue to Digital Converter.",
+      "B": "Digital to Analogue Converter.",
+      "C": "Mixer.",
+      "D": "Amplifier."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": "App_Int_MOCK4_Q24.png"
+  },
+  {
+    "id": "INT-MOCK4-25",
+    "number": 25,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The block diagram shows a",
+    "options": {
+      "A": "FM transmitter.",
+      "B": "CW transmitter.",
+      "C": "AM transmitter.",
+      "D": "SSB transmitter."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": "App_Int_MOCK4_Q25.png"
+  },
+  {
+    "id": "INT-MOCK4-26",
+    "number": 26,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "An RF power amplifier is producing a 5th harmonic as well as the wanted signal of 14.2MHz. The harmonic will have a frequency of",
+    "options": {
+      "A": "28.4MHz.",
+      "B": "7.10MHz.",
+      "C": "70.0MHz.",
+      "D": "71.0MHz."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-27",
+    "number": 27,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "In a radio receiver, which stage extracts the audio signal from the radio frequency signal?",
+    "options": {
+      "A": "Radio frequency amplifier.",
+      "B": "Audio frequency amplifier.",
+      "C": "Carrier Insertion Oscillator.",
+      "D": "Demodulator (detector)."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-28",
+    "number": 28,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "Increasing the height above ground of a horizontal HF dipole will normally have the effect of increasing the",
+    "options": {
+      "A": "angle of radiation.",
+      "B": "signal strength received at distances of the order of 100-200km.",
+      "C": "radiation in vertical direction.",
+      "D": "signal strength received at distances of the order of 3000km."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-29",
+    "number": 29,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "Connecting and correctly adjusting an antenna matching unit sited at the antenna end of the feeder",
+    "options": {
+      "A": "has no effect on the SWR on the feeder.",
+      "B": "changes the characteristic impedance of the feeder.",
+      "C": "reduces the SWR on the feeder.",
+      "D": "may increase the SWR on the feeder."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-30",
+    "number": 30,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A 'trap' in a trap dipole antenna consists of",
+    "options": {
+      "A": "a parallel tuned circuit.",
+      "B": "a high pass filter.",
+      "C": "a voltage divider.",
+      "D": "an impedance transformer."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-31",
+    "number": 31,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "One advantage of using twin feeder over coaxial feeder is that it",
+    "options": {
+      "A": "has a lower loss than coaxial feeder.",
+      "B": "has an earth lead for safety.",
+      "C": "has a higher loss than coaxial feeder.",
+      "D": "is screened to prevent radiation."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-32",
+    "number": 32,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "What happens to the F1 and F2 layers at night?",
+    "options": {
+      "A": "They move nearer the magnetic poles.",
+      "B": "They decrease in height.",
+      "C": "They combine into a single layer.",
+      "D": "They disappear."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-33",
+    "number": 33,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The greatest range of a radio wave by means of a single hop via the E layer is approximately",
+    "options": {
+      "A": "2,000km.",
+      "B": "5,000km.",
+      "C": "15,000km.",
+      "D": "10,000km."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-34",
+    "number": 34,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The distance typically achieved using ground wave propagation",
+    "options": {
+      "A": "increases as the frequency increases.",
+      "B": "varies considerably with the time of day.",
+      "C": "decreases as the frequency increases.",
+      "D": "varies considerably with the time of year."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-35",
+    "number": 35,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A neighbour has an old television set that is suffering interference when you are transmitting on HF bands. Checks on the transmitter and filtering have not resulted in a cure and it is now suspected that the television may be unduly susceptible. The next course of action would be to",
+    "options": {
+      "A": "regret the situation but explain that you are licensed to transmit.",
+      "B": "buy a new television for the neighbour.",
+      "C": "assist the neighbour by asking for help from Ofcom or the RSGB.",
+      "D": "advise the neighbour that you have done your best."
+    },
+    "correct": "C",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-36",
+    "number": 36,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "An amateur FM transmission is suspected of interfering with the neighbour's television receiver. The picture is likely to",
+    "options": {
+      "A": "show small squares of corrupted picture or freeze momentarily.",
+      "B": "show areas of wrong colours during the transmission.",
+      "C": "show wavy lines of distorted picture across the screen.",
+      "D": "have a number of white or black spots spread all over the picture."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-37",
+    "number": 37,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "An amateur VHF FM transmission is interfering with a domestic DAB (digital audio broadcast) radio. The effect that might be noticed is",
+    "options": {
+      "A": "an echo on the broadcast sound.",
+      "B": "a continuous whistle as well as the audio.",
+      "C": "pickup of other broadcasts at the same time.",
+      "D": "a complete loss of sound."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-38",
+    "number": 38,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "One way of minimising RF power getting into the mains supply is to fit",
+    "options": {
+      "A": "a band pass filter to the transmitter output.",
+      "B": "a low pass filter at the transmitter output.",
+      "C": "a coaxial braid-breaker between the transmitter and the antenna.",
+      "D": "ferrite rings to the mains cable of the transmitter."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-39",
+    "number": 39,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "You are planning to operate in the 14MHz band using single side band. To comply with the band plan for the band which of the following could you use?",
+    "options": {
+      "A": "Lower Side band on 14.250MHz.",
+      "B": "Upper Side band on 14.100MHz",
+      "C": "Lower Side band on 14.100MHz.",
+      "D": "Upper Side band on 14.250 MHz."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-40",
+    "number": 40,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "If the signals from an amateur satellite show that the available power is concentrated in just one of the down-link channels, then the most likely cause is",
+    "options": {
+      "A": "excessive power of one of the up-link transmissions.",
+      "B": "a fault in the satellite control systems.",
+      "C": "an off-frequency up-link signal.",
+      "D": "poor illumination of solar panels."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-41",
+    "number": 41,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "Which one of the following components can give an electric shock long after the supply voltage has been removed?",
+    "options": {
+      "A": "Light emitting diode.",
+      "B": "Capacitor.",
+      "C": "Transformer.",
+      "D": "Bridge rectifier."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-42",
+    "number": 42,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "An amateur is transmitting 50W FM to a simple ground plane vertical antenna on the roof of the car. If stuck in traffic with loitering pedestrians likely to remain around for some time, then the amateur must",
+    "options": {
+      "A": "check that nobody touches the antenna.",
+      "B": "disconnect the antenna.",
+      "C": "keep overs to no more than 6 minutes.",
+      "D": "cease transmitting."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-43",
+    "number": 43,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "The best advice to prevent cuts to yourself when using knives is",
+    "options": {
+      "A": "clean them after use.",
+      "B": "keep your hands away from the 'sharp end'.",
+      "C": "keep them sharp.",
+      "D": "store them in a toolbox."
+    },
+    "correct": "B",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-44",
+    "number": 44,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A resistor with the colour code, brown, black, red, silver has a value of",
+    "options": {
+      "A": "500 ohms 5% tolerance.",
+      "B": "1.5k ohms 10% tolerance.",
+      "C": "1000 ohms 5% tolerance.",
+      "D": "1k ohms 10% tolerance."
+    },
+    "correct": "D",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-45",
+    "number": 45,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A pre-amplifier overloads at an output power of just over 100mW and has a gain of 13dB. What is the maximum input power to avoid overloading?",
+    "options": {
+      "A": "5mW.",
+      "B": "7.7mW.",
+      "C": "13mW.",
+      "D": "87mW."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  },
+  {
+    "id": "INT-MOCK4-46",
+    "number": 46,
+    "level": "intermediate",
+    "chapter": null,
+    "source": "appendix",
+    "mock": "intermediate_mock4",
+    "question": "A varying voltage is most easily seen on a",
+    "options": {
+      "A": "analogue meter.",
+      "B": "digital meter.",
+      "C": "dummy load.",
+      "D": "heterodyne wavemeter."
+    },
+    "correct": "A",
+    "explanation": "",
+    "image": null
+  }
+]
