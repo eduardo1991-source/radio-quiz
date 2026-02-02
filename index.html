@@ -5,36 +5,40 @@
 <title>Radio Exam Quiz</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1e88e5">
+
 <style>
 :root {
   --bg: #f4f6f8;
   --card: #ffffff;
-  --text: #111;
-  --muted: #666;
-  --ok: #2e7d32;
-  --bad: #c62828;
-  --accent: #1e88e5;
+  --text: #000000;
+  --muted: #555555;
+  --border: #cccccc;
+  --hover: #eef;
+  --correct: #c8f7c5;
+  --incorrect: #f7c5c5;
+  --explanation: #f0f0f0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #121212;
-    --card: #1e1e1e;
-    --text: #f5f5f5;
-    --muted: #aaa;
-  }
-}
-
-* {
-  box-sizing: border-box;
+body.dark {
+  --bg: #121212;
+  --card: #1e1e1e;
+  --text: #ffffff;
+  --muted: #aaaaaa;
+  --border: #444444;
+  --hover: #2a2a2a;
+  --correct: #2e7d32;
+  --incorrect: #8e2a2a;
+  --explanation: #2b2b2b;
 }
 
 body {
-  margin: 0;
-  padding: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
+  margin: 0;
+  padding: 16px;
 }
 
 .container {
@@ -42,26 +46,7 @@ body {
   margin: auto;
   background: var(--card);
   padding: 16px;
-  border-radius: 12px;
-}
-
-/* ---------- MENU ---------- */
-
-.menu button {
-  width: 100%;
-  padding: 14px;
-  margin-bottom: 10px;
-  font-size: 16px;
-  border: none;
-  border-radius: 10px;
-  background: var(--accent);
-  color: #fff;
-}
-
-/* ---------- QUIZ ---------- */
-
-.hidden {
-  display: none;
+  border-radius: 8px;
 }
 
 #progress {
@@ -75,213 +60,428 @@ body {
   margin-bottom: 10px;
 }
 
-h2 {
-  font-size: 18px;
+button {
+  margin-top: 8px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+button:hover {
+  background: var(--hover);
 }
 
 .option {
-  padding: 12px;
+  padding: 10px;
   margin: 8px 0;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
   cursor: pointer;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
 }
 
-.option.correct {
-  background: var(--ok);
-  color: #fff;
+.option:hover {
+  background: var(--hover);
 }
 
-.option.incorrect {
-  background: var(--bad);
-  color: #fff;
+.correct {
+  background: var(--correct);
+}
+
+.incorrect {
+  background: var(--incorrect);
 }
 
 #explanation {
   margin-top: 12px;
   padding: 10px;
-  background: rgba(0,0,0,0.05);
-  border-radius: 8px;
-  font-size: 14px;
+  background: var(--explanation);
+  border-radius: 6px;
 }
 
-button.secondary {
-  background: transparent;
-  border: 1px solid var(--accent);
-  color: var(--accent);
-  margin-top: 10px;
-  padding: 12px;
-  border-radius: 10px;
+#search {
   width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
 }
 </style>
 </head>
 
 <body>
-
 <div class="container">
 
-<!-- ===== MENU ===== -->
-<div id="menu" class="menu">
-  <button onclick="startMode('study')">Study</button>
-  <button onclick="startMode('browse')">Browse</button>
-  <button onclick="startMode('wrong')">Wrong only</button>
-  <button onclick="showTestMenu()">Test</button>
+<!-- ================= MENU ================= -->
+<div id="screen-menu">
+  <h2>Main Menu</h2>
+  <button onclick="enterStudy()">Study</button>
+  <button onclick="enterBrowse()">Browse</button>
+  <button onclick="enterWrong()">Wrong only</button>
+  <button onclick="showScreen('test-menu')">Test</button>
+  <button onclick="toggleDarkMode()">🌙 Dark mode</button>
 </div>
 
-<!-- ===== TEST MENU ===== -->
-<div id="testMenu" class="menu hidden">
+<!-- ================= TEST MENU ================= -->
+<div id="screen-test-menu" style="display:none;">
+  <h2>Test Mode</h2>
   <button onclick="startTest('foundation')">Foundation</button>
   <button onclick="startTest('intermediate')">Intermediate</button>
   <button onclick="startTest('full')">Full</button>
   <button onclick="startTest('mixed')">Mixed</button>
-  <button class="secondary" onclick="backToMenu()">Back</button>
+  <button onclick="showTestHistory()">History</button>
+  <button onclick="showScreen('menu')">← Back</button>
 </div>
 
-<!-- ===== QUIZ ===== -->
-<div id="quiz" class="hidden">
+<!-- ================= PLAYER ================= -->
+<div id="screen-player" style="display:none;">
   <div id="progress"></div>
   <div id="timer"></div>
+
+  <input id="search" placeholder="Search…" oninput="searchQuestions()" style="display:none;">
 
   <h2 id="question"></h2>
   <img id="questionImage" style="max-width:100%; display:none; margin-bottom:10px;">
 
   <div id="options"></div>
-
   <div id="explanation" style="display:none;"></div>
 
-  <button class="secondary" onclick="nextQuestion()">Next</button>
-  <button class="secondary" onclick="backToMenu()">Back to menu</button>
+  <button onclick="nextQuestion()">Next</button>
+  <button onclick="backToMenu()">← Back</button>
 </div>
 
 </div>
 
 <script>
-/* ===== CONFIG ===== */
+/* ================= CONFIG ================= */
+
 const QUESTION_FILES = [
-  "files/chapter1_foundation.json",
-  "files/chapter2_foundation.json"
+	"files/chapter1_foundation.json",
+	"files/chapter1_intermediate.json",
+	"files/chapter1_full.json",
+	"files/chapter2_foundation.json",
+	"files/chapter2_intermediate.json",
+	"files/chapter2_full.json",
+	"files/chapter3_foundation.json",
+	"files/chapter3_intermediate.json",
+	"files/chapter3_full.json",
+	"files/chapter4_foundation.json",
+	"files/chapter4_intermediate.json",
+	"files/chapter4_full.json",
+	"files/chapter5_foundation.json",
+	"files/chapter5_intermediate.json",
+	"files/chapter5_full.json",
+	"files/chapter6_foudation.json",
+	"files/chapter6_intermediate.json",
+	"files/chapter6_full.json",
+	"files/chapter7_foundation.json",
+	"files/chapter7_intermediate.json",
+	"files/chapter7_full.json",
+	"files/chapter8_foundation.json",
+	"files/chapter8_intermediate.json",
+	"files/chapter8_full.json",
+	"files/chapter9_intermediate.json",
+	"files/chapter9_full.json",
+	"files/appendix_foundation_mock1.json",
+	"files/appendix_foundation_mock2.json",
+	"files/appendix_foundation_mock3.json",
+	"files/appendix_foundation_mock4.json",
+	"files/appendix_intermediate_mock1.json",
+	"files/appendix_intermediate_mock2.json",
+	"files/appendix_intermediate_mock3.json",
+	"files/appendix_intermediate_mock4.json",
+	"files/appendix_full_mock1.json",
+	"files/appendix_full_mock2.json",
+	"files/appendix_full_mock3.json",
+	"files/appendix_full_mock4.json",
+	"files/appendix_complete_mock1.json",
+	"files/appendix_complete_mock2.json"
 ];
 
+const SESSION_SIZE = 75;
+const MASTERY_THRESHOLD = 20;
 const TEST_SIZE = 75;
 const EXAM_TIME_MINUTES = 150;
+const TEST_HISTORY_KEY = "testHistory";
 
-/* ===== STATE ===== */
+/* ================= STATE ================= */
+
 let questionsAll = [];
 let questions = [];
 let current = 0;
 let answered = false;
+
+let mode = "study";
 let testMode = false;
 let testProfile = null;
+let testAnswers = [];
+let testStartTime = null;
 let examTimer = null;
 
-/* ===== LOAD ===== */
-Promise.all(QUESTION_FILES.map(f => fetch(f).then(r => r.json())))
-  .then(data => questionsAll = data.flat());
+let mastery = JSON.parse(localStorage.getItem("mastery")) || {};
 
-/* ===== UI ===== */
-function startMode(mode) {
-  testMode = false;
-  questions = questionsAll;
-  shuffle(questions);
-  current = 0;
-  showQuiz();
-}
+/* ================= UI ================= */
 
-function showTestMenu() {
-  hideAll();
-  document.getElementById("testMenu").classList.remove("hidden");
+function showScreen(name) {
+  ["menu","test-menu","player"].forEach(s =>
+    document.getElementById("screen-"+s).style.display="none"
+  );
+  document.getElementById("screen-"+name).style.display="block";
 }
 
 function backToMenu() {
+  testMode = false;
   if (examTimer) clearInterval(examTimer);
-  hideAll();
-  document.getElementById("menu").classList.remove("hidden");
+  document.getElementById("timer").innerText = "";
+  showScreen("menu");
 }
 
-function showQuiz() {
-  hideAll();
-  document.getElementById("quiz").classList.remove("hidden");
+/* ================= HELPERS ================= */
+
+function getQKey(q) {
+  return q.source === "appendix"
+    ? `appendix:${q.level}:${q.number}`
+    : `${q.level}:${q.id}`;
+}
+
+function shuffle(a) {
+  for (let i=a.length-1;i>0;i--) {
+    const j=Math.floor(Math.random()*(i+1));
+    [a[i],a[j]]=[a[j],a[i]];
+  }
+}
+
+/* ================= LOAD ================= */
+
+Promise.all(QUESTION_FILES.map(f=>fetch(f).then(r=>r.json())))
+.then(d=>questionsAll=d.flat());
+
+/* ================= MODES ================= */
+
+function enterStudy() {
+  mode="study";
+  document.getElementById("search").style.display="none";
+  questions = questionsAll.filter(q=>q.source!=="appendix");
+  shuffle(questions);
+  current=0;
+  showScreen("player");
   loadQuestion();
 }
 
-function hideAll() {
-  document.querySelectorAll(".menu, #quiz").forEach(e => e.classList.add("hidden"));
+function enterBrowse() {
+  mode="browse";
+  document.getElementById("search").style.display="block";
+  questions=[...questionsAll];
+  current=0;
+  showScreen("player");
+  loadQuestion();
 }
 
-/* ===== QUIZ ===== */
+function enterWrong() {
+  mode="wrong";
+  document.getElementById("search").style.display="none";
+  questions = questionsAll.filter(q=>{
+    const k=getQKey(q);
+    return mastery[k]!==undefined && mastery[k]<MASTERY_THRESHOLD;
+  });
+  current=0;
+  showScreen("player");
+  loadQuestion();
+}
+
+/* ================= SEARCH ================= */
+
+function searchQuestions() {
+  const t=document.getElementById("search").value.toLowerCase();
+  questions = questionsAll.filter(q =>
+    (q.id||"").toLowerCase().includes(t) ||
+    q.question.toLowerCase().includes(t)
+  );
+  current=0;
+  loadQuestion();
+}
+
+/* ================= PLAYER ================= */
+
 function loadQuestion() {
-  answered = false;
-  const q = questions[current];
+  if (!questions.length) {
+    document.getElementById("question").innerText="No questions";
+    document.getElementById("options").innerHTML="";
+    return;
+  }
+
+  answered=false;
+  const q=questions[current];
 
   document.getElementById("progress").innerText =
-    `Question ${current + 1} / ${questions.length}`;
+    testMode
+      ? `Test ${testProfile.toUpperCase()} ${current+1}/${questions.length}`
+      : `Question ${current+1}/${questions.length} — ${q.level.toUpperCase()} ${q.id||q.number}`;
 
-  document.getElementById("question").innerText = q.question;
+  document.getElementById("question").innerText=q.question;
 
-  const img = document.getElementById("questionImage");
+  const img=document.getElementById("questionImage");
   if (q.image) {
-    img.src = "files/images/" + q.image;
-    img.style.display = "block";
-  } else {
-    img.style.display = "none";
-  }
+    img.src="files/images/"+q.image;
+    img.style.display="block";
+  } else img.style.display="none";
 
-  const opts = document.getElementById("options");
-  opts.innerHTML = "";
+  const opt=document.getElementById("options");
+  opt.innerHTML="";
+  document.getElementById("explanation").style.display="none";
 
   for (let k in q.options) {
-    const d = document.createElement("div");
-    d.className = "option";
-    d.innerText = `${k}: ${q.options[k]}`;
-
+    const d=document.createElement("div");
+    d.className="option";
+    d.innerText=`${k}: ${q.options[k]}`;
     d.addEventListener("pointerdown", () => selectAnswer(d, k), { passive: true });
-    opts.appendChild(d);
+    opt.appendChild(d);
   }
-
-  document.getElementById("explanation").style.display = "none";
 }
 
-function selectAnswer(div, key) {
+function selectAnswer(div,key) {
   if (answered) return;
-  answered = true;
+  answered=true;
 
-  const q = questions[current];
+  const q=questions[current];
+  const qKey=getQKey(q);
 
-  document.querySelectorAll(".option").forEach(o => {
+  // 1️⃣ MARCAR CORES PRIMEIRO (SEM MAIS NADA)
+  document.querySelectorAll(".option").forEach(o=>{
     if (o.innerText.startsWith(q.correct)) {
       o.classList.add("correct");
     }
   });
 
-  if (key !== q.correct) {
+  if (key!==q.correct) {
     div.classList.add("incorrect");
   }
 
-  requestAnimationFrame(() => {
-    requestAnimationFrame(() => {
-      const e = document.getElementById("explanation");
-      e.innerText = q.explanation;
-      e.style.display = "block";
+  // 2️⃣ FORÇAR PAINT REAL NO ANDROID
+  requestAnimationFrame(()=>{
+    requestAnimationFrame(()=>{
+
+      // 3️⃣ AGORA SIM: lógica pesada
+      if (testMode) {
+        testAnswers.push({k:qKey,correct:q.correct,chosen:key});
+        setTimeout(nextQuestion,600);
+        return;
+      }
+
+      mastery[qKey]=mastery[qKey]||0;
+      mastery[qKey]=key===q.correct?mastery[qKey]+1:0;
+      localStorage.setItem("mastery",JSON.stringify(mastery));
+
+      const e=document.getElementById("explanation");
+      e.innerText =
+        q.explanation +
+        "\n\nMastery: " +
+        mastery[qKey] + "/" + MASTERY_THRESHOLD;
+      e.style.display="block";
+
     });
   });
 }
 
 function nextQuestion() {
   current++;
-  if (current >= questions.length) current = 0;
+  if (testMode && current>=questions.length) return showTestResult();
+  if (current>=questions.length) current=0;
   loadQuestion();
 }
 
-function shuffle(a) {
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
+/* ================= TEST ================= */
+
+function startTest(profile) {
+  testProfile=profile;
+  testMode=true;
+  testAnswers=[];
+  current=0;
+
+  let pool;
+  if (profile==="mixed") pool=[...questionsAll];
+  else pool=questionsAll.filter(q=>q.level===profile);
+
+  shuffle(pool);
+  questions=pool.slice(0,TEST_SIZE);
+
+  startExamTimer();
+  showScreen("player");
+  loadQuestion();
+}
+
+function startExamTimer() {
+  const end=Date.now()+EXAM_TIME_MINUTES*60000;
+  if (examTimer) clearInterval(examTimer);
+
+  examTimer=setInterval(()=>{
+    const r=Math.max(0,Math.floor((end-Date.now())/1000));
+    document.getElementById("timer").innerText =
+      `Time left: ${Math.floor(r/60)}:${String(r%60).padStart(2,"0")}`;
+    if (r<=0) showTestResult();
+  },1000);
+}
+
+function showTestResult() {
+  if (examTimer) clearInterval(examTimer);
+  testMode=false;
+
+  const total=testAnswers.length;
+  const correct=testAnswers.filter(a=>a.correct===a.chosen).length;
+
+  document.getElementById("question").innerText=`Score: ${correct}/${total}`;
+  document.getElementById("options").innerHTML="<p>Test finished</p>";
+  document.getElementById("explanation").style.display="none";
+
+  const h=JSON.parse(localStorage.getItem(TEST_HISTORY_KEY))||[];
+  h.push({date:new Date().toISOString(),profile:testProfile,score:correct,total});
+  localStorage.setItem(TEST_HISTORY_KEY,JSON.stringify(h));
+}
+
+function showTestHistory() {
+  const h=JSON.parse(localStorage.getItem(TEST_HISTORY_KEY))||[];
+  showScreen("player");
+  document.getElementById("question").innerText="Test history";
+  document.getElementById("options").innerHTML =
+    h.reverse().map(e=>`<div>${e.profile} — ${e.score}/${e.total}</div>`).join("") ||
+    "<p>No tests yet</p>";
+}
+
+function applyTheme(theme) {
+  if (theme === "dark") {
+    document.body.classList.add("dark");
+  } else {
+    document.body.classList.remove("dark");
   }
+  localStorage.setItem("theme", theme);
+}
+
+function toggleDarkMode() {
+  const isDark = document.body.classList.contains("dark");
+  applyTheme(isDark ? "light" : "dark");
+}
+
+// aplicar ao carregar
+(function () {
+  const saved = localStorage.getItem("theme");
+  if (saved) {
+    applyTheme(saved);
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    applyTheme("dark");
+  }
+})();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js");
+  });
 }
 </script>
-
 </body>
 </html>
