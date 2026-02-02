@@ -203,7 +203,7 @@
       "C": "follow the same licence conditions.",
       "D": "have an ITU amateur radio licence."
     },
-    "correct": "",
+    "correct": "C",
     "explanation": "C (6-6) says that any person - may use the Radio Equipment provided they are under the Licensee's direct supervision.",
     "image": null
   },
@@ -315,8 +315,8 @@
       "C": "transmit for over 15 minutes.",
       "D": "transmit more than 5W of power."
     },
-    "correct": "",
-    "explanation": "",
+    "correct": "B",
+    "explanation": "B. (6-19b) prohibits encryption/obscuring meaning",
     "image": null
   },
   {
@@ -331,7 +331,7 @@
       "C": "limit transmit power to 10W ERP.",
       "D": "update your address annually."
     },
-    "correct": "",
+    "correct": "B",
     "explanation": "B (6-2) says you must not cause Undue Interference. A is a good idea but not a licence requirement, C and D are just wrong.",
     "image": null
   },
