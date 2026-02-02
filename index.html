@@ -84,6 +84,8 @@ button:hover {
 }
 .option {
   will-change: background-color;
+	touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .option:hover {
@@ -341,30 +343,54 @@ function loadQuestion() {
     const d=document.createElement("div");
     d.className="option";
     d.innerText=`${k}: ${q.options[k]}`;
-    d.onclick=()=>selectAnswer(d,k);
+    d.addEventListener("pointerdown", () => selectAnswer(d, k), { passive: true });
     opt.appendChild(d);
   }
 }
 
-function selectAnswer(div,key) {
+function selectAnswer(div, key) {
   if (answered) return;
-  answered=true;
+  answered = true;
 
-  const q=questions[current];
-  const k=getQKey(q);
+  const q = questions[current];
+  const k = getQKey(q);
 
-  if (testMode) {
-    testAnswers.push({k,correct:q.correct,chosen:key});
-    setTimeout(nextQuestion,600);
-    return;
-  }
-
+  // 1️⃣ Marcar cores PRIMEIRO
   document.querySelectorAll(".option").forEach(o => {
-  if (o.innerText.startsWith(q.correct)) {
-    o.classList.add("correct");
-    o.offsetHeight; // ⬅ força repaint
+    if (o.innerText.startsWith(q.correct)) {
+      o.classList.add("correct");
+    }
+  });
+
+  if (key !== q.correct) {
+    div.classList.add("incorrect");
   }
-});
+
+  // 2️⃣ Forçar repaint real (Android-safe)
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+
+      // 3️⃣ Agora sim: lógica pesada
+      if (!testMode) {
+        mastery[k] = mastery[k] || 0;
+        mastery[k] = key === q.correct ? mastery[k] + 1 : 0;
+        localStorage.setItem("mastery", JSON.stringify(mastery));
+
+        const e = document.getElementById("explanation");
+        e.innerText =
+          q.explanation + "\n\nMastery: " +
+          mastery[k] + "/" + MASTERY_THRESHOLD;
+        e.style.display = "block";
+      }
+
+      if (testMode) {
+        testAnswers.push({ k, correct: q.correct, chosen: key });
+        setTimeout(nextQuestion, 600);
+      }
+
+    });
+  });
+}
 
   mastery[k]=mastery[k]||0;
   mastery[k]=key===q.correct?mastery[k]+1:0;
