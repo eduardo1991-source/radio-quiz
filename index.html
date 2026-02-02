@@ -356,15 +356,21 @@ function selectAnswer(div,key) {
     return;
   }
 
-  document.querySelectorAll(".option").forEach(o=>{
-    if (o.innerText.startsWith(q.correct)) o.classList.add("correct");
-  });
+  document.querySelectorAll(".option").forEach(o => {
+  if (o.innerText.startsWith(q.correct)) {
+    o.classList.add("correct");
+    o.offsetHeight; // ⬅ força repaint
+  }
+});
 
   mastery[k]=mastery[k]||0;
   mastery[k]=key===q.correct?mastery[k]+1:0;
   localStorage.setItem("mastery",JSON.stringify(mastery));
 
-  if (key!==q.correct) div.classList.add("incorrect");
+  if (key !== q.correct) {
+  div.classList.add("incorrect");
+  div.offsetHeight; // ⬅ força repaint
+  }
 
   const e=document.getElementById("explanation");
   e.innerText=q.explanation+"\n\nMastery: "+mastery[k]+"/"+MASTERY_THRESHOLD;
