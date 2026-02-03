@@ -120,7 +120,7 @@ button:hover {
 
 <!-- ================= MENU ================= -->
 <div id="screen-menu">
-  <h2>Main Menu(CR7BXA Teste1)</h2>
+  <h2>Main Menu(CR7BXA Teste2)</h2>
   <button onclick="enterStudy()">Study</button>
   <button onclick="enterBrowse()">Browse</button>
   <button onclick="enterWrong()">Wrong only</button>
@@ -344,7 +344,10 @@ function loadQuestion() {
     const d=document.createElement("div");
     d.className="option";
     d.innerText=`${k}: ${q.options[k]}`;
-    d.addEventListener("click", () => selectAnswer(d, k));
+    d.addEventListener("pointerdown", (e) => {
+  e.preventDefault();      // mata o click fantasma
+  selectAnswer(d, k);
+}, { passive: false });
     opt.appendChild(d);
   }
 }
@@ -356,7 +359,6 @@ function selectAnswer(div, key) {
 	// 🔒 bloquear imediatamente TODAS as opções
   document.querySelectorAll(".option").forEach(o => {
     o.style.pointerEvents = "none";
-    o.blur();
   });
 
   const q = questions[current];
