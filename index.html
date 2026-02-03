@@ -120,7 +120,7 @@ button:hover {
 
 <!-- ================= MENU ================= -->
 <div id="screen-menu">
-  <h2>Main Menu</h2>
+  <h2>Main Menu(CR7BXA Teste1)</h2>
   <button onclick="enterStudy()">Study</button>
   <button onclick="enterBrowse()">Browse</button>
   <button onclick="enterWrong()">Wrong only</button>
@@ -310,6 +310,10 @@ function searchQuestions() {
 /* ================= PLAYER ================= */
 
 function loadQuestion() {
+	document.querySelectorAll(".option").forEach(o => {
+  o.style.pointerEvents = "auto";
+});
+	
   if (!questions.length) {
     document.getElementById("question").innerText="No questions";
     document.getElementById("options").innerHTML="";
@@ -349,12 +353,17 @@ function selectAnswer(div, key) {
   if (answered) return;
   answered = true;
 
+	// 🔒 bloquear imediatamente TODAS as opções
+  document.querySelectorAll(".option").forEach(o => {
+    o.style.pointerEvents = "none";
+    o.blur();
+  });
+
   const q = questions[current];
   const qKey = getQKey(q);
 
-  // marcar opções
   document.querySelectorAll(".option").forEach(o => {
-    if (o.innerText.startsWith(q.correct)) {
+  if (o.innerText.startsWith(q.correct)) {
       o.classList.add("correct");
     }
   });
@@ -363,8 +372,12 @@ function selectAnswer(div, key) {
     div.classList.add("incorrect");
   }
 
+	// 👇 força layout + paint REAL no Android
+  div.offsetHeight;
+
+
   // ⏱️ deixar o browser pintar ANTES da lógica
-  setTimeout(() => {
+	setTimeout(() => {
 
     if (testMode) {
       testAnswers.push({ k: qKey, correct: q.correct, chosen: key });
@@ -385,6 +398,7 @@ function selectAnswer(div, key) {
 
   }, 0);
 }
+
 
 function nextQuestion() {
   current++;
