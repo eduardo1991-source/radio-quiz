@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Radio Exam Quiz</title>
+<title>Radio Exam Quiz(CR7BXA)</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-//CR7BXA OWNER
+
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#1e88e5">
 
@@ -340,53 +340,50 @@ function loadQuestion() {
     const d=document.createElement("div");
     d.className="option";
     d.innerText=`${k}: ${q.options[k]}`;
-    d.addEventListener("pointerdown", () => selectAnswer(d, k), { passive: true });
+    d.addEventListener("click", () => selectAnswer(d, k));
     opt.appendChild(d);
   }
 }
 
-function selectAnswer(div,key) {
+function selectAnswer(div, key) {
   if (answered) return;
-  answered=true;
+  answered = true;
 
-  const q=questions[current];
-  const qKey=getQKey(q);
+  const q = questions[current];
+  const qKey = getQKey(q);
 
-  // 1️⃣ MARCAR CORES PRIMEIRO (SEM MAIS NADA)
-  document.querySelectorAll(".option").forEach(o=>{
+  // marcar opções
+  document.querySelectorAll(".option").forEach(o => {
     if (o.innerText.startsWith(q.correct)) {
       o.classList.add("correct");
     }
   });
 
-  if (key!==q.correct) {
+  if (key !== q.correct) {
     div.classList.add("incorrect");
   }
 
-  // 2️⃣ FORÇAR PAINT REAL NO ANDROID
-  requestAnimationFrame(()=>{
-    requestAnimationFrame(()=>{
+  // ⏱️ deixar o browser pintar ANTES da lógica
+  setTimeout(() => {
 
-      // 3️⃣ AGORA SIM: lógica pesada
-      if (testMode) {
-        testAnswers.push({k:qKey,correct:q.correct,chosen:key});
-        setTimeout(nextQuestion,600);
-        return;
-      }
+    if (testMode) {
+      testAnswers.push({ k: qKey, correct: q.correct, chosen: key });
+      setTimeout(nextQuestion, 500);
+      return;
+    }
 
-      mastery[qKey]=mastery[qKey]||0;
-      mastery[qKey]=key===q.correct?mastery[qKey]+1:0;
-      localStorage.setItem("mastery",JSON.stringify(mastery));
+    mastery[qKey] = mastery[qKey] || 0;
+    mastery[qKey] = key === q.correct ? mastery[qKey] + 1 : 0;
+    localStorage.setItem("mastery", JSON.stringify(mastery));
 
-      const e=document.getElementById("explanation");
-      e.innerText =
-        q.explanation +
-        "\n\nMastery: " +
-        mastery[qKey] + "/" + MASTERY_THRESHOLD;
-      e.style.display="block";
+    const e = document.getElementById("explanation");
+    e.innerText =
+      q.explanation +
+      "\n\nMastery: " +
+      mastery[qKey] + "/" + MASTERY_THRESHOLD;
+    e.style.display = "block";
 
-    });
-  });
+  }, 0);
 }
 
 function nextQuestion() {
