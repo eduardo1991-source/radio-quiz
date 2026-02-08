@@ -475,8 +475,8 @@
       "C": "10.10-10.15MHz.",
       "D": "14.25-14.35MHz."
     },
-    "correct": "B",
-    "explanation": "B. Part of 14MHz has a satellite allocation, but not the band listed.",
+    "correct": "C",
+    "explanation": "C. Part of 14MHz has a satellite allocation, but not the band listed.",
     "image": null
   },
   {
