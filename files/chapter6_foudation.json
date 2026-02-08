@@ -1,7 +1,7 @@
 [
   {
     "id": "6A1-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "Good EMC practice is",
@@ -17,7 +17,7 @@
   },
   {
     "id": "6A2-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "If the immunity of a piece of electronic equipment is improved it means that",
@@ -33,7 +33,7 @@
   },
   {
     "id": "6A3-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "Interference to other electronic equipment is most likely to be caused by",
@@ -49,7 +49,7 @@
   },
   {
     "id": "6A4-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "A domestic radio receiver is suffering interference, even when the amateur next door is away. The interference could be caused by",
@@ -65,7 +65,7 @@
   },
   {
     "id": "6B1-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "Which transmission is the MOST likely to cause interference?",
@@ -81,7 +81,7 @@
   },
   {
     "id": "6C1-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "The drawing shows a music system in a house. It is suffering from interference and some protective measures have already been taken but with little effect. Where might the interference be getting in?",
@@ -97,7 +97,7 @@
   },
   {
     "id": "6D1-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "When fitting ferrite rings on the TV down lead from its aerial, the ferrite ring should be fitted",
@@ -113,7 +113,7 @@
   },
   {
     "id": "6D1-2",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "It is decided that a suitable filter is needed on the mains lead to the TV to prevent interference from an amateur transmitter in the same house. A good solution is to",
@@ -129,7 +129,7 @@
   },
   {
     "id": "6D4-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "The purpose of the dummy load is to",
@@ -145,7 +145,7 @@
   },
   {
     "id": "6D4-2",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "It is suspected an interfering signal is either being conducted from the transmitter power leads to the TV or the transmitted signal is being picked up by the mains wiring to the TV. To determine which it is, a suitable test would be to fit a",
@@ -161,7 +161,7 @@
   },
   {
     "id": "6E1-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "If all other factors are equal, which HF antenna is the LEAST likely to cause interference problems?",
@@ -177,7 +177,7 @@
   },
   {
     "id": "6E1-2",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "A good source of information on how to avoid causing interference is",
@@ -193,7 +193,7 @@
   },
   {
     "id": "6E2-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "The purpose of fitting an RF earth in an amateur station is to",
@@ -209,7 +209,7 @@
   },
   {
     "id": "6E2-2",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "When fitting an RF earth it may also be helpful to",
@@ -225,7 +225,7 @@
   },
   {
     "id": "6F1-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "Who is responsible for ensuring a radio installation in a vehicle is safe and compatible with the vehicle's electrical management systems?",
@@ -241,7 +241,7 @@
   },
   {
     "id": "6F2-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "Having installed a new transceiver in your car it is advisable to",
@@ -257,7 +257,7 @@
   },
   {
     "id": "6F3-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "A weak buzzing sound is heard on the transceiver in your car on a number of frequencies. Driving out of the town centre to the countryside does remove some of the interference but the remainder",
@@ -273,7 +273,7 @@
   },
   {
     "id": "6G1-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "If a neighbour complains of interference to his television, you should",
@@ -289,7 +289,7 @@
   },
   {
     "id": "6G1-2",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "Information leaflets on dealing with cases of interference are available from",
@@ -305,7 +305,7 @@
   },
   {
     "id": "6G2-1",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "A good reason for keeping a station log is that",
@@ -321,7 +321,7 @@
   },
   {
     "id": "6G2-2",
-    "level": "foudation",
+    "level": "foundation",
     "chapter": 6,
     "source": "chapter",
     "question": "A neighbour approaches you with a record of times over the last two weeks when he was suffering from interference. You should",
@@ -335,4 +335,5 @@
     "explanation": "Comparing a well-kept log with the neighbours record will quickly show if you are involved and what you were doing at the time. Since you will have made the entries before the complaint arose the neighbour is likely to give it some credibility and be more co-operative.",
     "image": null
   }
+
 ]
