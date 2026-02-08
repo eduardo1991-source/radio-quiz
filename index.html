@@ -239,10 +239,10 @@ let mastery = JSON.parse(localStorage.getItem("mastery")) || {};
 /* ================= UI ================= */
 
 function showScreen(name) {
-  ["menu","test-menu","player"].forEach(s =>
-    document.getElementById("screen-"+s).style.display="none"
-  );
-  document.getElementById("screen-"+name).style.display="block";
+  document.querySelectorAll('[id^="screen-"]').forEach(el => {
+    el.style.display = "none";
+  });
+  document.getElementById("screen-"+name).style.display = "block";
 }
 
 function backToMenu() {
