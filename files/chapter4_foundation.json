@@ -125,7 +125,7 @@
     },
     "correct": "B",
     "explanation": "The correct polar diagram is shown in 2. Looking down from above will show a centre dot as the top end of the antenna with a circle showing equal radiation in all horizontal directions.",
-    "image": null
+    "image": "C4_Found_4C3-1.png"
   },
   {
     "id": "4C3-1",
@@ -335,4 +335,5 @@
     "explanation": "The drawing shows an SMA plug, it is the smallest of the plugs in the syllabus and can be quite fragile.",
     "image": "C4_Found_4G1-2.png"
   }
+
 ]
