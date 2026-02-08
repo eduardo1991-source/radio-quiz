@@ -121,7 +121,7 @@ button:hover {
 <!-- ================= MENU ================= -->
 <div id="screen-menu">
   <h2>Main Menu(CR7BXA)</h2>
-  <button onclick="enterStudy()">Study</button>
+  <button onclick="showScreen('study-menu')">Study</button>
   <button onclick="enterBrowse()">Browse</button>
   <button onclick="enterWrong()">Wrong only</button>
   <button onclick="showScreen('test-menu')">Test</button>
@@ -139,6 +139,16 @@ button:hover {
   <button onclick="showScreen('menu')">← Back</button>
 </div>
 
+<!-- ================= STUDY MENU ================= -->
+<div id="screen-study-menu" style="display:none;">
+  <h2>Study Mode</h2>
+  <button onclick="startStudy('foundation')">Foundation</button>
+  <button onclick="startStudy('intermediate')">Intermediate</button>
+  <button onclick="startStudy('full')">Full</button>
+  <button onclick="startStudy('mixed')">Mixed</button>
+  <button onclick="showScreen('menu')">← Back</button>
+</div>
+	
 <!-- ================= PLAYER ================= -->
 <div id="screen-player" style="display:none;">
   <div id="progress"></div>
@@ -264,12 +274,25 @@ Promise.all(QUESTION_FILES.map(f=>fetch(f).then(r=>r.json())))
 
 /* ================= MODES ================= */
 
-function enterStudy() {
-  mode="study";
-  document.getElementById("search").style.display="none";
-  questions = questionsAll.filter(q=>q.source!=="appendix");
-  shuffle(questions);
-  current=0;
+function startStudy(profile) {
+  mode = "study";
+  testMode = false;
+  current = 0;
+
+  document.getElementById("search").style.display = "none";
+
+  let pool;
+  if (profile === "mixed") {
+    pool = questionsAll.filter(q => q.source !== "appendix");
+  } else {
+    pool = questionsAll.filter(q =>
+      q.source !== "appendix" && q.level === profile
+    );
+  }
+
+  shuffle(pool);
+  questions = pool;
+
   showScreen("player");
   loadQuestion();
 }
@@ -382,9 +405,12 @@ function selectAnswer(div, key) {
 	setTimeout(() => {
 
     if (testMode) {
-      testAnswers.push({ k: qKey, correct: q.correct, chosen: key });
-      setTimeout(nextQuestion, 500);
-      return;
+      	testAnswers.push({ k: qKey, correct: q.correct, chosen: key });
+		mastery[qKey] = mastery[qKey] || 0;
+  		mastery[qKey] = key === q.correct ? mastery[qKey] + 1 : 0;
+  		localStorage.setItem("mastery", JSON.stringify(mastery));
+      	setTimeout(nextQuestion, 500);
+      	return;
     }
 
     mastery[qKey] = mastery[qKey] || 0;
